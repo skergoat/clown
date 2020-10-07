@@ -1,0 +1,7 @@
+@mixin link-color($color) {
+    color:$color!important;
+}
+
+@mixin cursor {
+    cursor:pointer;
+}

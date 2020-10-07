@@ -1,0 +1,19 @@
+// text decoration
+a {
+    text-decoration:none!important;
+}
+// link color
+.link-black {
+   @include link-color($simply-black);
+}
+// link color
+.link-orange {
+    @include link-color($orange-link);
+}
+// hover 
+a:hover {
+    @include link-color($orange-link);
+}
+.hover-no-change:hover {
+    @include link-color($simply-black);
+}

@@ -1,0 +1,13 @@
+Questions : 
+
+** Layout **
+
+* Main-content *
+
+- comment connaitre la hauteur de la div intermediaire ? 
+
+
+
+Classes CSS
+
+

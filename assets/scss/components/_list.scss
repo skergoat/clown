@@ -1,0 +1,8 @@
+ul.list  {
+    & li {
+        @include list-none;
+        & .hover:hover {
+            @include background-hover($border-nav-transparent);
+        }
+    }
+}

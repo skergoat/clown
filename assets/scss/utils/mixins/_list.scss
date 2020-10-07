@@ -1,0 +1,7 @@
+@mixin list-none {
+    list-style-type:none;
+}
+
+@mixin background-hover($color) {
+    background-color:$color;
+}

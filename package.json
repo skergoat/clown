@@ -1,0 +1,23 @@
+{
+  "name": "clown",
+  "version": "1.0.0",
+  "description": "website for clown.fr",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "clown"
+  },
+  "author": "stephane kergoat",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^4.5.2",
+    "bootstrap-icons": "^1.0.0",
+    "font-awesome": "^4.7.0"
+  },
+  "devDependencies": {
+    "install-peers": "^1.0.3"
+  }
+}

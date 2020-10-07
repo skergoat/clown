@@ -1,0 +1,95 @@
+// navbar
+.navs {
+    box-shadow: 2px 3px 5px 2px rgba(220,220,220,0.5);
+    z-index:999;
+    position:relative;
+
+    &__secondary, &__primary {
+        width:100%;
+    }
+    &__secondary {
+        border-bottom:1px solid $border-nav;
+    }
+    // wrapper inside navs 
+    &__wrapper {
+        margin:auto;
+        @include media-breakpoint-up(xs) { 
+            max-width: 95%;
+        }
+        @include media-breakpoint-up(lg) { 
+            max-width: 85%;
+        }
+        // p inside little nav
+        & p {
+            display:block;
+            @include font-16;
+        }
+    }
+}
+// logo 
+.logo {
+    @include media-breakpoint-up(xs) { 
+        max-width:300px!important;
+    }
+    @include media-breakpoint-up(lg) { 
+        max-width:500px!important;
+    }
+}
+// menu 
+.menu  {
+    & li {
+        & a {
+            height:100%;
+            @media(min-width:992px) and (max-width: 1123px) {
+                font-size:14px!important;
+            }
+        }
+        & .border-bottom-menu {
+            padding:3px;
+            background:red;
+            opacity:0;
+            position:relative;
+            top:-6px;
+        }
+        &:hover {
+            @include link-color($orange-link);
+            & .border-bottom-menu {
+                opacity:1;
+                background: linear-gradient(to right, #FD8C44, #FD6044);
+            }
+        }  
+    }
+}
+// menu responsive button
+.hamburger {
+    height:100%;
+    display:flex;
+    align-items:center;
+
+    &__link {
+        display:block;
+    }
+
+    & i {
+        font-size:30px;
+    }
+}
+// menu responsive 
+#open-menu {
+    @include cursor;
+}
+.inactive {
+    // border:2px solid red;
+    overflow:hidden;
+    height:auto;
+    height:0px;
+    transition:0.2s ease-in-out;
+    &__ul {
+        border:2px solid green;
+    }
+}
+#menu-responsive__ul {
+    & li a {
+        border-top: 1px solid $simply-black-transparent;
+    }
+}

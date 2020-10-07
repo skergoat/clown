@@ -2,7 +2,6 @@
 .navs {
     box-shadow: 2px -1px 5px 2px $box-shadow-1;
     z-index:999;
-    // position:relative;
     position: fixed;
     background: white;
     width: 100vw;
@@ -19,17 +18,20 @@
     &__wrapper {
         margin:auto;
         @include media-breakpoint-up(xs) { 
-            // max-width: 95%;
             @include max-width(95%);
         }
         @include media-breakpoint-up(lg) { 
-            // max-width: 85%;
             @include max-width(85%);
         }
         // p inside little nav
         & p {
             display:block;
-            @include font-16;
+            @include font-size(12px);
+        }
+        & .connection {
+            @include font-size(12px);
+            padding-top:5px;
+            padding-bottom:5px;
         }
     }
 }
@@ -53,9 +55,8 @@
     & li {
         & a {
             height:100%;
-            @media(min-width:992px) and (max-width: 1123px) {
-                font-size:14px!important;
-            }
+            @include font-size(14px);
+            @include font-style($black);
         }
         & .border-bottom-menu {
             padding:3px;
@@ -73,7 +74,7 @@
         }  
     }
 }
-// menu responsive button
+// logos bottom 
 .hamburger {
     height:100%;
     display:flex;
@@ -92,7 +93,6 @@
     @include cursor;
 }
 .inactive {
-    // border:2px solid red;
     overflow:hidden;
     height:auto;
     height:0px;
@@ -103,6 +103,8 @@
 }
 #menu-responsive__ul {
     & li a {
+        @include font-size(14px);
+        @include font-style($black);
         border-top: 1px solid $simply-black-transparent;
     }
 }

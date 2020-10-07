@@ -1,42 +1,53 @@
 .footer {
     height:500px;
-    box-shadow: 2px -1px 5px 2px $box-shadow-2;
-
+    box-shadow: 2px -5px 5px -3px $box-shadow-2;
+    // first row 
     &-top {
         @include max-width(96%);
-        
-
+        // logo footer 
         &__logo {
             @include media-breakpoint-up(xs) { 
-                @include max-width(100%);
+                @include max-width(300px);
+                display:block;
+                margin:auto;
             }
             @include media-breakpoint-up(sm) { 
-                @include max-width(300px);
+                display:inline-block!important;
+                margin:0px;
             }
         }
     }
-
+    // second row 
     &-center-first {
-        border:2px solid red;
         font-size:13px;
+        @include media-breakpoint-up(xs) { 
+        }
+        // footer menus  
         & ul 
         {
-            border:2px solid green;
-            width:25%;
-            &:nth-child(1) {
-                width:23%;
+            @include media-breakpoint-up(xs) { 
+                width:50%;
+                &:nth-child(3), &:nth-child(4) {
+                    margin-top: 1.5rem !important;
+                }
             }
-            &:nth-child(2) {
-                width:32%;
-            }
-            &:nth-child(3) {
-                width:28%;
-            }
-            &:nth-child(4) {
-                width:17%;
+            @include media-breakpoint-up(lg) { 
+                &:nth-child(1) {
+                    width:23%;
+                }
+                &:nth-child(2) {
+                    width:32%;
+                }
+                &:nth-child(3) {
+                    width:28%;
+                }
+                &:nth-child(4) {
+                    width:17%;
+                }
             }
             & li {
                 font-family: $x-light, sans-serif;
+                line-height:2em;
                 @include list-none;
                 &:first-child {
                     font-family:$black, sans-serif;
@@ -44,4 +55,53 @@
             }
         } 
     }
+    &-center-second .container div {
+        // help box 
+        &:nth-child(1) {
+            text-align:center;
+            border-radius:15px;
+            box-shadow: 0px 6px 10px 3px rgba(253,226,217,1);
+            & p:nth-child(1) {
+                @include font-size(20px);
+            }
+            & p:nth-child(2) {
+                @include font-size(12px);
+            }
+            & p:nth-child(3) {
+                @include font-size(18px);
+            }
+        }
+        // logo truspilot
+        &:nth-child(2) img { 
+            @include media-breakpoint-up(xs) { 
+                max-width:100%;
+            }
+            @include media-breakpoint-up(md) { 
+                max-width:450px;
+            }
+        }
+        // 7 logos 
+        &:nth-child(3) {
+            & img {
+                @include media-breakpoint-up(xs) { 
+                    width:20%;
+                    padding:10px;
+                }
+                @include media-breakpoint-up(md) { 
+                    width:17%;
+                }
+                @include media-breakpoint-up(lg) { 
+                    width:10%;
+                }
+            }
+        }
+    }
+    // latest row
+    &-bottom {
+        text-align:center;
+        font-family:$light;
+        font-size:13px;
+        box-shadow: 2px -1px 5px 2px rgba(234,237,244,1);
+    }
 }
+

@@ -1,11 +1,12 @@
-@mixin font-16 {
-    font-size: 16px;
+// font color 
+@mixin font-color($color) {
+    font-size: $color;
 }
-
-@mixin color-black {
-    color:$simply-black;
+// font size 
+@mixin font-size($size) {
+    font-size: $size;
 }
-
+// font family 
 @mixin font-style($font) {
     font-family: $font, sans-serif;
 }

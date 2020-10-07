@@ -1,20 +1,22 @@
 // font class
-.light {
-    @include font-style($light);
-}
 
-.lx-light {
-    @include font-style($x-light);
-}
-
+// regular 
 .regular {
     @include font-style($regular);
 }
-
+// light 
+.light {
+    @include font-style($light);
+}
+// x light 
+.lx-light {
+    @include font-style($x-light);
+}
+// black 
 .black {
     @include font-style($black);
 }
-
+// bold 
 .bold {
     @include font-style($bold);
 }

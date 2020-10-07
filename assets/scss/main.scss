@@ -10,9 +10,12 @@
 @import "./utils/mixins/list.scss";
 @import "./utils/mixins/link.scss";
 @import "./utils/mixins/spacing.scss";
+@import "./utils/mixins/layout.scss";
 
 // layout 
+@import "./layout/animation.scss";
 @import "./layout/fonts.scss";
+@import "./layout/colors.scss";
 @import "./layout/header.scss";
 @import "./layout/footer.scss";
 @import "./layout/content/homepage.scss";

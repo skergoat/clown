@@ -1,9 +1,14 @@
 // navbar
 .navs {
-    box-shadow: 2px 3px 5px 2px rgba(220,220,220,0.5);
+    box-shadow: 2px -1px 5px 2px $box-shadow-1;
     z-index:999;
-    position:relative;
+    // position:relative;
+    position: fixed;
+    background: white;
+    width: 100vw;
+}
 
+.nav {
     &__secondary, &__primary {
         width:100%;
     }
@@ -14,10 +19,12 @@
     &__wrapper {
         margin:auto;
         @include media-breakpoint-up(xs) { 
-            max-width: 95%;
+            // max-width: 95%;
+            @include max-width(95%);
         }
         @include media-breakpoint-up(lg) { 
-            max-width: 85%;
+            // max-width: 85%;
+            @include max-width(85%);
         }
         // p inside little nav
         & p {
@@ -29,16 +36,16 @@
 // logo 
 .logo {
     @include media-breakpoint-up(xs) { 
-        max-width:200px;
+        @include max-width(200px);
     }
     @include media-breakpoint-up(sm) { 
-        max-width:300px;
+        @include max-width(300px);
     }
     @include media-breakpoint-up(md) { 
-        max-width:500px;
+        @include max-width(500px);
     }
     @include media-breakpoint-up(lg) { 
-        max-width:500px;
+        @include max-width(500px);
     }
 }
 // menu 
@@ -61,7 +68,7 @@
             @include link-color($orange-link);
             & .border-bottom-menu {
                 opacity:1;
-                background: linear-gradient(to right, #FD8C44, #FD6044);
+                background: linear-gradient(to right, $border-bottom-1, $border-bottom-2);
             }
         }  
     }

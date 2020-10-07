@@ -9893,47 +9893,106 @@ h3 {
     border-color: #dee2e6;
   }
 }
-.navs {
-  box-shadow: 2px 3px 5px 2px rgba(220, 220, 220, 0.5);
-  z-index: 999;
-  position: relative;
+@font-face {
+  font-family: "nunito_sansregular";
+  src: url("../fonts/Nunito/nunitosans-regular-webfont.woff2") format("woff2"), url("../fonts/Nunito/nunitosans-regular-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
 }
-.navs__secondary, .navs__primary {
+@font-face {
+  font-family: "nunito_sansbold";
+  src: url("../fonts/Nunito/nunitosans-bold-webfont.woff2") format("woff2"), url("../fonts/Nunito/nunitosans-bold-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "nunito_sansblack";
+  src: url("../fonts/Nunito/nunitosans-black-webfont.woff2") format("woff2"), url("../fonts/Nunito/nunitosans-black-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "nunito_sansextrabold";
+  src: url("../fonts/Nunito/nunitosans-extrabold-webfont.woff2") format("woff2"), url("../fonts/Nunito/nunitosans-extrabold-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "nunito_sanslight";
+  src: url("../fonts/Nunito/nunitosans-light-webfont.woff2") format("woff2"), url("../fonts/Nunito/nunitosans-light-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "nunito_sansextralight";
+  src: url("../fonts/Nunito/nunitosans-extralight-webfont.woff2") format("woff2"), url("../fonts/Nunito/nunitosans-extralight-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+.light {
+  font-family: "nunito_sanslight", sans-serif;
+}
+
+.lx-light {
+  font-family: "nunito_sansextralight", sans-serif;
+}
+
+.regular {
+  font-family: "nunito_sansregular", sans-serif;
+}
+
+.black {
+  font-family: "nunito_sansblack", sans-serif;
+}
+
+.bold {
+  font-family: "nunito_sansbold", sans-serif;
+}
+
+.navs {
+  box-shadow: 2px -1px 5px 2px #eaedf4;
+  z-index: 999;
+  position: fixed;
+  background: white;
+  width: 100vw;
+}
+
+.nav__secondary, .nav__primary {
   width: 100%;
 }
-.navs__secondary {
+.nav__secondary {
   border-bottom: 1px solid #E6E6E6;
 }
-.navs__wrapper {
+.nav__wrapper {
   margin: auto;
-  max-width: 95%;
+  max-width: 95% !important;
 }
 @media (min-width: 992px) {
-  .navs__wrapper {
-    max-width: 85%;
+  .nav__wrapper {
+    max-width: 85% !important;
   }
 }
-.navs__wrapper p {
+.nav__wrapper p {
   display: block;
   font-size: 16px;
 }
 
 .logo {
-  max-width: 200px;
+  max-width: 200px !important;
 }
 @media (min-width: 576px) {
   .logo {
-    max-width: 300px;
+    max-width: 300px !important;
   }
 }
 @media (min-width: 768px) {
   .logo {
-    max-width: 500px;
+    max-width: 500px !important;
   }
 }
 @media (min-width: 992px) {
   .logo {
-    max-width: 500px;
+    max-width: 500px !important;
   }
 }
 
@@ -9991,8 +10050,46 @@ h3 {
 }
 
 .footer {
-  border: 2px solid orange;
   height: 500px;
+  box-shadow: 2px -1px 5px 2px rgba(220, 220, 220, 0.5);
+}
+.footer-top {
+  max-width: 96% !important;
+}
+.footer-top__logo {
+  max-width: 100% !important;
+}
+@media (min-width: 576px) {
+  .footer-top__logo {
+    max-width: 300px !important;
+  }
+}
+.footer-center-first {
+  border: 2px solid red;
+  font-size: 13px;
+}
+.footer-center-first ul {
+  border: 2px solid green;
+  width: 25%;
+}
+.footer-center-first ul:nth-child(1) {
+  width: 23%;
+}
+.footer-center-first ul:nth-child(2) {
+  width: 32%;
+}
+.footer-center-first ul:nth-child(3) {
+  width: 28%;
+}
+.footer-center-first ul:nth-child(4) {
+  width: 17%;
+}
+.footer-center-first ul li {
+  font-family: "nunito_sansextralight", sans-serif;
+  list-style-type: none;
+}
+.footer-center-first ul li:first-child {
+  font-family: "nunito_sansblack", sans-serif;
 }
 
 .main-content {
@@ -10003,7 +10100,6 @@ h3 {
 }
 
 .secondary-content {
-  border: 2px dotted green;
   height: 600px;
 }
 
@@ -10035,7 +10131,7 @@ a:hover {
 }
 
 * {
-  font-family: "Nunito Sans", sans-serif;
+  font-family: "nunito_sansextralight", sans-serif;
 }
 
 /*# sourceMappingURL=style.css.map */

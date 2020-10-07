@@ -5,3 +5,7 @@
 @mixin color-black {
     color:$simply-black;
 }
+
+@mixin font-style($font) {
+    font-family: $font, sans-serif;
+}

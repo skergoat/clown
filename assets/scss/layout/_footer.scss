@@ -1,4 +1,47 @@
 .footer {
-    border:2px solid orange;
     height:500px;
+    box-shadow: 2px -1px 5px 2px $box-shadow-2;
+
+    &-top {
+        @include max-width(96%);
+        
+
+        &__logo {
+            @include media-breakpoint-up(xs) { 
+                @include max-width(100%);
+            }
+            @include media-breakpoint-up(sm) { 
+                @include max-width(300px);
+            }
+        }
+    }
+
+    &-center-first {
+        border:2px solid red;
+        font-size:13px;
+        & ul 
+        {
+            border:2px solid green;
+            width:25%;
+            &:nth-child(1) {
+                width:23%;
+            }
+            &:nth-child(2) {
+                width:32%;
+            }
+            &:nth-child(3) {
+                width:28%;
+            }
+            &:nth-child(4) {
+                width:17%;
+            }
+            & li {
+                font-family: $x-light, sans-serif;
+                @include list-none;
+                &:first-child {
+                    font-family:$black, sans-serif;
+                }
+            }
+        } 
+    }
 }

@@ -9919,11 +9919,21 @@ h3 {
 }
 
 .logo {
-  max-width: 300px !important;
+  max-width: 200px;
+}
+@media (min-width: 576px) {
+  .logo {
+    max-width: 300px;
+  }
+}
+@media (min-width: 768px) {
+  .logo {
+    max-width: 500px;
+  }
 }
 @media (min-width: 992px) {
   .logo {
-    max-width: 500px !important;
+    max-width: 500px;
   }
 }
 

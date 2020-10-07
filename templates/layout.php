@@ -1,9 +1,10 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title><?= $title ?></title>
         <!-- fonts -->
-        <!-- <script src="https://kit.fontawesome.com/1596c4b58a.js" crossorigin="anonymous"></script> -->
         <link rel="stylesheet" href="../assets/fontello/css/fontello.css">
         <link rel="stylesheet" href="https://fonts.google.com/specimen/Nunito+Sans">
         <!-- stylesheet -->
@@ -31,8 +32,8 @@
                <div class="navs__primary">
                     <div class="d-flex justify-content-between navs__wrapper">
                         <a href="#">
-                            <img src="../assets/img/logo.png" class="logo d-xs-none d-sm-none d-md-none d-lg-block d-none pt-2 pb-2">
-                            <img src="../assets/img/logo-responsive.png" class="logo d-xs-block d-sm-block d-md-block d-lg-none pt-2 pb-2">
+                            <img src="../assets/img/logo.png" class="logo d-md-block d-lg-block d-none pt-2 pb-2">
+                            <img src="../assets/img/logo-responsive.png" class="logo d-md-none d-lg-none pt-2 pb-2">
                         </a>
                         <ul class="d-none d-lg-flex mb-0 list menu">
                             <li><a href="#" class="d-flex align-items-center font-weight-bold link-black">Accueil</a><div class="border-bottom-menu"></div></li>
@@ -42,8 +43,8 @@
                             <li class="ml-4"><a href="#" class="d-flex align-items-center font-weight-bold link-black hover-no-change pr-1"><i class="icon-basket"></i></a><div class="border-bottom-menu"></div></li>
                         </ul>
                         <!-- Navigation links (hidden by default) -->
-                        <div class="d-xs-block d-sm-block d-md-block d-lg-none">
-                            <!-- <li class="ml-4"><a href="#" class="d-flex align-items-center font-weight-bold link-black hover-no-change pr-1"><i class="icon-basket"></i></a><div class="border-bottom-menu"></div></li> -->
+                        <div class="d-xs-flex d-sm-flex d-md-flex d-lg-none d-flex">
+                            <a href="#" class="d-flex align-items-center font-weight-bold link-black hover-no-change pr-1 mr-3"><i class="icon-basket"></i></a>
                             <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
                             <div class="hamburger">
                                 <div class="icon hamburger__link" id="open-menu">

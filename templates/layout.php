@@ -31,7 +31,7 @@
                <div class="nav__primary">
                     <div class="d-flex justify-content-between nav__wrapper">
                         <a href="#">
-                            <img src="../assets/img/logo.png" class="logo d-md-block d-lg-block d-none pt-2 pb-2">
+                            <img src="../assets/img/logo.png" class="logo d-md-block d-lg-block d-none pt-3 pb-3">
                             <img src="../assets/img/logo-responsive.png" class="logo d-md-none d-lg-none pt-2 pb-2">
                         </a>
                         <ul class="d-none d-lg-flex mb-0 list menu">
@@ -85,7 +85,7 @@
                <div class="nav__primary">
                     <div class="d-flex justify-content-between nav__wrapper">
                         <a href="#">
-                            <img src="../assets/img/logo.png" class="logo d-md-block d-lg-block d-none pt-2 pb-2">
+                            <img src="../assets/img/logo.png" class="logo d-md-block d-lg-block d-none pt-3 pb-3">
                             <img src="../assets/img/logo-responsive.png" class="logo d-md-none d-lg-none pt-2 pb-2">
                         </a>
                         <ul class="d-none d-lg-flex mb-0 list menu">
@@ -121,7 +121,7 @@
        <?= $content ?>
        
        <!-- footer -->
-       <footer class="footer transition">
+       <footer class="footer transition mt-3">
            <!-- logo footer -->
            <div class="mx-auto footer-top pt-2 pb-4">
                 <img src="../assets/img/logo-footer.png" class="transition footer-top__logo pt-2 pb-2">

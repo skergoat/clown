@@ -13,7 +13,7 @@
         <div class="title pb-4 mt-4" id="main-title-2"><?= $mainTitle ?></div>
         <!-- primary content --> 
         <div class="content mt-1 mb-5" id="content-cross">
-            <div class="mx-auto content__product pt-5 pb-5 pl-5 pr-3">
+            <div class="mx-auto content__product container-width pt-5 pb-5 pl-5 pr-3">
                 <?= $primaryContent ?>
             </div>
         </div>
@@ -21,7 +21,9 @@
 </div>
 <!-- secondary section -->
 <section class="secondary-content">
-    <?= $secondaryContent ?>
+    <div class="container-width mx-auto pb-5">
+        <?= $secondaryContent ?>
+    </div>
 </section>
 
 <?php $content = ob_get_clean(); ?>

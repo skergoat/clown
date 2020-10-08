@@ -10180,6 +10180,9 @@ h3 {
 .main-content .previous, .main-content .title, .main-content .content {
   background: transparent !important;
 }
+.main-content .previous a {
+  font-size: 15px;
+}
 
 #parallax-image {
   border: 0px;
@@ -10214,12 +10217,11 @@ h3 {
   position: absolute;
   min-height: 100vh;
   top: 80%;
-  border: 2px solid red;
 }
 
 @media (min-width: 770px) and (max-width: 845px) {
   .background {
-    background-image: linear-gradient(to right, #F9C98A, #FBD782) !important;
+    background-image: linear-gradient(to right, #FBCD85, #FBD782) !important;
   }
 }
 @media (min-width: 768px) {
@@ -10228,26 +10230,29 @@ h3 {
   }
 }
 
-.content__product {
-  background: white;
+.container-width {
   max-width: 95% !important;
-  border-radius: 10px;
-  box-shadow: 2px 12px 18px 0px #e2b4b4;
 }
 @media (min-width: 576px) {
-  .content__product {
+  .container-width {
     max-width: 95% !important;
   }
 }
 @media (min-width: 768px) {
-  .content__product {
+  .container-width {
     max-width: 95% !important;
   }
 }
 @media (min-width: 992px) {
-  .content__product {
+  .container-width {
     max-width: 1100px !important;
   }
+}
+
+.content__product {
+  background: white;
+  border-radius: 10px;
+  box-shadow: 2px 12px 18px 0px #e2b4b4;
 }
 
 /** main content **/
@@ -10285,6 +10290,7 @@ a:hover {
 
 nav, footer, section, div {
   background: white;
+  text-align: justify;
 }
 
 /*# sourceMappingURL=style.css.map */

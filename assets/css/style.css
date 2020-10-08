@@ -10206,4 +10206,8 @@ a:hover {
   position: relative;
 }
 
+nav, footer, section, div {
+  background: white;
+}
+
 /*# sourceMappingURL=style.css.map */

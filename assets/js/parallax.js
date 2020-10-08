@@ -5,7 +5,7 @@
 // window width 
 let width = $(window).width();
 // then activate parallax or not 
-if(width > 400) {
+if(width > 768) {
     $(window).scroll(function() {
         var scrollTop = $(this).scrollTop();
         $('#parallax-image').css('top', -(scrollTop * 0.6) + 'px');
@@ -23,7 +23,7 @@ $(window).resize(function() {
     // window width 
     let width = $(window).width();
     // then activate parallax or not 
-    if(width > 400) {
+    if(width > 768) {
         $(window).scroll(function() {
             var scrollTop = $(this).scrollTop();
             $('#parallax-image').css('top', -(scrollTop * 0.6) + 'px');

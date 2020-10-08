@@ -10207,7 +10207,6 @@ h3 {
   width: 100%;
   position: relative;
   object-fit: cover;
-  height: 100%;
   min-height: 100%;
 }
 
@@ -10215,13 +10214,9 @@ h3 {
   width: 100%;
   overflow: hidden;
   position: absolute;
+  min-height: 100vh;
+  top: 80%;
   border: 2px solid red;
-}
-@media (min-width: 768px) {
-  #space-between {
-    min-height: 100%;
-    top: 80%;
-  }
 }
 
 .content__product {

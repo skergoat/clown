@@ -10182,6 +10182,7 @@ h3 {
 }
 
 #parallax-image {
+  border: 0px;
   width: 100%;
   min-height: 100%;
   position: fixed;
@@ -10214,6 +10215,17 @@ h3 {
   min-height: 100vh;
   top: 80%;
   border: 2px solid red;
+}
+
+@media (min-width: 770px) and (max-width: 845px) {
+  .background {
+    background-image: linear-gradient(to right, #F9C98A, #FBD782) !important;
+  }
+}
+@media (min-width: 768px) {
+  .background {
+    background-image: linear-gradient(to right, #FEDB7D, #FECF80);
+  }
 }
 
 .content__product {

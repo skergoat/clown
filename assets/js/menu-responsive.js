@@ -20,7 +20,6 @@ window.addEventListener('resize', function() {
     var w=window,
     d=document,
     e=d.documentElement;
-    console.log(e.clientWidth);
     if(e.clientWidth > 992 && menu.classList.contains("active")) {
         menu.classList.remove("active");
         menu.style.height = "0px";

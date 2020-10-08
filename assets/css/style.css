@@ -10033,7 +10033,7 @@ h3 {
 }
 .menu li:hover .border-bottom-menu {
   opacity: 1;
-  background: linear-gradient(to right, #FD8C44, #FD6044);
+  background: linear-gradient(to right, #FD6044, #FD8C44);
 }
 
 .hamburger {

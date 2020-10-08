@@ -178,7 +178,7 @@
            <!-- pictures -->
            <div class="footer-center-second pb-3">
                 <div class="container transition">
-                    <div class="p-3">
+                    <div class="p-3 mb-3">
                         <p class="help__p1 m-2 black orange">Besoin d'aide ?</p>
                         <p class="help__p2 m-2 light-grey">Lundi - Samedi : 9h30 - 19h</p>
                         <p class="help__p3 m-2 black">01 47 70 05 93</p>
@@ -204,7 +204,6 @@
            </div>
        </footer>
        <!-- script -->
-       <?= $script ?>
        <script src="../assets/js/menu-responsive.js"></script>
        <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
        <script>
@@ -212,6 +211,7 @@
             $(window).scroll(function() {
             var scrollTop = $(this).scrollTop();
                 $('#spacer-between').css('top', -(scrollTop * 0.6) + 'px');
+                $('#content-cross').css('top', -(scrollTop * 0.6) + 'px');
             });
        </script>
     </body>

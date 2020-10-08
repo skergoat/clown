@@ -202,16 +202,10 @@
            <div class="footer-bottom p-3">
                 Copyright © Clown Montmartre 2020. Tous droits réservés.
            </div>
-       </footer>
-       <!-- script -->
-       <script src="../assets/js/menu-responsive.js"></script>
-       <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
-       <script>
-           // this script create header parallax effect 
-            $(window).scroll(function() {
-            var scrollTop = $(this).scrollTop();
-                $('#parallax-image').css('top', -(scrollTop * 0.6) + 'px');
-            });
-       </script>
+        </footer>
+        <!-- script -->
+        <script src="../assets/js/menu-responsive.js"></script>
+        <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+        <script src="../assets/js/parallax.js"></script>
     </body>
 </html>

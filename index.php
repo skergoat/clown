@@ -8,3 +8,4 @@ if($route == "/") {
     header("Location: /templates/product.php");
 }
 
+

@@ -9,7 +9,6 @@
 @import "./utils/mixins/fonts.scss";
 @import "./utils/mixins/list.scss";
 @import "./utils/mixins/link.scss";
-@import "./utils/mixins/spacing.scss";
 @import "./utils/mixins/layout.scss";
 
 // layout 
@@ -21,6 +20,10 @@
 // components
 @import "./components/list.scss";
 @import "./components/link.scss";
+
+//page 
+@import "./pages/infos.scss";
+@import "./pages/produit.scss";
  
 // custom
 @import "mystyles.scss";

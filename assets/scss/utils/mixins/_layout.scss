@@ -1,3 +1,16 @@
+// transition
 @mixin transition($time) {
     transition:$time ease-in-out!important;
+}
+// overflow 
+@mixin overflow($overflow) {
+    overflow:$overflow!important;
+}
+// max width 
+@mixin max-width($width) {
+    max-width:$width!important;
+}
+// borders 
+@mixin border($size, $style, $color) {
+    border: $size $style $color!important;
 }

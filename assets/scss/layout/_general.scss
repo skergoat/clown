@@ -1,3 +1,30 @@
+/* borders */
+
+.b-black {
+    @include border(2px, solid, black);
+}
+
+.b-red {
+    @include border(2px, solid, red);
+}
+
+.b-green {
+    @include border(2px, solid, green);
+}
+
+.b-blue {
+    @include border(2px, solid, blue);
+}
+
+.b-purple {
+    @include border(2px, solid, purple);
+}
+
+.b-orange {
+    @include border(2px, solid, orange);
+}
+
+
 /* animation */ 
 
 .transition {
@@ -36,3 +63,9 @@
 .bold {
     @include font-style($bold);
 }
+
+/* overflow */
+.overflow-hidden {
+    @include overflow("hidden");
+}
+

@@ -36,8 +36,8 @@
                         </a>
                         <ul class="d-none d-lg-flex mb-0 list menu">
                             <li><a href="#" class="d-flex align-items-center font-weight-bold link-black black">Accueil</a><div class="border-bottom-menu"></div></li>
-                            <li class="ml-4"><a href="#" class="d-flex align-items-center link-black black">Boutique</a><div class="border-bottom-menu"></div></li>
-                            <li class="ml-4"><a href="#" class="d-flex align-items-center link-black black">Infos Pratiques</a><div class="border-bottom-menu"></div></li>
+                            <li class="ml-4"><a href="http://localhost:8888/templates/product.php" class="d-flex align-items-center link-black black">Boutique</a><div class="border-bottom-menu"></div></li>
+                            <li class="ml-4"><a href="http://localhost:8888/templates/infos.php" class="d-flex align-items-center link-black black">Infos Pratiques</a><div class="border-bottom-menu"></div></li>
                             <li class="ml-4"><a href="#" class="d-flex align-items-center link-black black pr-1">Contact</a><div class="border-bottom-menu"></div></li>
                             <li class="ml-4"><a href="#" class="d-flex align-items-center link-black hover-no-change black pr-1"><i class="icon-basket"></i></a><div class="border-bottom-menu"></div></li>
                         </ul>
@@ -90,8 +90,8 @@
                         </a>
                         <ul class="d-none d-lg-flex mb-0 list menu">
                             <li><a href="#" class="d-flex align-items-center font-weight-bold link-black black">Accueil</a><div class="border-bottom-menu"></div></li>
-                            <li class="ml-4"><a href="#" class="d-flex align-items-center link-black black">Boutique</a><div class="border-bottom-menu"></div></li>
-                            <li class="ml-4"><a href="#" class="d-flex align-items-center link-black black">Infos Pratiques</a><div class="border-bottom-menu"></div></li>
+                            <li class="ml-4"><a href="http://localhost:8888/templates/product.php" class="d-flex align-items-center link-black black">Boutique</a><div class="border-bottom-menu"></div></li>
+                            <li class="ml-4"><a href="http://localhost:8888/templates/infos.php" class="d-flex align-items-center link-black black">Infos Pratiques</a><div class="border-bottom-menu"></div></li>
                             <li class="ml-4"><a href="#" class="d-flex align-items-center link-black black pr-1">Contact</a><div class="border-bottom-menu"></div></li>
                             <li class="ml-4"><a href="#" class="d-flex align-items-center link-black hover-no-change black pr-1"><i class="icon-basket"></i></a><div class="border-bottom-menu"></div></li>
                         </ul>

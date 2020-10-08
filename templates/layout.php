@@ -65,7 +65,7 @@
        </header>
 
        <!-- header transparent -->
-       <header>
+       <header id="header-transparent">
            <div class="mx-auto">
                <!-- reseaux -->
                <div class="nav__secondary">

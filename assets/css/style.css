@@ -9964,6 +9964,10 @@ h3 {
   font-family: "nunito_sansbold", sans-serif;
 }
 
+.header-transparent {
+  opacity: 0;
+}
+
 .navs {
   box-shadow: 2px -1px 5px 2px #eaedf4;
   z-index: 999;

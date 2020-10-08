@@ -211,7 +211,7 @@
             $(window).scroll(function() {
             var scrollTop = $(this).scrollTop();
                 $('#spacer-between').css('top', -(scrollTop * 0.6) + 'px');
-                $('#content-cross').css('top', -(scrollTop * 0.6) + 'px');
+                // $('#content-cross').css('top', -(scrollTop * 0.6) + 'px');
             });
        </script>
     </body>

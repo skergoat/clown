@@ -12,7 +12,7 @@
     <div class="title pb-4 mt-4" id="main-title-2"><?= $mainTitle ?></div>
     <!-- primary content --> 
     <div class="content mt-1 mb-5" id="content-cross">
-        <div class="mx-auto content__product">
+        <div class="mx-auto content__product pt-5 pb-5 pl-5 pr-3">
             <?= $primaryContent ?>
         </div>
     </div>

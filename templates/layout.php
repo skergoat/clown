@@ -127,54 +127,56 @@
                 <img src="../assets/img/logo-footer.png" class="transition footer-top__logo pt-2 pb-2">
            </div>
            <!-- menus -->
-            <div class="mx-auto footer-top footer-center-first flex-wrap d-flex pb-5 transition">     
-                <ul class="p-0 m-0 transition">
-                    <li class="font-weight-bold pb-2">Plan du site</li>
-                    <li><a href="" class="link-black">Accueil</a></li>
-                    <li><a href="" class="link-black">Boutique</a></li>
-                    <li><a href="" class="link-black">Location</a></li>
-                    <li><a href="" class="link-black">Infos Pratiques</a></li>
-                    <li><a href="" class="link-black">Contact</a></li>
-                </ul> 
-                <ul class="p-0 m-0">
-                    <li class="font-weight-bold pb-2">Categories</li>
-                    <li><a href="" class="link-black">Accessoires & déguisements</a></li>
-                    <li><a href="" class="link-black">Barbes & moustaches</a></li>
-                    <li><a href="" class="link-black">Chapeaux & coiffes</a></li>
-                    <li><a href="" class="link-black">Cotillons</a></li>
-                    <li><a href="" class="link-black">Décorations</a></li>
-                    <li><a href="" class="link-black">Déguisements</a></li>
-                    <li><a href="" class="link-black">Farces et attrapes</a></li>
-                    <li><a href="" class="link-black">Feux d’artifices</a></li>
-                    <li><a href="" class="link-black">Jouets & gadgets</a></li>
-                    <li><a href="" class="link-black">Loups (demi-masques)</a></li>
-                    <li><a href="" class="link-black">Maquillage</a></li>
-                    <li><a href="" class="link-black">Masques</a></li>
-                    <li><a href="" class="link-black">Perruques</a></li>
-                </ul> 
-                <ul class="p-0 m-0 mt-sm-4 mt-md-4">
-                    <li class="font-weight-bold pb-2">Evenements</li>
-                    <li><a href="" class="link-black">Coupe du monde</a></li>
-                    <li><a href="" class="link-black">Halloween</a></li>
-                    <li><a href="" class="link-black">Jour de l’an</a></li>
-                    <li><a href="" class="link-black">Mardi Gras</a></li>
-                    <li><a href="" class="link-black">Nöel</a></li>
-                    <li><a href="" class="link-black">Pourim</a></li>
-                    <li><a href="" class="link-black">St Valentin</a></li>
-                </ul> 
-                <ul class="p-0 m-0 mt-sm-4 mt-md-4">
-                    <li class="font-weight-bold pb-2">Thèmes</li>
-                    <li><a href="" class="link-black">Super-héros</a></li>
-                    <li><a href="" class="link-black">Cow-boys & indiens</a></li>
-                    <li><a href="" class="link-black">Disco</a></li>
-                    <li><a href="" class="link-black">Hippie</a></li>
-                    <li><a href="" class="link-black">Années 80</a></li>
-                    <li><a href="" class="link-black">Star Wars</a></li>
-                    <li><a href="" class="link-black">Séries</a></li>
-                </ul>
+            <div class="">
+                <div class="footer-top mx-auto footer-center-first flex-wrap d-flex pb-5 transition">     
+                    <ul class="p-0 m-0 transition">
+                        <li class="font-weight-bold pb-2">Plan du site</li>
+                        <li><a href="" class="link-black">Accueil</a></li>
+                        <li><a href="" class="link-black">Boutique</a></li>
+                        <li><a href="" class="link-black">Location</a></li>
+                        <li><a href="" class="link-black">Infos Pratiques</a></li>
+                        <li><a href="" class="link-black">Contact</a></li>
+                    </ul> 
+                    <ul class="p-0 m-0">
+                        <li class="font-weight-bold pb-2">Categories</li>
+                        <li><a href="" class="link-black">Accessoires & déguisements</a></li>
+                        <li><a href="" class="link-black">Barbes & moustaches</a></li>
+                        <li><a href="" class="link-black">Chapeaux & coiffes</a></li>
+                        <li><a href="" class="link-black">Cotillons</a></li>
+                        <li><a href="" class="link-black">Décorations</a></li>
+                        <li><a href="" class="link-black">Déguisements</a></li>
+                        <li><a href="" class="link-black">Farces et attrapes</a></li>
+                        <li><a href="" class="link-black">Feux d’artifices</a></li>
+                        <li><a href="" class="link-black">Jouets & gadgets</a></li>
+                        <li><a href="" class="link-black">Loups (demi-masques)</a></li>
+                        <li><a href="" class="link-black">Maquillage</a></li>
+                        <li><a href="" class="link-black">Masques</a></li>
+                        <li><a href="" class="link-black">Perruques</a></li>
+                    </ul> 
+                    <ul class="p-0 m-0 mt-sm-4 mt-md-4">
+                        <li class="font-weight-bold pb-2">Evenements</li>
+                        <li><a href="" class="link-black">Coupe du monde</a></li>
+                        <li><a href="" class="link-black">Halloween</a></li>
+                        <li><a href="" class="link-black">Jour de l’an</a></li>
+                        <li><a href="" class="link-black">Mardi Gras</a></li>
+                        <li><a href="" class="link-black">Nöel</a></li>
+                        <li><a href="" class="link-black">Pourim</a></li>
+                        <li><a href="" class="link-black">St Valentin</a></li>
+                    </ul> 
+                    <ul class="p-0 m-0 mt-sm-4 mt-md-4">
+                        <li class="font-weight-bold pb-2">Thèmes</li>
+                        <li><a href="" class="link-black">Super-héros</a></li>
+                        <li><a href="" class="link-black">Cow-boys & indiens</a></li>
+                        <li><a href="" class="link-black">Disco</a></li>
+                        <li><a href="" class="link-black">Hippie</a></li>
+                        <li><a href="" class="link-black">Années 80</a></li>
+                        <li><a href="" class="link-black">Star Wars</a></li>
+                        <li><a href="" class="link-black">Séries</a></li>
+                    </ul>
+                </div>
            </div>
            <!-- pictures -->
-           <div class="footer-center-second">
+           <div class="footer-center-second pb-3">
                 <div class="container transition">
                     <div class="p-3">
                         <p class="help__p1 m-2 black orange">Besoin d'aide ?</p>
@@ -197,12 +199,20 @@
                 </div>
            </div>
            <!-- bottom -->
-           <div class="footer-bottom p-3 mt-3">
+           <div class="footer-bottom p-3">
                 Copyright © Clown Montmartre 2020. Tous droits réservés.
            </div>
        </footer>
        <!-- script -->
        <?= $script ?>
        <script src="../assets/js/menu-responsive.js"></script>
+       <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+       <script>
+           // this script create header parallax effect 
+            $(window).scroll(function() {
+            var scrollTop = $(this).scrollTop();
+                $('#spacer-between').css('top', -(scrollTop * 0.6) + 'px');
+            });
+       </script>
     </body>
 </html>

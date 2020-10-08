@@ -1,7 +1,7 @@
 <?php ob_start(); ?>
-    <div id="spacer-between" style="border: 2px solid black; position: fixed; top: 0px; padding-top: 120px; height: 100%;">
-        <img src="../assets/img/background.jpg" style="width:105%;position:relative;left:-50px;height:90vh;min-height:90vh;" />
-    </div>
+<div id="spacer-between" style="border: 2px solid black; position: fixed; top: 0px; padding-top: 120px; height: 100%;">
+    <img src="../assets/img/background.jpg" style="width:105%;position:relative;left:-50px;height:90vh;min-height:90vh;" />
+</div>
 <!-- main section -->
 <section class="main-content" id="main-content-id" style="background:transparent;!important;">        
     <div style="width:100%;min-height:100%;border:2px solid red;overflow:hidden;position:absolute;top: 90vh;"></div>
@@ -19,9 +19,5 @@
 </section>
 
 <?php $content = ob_get_clean(); ?>
-
-<!-- script -->
-<?php ob_start(); ?>
-<?php $script = ob_get_clean(); ?>
 
 <?php require('layout.php'); ?>

@@ -9929,10 +9929,21 @@ h3 {
   font-weight: normal;
   font-style: normal;
 }
+/* animation */
 .transition {
   transition: 0.5s ease-in-out !important;
 }
 
+/* colors */
+.orange {
+  color: #FF9127 !important;
+}
+
+.light-grey {
+  color: #9D9D9D !important;
+}
+
+/* font class */
 .regular {
   font-family: "nunito_sansregular", sans-serif;
 }
@@ -9951,14 +9962,6 @@ h3 {
 
 .bold {
   font-family: "nunito_sansbold", sans-serif;
-}
-
-.orange {
-  color: #FF9127 !important;
-}
-
-.light-grey {
-  color: #9D9D9D !important;
 }
 
 .navs {
@@ -10157,17 +10160,6 @@ h3 {
   box-shadow: 2px -1px 5px 2px #eaedf4;
 }
 
-.main-content {
-  background: url("../img/background.jpg");
-  background-size: cover;
-  height: 700px;
-  z-index: 2;
-}
-
-.secondary-content {
-  height: 600px;
-}
-
 ul.list li {
   list-style-type: none;
 }
@@ -10195,8 +10187,28 @@ a:hover {
   color: #000 !important;
 }
 
+#spacer-between {
+  border: 5px solid red;
+  position: absolute;
+  width: 100%;
+  max-height: 900px;
+  overflow: hidden;
+}
+
+.content__product {
+  background: white;
+  max-width: 1100px;
+  border-radius: 10px;
+  box-shadow: 2px 12px 18px 0px #e2b4b4;
+}
+
 * {
   font-family: "nunito_sansextralight", sans-serif;
+  position: relative;
+}
+
+nav, footer, section, div {
+  background: white;
 }
 
 /*# sourceMappingURL=style.css.map */

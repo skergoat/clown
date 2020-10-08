@@ -1,4 +1,20 @@
-// font class
+/* animation */ 
+
+.transition {
+    @include transition(0.5s);
+}
+
+/* colors */
+
+.orange { 
+    color:$orange-link!important; 
+}
+
+.light-grey { 
+    color:$light-grey!important; 
+}
+
+/* font class */
 
 // regular 
 .regular {

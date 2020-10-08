@@ -10187,6 +10187,7 @@ a:hover {
   color: #000 !important;
 }
 
+/** main content **/
 .main-content {
   background: transparent !important;
 }
@@ -10203,10 +10204,6 @@ a:hover {
   margin-top: 120px;
   height: auto;
   max-height: 900px;
-  background: url("../img/background.jpg");
-  background-size: 100% 100%;
-  background-attachment: fixed;
-  background-position: center;
   height: 90vh;
   min-height: 90vh;
 }
@@ -10226,6 +10223,7 @@ a:hover {
   box-shadow: 2px 12px 18px 0px #e2b4b4;
 }
 
+/** main content **/
 * {
   font-family: "nunito_sansextralight", sans-serif;
   position: relative;

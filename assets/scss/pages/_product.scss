@@ -1,12 +1,14 @@
+/** main content **/
+
+// transparent background 
 .main-content {
     background:transparent!important;
     & .previous, & .title, & .content {
         background:transparent!important;
     }
 }
-
+// parallax image 
 #parallax-image {
-    // border:5px solid red;
     position:absolute;
     width:100%;
     height:100%;
@@ -15,15 +17,10 @@
     margin-top: 120px; 
     height:auto;
     max-height:900px;
-    background:url('../img/background.jpg');
-    background-size:100% 100%;
-    background-attachment: fixed;
-    background-position: center; 
     height:90vh;
     min-height:90vh;
-    // overflow:hidden;
 }
-
+// separator 
 #space-between {
     width:100%;
     min-height:100%;
@@ -40,7 +37,10 @@
         box-shadow: 2px 12px 18px 0px rgba(226,180,180,1);
     }
 }
-// secondary 
+
+
+/** main content **/
+
 .secondary-content {
     // border:2px solid purple;
 }

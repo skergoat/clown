@@ -1,6 +1,6 @@
 <?php ob_start(); ?>
 <div id="parallax-image">
-    <img src="../assets/img/background.jpg" style="width:105%;position:relative;left:-50px;height:90vh;min-height:90vh;" />
+    <img src="../assets/img/background.jpg" id="parallax-image__img" />
 </div>
 <!-- main section -->
 <section class="main-content" id="main-content-id"> 

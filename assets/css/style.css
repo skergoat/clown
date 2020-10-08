@@ -10211,6 +10211,13 @@ a:hover {
   height: 90vh;
   min-height: 90vh;
 }
+#parallax-image__img {
+  width: 105%;
+  position: relative;
+  left: -50px;
+  height: 90vh;
+  min-height: 90vh;
+}
 
 #space-between {
   width: 100%;

@@ -19,6 +19,13 @@
     max-height:900px;
     height:90vh;
     min-height:90vh;
+    &__img {
+        width:105%;
+        position:relative;
+        left:-50px;
+        height:90vh;
+        min-height:90vh;
+    }
 }
 // separator 
 #space-between {

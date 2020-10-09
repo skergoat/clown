@@ -13,9 +13,15 @@
       "src": "fontawesome"
     },
     {
-      "uid": "8e04c98c8f5ca0a035776e3001ad2638",
-      "css": "facebook",
-      "code": 61594,
+      "uid": "5854855e963044f93b15738a5bb27a29",
+      "css": "phone",
+      "code": 59393,
+      "src": "entypo"
+    },
+    {
+      "uid": "ccc2329632396dc096bb638d4b46fb98",
+      "css": "mail-alt",
+      "code": 61664,
       "src": "fontawesome"
     },
     {
@@ -25,9 +31,9 @@
       "src": "fontawesome"
     },
     {
-      "uid": "4c1ef492f1d2c39a2250ae457cee2a6e",
-      "css": "instagram",
-      "code": 61805,
+      "uid": "8e04c98c8f5ca0a035776e3001ad2638",
+      "css": "facebook",
+      "code": 61594,
       "src": "fontawesome"
     },
     {
@@ -37,16 +43,16 @@
       "src": "fontawesome"
     },
     {
-      "uid": "5854855e963044f93b15738a5bb27a29",
-      "css": "phone",
-      "code": 59393,
-      "src": "entypo"
+      "uid": "4c1ef492f1d2c39a2250ae457cee2a6e",
+      "css": "instagram",
+      "code": 61805,
+      "src": "fontawesome"
     },
     {
-      "uid": "937f4db8b6ff3348a1d9fcd5e12fd2fe",
-      "css": "mail",
+      "uid": "9affc98d652b86628d650ee58dbf0357",
+      "css": "basket",
       "code": 59394,
-      "src": "iconic"
+      "src": "fontawesome"
     }
   ]
 }

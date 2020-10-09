@@ -79,7 +79,6 @@
     </div>
     <!-- submit -->
     <div class="form-submit">
-        <!-- <button type="submit" class="btn btn-behind black mt-4">Envoyer</button> -->
         <button type="submit" class="btn button-orange black mt-4">Envoyer</button>
     </div>
 </form>

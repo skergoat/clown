@@ -24,7 +24,7 @@
                                 <li class="mr-2"><a href="#" class="link-black"><i class="icon-instagram"></i></a></li>
                             </ul>
                         </div>
-                        <div class="connection"><a class="font-weight-bold link-black bold" href="#"> Se connecter</a> ou <a class="link-black font-weight-bold bold" href="#">S'inscrire</a></div>
+                        <div class="connection"><a class="font-weight-bold link-black bold" href="#"> Se connecter</a> ou <a class="link-black font-weight-bold bold" href="http://localhost:8888/templates/signin.php">S'inscrire</a></div>
                    </div>
                </div>
                <!-- menu -->
@@ -43,7 +43,7 @@
                         </ul>
                         <!-- Navigation links (hidden by default) -->
                         <div class="d-xs-flex d-sm-flex d-md-flex d-lg-none d-flex">
-                            <a href="#" class="d-flex align-items-center font-weight-bold link-black hover-no-change pr-1 mr-3"><i class="icon-basket"></i></a>
+                            <a href="#" class="d-flex align-items-center font-weight-bold link-black hover-no-change pr-1"><i class="icon-basket"></i></a>
                             <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
                             <div class="hamburger">
                                 <div class="icon hamburger__link" id="open-menu">

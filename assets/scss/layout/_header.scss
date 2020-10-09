@@ -41,16 +41,16 @@
 // logo 
 .logo {
     @include media-breakpoint-up(xs) { 
-        @include max-width(200px);
+        @include max-width(270px);
     }
     @include media-breakpoint-up(sm) { 
         @include max-width(300px);
     }
     @include media-breakpoint-up(md) { 
-        @include max-width(500px);
+        @include max-width(400px);
     }
     @include media-breakpoint-up(lg) { 
-        @include max-width(500px);
+        @include max-width(400px);
     }
 }
 // menu 

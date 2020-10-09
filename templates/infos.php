@@ -34,10 +34,14 @@
                     <div><i class="icon-mail icon-pink font-20 pr-1"></i></div>
                     <div><p class="font-13 lh-2">clown.fr@gmail.com</p></div>
                 </div>
+                <div class="mt-2">
+                    <div style="width:170px;" class="mt-3"><img src="../assets/img/metros.png" style="width:100%;"></div>
+                    <div style="width:220px;" class="mt-2"><img src="../assets/img/bus.png" style="width:100%;"></div>
+                </div>
             </div>
         </div>
     </div>
-    <div class="border-radius-10 pt-xs-4 pt-lg-2 p-xs-none p-5">
+    <div class="border-radius-10 pt-xs-4 pt-lg-4 p-xs-none p-5">
         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2624.211259162632!2d2.3408797156406265!3d48.87324910761453!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66e3e57dbdae7%3A0x86b218623adda57b!2sClown%20Montmartre!5e0!3m2!1sfr!2s!4v1602149246137!5m2!1sfr!2s" width="100%" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0" class="mt-1"></iframe>
     </div>
 </div>

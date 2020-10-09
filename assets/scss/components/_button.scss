@@ -1,0 +1,6 @@
+.button-orange {
+    background:linear-gradient(to right, $button-1, $button-2);
+    color:white;
+    @include border-radius(50px);
+    padding: 10px 45px 10px 45px;
+}

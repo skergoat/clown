@@ -50,24 +50,24 @@
         <input type="email" class="form-control form-control-1 mt-4 font-15" id="mail" aria-describedby="emailHelp" value="E-mail">
     </div>
     <!-- subject -->
-    <label for="subject" class="mb-1 mt-2">Sujet</label>
-    <div class="form-group">
-        <div class="form-check form-check-inline">
+    <label for="subject" class="mb-1 mt-2 pb-xs-2">Sujet</label>
+    <div class="form-group d-xs-flex flex-column">
+        <div class="form-check form-check-inline mb-xs-2">
             <input class="form-check-input" type="radio" name="subject" id="subject1" value="renseignements" checked>
             <span class="form-check-input checkmark"></span>
             <label class="form-check-label" for="exampleRadios1">Renseignements</label>
          </div>
-        <div class="form-check form-check-inline">
+        <div class="form-check form-check-inline mb-xs-2">
             <input class="form-check-input" type="radio" name="subject" id="subject2" value="suggestions">
             <span class="form-check-input checkmark"></span>
             <label class="form-check-label" for="exampleRadios1">Suggestions</label>
         </div>
-        <div class="form-check form-check-inline">
+        <div class="form-check form-check-inline mb-xs-2">
             <input class="form-check-input" type="radio" name="subject" id="subject3" value="commerciales">
             <span class="form-check-input checkmark"></span>
             <label class="form-check-label" for="exampleRadios1">Commerciales</label>
         </div>
-        <div class="form-check form-check-inline">
+        <div class="form-check form-check-inline mb-xs-2">
             <input class="form-check-input" type="radio" name="subject" id="subject4" value="autres">
             <span class="form-check-input checkmark"></span>
             <label class="form-check-label" for="exampleRadios1">Autres</label>
@@ -78,5 +78,5 @@
         <textarea class="form-control form-control-1 font-15" id="message" rows="4">Message</textarea>
     </div>
     <!-- submit -->
-    <button type="submit" class="btn btn-primary mt-4">Envoyer</button>
+    <button type="submit" class="btn button-orange black mt-4">Envoyer</button>
 </form>

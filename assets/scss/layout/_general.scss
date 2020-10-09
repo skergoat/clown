@@ -1,3 +1,11 @@
+/* display */
+
+@media all and (max-width:576px) {
+    .d-xs-flex {
+        display:flex;
+    }    
+}
+
 /* borders */
 
 .b-black {

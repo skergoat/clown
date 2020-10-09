@@ -9893,8 +9893,17 @@ h3 {
     border-color: #dee2e6;
   }
 }
+/*simple*/
+/*linear gradient*/
+/*rgba*/
 /* padding */
 /* margin */
+/* display */
+@media all and (max-width: 576px) {
+  .d-xs-flex {
+    display: flex;
+  }
+}
 /* borders */
 .b-black {
   border: 2px solid black !important;
@@ -10606,6 +10615,13 @@ a:hover {
   height: 8px;
   border-radius: 50%;
   background: orange;
+}
+
+.button-orange {
+  background: linear-gradient(to right, #FD9644, #FD6044);
+  color: white;
+  border-radius: 50px !important;
+  padding: 10px 45px 10px 45px;
 }
 
 @font-face {

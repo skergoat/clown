@@ -71,6 +71,18 @@
     @include font-size(16px);
 }
 
+.font-17 {
+    @include font-size(17px);
+}
+
+.font-18 {
+    @include font-size(18px);
+}
+
+.font-19 {
+    @include font-size(19px);
+}
+
 .font-20 {
     @include font-size(20px);
 }
@@ -94,6 +106,10 @@
 
 // line height 
 
+.lh-17 {
+    @include line-height(1.7);
+}
+
 .lh-18 {
     @include line-height(1.8);
 }
@@ -104,4 +120,23 @@
 
 .lh-2 {
     @include line-height(2);
+}
+
+
+@media all and (max-width:576px) {
+    // main title 
+    .main-title-sm {
+        @include font-size(25px);
+    }
+
+    // main title 
+    .sub-title-sm {
+        @include font-size(17px);
+    }
+
+    // line height
+    
+    .lh-xs-17 {
+        @include line-height(1.7);
+    }
 }

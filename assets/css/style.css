@@ -10421,15 +10421,6 @@ h3 {
 }
 
 /** content layout **/
-.title h2 {
-  font-size: 25px;
-}
-@media (min-width: 576px) {
-  .title h2 {
-    font-size: 2rem;
-  }
-}
-
 .main-content {
   background: transparent !important;
 }
@@ -10599,6 +10590,18 @@ a:hover {
   font-size: 16px;
 }
 
+.font-17 {
+  font-size: 17px;
+}
+
+.font-18 {
+  font-size: 18px;
+}
+
+.font-19 {
+  font-size: 19px;
+}
+
 .font-20 {
   font-size: 20px;
 }
@@ -10619,6 +10622,10 @@ a:hover {
   margin: 0px;
 }
 
+.lh-17 {
+  line-height: 1.7;
+}
+
 .lh-18 {
   line-height: 1.8;
 }
@@ -10631,6 +10638,19 @@ a:hover {
   line-height: 2;
 }
 
+@media all and (max-width: 576px) {
+  .main-title-sm {
+    font-size: 25px;
+  }
+
+  .sub-title-sm {
+    font-size: 17px;
+  }
+
+  .lh-xs-17 {
+    line-height: 1.7;
+  }
+}
 * {
   font-family: "nunito_sansextralight", sans-serif;
   position: relative;

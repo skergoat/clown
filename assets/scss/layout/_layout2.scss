@@ -1,14 +1,5 @@
 /** content layout **/
 
-.title h2 {
-    @include media-breakpoint-up(xs) { 
-        font-size:25px;
-    }
-    @include media-breakpoint-up(sm) { 
-        font-size:2rem;
-    }
-}
-
 // transparent background 
 .main-content {
     background:transparent!important;

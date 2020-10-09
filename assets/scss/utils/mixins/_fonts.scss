@@ -1,16 +1,18 @@
 // font color 
 @mixin font-color($color) {
-    font-size: $color;
+    font-size: $color!important;
 }
 // font size 
 @mixin font-size($size) {
-    font-size: $size;
+    font-size: $size!important;
 }
 // font family 
 @mixin font-style($font) {
-    font-family: $font, sans-serif;
+    font-family: $font, sans-serif!important;
 }
 
 @mixin line-height($height) {
-    line-height : $height;
+    line-height : $height!important;
 }
+
+

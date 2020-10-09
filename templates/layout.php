@@ -55,8 +55,8 @@
                     <div id="menu-responsive" class="inactive">
                         <ul class="mb-0 p-0 list" id="menu-responsive__ul">
                             <li><a href="#news" class="font-weight-bold link-black hover d-block pl-4 p-1">Accueil</a></li>
-                            <li><a href="#contact" class="font-weight-bold link-black hover d-block pl-4 p-1">Boutique</a></li>
-                            <li><a href="#about" class="font-weight-bold link-black hover d-block pl-4 p-1">Infos Pratiques</a></li>
+                            <li><a href="http://localhost:8888/templates/product.php" class="font-weight-bold link-black hover d-block pl-4 p-1">Boutique</a></li>
+                            <li><a href="http://localhost:8888/templates/infos.php" class="font-weight-bold link-black hover d-block pl-4 p-1">Infos Pratiques</a></li>
                             <li><a href="#about" class="font-weight-bold link-black hover d-block pl-4 p-1">Contact</a></li>
                         </ul>
                     </div>

@@ -1,16 +1,17 @@
 <!-- titles -->
 <?php $title = "home" ?>
-<?php $mainTitle = "<h2 class='text-center black'>Infos Pratiques</h2>" ?>
+<?php $mainTitle = "<h2 class='text-center black main-title-sm mb-3'>Infos Pratiques</h2>" ?>
+<?php $subTitle = "<h5 class='text-center light sub-title-sm lh-xs-17 font-18'>Vous trouverez ici toutes les infos concernant la boutique Clown Montmartre</h5>" ?>
 <?php $previous = "<a class='black link-black' href='#'><span class='mr-2 black chevron'><</span>Accueil</a>" ?>
 
 <!-- primary content  -->
 <?php ob_start(); ?>
-<div class="content__product container-width mx-auto">
+<div class="content__product container-width mx-auto mt-4">
     <div class="row border-radius-10 m-0 p-xs-4 pb-sm-0 p-5">
-        <div class="col-lg-8 pl-xs-none pr-xs-none pr-sm-0 pr-md-5 mt-2 mb-xs-5 mb-sm-5 mb-lg-5">
+        <div class="col-lg-8 pl-xs-none pr-xs-none pr-sm-0 pr-lg-5 mt-2 mb-xs-5 mb-sm-5 mb-lg-5">
             <h5 class="black pb-2">Notre Boutique</h5>
             <span class="border-bottom mb-4"></span>
-            <p class="font-13 lh-19 pr-sm-0 pr-xs-none pr-md-5">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Phasellus hendrerit. Pellentesque aliquet nibh nec urna. In nisi neque, aliquet vel, dapibus id, mattis vel, nisi. Sed pretium, ligula sollicitudin laoreet viverra, tortor libero sodales leo, eget blandit nunc tortor eu nibh. Nullam mollis. Ut justo. Suspendisse potenti.</p>
+            <p class="font-13 lh-19 pr-sm-0 pr-xs-none pr-lg-5">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Phasellus hendrerit. Pellentesque aliquet nibh nec urna. In nisi neque, aliquet vel, dapibus id, mattis vel, nisi. Sed pretium, ligula sollicitudin laoreet viverra, tortor libero sodales leo, eget blandit nunc tortor eu nibh. Nullam mollis. Ut justo. Suspendisse potenti.</p>
             <div class="pt-2">
                 <p class="font-13 black m-0 mb-1">Ouverture</p>
                 <p class="font-13 lh-18 m-0 mb-1">Lundi - Samedi</p>

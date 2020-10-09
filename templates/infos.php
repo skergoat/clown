@@ -51,5 +51,13 @@
 <?php ob_start(); ?>
 <?php $secondaryContent = ob_get_clean(); ?>
 
+<!-- JS  --> 
+<?php ob_start(); ?>
+<script>
+    // active link 
+    let activeId = '#active-infos';
+</script>
+<?php $script = ob_get_clean(); ?>
+
 <!-- include -->
 <?php require('layout-2.php'); ?>

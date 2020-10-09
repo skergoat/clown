@@ -17,3 +17,11 @@ a:hover {
 .hover-no-change:hover {
     @include link-color($simply-black);
 }
+// active link 
+.activated {
+    @include link-color($orange-link);
+    &-border-bottom {
+        opacity:1!important;
+        background: linear-gradient(to right, $border-bottom-1, $border-bottom-2);
+    }
+}

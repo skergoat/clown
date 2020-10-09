@@ -35,11 +35,11 @@
                             <img src="../assets/img/logo-responsive.png" class="logo d-md-none d-lg-none pt-2 pb-2">
                         </a>
                         <ul class="d-none d-lg-flex mb-0 list menu">
-                            <li><a href="#" class="d-flex align-items-center font-weight-bold link-black black">Accueil</a><div class="border-bottom-menu"></div></li>
-                            <li class="ml-4"><a href="http://localhost:8888/templates/product.php" class="d-flex align-items-center link-black black">Boutique</a><div class="border-bottom-menu"></div></li>
-                            <li class="ml-4"><a href="http://localhost:8888/templates/infos.php" class="d-flex align-items-center link-black black">Infos Pratiques</a><div class="border-bottom-menu"></div></li>
-                            <li class="ml-4"><a href="#" class="d-flex align-items-center link-black black pr-1">Contact</a><div class="border-bottom-menu"></div></li>
-                            <li class="ml-4"><a href="#" class="d-flex align-items-center link-black hover-no-change black pr-1"><i class="icon-basket"></i></a><div class="border-bottom-menu"></div></li>
+                            <li id="active-home"><a href="#" class="d-flex align-items-center font-weight-bold link-black black">Accueil</a><div class="border-bottom-menu"></div></li>
+                            <li id="active-shop" class="ml-4"><a href="http://localhost:8888/templates/product.php" class="d-flex align-items-center link-black black">Boutique</a><div class="border-bottom-menu"></div></li>
+                            <li id="active-infos" class="ml-4"><a href="http://localhost:8888/templates/infos.php" class="d-flex align-items-center link-black black">Infos Pratiques</a><div class="border-bottom-menu"></div></li>
+                            <li id="active-contact" class="ml-4"><a href="#" class="d-flex align-items-center link-black black pr-1">Contact</a><div class="border-bottom-menu"></div></li>
+                            <li id="active-cart" class="ml-4"><a href="#" class="d-flex align-items-center link-black hover-no-change black pr-1"><i class="icon-basket"></i></a><div class="border-bottom-menu"></div></li>
                         </ul>
                         <!-- Navigation links (hidden by default) -->
                         <div class="d-xs-flex d-sm-flex d-md-flex d-lg-none d-flex">
@@ -207,5 +207,11 @@
         <script src="../assets/js/menu-responsive.js"></script>
         <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
         <script src="../assets/js/parallax.js"></script>
+        <?= $script ?>
+        <script>
+            // active link 
+            $(activeId + ' a').addClass('activated');
+            $(activeId + ' .border-bottom-menu').addClass('activated-border-bottom');
+        </script>
     </body>
 </html>

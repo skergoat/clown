@@ -10541,7 +10541,7 @@ a:hover {
 
 .was-validated .form-control:invalid:focus, .form-control.is-invalid:focus {
   border: 2px solid #ff9127 !important;
-  box-shadow: rgba(255, 157, 65, 0.25) 0px 0px 0px 0.2rem !important;
+  box-shadow: rgba(255, 145, 39, 0.25) 0px 0px 0px 0.2rem !important;
 }
 
 .contact-form {

@@ -8,7 +8,7 @@
 <?php ob_start(); ?>
 <div class="content__product container-width mx-auto mt-4">
     <div class="row border-radius-10 m-0 pt-5 pr-xs-3 pr-sm-5 pb-5 pl-3">
-        <div class="col-lg-8 mt-2 mb-xs-4 mb-sm-4 mb-lg-0 pl-xs-none pr-xs-none pr-sm-0 pr-lg-5 pb-3">
+        <div class="col-lg-8 pl-lg-4 mb-xs-4 mb-sm-4 mb-lg-0 pl-xs-none pr-xs-none pr-sm-0 pr-lg-5 pb-3">
             <!-- include content right -->
             <?php include('includes/contactForm.php'); ?>
         </div>

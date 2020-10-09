@@ -10577,9 +10577,9 @@ a:hover {
   position: absolute;
   top: 0;
   left: 0;
-  height: 18px;
-  width: 18px;
-  border: 0.14em solid #c3c3c3;
+  height: 15px;
+  width: 15px;
+  border: 0.12em solid #c3c3c3;
   border-radius: 50%;
   cursor: pointer;
 }
@@ -10609,10 +10609,10 @@ a:hover {
 
 /* Style the indicator (dot/circle) */
 .form-check.form-check-inline .checkmark:after {
-  top: 7px;
-  left: 5px;
-  width: 8px;
-  height: 8px;
+  top: 6px;
+  left: 4px;
+  width: 7px;
+  height: 7px;
   border-radius: 50%;
   background: orange;
 }
@@ -10622,6 +10622,7 @@ a:hover {
   color: white;
   border-radius: 50px !important;
   padding: 10px 45px 10px 45px;
+  font-size: 14px;
 }
 
 @font-face {

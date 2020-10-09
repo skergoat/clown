@@ -19,15 +19,19 @@
 // components
 @import "./components/list.scss";
 @import "./components/link.scss";
-
-//page 
-@import "./pages/infos.scss";
-@import "./pages/produit.scss";
+@import "./components/form1.scss";
+@import "./components/form2.scss";
 
 //fonts 
 @import "./components/fonts.scss";
 
- 
+//page 
+@import "./pages/infos.scss";
+@import "./pages/produit.scss";
+@import "./pages/contact.scss";
+
 // custom
 @import "mystyles.scss";
+
+
 

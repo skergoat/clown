@@ -1,0 +1,10 @@
+// contact, inscription forms 
+.contact-form {
+    @include media-breakpoint-up(xs) { 
+        @include max-width(100%);
+    }
+    @include media-breakpoint-up(lg) { 
+        @include max-width(85%);
+    }
+}
+

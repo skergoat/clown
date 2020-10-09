@@ -10533,6 +10533,15 @@ a:hover {
   background: linear-gradient(to right, #FD8C44, #FD9644);
 }
 
+.contact-form {
+  max-width: 100% !important;
+}
+@media (min-width: 992px) {
+  .contact-form {
+    max-width: 85% !important;
+  }
+}
+
 @font-face {
   font-family: "nunito_sansregular";
   src: url("../fonts/Nunito/nunitosans-regular-webfont.woff2") format("woff2"), url("../fonts/Nunito/nunitosans-regular-webfont.woff") format("woff");
@@ -10654,6 +10663,16 @@ a:hover {
     line-height: 1.7 !important;
   }
 }
+.transports-info__metro {
+  width: 170px;
+}
+.transports-info__bus {
+  width: 220px;
+}
+.transports-info img {
+  width: 100%;
+}
+
 * {
   font-family: "nunito_sansextralight", sans-serif;
   position: relative;

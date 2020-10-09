@@ -31,23 +31,23 @@
     </div>
     <!-- lastname -->
     <div class="form-group">
-        <input type="text" class="form-control form-control-1 mt-4 font-13" id="lastname" aria-describedby="lastname" value="Nom">
+        <input type="text" class="form-control form-control-1 mt-4 font-13" id="lastname" aria-describedby="lastname" value="Nom" required>
     </div>
     <!-- firstname -->
     <div class="form-group">
-        <input type="text" class="form-control form-control-1 mt-4 font-13" id="firstname" aria-describedby="firstname" value="Prénom">
+        <input type="text" class="form-control form-control-1 mt-4 font-13" id="firstname" aria-describedby="firstname" value="Prénom" required>
     </div>
     <!-- city  -->
     <div class="form-group">
-        <input type="text" class="form-control form-control-1 mt-4 font-13" id="city" aria-describedby="city" value="Ville">
+        <input type="text" class="form-control form-control-1 mt-4 font-13" id="city" aria-describedby="city" value="Ville" required>
     </div>
     <!-- mail -->
     <div class="form-group">
-        <input type="email" class="form-control form-control-1 mt-4 font-13" id="country" aria-describedby="country" value="Pays">
+        <input type="text" class="form-control form-control-1 mt-4 font-13" id="country" aria-describedby="country" value="Pays" required>
     </div>
     <!-- firstname -->
     <div class="form-group mb-4">
-        <input type="email" class="form-control form-control-1 mt-4 font-13" id="mail" aria-describedby="emailHelp" value="E-mail">
+        <input type="email" class="form-control form-control-1 mt-4 font-13" id="mail" aria-describedby="email" value="E-mail" required>
     </div>
     <!-- subject -->
     <label for="subject" class="mb-2 mt-2 pb-xs-2 font-13">Sujet</label>
@@ -78,5 +78,8 @@
         <textarea class="form-control form-control-1 font-13" id="message" rows="4">Message</textarea>
     </div>
     <!-- submit -->
-    <button type="submit" class="btn button-orange black mt-4">Envoyer</button>
+    <div class="form-submit">
+        <!-- <button type="submit" class="btn btn-behind black mt-4">Envoyer</button> -->
+        <button type="submit" class="btn button-orange black mt-4">Envoyer</button>
+    </div>
 </form>

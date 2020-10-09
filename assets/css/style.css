@@ -10621,8 +10621,16 @@ a:hover {
   background: linear-gradient(to right, #FD9644, #FD6044);
   color: white;
   border-radius: 50px !important;
-  padding: 10px 45px 10px 45px;
+  padding: 12px 45px 12px 45px;
   font-size: 14px;
+  border: 0px solid transparent;
+}
+
+.button-orange:hover {
+  color: #FD6044;
+  background: white;
+  padding: 10px 43px 10px 43px;
+  border: 2px solid #FD6044;
 }
 
 @font-face {

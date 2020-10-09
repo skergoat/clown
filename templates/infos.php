@@ -30,7 +30,7 @@
                 </div>
                 <div class="mt-2">
                     <div class="mt-3 transports-info transports-info__metro"><img src="../assets/img/metros.png"></div>
-                    <div class="mt-2 transports-info transports-info__bus"><img src="../assets/img/bus.png"></div>
+                    <div class="mt-3 transports-info transports-info__bus"><img src="../assets/img/bus.png"></div>
                 </div>
             </div>
         </div>

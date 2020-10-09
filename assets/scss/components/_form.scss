@@ -1,5 +1,13 @@
 /** contact, inscription forms **/
 
+.form-control {
+  border:1px solid #9D9D9D!important;
+}
+
+.form-large {
+  height:40px;
+}
+
 // max width 
 .contact-form {
     @include media-breakpoint-up(xs) { 
@@ -12,7 +20,7 @@
 // form-control style 
 .form-control-1 {
     border:0px!important;
-    border-bottom:1px solid #ced4da!important;
+    border-bottom:1px solid #9D9D9D!important;
     border-radius:0px!important;
     padding: 0px 0px 10px 0px;
 }
@@ -33,6 +41,8 @@
 
 /** custom select **/
 
+  // connexion + signin form
+
 /* The container must be positioned relative: */
 .custom-selects {
     position: relative;
@@ -43,12 +53,12 @@
     display: none; /*hide original SELECT element: */
   }
   
-  .select-selected {
+  .select-selected, .select-selected-large {
     background-color: white;
   }
   
   /* Style the arrow inside the select element: */
-  .select-selected:after {
+  .select-selected:after, .select-selected-large:after {
     position: absolute;
     content: "";
     top: 14px;
@@ -60,13 +70,13 @@
   }
   
   /* Point the arrow upwards when the select box is open (active): */
-  .select-selected.select-arrow-active:after {
+  .select-selected.select-arrow-active:after, .select-selected-large.select-arrow-active:after {
     border-color: transparent transparent black transparent;
     top: 7px;
   }
   
   /* style the items (options), including the selected item: */
-  .select-selected {
+  .select-selected, .select-selected-large {
     color: black;
     font-size:13px;
     padding: 5px 10px;
@@ -77,7 +87,7 @@
   }
   
   /* Style items (options): */
-  .select-items {
+  .select-items, .select-items-large {
     position: absolute;
     background-color:white;
     top: 100%;
@@ -101,6 +111,29 @@
     display: none;
   }
   
-  .select-items div:hover, .same-as-selected {
-    background-color: rgba(0, 0, 0, 0.1);
+  .select-items div:hover, .same-as-selected, .select-items-large div:hover {
+    background-color: rgba(250, 216, 216, 0.1);
   }
+
+  // connexion form
+  .select-selected-large {
+    padding: 7px 15px;
+    border-radius: 5px;
+    font-size:14px;
+    min-width: 120px;
+  }
+ 
+  .select-items-large div  {
+    color: black;
+    font-size:14px;
+    cursor: pointer;
+    min-width: 120px!important;
+    padding: 7px 15px;
+    background:#F5F5F5;
+    border:0px!important;
+    font-family: $sbold!important;
+    min-width: 120px!important;
+  }
+
+  
+  

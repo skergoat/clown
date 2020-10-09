@@ -104,6 +104,33 @@
     @include font-size(25px);
 }
 
+/* font class */
+
+// regular 
+.regular {
+    @include font-style($regular);
+}
+// light 
+.light {
+    @include font-style($light);
+}
+// x light 
+.lx-light {
+    @include font-style($x-light);
+}
+// black 
+.black {
+    @include font-style($black);
+}
+// semi bold 
+.sbold {
+    @include font-style($sbold);
+}
+// bold 
+.bold {
+    @include font-style($bold);
+}
+
 .icon-pink {
     color:$pink;
 }

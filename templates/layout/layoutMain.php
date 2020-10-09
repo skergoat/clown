@@ -24,7 +24,7 @@
                                 <li class="mr-2"><a href="#" class="link-black"><i class="icon-instagram"></i></a></li>
                             </ul>
                         </div>
-                        <div class="connection"><a class="font-weight-bold link-black bold" href="#"> Se connecter</a> ou <a class="link-black font-weight-bold bold" href="http://localhost:8888/templates/signin.php">S'inscrire</a></div>
+                        <div class="connection"><a class="font-weight-bold link-black bold" href="http://localhost:8888/templates/connexion.php"> Se connecter</a> ou <a class="link-black font-weight-bold bold" href="http://localhost:8888/templates/signin.php">S'inscrire</a></div>
                    </div>
                </div>
                <!-- menu -->

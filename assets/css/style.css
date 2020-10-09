@@ -9954,27 +9954,6 @@ h3 {
   color: #9D9D9D !important;
 }
 
-/* font class */
-.regular {
-  font-family: "nunito_sansregular", sans-serif !important;
-}
-
-.light {
-  font-family: "nunito_sanslight", sans-serif !important;
-}
-
-.lx-light {
-  font-family: "nunito_sansextralight", sans-serif !important;
-}
-
-.black {
-  font-family: "nunito_sansblack", sans-serif !important;
-}
-
-.bold {
-  font-family: "nunito_sansbold", sans-serif !important;
-}
-
 /* overflow */
 .overflow-hidden {
   overflow: "hidden" !important;
@@ -10543,6 +10522,14 @@ a:hover {
 }
 
 /** contact, inscription forms **/
+.form-control {
+  border: 1px solid #9D9D9D !important;
+}
+
+.form-large {
+  height: 40px;
+}
+
 .contact-form {
   max-width: 100% !important;
 }
@@ -10554,7 +10541,7 @@ a:hover {
 
 .form-control-1 {
   border: 0px !important;
-  border-bottom: 1px solid #ced4da !important;
+  border-bottom: 1px solid #9D9D9D !important;
   border-radius: 0px !important;
   padding: 0px 0px 10px 0px;
 }
@@ -10582,12 +10569,12 @@ a:hover {
   /*hide original SELECT element: */
 }
 
-.select-selected {
+.select-selected, .select-selected-large {
   background-color: white;
 }
 
 /* Style the arrow inside the select element: */
-.select-selected:after {
+.select-selected:after, .select-selected-large:after {
   position: absolute;
   content: "";
   top: 14px;
@@ -10599,13 +10586,13 @@ a:hover {
 }
 
 /* Point the arrow upwards when the select box is open (active): */
-.select-selected.select-arrow-active:after {
+.select-selected.select-arrow-active:after, .select-selected-large.select-arrow-active:after {
   border-color: transparent transparent black transparent;
   top: 7px;
 }
 
 /* style the items (options), including the selected item: */
-.select-selected {
+.select-selected, .select-selected-large {
   color: black;
   font-size: 13px;
   padding: 5px 10px;
@@ -10616,7 +10603,7 @@ a:hover {
 }
 
 /* Style items (options): */
-.select-items {
+.select-items, .select-items-large {
   position: absolute;
   background-color: white;
   top: 100%;
@@ -10640,8 +10627,27 @@ a:hover {
   display: none;
 }
 
-.select-items div:hover, .same-as-selected {
-  background-color: rgba(0, 0, 0, 0.1);
+.select-items div:hover, .same-as-selected, .select-items-large div:hover {
+  background-color: rgba(250, 216, 216, 0.1);
+}
+
+.select-selected-large {
+  padding: 7px 15px;
+  border-radius: 5px;
+  font-size: 14px;
+  min-width: 120px;
+}
+
+.select-items-large div {
+  color: black;
+  font-size: 14px;
+  cursor: pointer;
+  min-width: 120px !important;
+  padding: 7px 15px;
+  background: #F5F5F5;
+  border: 0px !important;
+  font-family: "nunito_sanssemibold" !important;
+  min-width: 120px !important;
 }
 
 /* Hide the browser's default radio button */
@@ -10802,6 +10808,31 @@ a:hover {
 
 .font-24 {
   font-size: 25px !important;
+}
+
+/* font class */
+.regular {
+  font-family: "nunito_sansregular", sans-serif !important;
+}
+
+.light {
+  font-family: "nunito_sanslight", sans-serif !important;
+}
+
+.lx-light {
+  font-family: "nunito_sansextralight", sans-serif !important;
+}
+
+.black {
+  font-family: "nunito_sansblack", sans-serif !important;
+}
+
+.sbold {
+  font-family: "nunito_sanssemibold", sans-serif !important;
+}
+
+.bold {
+  font-family: "nunito_sansbold", sans-serif !important;
 }
 
 .icon-pink {

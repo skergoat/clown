@@ -7,12 +7,12 @@ for (i = 0; i < l; i++) {
   ll = selElmnt.length;
   /* For each element, create a new DIV that will act as the selected item: */
   a = document.createElement("DIV");
-  a.setAttribute("class", "select-selected");
+  a.setAttribute("class", $class);
   a.innerHTML = selElmnt.options[selElmnt.selectedIndex].innerHTML;
   x[i].appendChild(a);
   /* For each element, create a new DIV that will contain the option list: */
   b = document.createElement("DIV");
-  b.setAttribute("class", "select-items select-hide");
+  b.setAttribute("class", $class2 + " select-hide");
   for (j = 1; j < ll; j++) {
     /* For each option in the original select element,
     create a new DIV that will act as an option item: */
@@ -57,8 +57,8 @@ function closeAllSelect(elmnt) {
   /* A function that will close all select boxes in the document,
   except the current select box: */
   var x, y, i, xl, yl, arrNo = [];
-  x = document.getElementsByClassName("select-items");
-  y = document.getElementsByClassName("select-selected");
+  x = document.getElementsByClassName($class2);
+  y = document.getElementsByClassName($class);
   xl = x.length;
   yl = y.length;
   for (i = 0; i < yl; i++) {

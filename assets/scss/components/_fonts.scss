@@ -47,3 +47,61 @@
     font-style: normal;
 }
 
+.font-10 {
+    @include font-size(10px);
+}
+
+.font-12 {
+    @include font-size(12px);
+}
+
+.font-13 {
+    @include font-size(13px);
+}
+
+.font-14 {
+    @include font-size(14px);
+}
+
+.font-15 {
+    @include font-size(15px);
+}
+
+.font-16 {
+    @include font-size(16px);
+}
+
+.font-20 {
+    @include font-size(20px);
+}
+
+.font-23 {
+    @include font-size(23px);
+}
+
+
+.font-24 {
+    @include font-size(25px);
+}
+
+.icon-pink {
+    color:$pink;
+}
+
+.icon-location:before, .icon-phone:before, .icon-mail:before {
+    margin:0px;
+}
+
+// line height 
+
+.lh-18 {
+    @include line-height(1.8);
+}
+
+.lh-19 {
+    @include line-height(1.9);
+}
+
+.lh-2 {
+    @include line-height(2);
+}

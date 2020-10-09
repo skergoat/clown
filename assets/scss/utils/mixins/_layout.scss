@@ -14,3 +14,7 @@
 @mixin border($size, $style, $color) {
     border: $size $style $color!important;
 }
+// border-radius
+@mixin border-radius($size) {
+    border-radius:$size!important;
+}

@@ -23,7 +23,17 @@
 .b-orange {
     @include border(2px, solid, orange);
 }
-
+// border orange bottom
+.border-bottom {
+    display:block;
+    padding:3px;
+    width:60px;
+    background: linear-gradient(to right, $border-bottom-1, $border-bottom-2);
+}
+// border radius 
+.border-radius-10 {
+    @include border-radius(10px);
+}
 
 /* animation */ 
 
@@ -69,3 +79,265 @@
     @include overflow("hidden");
 }
 
+/* spacing for mobile */
+
+@media all and (max-width:576px) {
+
+    /* overflow */
+    .overflow-hidden-xs {
+        @include overflow("hidden");
+    }
+    
+    /* paddign */
+
+    // general 
+    .p-xs-none {
+        @include padding-xs($m0);
+    }
+
+    .p-xs-1 {
+        @include padding-xs($m1);
+    }
+
+    .p-xs-2 {
+        @include padding-xs($m2);
+    }
+
+    .p-xs-3 {
+        @include padding-xs($m3);
+    }
+
+    .p-xs-4 {
+        @include padding-xs($m4);
+    }
+
+    .p-xs-5 {
+        @include padding-xs($m5);
+    }
+
+    // top 
+    .pt-xs-none {
+        @include padding-top-xs($m0);
+    }
+
+    .pt-xs-1 {
+        @include padding-top-xs($m1);
+    }
+
+    .pt-xs-2 {
+        @include padding-top-xs($m2);
+    }
+
+    .pt-xs-3 {
+        @include padding-top-xs($m3);
+    }
+
+    .pt-xs-4 {
+        @include padding-top-xs($m4);
+    }
+
+    .pt-xs-5 {
+        @include padding-top-xs($m5);
+    }
+
+    // bottom 
+    .pb-xs-none {
+        @include padding-bottom-xs($m0);
+    }
+
+    .pb-xs-1 {
+        @include padding-bottom-xs($m1);
+    }
+
+    .pb-xs-2 {
+        @include padding-bottom-xs($m2);
+    }
+
+    .pb-xs-3 {
+        @include padding-bottom-xs($m3);
+    }
+
+    .pb-xs-4 {
+        @include padding-bottom-xs($m4);
+    }
+
+    .pb-xs-5 {
+        @include padding-bottom-xs($m5);
+    }
+
+    // left 
+    .pl-xs-none {
+        @include padding-left-xs($m0);
+    }
+
+    .pl-xs-1 {
+        @include padding-left-xs($m1);
+    }
+
+    .pl-xs-2 {
+        @include padding-left-xs($m2);
+    }
+
+    .pl-xs-3 {
+        @include padding-left-xs($m3);
+    }
+
+    .pl-xs-4 {
+        @include padding-left-xs($m4);
+    }
+
+    .pl-xs-5 {
+        @include padding-left-xs($m5);
+    }
+
+    // right 
+    .pr-xs-none {
+        @include padding-right-xs($m0);
+    }
+
+    .pr-xs-1 {
+        @include padding-right-xs($m1);
+    }
+
+    .pr-xs-2 {
+        @include padding-right-xs($m2);
+    }
+
+    .pr-xs-3 {
+        @include padding-right-xs($m3);
+    }
+
+    .pr-xs-4 {
+        @include padding-right-xs($m4);
+    }
+
+    .pr-xs-5 {
+        @include padding-right-xs($m5);
+    }
+
+    /* margin */
+
+    .m-xs-none {
+        @include margin-xs ($m0);
+    }
+
+    .m-xs-1 {
+        @include margin-xs ($m1);
+    }
+
+    .m-xs-2 {
+        @include margin-xs ($m2);
+    }
+
+    .m-xs-3 {
+        @include margin-xs ($m3);
+    }
+
+    .m-xs-4 {
+        @include margin-xs ($m4);
+    }
+
+    .m-xs-5 {
+        @include margin-xs ($m5);
+    }
+
+    // top 
+    .mt-xs-none {
+        @include margin-top-xs ($m0);
+    }
+
+    .mt-xs-1 {
+        @include margin-top-xs ($m1);
+    }
+
+    .mt-xs-2 {
+        @include margin-top-xs ($m2);
+    }
+
+    .mt-xs-3 {
+        @include margin-top-xs ($m3);
+    }
+
+    .mt-xs-4 {
+        @include margin-top-xs ($m4);
+    }
+
+    .mt-xs-5 {
+        @include margin-top-xs ($m5);
+    }
+
+    // bottom 
+    .mb-xs-none {
+        @include margin-bottom-xs ($m0);
+    }
+
+    .mb-xs-1 {
+        @include margin-bottom-xs ($m1);
+    }
+
+    .mb-xs-2 {
+        @include margin-bottom-xs ($m2);
+    }
+
+    .mb-xs-3 {
+        @include margin-bottom-xs ($m3);
+    }
+
+    .mb-xs-4 {
+        @include margin-bottom-xs ($m4);
+    }
+
+    .mb-xs-5 {
+        @include margin-bottom-xs ($m5);
+    }
+
+    // left 
+    .ml-xs-none {
+        @include margin-left-xs ($m0);
+    }
+
+    .ml-xs-1 {
+        @include margin-left-xs ($m1);
+    }
+
+    .ml-xs-2 {
+        @include margin-left-xs ($m2);
+    }
+
+    .ml-xs-3 {
+        @include margin-left-xs ($m3);
+    }
+
+    .ml-xs-4 {
+        @include margin-left-xs ($m4);
+    }
+
+    .ml-xs-5 {
+        @include margin-left-xs ($m5);
+    }
+
+    // right 
+    .mr-xs-none {
+        @include margin-right-xs ($m0);
+    }
+
+    .mr-xs-1 {
+        @include margin-right-xs ($m1);
+    }
+
+    .mr-xs-2 {
+        @include margin-right-xs ($m2);
+    }
+
+    .mr-xs-3 {
+        @include margin-right-xs ($m3);
+    }
+
+    .mr-xs-4 {
+        @include margin-right-xs ($m4);
+    }
+
+    .mr-xs-5 {
+        @include margin-right-xs ($m5);
+    }
+}

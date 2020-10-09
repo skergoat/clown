@@ -1,0 +1,47 @@
+/* padding */
+
+// padding
+@mixin padding-xs($padding) {
+    padding: $padding!important;
+}
+
+// top 
+@mixin padding-top-xs($padding) {
+    padding-top: $padding!important;
+}
+// bottom
+@mixin padding-bottom-xs($padding) {
+    padding-bottom:  $padding!important;
+}
+
+// left 
+@mixin padding-left-xs($padding){
+    padding-left:  $padding!important;
+}
+
+// right 
+@mixin padding-right-xs($padding) {
+    padding-right: $padding!important;
+}
+
+/* margin */
+
+@mixin margin-xs ($margin) {
+    margin-top:($margin);
+}
+
+@mixin margin-top-xs ($margin) {
+    margin-top:($margin);
+}
+
+@mixin margin-bottom-xs ($margin) {
+    margin-bottom:($margin);
+}
+
+@mixin margin-left-xs ($margin) {
+    margin-left:($margin);
+}
+
+@mixin margin-right-xs ($margin) {
+    margin-right:($margin);
+}

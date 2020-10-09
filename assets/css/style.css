@@ -10530,6 +10530,15 @@ a:hover {
   height: 40px;
 }
 
+.was-validated .form-control:invalid, .form-control.is-invalid {
+  border: 2px solid #ff9127 !important;
+  padding-right: calc(1.5em + 0.75rem);
+  background-image: url();
+  background-repeat: no-repeat;
+  background-position: right calc(0.375em + 0.1875rem) center;
+  background-size: calc(0.75em + 0.375rem) calc(0.75em + 0.375rem);
+}
+
 .contact-form {
   max-width: 100% !important;
 }
@@ -10711,6 +10720,10 @@ a:hover {
   padding: 12px 45px 12px 45px;
   font-size: 14px;
   border: 0px solid transparent;
+}
+
+.button-orange-bis {
+  padding: 13px 40px 13px 40px;
 }
 
 .button-orange:hover {

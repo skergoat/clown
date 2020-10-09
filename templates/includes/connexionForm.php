@@ -1,4 +1,4 @@
-<div class="col-lg-6 pl-lg-4 mb-xs-none mb-sm-0 mb-lg-4 mb-lg-0 pl-xs-none pr-xs-none pr-sm-0 pr-lg-5 pb-xs-none pb-sm-0 pb-lg-3 pt-2">
+<div class="col-lg-6 pl-lg-4 mb-xs-none mb-sm-0 mb-lg-4 mb-lg-0 pl-xs-none pr-xs-none pr-sm-0 pr-lg-5 pt-2">
     <!-- title -->
     <h5 class="black pb-2">Coordonnées</h5>
     <span class="border-bottom-orange mb-4"></span>
@@ -47,7 +47,7 @@
         <!-- city -->
         <div class="form-group col-md-6">
             <label for="exampleInputPassword1" class="font-14 sbold">Ville</label>
-            <input type="text" class="form-control form-large font-13" id="address1" value="Paris">
+            <input type="text" class="form-control form-large font-13 is-invalid" id="address1" value="Paris">
         </div>
     </div>
     <!-- country -->
@@ -84,7 +84,7 @@
 
 <!-- submit -->
 <div class="form-submit mx-auto mb-3">
-    <button type="submit" class="btn button-orange black mt-4 font-15">Mettre à jour</button>
+    <button type="submit" class="btn button-orange black font-15">Mettre à jour</button>
 </div>
 
     

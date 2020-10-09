@@ -14,7 +14,7 @@
         </div>
         <div class="col-lg-4 mt-2 p-xs-none">
             <h5 class="black pb-2">Coordonnées</h5>
-            <span class="border-bottom mb-4"></span>
+            <span class="border-bottom-orange mb-4"></span>
             <div>
                 <div class="d-flex">
                     <div><i class="icon-location icon-pink font-20 pr-1"></i></div>

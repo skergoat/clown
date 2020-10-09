@@ -54,18 +54,22 @@
     <div class="form-group">
         <div class="form-check form-check-inline">
             <input class="form-check-input" type="radio" name="subject" id="subject1" value="renseignements" checked>
+            <span class="form-check-input checkmark"></span>
             <label class="form-check-label" for="exampleRadios1">Renseignements</label>
          </div>
         <div class="form-check form-check-inline">
             <input class="form-check-input" type="radio" name="subject" id="subject2" value="suggestions">
+            <span class="form-check-input checkmark"></span>
             <label class="form-check-label" for="exampleRadios1">Suggestions</label>
         </div>
         <div class="form-check form-check-inline">
             <input class="form-check-input" type="radio" name="subject" id="subject3" value="commerciales">
+            <span class="form-check-input checkmark"></span>
             <label class="form-check-label" for="exampleRadios1">Commerciales</label>
         </div>
         <div class="form-check form-check-inline">
             <input class="form-check-input" type="radio" name="subject" id="subject4" value="autres">
+            <span class="form-check-input checkmark"></span>
             <label class="form-check-label" for="exampleRadios1">Autres</label>
         </div>
     </div>

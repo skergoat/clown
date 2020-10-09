@@ -9,14 +9,8 @@
 <div class="content__product container-width mx-auto mt-4">
     <div class="row border-radius-10 m-0 p-xs-4 pb-sm-0 p-5">
         <div class="col-lg-8 pl-xs-none pr-xs-none pr-sm-0 pr-lg-5 mt-2 mb-xs-5 mb-sm-5 mb-lg-5">
-            <h5 class="black pb-2">Notre Boutique</h5>
-            <span class="border-bottom mb-4"></span>
-            <p class="font-13 lh-19 pr-sm-0 pr-xs-none pr-lg-5">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Phasellus hendrerit. Pellentesque aliquet nibh nec urna. In nisi neque, aliquet vel, dapibus id, mattis vel, nisi. Sed pretium, ligula sollicitudin laoreet viverra, tortor libero sodales leo, eget blandit nunc tortor eu nibh. Nullam mollis. Ut justo. Suspendisse potenti.</p>
-            <div class="pt-2">
-                <p class="font-13 black m-0 mb-1">Ouverture</p>
-                <p class="font-13 lh-18 m-0 mb-1">Lundi - Samedi</p>
-                <p class="font-13 lh-18 m-0 mb-1">09h30 - 19h00</p>
-            </div>
+            <!-- include content right -->
+            <?php include('includes/notreBoutique.php'); ?>
         </div>
         <div class="col-lg-4 mt-2 p-xs-none">
             <h5 class="black pb-2">Coordonnées</h5>
@@ -60,4 +54,4 @@
 <?php $script = ob_get_clean(); ?>
 
 <!-- include -->
-<?php require('layout-2.php'); ?>
+<?php require('layout/layoutSecond.php'); ?>

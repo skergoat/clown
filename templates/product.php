@@ -36,4 +36,4 @@ Phasellus et velit diam. Mauris non ante varius, ultricies magna a, feugiat dui.
 <?php $script = ob_get_clean(); ?>
 
 <!-- include -->
-<?php require('layout-2.php'); ?>
+<?php require('layout/layoutSecond.php'); ?>

@@ -10710,7 +10710,8 @@ input[type=number] {
   padding: 0;
   margin: 0;
   padding-left: 17px;
-  border: 1px solid #eee;
+  border: 1px solid #9d9d9d;
+  border-radius: 2px;
 }
 
 .quantity input:focus {
@@ -10746,7 +10747,7 @@ input[type=number] {
   position: absolute;
   height: 50%;
   top: 0;
-  border-bottom: 1px solid #eee;
+  border-bottom: 1px solid #9d9d9d;
 }
 
 .quantity-button.quantity-down {

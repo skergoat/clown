@@ -9966,6 +9966,15 @@ h3 {
 
 /* spacing for mobile */
 @media all and (max-width: 576px) {
+  /* text */
+  .line-height-xs {
+    line-height: 1.8em;
+  }
+
+  .align-left-xs {
+    text-align: left !important;
+  }
+
   /* overflow */
   .overflow-hidden-xs {
     overflow: "hidden" !important;

@@ -74,6 +74,19 @@
 
 @media all and (max-width:576px) {
 
+    /* text */
+
+    // line height 
+    .line-height-xs {
+        line-height:1.8em;
+    }
+
+    // align left
+    .align-left-xs {
+        text-align:left!important;
+    }
+
+
     /* overflow */
     .overflow-hidden-xs {
         @include overflow("hidden");

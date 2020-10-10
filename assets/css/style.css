@@ -10784,6 +10784,38 @@ a:hover {
   top: 3px;
 }
 
+.table th, .table td {
+  border-top: 0px !important;
+  border-bottom: 1px solid #9d9d9d !important;
+}
+
+.table th {
+  padding: 0px;
+  padding-bottom: 0.5rem;
+  font-size: 13px;
+}
+
+.table td {
+  padding: 0px;
+  padding-bottom: 1.4rem;
+  padding-top: 1.4rem;
+  font-size: 13px;
+}
+
+/* cart */
+.table-cart-top td:last-child {
+  padding: 0px;
+  color: #FF0999;
+}
+.table-cart-top td:last-child i {
+  position: relative;
+  top: 15px;
+}
+
+.table.table-cart-bottom th, .table.table-cart-bottom td {
+  border: 0px !important;
+}
+
 @font-face {
   font-family: "nunito_sansregular";
   src: url("../fonts/Nunito/nunitosans-regular-webfont.woff2") format("woff2"), url("../fonts/Nunito/nunitosans-regular-webfont.woff") format("woff");

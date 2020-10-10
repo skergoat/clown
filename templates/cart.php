@@ -45,32 +45,32 @@
                 </tr>
             </tbody>
         </table>
-        <div class="row justify-content-end b-red mt-4 ml-0 mr-0">
-            <div class="b-green col-lg-5">
+        <div class="row justify-content-end mt-4 ml-0 mr-0">
+            <div class="col-lg-5 p-0">
                 <table class="table table-cart-bottom">
                     <tbody>
                         <tr>
-                            <td>Sous-total :</td>
-                            <td>20,95€</td>
+                            <td class="black">Sous-total :</td>
+                            <td class="">20,95€</td>
                         </tr>
                         <tr>
-                            <td>Transport (France métropolitaine) :</td>
+                            <td class="black">Transport (France métropolitaine) :</td>
                             <td>7,94€</td>
                         </tr>
                         <tr>
-                            <td>Total :</td>
-                            <td>28,89€</td>
+                            <td class="black">Total :</td>
+                            <td class="bold icon-pink">28,89€</td>
                         </tr>
                     </tbody>
                 </table>
-                <div class="row mb-5 justify-content-end">
+                <div class="row mb-5 justify-content-end mr-0 ml-0">
                     <!-- submit -->
                     <div class="form-submit">
-                        <button type="submit" class="btn button-orange black mt-4">Envoyer</button>
+                        <button type="submit" class="btn button-orange btn-orange-outlined black">Mettre à jour</button>
                     </div>
                     <!-- submit -->
-                    <div class="form-submit">
-                        <button type="submit" class="btn button-orange black mt-4">Envoyer</button>
+                    <div class="form-submit ml-3">
+                        <button type="submit" class="btn button-orange btn-cart black">Valider</button>
                     </div>
                 </div>
             </div>

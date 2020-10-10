@@ -10754,15 +10754,36 @@ a:hover {
   border: 0px solid transparent;
 }
 
-.button-orange-bis {
-  padding: 13px 40px 13px 40px;
-}
-
 .button-orange:hover {
   color: #FD6044;
   background: white;
-  padding: 10px 43px 10px 43px;
-  border: 2px solid #FD6044;
+  padding: 11px 44px 11px 44px;
+  border: 1px solid #FF9127;
+  color: #FF9127;
+}
+
+.btn-orange-outlined {
+  background: white;
+  border: 1px solid #FF9127;
+  padding: 8px 36px 8px 36px;
+  font-size: 12px !important;
+  color: #FF9127;
+}
+
+.btn-orange-outlined:hover {
+  padding: 9px 37px 9px 37px;
+  background: linear-gradient(to right, #FD9644, #FD6044);
+  border: 0px solid transparent;
+  color: white;
+}
+
+.btn-cart {
+  font-size: 12px !important;
+  padding: 9px 37px 9px 37px;
+}
+
+.btn-cart:hover {
+  padding: 8px 36px 8px 36px;
 }
 
 /* payment page */
@@ -10814,6 +10835,12 @@ a:hover {
 
 .table.table-cart-bottom th, .table.table-cart-bottom td {
   border: 0px !important;
+  padding: 0px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+.table.table-cart-bottom th:last-child, .table.table-cart-bottom td:last-child {
+  text-align: right;
 }
 
 @font-face {

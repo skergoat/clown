@@ -10553,6 +10553,13 @@ a:hover {
   height: 40px;
 }
 
+input:active,
+input:focus,
+input:active,
+input:focus {
+  box-shadow: rgba(255, 145, 39, 0.25) 0px 0px 0px 0.2rem !important;
+}
+
 .was-validated .form-control:invalid, .form-control.is-invalid {
   border: 2px solid #ff9127 !important;
   padding-right: calc(1.5em + 0.75rem);
@@ -10564,7 +10571,6 @@ a:hover {
 
 .was-validated .form-control:invalid:focus, .form-control.is-invalid:focus {
   border: 2px solid #ff9127 !important;
-  box-shadow: rgba(255, 145, 39, 0.25) 0px 0px 0px 0.2rem !important;
 }
 
 .contact-form {
@@ -10818,6 +10824,13 @@ input[type=number] {
   top: 4px;
 }
 
+.btn:active,
+.btn:focus,
+.button-orange:active,
+.button-orange:focus {
+  box-shadow: rgba(255, 145, 39, 0.25) 0px 0px 0px 0.2rem !important;
+}
+
 .button-orange {
   background: linear-gradient(to right, #FD9644, #FD6044);
   color: white;
@@ -10931,6 +10944,10 @@ input[type=number] {
 .td-produit {
   padding-top: 13px !important;
   padding-bottom: 10px !important;
+}
+
+.modal-header {
+  border: 0px !important;
 }
 
 @font-face {
@@ -11116,6 +11133,10 @@ input[type=number] {
 nav, footer, section, div {
   background: white;
   text-align: justify;
+}
+
+div.modal.fade.show, div.modal-dialog.modal-lg {
+  background: transparent !important;
 }
 
 /*# sourceMappingURL=style.css.map */

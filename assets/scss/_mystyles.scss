@@ -8,3 +8,7 @@ nav, footer, section, div {
     background:white;
     text-align:justify;
 }
+
+div.modal.fade.show, div.modal-dialog.modal-lg {
+    background:transparent!important;
+}

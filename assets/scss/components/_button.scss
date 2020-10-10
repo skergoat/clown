@@ -1,3 +1,12 @@
+// active, focus
+.btn:active, 
+.btn:focus,
+.button-orange:active,
+.button-orange:focus
+{
+    box-shadow: rgba(255, 145, 39, 0.25) 0px 0px 0px 0.2rem !important;
+}
+
 .button-orange {
     background:linear-gradient(to right, $button-1, $button-2);
     color:white;

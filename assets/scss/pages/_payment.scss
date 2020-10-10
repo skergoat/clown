@@ -2,8 +2,13 @@
 .pay-choice {
     border-radius:13px;
     border:1px solid #9D9D9D;
+    & > div {
+        background:transparent!important;
+    }
 }
-// icon top 
-.icon-single {
-   max-height:20px;
+
+// payment choice active 
+.choice-selected {
+    border: 1px solid rgb(255, 145, 39) !important;
+    background:#FFF4EB!important;
 }

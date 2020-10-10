@@ -9959,6 +9959,11 @@ h3 {
   overflow: "hidden" !important;
 }
 
+/* mouse */
+.pointer {
+  cursor: pointer;
+}
+
 /* spacing for mobile */
 @media all and (max-width: 576px) {
   /* overflow */
@@ -10712,6 +10717,9 @@ a:hover {
 .form-check.form-check-inline input:checked ~ .checkmark:after {
   display: block;
 }
+.form-check.form-check-inline input:checked ~ .checkmark:after > .pay-choice {
+  display: none;
+}
 
 /* Style the indicator (dot/circle) */
 .form-check.form-check-inline .checkmark:after {
@@ -10721,6 +10729,11 @@ a:hover {
   height: 7px;
   border-radius: 50%;
   background: orange;
+}
+
+/* radio on payment page */
+.form-check.form-check-inline .form-check-input__pay.checkmark:after {
+  top: 4px;
 }
 
 .button-orange {
@@ -10928,9 +10941,13 @@ a:hover {
   border-radius: 13px;
   border: 1px solid #9D9D9D;
 }
+.pay-choice > div {
+  background: transparent !important;
+}
 
-.icon-single {
-  max-height: 20px;
+.choice-selected {
+  border: 1px solid #ff9127 !important;
+  background: #FFF4EB !important;
 }
 
 * {

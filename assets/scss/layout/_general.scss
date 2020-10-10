@@ -64,6 +64,12 @@
     @include overflow("hidden");
 }
 
+/* mouse */
+
+.pointer {
+    cursor:pointer;
+}
+
 /* spacing for mobile */
 
 @media all and (max-width:576px) {

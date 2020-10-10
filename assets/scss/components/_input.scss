@@ -42,6 +42,10 @@
   /* Show the indicator (dot/circle) when checked */
   .form-check.form-check-inline input:checked ~ .checkmark:after {
     display: block;
+
+    & > .pay-choice {
+      display:none;
+    }
   }
   
   /* Style the indicator (dot/circle) */
@@ -52,4 +56,9 @@
     height: 7px;
     border-radius: 50%;
     background: orange;
+  }
+
+  /* radio on payment page */
+  .form-check.form-check-inline .form-check-input__pay.checkmark:after {
+    top: 4px;
   }

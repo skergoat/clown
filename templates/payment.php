@@ -20,7 +20,7 @@
                 <div class="row mr-0 ml-0 mb-3">
                     <!-- credit card -->
                     <div class="col-lg-6 pl-0 pr-3">
-                        <div class="pay-choice p-4">
+                        <div class="pay-choice p-4 pointer choice-selected">
                             <img src="../assets/img/credit-card-icon.png" class="icon-single d-block mx-auto mb-3 mt-2" alt="logo lydia">
                             <p class="black text-center mb-1">Carte Bancaire (Lydia)</p>
                             <p class="light font-13 text-center">Paiement sécurisé</p>
@@ -30,15 +30,16 @@
                             </div>
                         </div>
                         <!-- radio -->
-                        <div class="form-check form-check-inline">
-                            <input class="form-check-input" type="radio" name="creditcard" id="creditcard" value="creditcard" checked>
-                            <span class="form-check-input checkmark"></span>
-                            <label class="form-check-label font-13" for="creditcard" style="color:#9D9D9D;">M.</label>
+                        <div class="mt-2 d-flex justify-content-center">
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="radio" name="payment" id="creditcard" value="creditcard" checked>
+                                <span class="form-check-input form-check-input__pay checkmark"></span>
+                            </div>
                         </div>
                     </div>
                     <!-- paypal -->
                     <div class="col-lg-6 pl-3 pr-0">
-                        <div class="pay-choice p-4">
+                        <div class="pay-choice p-4 pointer">
                             <img src="../assets/img/paypal-icon.png" class="icon-single d-block mx-auto mb-3 mt-2" alt="logo paypal">
                             <p class="black text-center mb-1">Paypal</p>
                             <p class="light font-13 text-center">Paiement sécurisé</p>
@@ -48,10 +49,11 @@
                             </div>
                         </div>
                         <!-- radio -->
-                        <div class="form-check form-check-inline">
-                            <input class="form-check-input" type="radio" name="paypal" id="paypal" value="paypal">
-                            <span class="form-check-input checkmark"></span>
-                            <label class="form-check-label font-13" for="paypal">Mme</label>
+                        <div class="mt-2 d-flex justify-content-center">
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="radio" name="payment" id="paypal" value="paypal">
+                                <span class="form-check-input form-check-input__pay checkmark"></span>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -59,7 +61,7 @@
                 <div class="row mr-0 ml-0 mt-3">
                     <!-- check -->
                     <div class="col-lg-6 pl-0 pr-3">
-                        <div class="pay-choice p-4">
+                        <div class="pay-choice p-4 pointer">
                             <img src="../assets/img/logo-check-icon.png" class="icon-single d-block mx-auto mb-3 mt-2" alt="logo check">
                             <p class="black text-center mb-1">Chèque</p>
                             <p class="light font-13 text-center">Paiement à la livraison</p>
@@ -69,10 +71,11 @@
                             </div>
                         </div>
                         <!-- radio -->
-                        <div class="form-check form-check-inline">
-                            <input class="form-check-input" type="radio" name="check" id="check" value="check">
-                            <span class="form-check-input checkmark"></span>
-                            <label class="form-check-label font-13" for="check">Mme</label>
+                        <div class="mt-2 d-flex justify-content-center">
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="radio" name="payment" id="check" value="check">
+                                <span class="form-check-input form-check-input__pay checkmark"></span>
+                            </div>
                         </div>
                     </div>
                 </div>

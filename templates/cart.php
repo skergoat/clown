@@ -16,40 +16,40 @@
                     <th scope="col">Couleur</th>
                     <th scope="col">Quantité</th>
                     <th scope="col">Prix TTC</th>
-                    <th scope="col">Prix total TTC</th>
-                    <th scope="col">Supprimer</th>
+                    <th scope="col width-100">Prix total TTC</th>
+                    <th scope="col width-100">Supprimer</th>
                 </tr>
             </thead>
             <tbody>
                 <tr>
                     <td class="light-grey">78</td>
-                    <td>Mark</td>
-                    <td>XL</td>
+                    <td class="bold"><img src="../assets/img/collant.png" class="mr-2"/>Collant sorcière enfant</td>
+                    <td class="bold">XL</td>
                     <td>Rouge</td>
                     <td>Otto</td>
                     <td class="light-grey">8,50€</td>
-                    <td class="bold">8,50€</td>
-                    <td><i class="icon-trash font-23 pointer" title='supprimer'></i></td>
+                    <td class="bold width-100">8,50€</td>
+                    <td><i class="icon-trash font-23 pointer width-100" title='supprimer'></i></td>
                 </tr>
                 <tr>
                     <td class="light-grey">78</td>
-                    <td>Jacob</td>
-                    <td>L</td>
+                    <td class="bold"><img src="../assets/img/noeud.png" class="mr-2"/>Nœud papillon France</td>
+                    <td class="bold">L</td>
                     <td>Verte</td>
                     <td>Thornton</td>
                     <td class="light-grey">3,95€</td>
-                    <td class="bold">3,95€</td>
-                    <td><i class="icon-trash font-23 pointer" title='supprimer'></i></td>
+                    <td class="bold width-100">3,95€</td>
+                    <td><i class="icon-trash font-23 pointer width-100" title='supprimer'></i></td>
                 </tr>
                 <tr>
                     <td class="light-grey">78</td>
-                    <td>Larry</td>
-                    <td>XL</td>
+                    <td class="bold"><img src="../assets/img/ailes.png" class="mr-2"/>Ailes d’ange en plumes blanches</td>
+                    <td class="bold">XL</td>
                     <td>Rouge</td>
                     <td>the Bird</td>
                     <td class="light-grey">8,50€</td>
-                    <td class="bold">8,50€</td>
-                    <td><i class="icon-trash font-23 pointer" title='supprimer'></i></td>
+                    <td class="bold width-100">8,50€</td>
+                    <td><i class="icon-trash font-23 pointer width-100" title='supprimer'></i></td>
                 </tr>
             </tbody>
         </table>

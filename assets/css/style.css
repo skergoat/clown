@@ -10832,6 +10832,9 @@ a:hover {
   position: relative;
   top: 15px;
 }
+.table-cart-top td img {
+  max-width: 50px;
+}
 
 .table.table-cart-bottom th, .table.table-cart-bottom td {
   border: 0px !important;
@@ -10841,6 +10844,10 @@ a:hover {
 }
 .table.table-cart-bottom th:last-child, .table.table-cart-bottom td:last-child {
   text-align: right;
+}
+
+.width-100 {
+  width: 100px !important;
 }
 
 @font-face {

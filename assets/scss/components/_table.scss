@@ -28,6 +28,10 @@
             top:15px;
         }
     }
+
+    & img {
+        max-width:50px;
+    }
 }
 
 .table.table-cart-bottom th, .table.table-cart-bottom td  {
@@ -39,4 +43,8 @@
     &:last-child {
         text-align:right;
     }
+}
+
+.width-100 {
+    width:100px!important;
 }

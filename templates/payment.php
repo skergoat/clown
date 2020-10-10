@@ -8,7 +8,7 @@
 <div class="content__product container-width mx-auto">
     <!-- contact form -->
     <div class="row border-radius-10 m-0 pt-5 pr-xs-3 pr-sm-5 pl-xs-3 pl-sm-5 pb-5 pl-3 signin">
-        <div class="col-lg-12 pl-0 mb-xs-none mb-sm-0 mb-lg-4 mb-lg-0 pl-xs-none pr-xs-none pr-0 pr-0 pt-2">
+        <div class="col-lg-12 pl-0 mb-xs-none mb-sm-0 mb-lg-3 mb-lg-0 pl-xs-none pr-xs-none pr-0 pr-0 pt-2">
             <!-- title -->
             <h5 class="black pb-2">Choisissez votre mode de paiement !</h5>
             <span class="border-bottom-orange mb-4"></span>
@@ -50,6 +50,11 @@
                             </div>
                         </div>
                     </div>
+                </div>
+                <p class="font-14 light pt-4">En validant la commande, vous acceptez les <span class="bold">Conditions Générales de Vente</span>.</p>
+                <!-- submit -->
+                <div class="form-submit mt-4">
+                    <button type="submit" class="btn button-orange black font-15">Régler ma commande</button>
                 </div>
             </form>
         </div>

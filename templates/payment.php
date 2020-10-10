@@ -15,38 +15,38 @@
             <p class="font-14 light">Le montant de votre commande s’élève à <span class="strong-pink bold">28,89€</span>. Vous pouvez la régler en toute sécurité, en utilisant votre carte bancaire ou PayPal.</p>
             <form class="mt-5">
                 <div class="row mr-0 ml-0 mb-3">
-                    <div class="col-lg-6 pl-0 pr-2">
+                    <div class="col-lg-6 pl-0 pr-3">
                         <div class="pay-choice p-4">
-                            <img src="../assets/img/credit-card-icon.png" class="icon-single d-block mx-auto mb-3" alt="logo lydia">
+                            <img src="../assets/img/credit-card-icon.png" class="icon-single d-block mx-auto mb-3 mt-2" alt="logo lydia">
                             <p class="black text-center mb-1">Carte Bancaire (Lydia)</p>
                             <p class="light font-13 text-center">Paiement sécurisé</p>
                             <div class="d-flex justify-content-center">
                                 <img src="../assets/img/logo-lydia-single.png" class="know-more-icon logo-single" alt="logo lydia">
-                                <p class="light font-13 ml-4 mb-0"><a href="#" class="link-black">En savoir plus sur Lydia</a></p>
+                                <p class="light font-13 ml-4 mb-1"><a href="#" class="link-black">En savoir plus sur Lydia</a></p>
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-6 pl-2 pr-0">
+                    <div class="col-lg-6 pl-3 pr-0">
                         <div class="pay-choice p-4">
-                            <img src="../assets/img/paypal-icon.png" class="icon-single d-block mx-auto mb-3" alt="logo paypal">
+                            <img src="../assets/img/paypal-icon.png" class="icon-single d-block mx-auto mb-3 mt-2" alt="logo paypal">
                             <p class="black text-center mb-1">Paypal</p>
                             <p class="light font-13 text-center">Paiement sécurisé</p>
                             <div class="d-flex justify-content-center">
                                 <img src="../assets/img/logo-paypal-single.png" class="know-more-icon logo-single" alt="logo lydia">
-                                <p class="light font-13 ml-4 mb-0"><a href="#" class="link-black">En savoir plus sur Paypal</a></p>
+                                <p class="light font-13 ml-4 mb-1"><a href="#" class="link-black">En savoir plus sur Paypal</a></p>
                             </div>
                         </div>
                     </div>
                 </div>
                 <div class="row mr-0 ml-0 mt-3">
-                    <div class="col-lg-6 pl-0 pr-2">
+                    <div class="col-lg-6 pl-0 pr-3">
                         <div class="pay-choice p-4">
-                            <img src="../assets/img/logo-check-icon.png" class="icon-single d-block mx-auto mb-3" alt="logo check">
+                            <img src="../assets/img/logo-check-icon.png" class="icon-single d-block mx-auto mb-3 mt-2" alt="logo check">
                             <p class="black text-center mb-1">Chèque</p>
                             <p class="light font-13 text-center">Paiement à la livraison</p>
                             <div class="d-flex justify-content-center">
                                 <img src="../assets/img/logo-check-single.png" class="know-more-icon logo-check-single" alt="logo lydia">
-                                <p class="light font-13 ml-4 mb-0"><a href="#" class="link-black">En savoir plus sur le paiement par chèque</a></p>
+                                <p class="light font-13 ml-4 mb-1"><a href="#" class="link-black">En savoir plus sur le paiement par chèque</a></p>
                             </div>
                         </div>
                     </div>

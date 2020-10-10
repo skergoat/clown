@@ -207,6 +207,7 @@
         <script src="../assets/js/menu-responsive.js"></script>
         <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
         <script src="../assets/js/parallax.js"></script>
+        <script src="../assets/js/quantity-field.js"></script>
         <?= $script ?>
         <script>
             // active link 

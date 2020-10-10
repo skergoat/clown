@@ -6,11 +6,11 @@
 <!-- primary content  -->
 <?php ob_start(); ?>
 <div class="content__product container-width mx-auto mt-2">
-    <div class="border-radius-10 m-0 p-xs-4 pb-sm-0 p-4">
+    <div class="overflow-scroll border-radius-10 m-0 p-xs-4 pb-sm-0 p-4">
         <table class="table table-cart-top mt-3">
             <thead>
                 <tr>
-                    <th scope="col">Reference</th>
+                    <th scope="col">Référence</th>
                     <th scope="col">Article</th>
                     <th scope="col">Taille</th>
                     <th scope="col">Couleur</th>
@@ -23,30 +23,42 @@
             <tbody>
                 <tr>
                     <td class="light-grey">78</td>
-                    <td class="bold"><img src="../assets/img/collant.png" class="mr-2"/>Collant sorcière enfant</td>
+                    <td class="bold td-produit"><img src="../assets/img/collant.png" class="mr-2"/>Collant sorcière enfant</td>
                     <td class="bold">XL</td>
                     <td>Rouge</td>
-                    <td>Otto</td>
+                    <td class="td-produit">
+                        <div class="quantity">
+                            <input type="number" min="1" max="9" step="1" value="1">
+                        </div>
+                    </td>
                     <td class="light-grey">8,50€</td>
                     <td class="bold width-100">8,50€</td>
                     <td><i class="icon-trash font-23 pointer width-100" title='supprimer'></i></td>
                 </tr>
                 <tr>
                     <td class="light-grey">78</td>
-                    <td class="bold"><img src="../assets/img/noeud.png" class="mr-2"/>Nœud papillon France</td>
+                    <td class="bold td-produit"><img src="../assets/img/noeud.png" class="mr-2"/>Nœud papillon France</td>
                     <td class="bold">L</td>
                     <td>Verte</td>
-                    <td>Thornton</td>
+                    <td class="td-produit">
+                        <div class="quantity">
+                            <input type="number" min="1" max="9" step="1" value="1">
+                        </div>
+                    </td>
                     <td class="light-grey">3,95€</td>
                     <td class="bold width-100">3,95€</td>
                     <td><i class="icon-trash font-23 pointer width-100" title='supprimer'></i></td>
                 </tr>
                 <tr>
                     <td class="light-grey">78</td>
-                    <td class="bold"><img src="../assets/img/ailes.png" class="mr-2"/>Ailes d’ange en plumes blanches</td>
+                    <td class="bold td-produit"><img src="../assets/img/ailes.png" class="mr-2"/>Ailes d’ange en plumes blanches</td>
                     <td class="bold">XL</td>
                     <td>Rouge</td>
-                    <td>the Bird</td>
+                    <td class="td-produit">
+                        <div class="quantity">
+                            <input type="number" min="1" max="9" step="1" value="1">
+                        </div>
+                    </td>
                     <td class="light-grey">8,50€</td>
                     <td class="bold width-100">8,50€</td>
                     <td><i class="icon-trash font-23 pointer width-100" title='supprimer'></i></td>

@@ -7,19 +7,23 @@
     padding:0px;
     padding-bottom:0.50rem;
     font-size:13px;
+    font-family:$bold;
 }
 
 .table td {
     padding:0px;
-    padding-bottom:1.4rem;
-    padding-top:1.4rem;
+    padding-bottom:1.5rem;
+    padding-top:1.5rem;
     font-size:13px;
 }
 
 /* cart */
+.table-cart-top {
+    min-width:1030px!important;
+}
 
 .table-cart-top td {
-
+    
     &:last-child {
         padding:0px;
         color:$pink;
@@ -47,4 +51,9 @@
 
 .width-100 {
     width:100px!important;
+}
+
+.td-produit {
+    padding-top:13px!important;
+    padding-bottom:10px!important;
 }

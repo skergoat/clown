@@ -61,7 +61,11 @@
 
 /* overflow */
 .overflow-hidden {
-    @include overflow("hidden");
+    @include overflow(hidden);
+}
+
+.overflow-scroll {
+    @include overflow(scroll);
 }
 
 /* mouse */

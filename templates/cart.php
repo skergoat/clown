@@ -132,7 +132,7 @@
                                                     <label for="exampleInputPassword1" class="font-14 sbold">Mot de passe</label>
                                                     <input type="password" class="form-control form-large font-13" id="address2">
                                                     <div class="pull-left mt-2" style="background:transparent;">
-                                                        <span class="font-13"><a href="#">Mot de passe oublié ?</a></span>
+                                                        <span class="font-13"><a href="#" style="color:#FD6044;">Mot de passe oublié ?</a></span>
                                                     </div>
                                                 </div>
                                                 <div class="form-submit mt-4" style="background:transparent;">

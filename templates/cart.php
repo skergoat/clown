@@ -12,7 +12,9 @@
                 <tr>
                     <th scope="col">Reference</th>
                     <th scope="col">Article</th>
-                    <th scope="col">Quantite</th>
+                    <th scope="col">Taille</th>
+                    <th scope="col">Couleur</th>
+                    <th scope="col">Quantité</th>
                     <th scope="col">Prix TTC</th>
                     <th scope="col">Prix total TTC</th>
                     <th scope="col">Supprimer</th>
@@ -22,6 +24,8 @@
                 <tr>
                     <td class="light-grey">78</td>
                     <td>Mark</td>
+                    <td>XL</td>
+                    <td>Rouge</td>
                     <td>Otto</td>
                     <td class="light-grey">8,50€</td>
                     <td class="bold">8,50€</td>
@@ -30,6 +34,8 @@
                 <tr>
                     <td class="light-grey">78</td>
                     <td>Jacob</td>
+                    <td>L</td>
+                    <td>Verte</td>
                     <td>Thornton</td>
                     <td class="light-grey">3,95€</td>
                     <td class="bold">3,95€</td>
@@ -38,6 +44,8 @@
                 <tr>
                     <td class="light-grey">78</td>
                     <td>Larry</td>
+                    <td>XL</td>
+                    <td>Rouge</td>
                     <td>the Bird</td>
                     <td class="light-grey">8,50€</td>
                     <td class="bold">8,50€</td>

@@ -8,7 +8,7 @@
         <link rel="stylesheet" href="../assets/fonts/fontello/css/fontello.css">
         <!-- stylesheet -->
         <link rel="stylesheet" href="../assets/css/style.css">
-        <?php $libraries ?>
+        <?php $stylesheet ?>
     </head>
     <body>
         <!-- header -->

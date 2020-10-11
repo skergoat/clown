@@ -179,38 +179,36 @@
             </div>
         </div>
     </div>
-    <div class="shipping-find mt-5">
+    <div class="shipping-find mt-4">
         <div class="shipping-title row p-2 m-0 d-flex justify-content-center">
-            <h5 class="black font-16 m-0">Sélectionnez votre Point Relais® Mondial Relay.</h5>
+            <h5 class="black font-17 m-0">Sélectionnez votre Point Relais® Mondial Relay.</h5>
         </div>
         <div class="shipping-content p-4">
-            <div class="row p-0 m-0">
+            <div class="row p-0 pr-4 m-0">
                 <!-- <form> -->
-                <div>
-                    <div class="form-row align-items-center">
-                        <div class="col-auto">
-                            <label class="sr-only" for="inlineFormInput">Name</label>
-                            <input type="text" class="form-control mb-2" id="inlineFormInput" placeholder="Jane Doe">
+                <div class="w-100">
+                    <div class="form-row align-items-center d-flex justify-content-between">
+                        <img src="../assets/img/big-logo-point-relais.png" alt="logo point relais" class="mr-3" id="big-logo-relais">
+                        <div class="d-flex align-items-center mr-3">
+                            <label for="cityname" class="bold font-14 pr-3 mb-0">Ville</label>
+                            <input type="text" class="search form-control w-100 mb-0 font-12" id="cityname" value="Paris">
+                        </div>
+                        <div class="d-flex align-items-center">
+                        <label for="zipcode" class="bold font-14 pr-3 mb-0">CP</label>
+                            <input type="text" class="search form-control mb-0 font-12" id="zipcode" value="75001">
                         </div>
                         <div class="col-auto">
-                        <label class="sr-only" for="inlineFormInputGroup">Username</label>
-                        <div class="input-group mb-2">
-                            <div class="input-group-prepend">
-                            <div class="input-group-text">@</div>
+                            <div class="form-check mb-0">
+                                <img src="../assets/img/flag_fr.png" alt="logo point relais" id="flag">
                             </div>
-                            <input type="text" class="form-control" id="inlineFormInputGroup" placeholder="Username">
-                        </div>
                         </div>
                         <div class="col-auto">
-                        <div class="form-check mb-2">
-                            <input class="form-check-input" type="checkbox" id="autoSizingCheck">
-                            <label class="form-check-label" for="autoSizingCheck">
-                            Remember me
-                            </label>
-                        </div>
+                            <button type="submit" class="btn button-orange btn-summary black">Chercher</button>
                         </div>
                         <div class="col-auto">
-                        <button type="submit" class="btn btn-primary mb-2">Submit</button>
+                            <div class="form-check mb-0">
+                                <img src="../assets/img/target.png" alt="logo point relais" id="logo-target">
+                            </div>
                         </div>
                     </div>
                 </div>

@@ -70,3 +70,13 @@
         padding:9px 19px 9px 19px!important;
     }
 }
+
+// summary 
+
+.btn-summary {
+    padding:8px 45px 8px 45px;
+    &:hover {
+        cursor:pointer!important;
+        padding:7px 44px 7px 44px;
+    }
+}

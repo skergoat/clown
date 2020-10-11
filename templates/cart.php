@@ -127,11 +127,11 @@
                                         <!-- left -->
                                         <div class="col-xs-12 col-lg-6 pl-5 pr-5 modal-left">
                                             <h5 class="font-18 bold mb-3 text-center">Se Connecter</h5>
-                                            <form>
+                                            <form action="#" method="post">
                                                 <!-- login -->
                                                 <div class="form-group">
                                                     <label for="exampleInputPassword1" class="font-14 sbold">Identifiant</label>
-                                                    <input type="text" class="form-control form-large font-13" id="address2">
+                                                    <input type="text" class="form-control form-large font-13 is-invalid" name="login" id="address2">
                                                     <!-- error message -->
                                                     <div class="invalid-feedback">
                                                         identifiant invalide
@@ -140,7 +140,7 @@
                                                 <!-- mdp -->
                                                 <div class="form-group">
                                                     <label for="exampleInputPassword1" class="font-14 sbold">Mot de passe</label>
-                                                    <input type="password" class="form-control form-large font-13 is-invalid" id="address2">
+                                                    <input type="password" class="form-control form-large font-13" name="password" id="address2">
                                                     <!-- error message -->
                                                     <div class="invalid-feedback">
                                                         Mot de passe invalide
@@ -151,13 +151,18 @@
                                                 </div>
                                                 <!-- submit -->
                                                 <div class="form-submit mt-4">
-                                                    <button type="submit" class="btn button-orange btn-white-outlined black" id="button-modal" data-toggle="modal" data-target="#validate">Connexion</button>
+                                                    <!-- btn de demonstration -->
+                                                    <a href="http://localhost:8888/templates/account.php" class="btn button-orange btn-white-outlined black" id="button-modal-2">Connexion</a> 
+                                                    <!-- btn definitif -->
+                                                    <!-- <button type="submit" class="btn button-orange btn-white-outlined black" id="button-modal" data-toggle="modal" data-target="#validate">Connexion</button> -->
                                                 </div>
                                             </form>
+                                            <h5 class="font-18 bold mb-3 mt-4 text-center">Ou</h5>
+                                            <div class="no-connect mt-3"><a href="http://localhost:8888/templates/account.php" class="bold font-17">Créer un compte</a></div>
                                         </div>
                                         <!-- right -->
-                                        <div class="col-md-12 col-lg-6 d-flex align-items-center modal-right pb-4">
-                                            <div class="no-connect"><a href="#" class="bold">Continuer sans créer de compte <span class='ml-2 black chevron'>></span></a></div>
+                                        <div class="col-md-12 col-lg-6 d-flex flex-column justify-content-center modal-right pb-4">
+                                            <div class="no-connect mt-4"><a href="#" class="bold font-17">Continuer sans créer de compte <span class='ml-2 black chevron'>></span></a></div>
                                         </div>
                                     </div>         
                                 </div>
@@ -192,3 +197,4 @@
 
 <!-- include -->
 <?php require('layout/layoutSecond.php'); ?>
+

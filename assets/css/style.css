@@ -10908,6 +10908,10 @@ input[type=number] {
   padding: 8px 36px 8px 36px;
 }
 
+#button-modal-2 {
+  padding: 10px 20px 10px 20px !important;
+}
+
 /* payment page */
 .icon-single {
   max-height: 20px;
@@ -11024,8 +11028,8 @@ input[type=number] {
 }
 @media (min-width: 992px) {
   .modal-left {
-    padding-bottom: 120px !important;
-    padding-top: 90px !important;
+    padding-bottom: 50px !important;
+    padding-top: 20px !important;
   }
 }
 .modal-left .form-group, .modal-left .pull-left, .modal-left .form-submit {
@@ -11044,7 +11048,7 @@ input[type=number] {
 @media (min-width: 992px) {
   .modal-right {
     padding-bottom: 120px !important;
-    padding-top: 90px !important;
+    padding-top: 50px !important;
   }
 }
 .modal .no-connect {

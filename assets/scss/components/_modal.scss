@@ -36,8 +36,8 @@
             padding-top:50px!important;
         }
         @include media-breakpoint-up(lg) { 
-            padding-bottom:120px!important;
-            padding-top:90px!important;
+            padding-bottom:50px!important;
+            padding-top:20px!important;
         }
 
         & .form-group, & .pull-left, & .form-submit {
@@ -56,7 +56,7 @@
         }
         @include media-breakpoint-up(lg) { 
             padding-bottom:120px!important;
-            padding-top:90px!important;
+            padding-top:50px!important;
         }
     }
 

@@ -112,7 +112,10 @@
 
 <!-- submit -->
 <div class="form-submit mx-auto mb-3">
-    <button type="submit" class="btn button-orange black mt-4">S'inscrire</button>
+    <!-- btn de demonstration -->
+    <a href="http://localhost:8888/templates/account.php" class="btn button-orange btn-white-outlined black" id="button-modal">Connexion</a> 
+    <!-- btn definitif -->
+    <!-- <button type="submit" class="btn button-orange btn-white-outlined black" id="button-modal" data-toggle="modal" data-target="#validate">Connexion</button> -->
 </div>
 
 

@@ -133,7 +133,9 @@
                                                     <label for="exampleInputPassword1" class="font-14 sbold">Identifiant</label>
                                                     <input type="text" class="form-control form-large font-13" id="address2">
                                                     <!-- error message -->
-                                                    <div class="invalid-feedback"></div>
+                                                    <div class="invalid-feedback">
+                                                        identifiant invalide
+                                                    </div>
                                                 </div>
                                                 <!-- mdp -->
                                                 <div class="form-group">

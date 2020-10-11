@@ -10580,6 +10580,10 @@ input:focus {
   border: 2px solid #ff9127 !important;
 }
 
+.invalid-feedback {
+  color: #FD6044 !important;
+}
+
 .contact-form {
   max-width: 100% !important;
 }
@@ -10594,6 +10598,10 @@ input:focus {
   border-bottom: 1px solid #9D9D9D !important;
   border-radius: 0px !important;
   padding: 0px 0px 10px 0px;
+}
+.form-control-1.is-invalid {
+  border: 0px !important;
+  border-bottom: 1px solid #ff9127 !important;
 }
 
 .form-check label {
@@ -10966,6 +10974,14 @@ input[type=number] {
 }
 .modal-header div:first-child {
   width: 100%;
+}
+.modal-header .close {
+  padding: 0px !important;
+  margin: 0px !important;
+}
+.modal-header .close:active {
+  border: 0px !important;
+  box-shadow: 0px !important;
 }
 .modal-content {
   background: url("../img/background.jpg");

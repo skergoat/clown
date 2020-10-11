@@ -7,6 +7,14 @@
         & div:first-child {
             width:100%;
         }
+        & .close {
+            padding:0px!important;
+            margin:0px!important;
+            &:active {
+                border:0px!important;
+                box-shadow:0px!important;
+            }
+        }
     }
     /* content */
     &-content {
@@ -39,6 +47,8 @@
         }
     }
 }
+
+
 
 
 

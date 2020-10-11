@@ -28,26 +28,50 @@
             <span class="form-check-input checkmark"></span>
             <label class="form-check-label font-13" for="exampleRadios1">Autre</label>
         </div>
+        <!-- error message -->
+        <div class="invalid-feedback">
+            Champ requis svp
+        </div>
     </div>
     <!-- lastname -->
     <div class="form-group">
-        <input type="text" class="form-control form-control-1 mt-4 font-13" id="lastname" aria-describedby="lastname" value="Nom" required>
+        <input type="text" class="form-control form-control-1 is-invalid mt-4 font-13" id="lastname" aria-describedby="lastname" value="Nom" required>
+        <!-- error message -->
+        <div class="invalid-feedback">
+            Entrez un nom valide svp
+        </div>
     </div>
     <!-- firstname -->
     <div class="form-group">
         <input type="text" class="form-control form-control-1 mt-4 font-13" id="firstname" aria-describedby="firstname" value="Prénom" required>
+        <!-- error message -->
+        <div class="invalid-feedback">
+            Entrez un nom valide svp
+        </div>
     </div>
     <!-- city  -->
     <div class="form-group">
         <input type="text" class="form-control form-control-1 mt-4 font-13" id="city" aria-describedby="city" value="Ville" required>
+         <!-- error message -->
+         <div class="invalid-feedback">
+            Entrez une ville valide svp
+        </div>
     </div>
     <!-- mail -->
     <div class="form-group">
         <input type="text" class="form-control form-control-1 mt-4 font-13" id="country" aria-describedby="country" value="Pays" required>
+        <!-- error message -->
+        <div class="invalid-feedback">
+            Entrez un pays valide svp
+        </div>
     </div>
     <!-- firstname -->
     <div class="form-group mb-4">
         <input type="email" class="form-control form-control-1 mt-4 font-13" id="mail" aria-describedby="email" value="E-mail" required>
+        <!-- error message -->
+        <div class="invalid-feedback">
+            Entrez un mail valide svp
+        </div>
     </div>
     <!-- subject -->
     <label for="subject" class="mb-2 mt-2 pb-xs-2 font-13">Sujet</label>
@@ -72,10 +96,18 @@
             <span class="form-check-input checkmark"></span>
             <label class="form-check-label font-13" for="exampleRadios1">Autres</label>
         </div>
+        <!-- error message -->
+        <div class="invalid-feedback">
+            Champ requis svp
+        </div>
     </div>
     <!-- message -->
     <div class="form-group mt-4 pt-1">
         <textarea class="form-control form-control-1 font-13" id="message" rows="4">Message</textarea>
+        <!-- error message -->
+        <div class="invalid-feedback">
+            Champ requis svp
+        </div>
     </div>
     <!-- submit -->
     <div class="form-submit">

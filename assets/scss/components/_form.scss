@@ -36,7 +36,10 @@ input:focus
 
 .was-validated .form-control:invalid:focus, .form-control.is-invalid:focus {
   border: 2px solid rgb(255, 145, 39) !important;
-  // box-shadow: rgba(255, 145, 39, 0.25) 0px 0px 0px 0.2rem !important;
+}
+
+.invalid-feedback {
+  color:$button-2!important;
 }
 
 // max width 
@@ -54,6 +57,11 @@ input:focus
     border-bottom:1px solid #9D9D9D!important;
     border-radius:0px!important;
     padding: 0px 0px 10px 0px;
+
+    &.is-invalid {
+      border:0px!important;
+      border-bottom:1px solid rgb(255, 145, 39) !important;
+    }
 }
 // checkbox label
 .form-check label{

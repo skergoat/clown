@@ -1,4 +1,3 @@
-
 <!-- formulaire -->
 <div class="col-lg-6 pl-lg-4 mb-xs-none mb-sm-0 mb-lg-4 mb-lg-0 pl-xs-none pr-xs-none pr-sm-0 pr-lg-5 pt-2">
     <!-- title -->
@@ -210,34 +209,36 @@
         </div>
         <div class="shipping-content p-4">
             <div class="row p-0 m-0">
-            <form>
-                <div class="form-row align-items-center">
-                    <div class="col-auto">
-                        <label class="sr-only" for="inlineFormInput">Name</label>
-                        <input type="text" class="form-control mb-2" id="inlineFormInput" placeholder="Jane Doe">
-                    </div>
-                    <div class="col-auto">
-                    <label class="sr-only" for="inlineFormInputGroup">Username</label>
-                    <div class="input-group mb-2">
-                        <div class="input-group-prepend">
-                        <div class="input-group-text">@</div>
+                <!-- <form> -->
+                <div>
+                    <div class="form-row align-items-center">
+                        <div class="col-auto">
+                            <label class="sr-only" for="inlineFormInput">Name</label>
+                            <input type="text" class="form-control mb-2" id="inlineFormInput" placeholder="Jane Doe">
                         </div>
-                        <input type="text" class="form-control" id="inlineFormInputGroup" placeholder="Username">
-                    </div>
-                    </div>
-                    <div class="col-auto">
-                    <div class="form-check mb-2">
-                        <input class="form-check-input" type="checkbox" id="autoSizingCheck">
-                        <label class="form-check-label" for="autoSizingCheck">
-                        Remember me
-                        </label>
-                    </div>
-                    </div>
-                    <div class="col-auto">
-                    <button type="submit" class="btn btn-primary mb-2">Submit</button>
+                        <div class="col-auto">
+                        <label class="sr-only" for="inlineFormInputGroup">Username</label>
+                        <div class="input-group mb-2">
+                            <div class="input-group-prepend">
+                            <div class="input-group-text">@</div>
+                            </div>
+                            <input type="text" class="form-control" id="inlineFormInputGroup" placeholder="Username">
+                        </div>
+                        </div>
+                        <div class="col-auto">
+                        <div class="form-check mb-2">
+                            <input class="form-check-input" type="checkbox" id="autoSizingCheck">
+                            <label class="form-check-label" for="autoSizingCheck">
+                            Remember me
+                            </label>
+                        </div>
+                        </div>
+                        <div class="col-auto">
+                        <button type="submit" class="btn btn-primary mb-2">Submit</button>
+                        </div>
                     </div>
                 </div>
-                </form>
+                <!-- </form> -->
             </div>
             <div class="row p-0 m-0">
                 <div>address</div>
@@ -247,8 +248,8 @@
     </div>
 </div>
 
-<!-- summary -->
-<div class="col-lg-12 mb-xs-4 mb-lg-0 mt-xs-4 mt-sm-4 mt-lg-3 p-xs-none pb-3 pt-2">
+<!-- shipping -->
+<div class="col-lg-12 mb-xs-4 mb-lg-0 mt-xs-4 mt-sm-4 mt-lg-4 p-xs-none pb-3 pt-2">
     <!-- title -->
     <h5 class="black pb-2">Récapitulatif</h5>
     <span class="border-bottom-orange mb-1"></span>

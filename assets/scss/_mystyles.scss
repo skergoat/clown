@@ -25,6 +25,18 @@ div.modal.fade.show, div.modal-dialog.modal-lg {
     background:transparent!important;
 }
 
+.modal-header div:nth-child(2) {
+    @media (max-width:576px) {
+        background:transparent!important;
+    }
+    @include media-breakpoint-up(xs) { 
+        background:transparent!important;
+    }
+    @include media-breakpoint-up(lg) { 
+        background:white!important;
+    }
+}
+
 .modal-body .modal-right {
     background:white!important;
 }

@@ -39,11 +39,11 @@
                             <li id="active-shop" class="ml-4"><a href="http://localhost:8888/templates/product.php" class="d-flex align-items-center link-black black">Boutique</a><div class="border-bottom-menu"></div></li>
                             <li id="active-infos" class="ml-4"><a href="http://localhost:8888/templates/infos.php" class="d-flex align-items-center link-black black">Infos Pratiques</a><div class="border-bottom-menu"></div></li>
                             <li id="active-contact" class="ml-4"><a href="http://localhost:8888/templates/contact.php"  class="d-flex align-items-center link-black black pr-1">Contact</a><div class="border-bottom-menu"></div></li>
-                            <li id="active-cart" class="ml-4"><a href="http://localhost:8888/templates/cart.php" style="position:relative;" class="d-flex align-items-center link-black hover-no-change black pr-1"><span class="badge badge-danger bold" style="background:#FF4B5F;border-radius:20px;height:13px;width:13px;font-size:9px;margin-bottom:1px;position:absolute;z-index:3;right:-2px;top:32px;">2</span><i class="icon-basket"></i></a><div class="border-bottom-menu"></div></li>
+                            <li id="active-cart" class="ml-4"><a href="http://localhost:8888/templates/cart.php" class="d-flex align-items-center link-black hover-no-change black pr-1"><span class="badge badge-danger bold">2</span><i class="icon-basket"></i></a><div class="border-bottom-menu"></div></li>
                         </ul>
                         <!-- Navigation links (hidden by default) -->
                         <div class="d-xs-flex d-sm-flex d-md-flex d-lg-none d-flex">
-                            <a href="http://localhost:8888/templates/cart.php" class="d-flex align-items-center font-weight-bold link-black hover-no-change pr-1" style="position:relative;"><span class="badge badge-danger bold" style="background:#FF4B5F;border-radius:20px;height:13px;width:13px;font-size:9px;margin-bottom:1px;position:absolute;z-index:3;right:-2px;top:35%;">2</span><i class="icon-basket"></i></a>
+                            <a href="http://localhost:8888/templates/cart.php" id="active-cart" class="d-flex align-items-center font-weight-bold link-black hover-no-change pr-1" style="position:relative;"><span class="badge badge-danger bold">2</span><i class="icon-basket"></i></a>
                             <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
                             <div class="hamburger">
                                 <div class="icon hamburger__link" id="open-menu">

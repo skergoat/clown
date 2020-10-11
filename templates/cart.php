@@ -125,7 +125,7 @@
                                 <div class="modal-body p-0">
                                     <div class="row pr-0 pl-0 mr-0 ml-0">
                                         <!-- left -->
-                                        <div class="col-6 pb-5 pt-3 pl-5 pr-5 modal-left">
+                                        <div class="col-xs-12 col-lg-6 pl-5 pr-5 modal-left">
                                             <h5 class="font-18 bold mb-3 text-center">Se Connecter</h5>
                                             <form>
                                                 <!-- login -->
@@ -156,7 +156,7 @@
                                             </form>
                                         </div>
                                         <!-- right -->
-                                        <div class="col-6 d-flex align-items-center modal-right pb-4">
+                                        <div class="col-md-12 col-lg-6 d-flex align-items-center modal-right pb-4">
                                             <div class="no-connect"><a href="#" class="bold">Continuer sans créer de compte <span class='ml-2 black chevron'>></span></a></div>
                                         </div>
                                     </div>         

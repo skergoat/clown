@@ -110,3 +110,22 @@
         border-top: 1px solid $simply-black-transparent;
     }
 }
+
+#active-cart {
+    position:relative;
+    & .badge-danger {
+        background:#FF4B5F;
+        border-radius:20px;
+        height:13px;
+        width:13px;
+        font-size:9px;
+        margin-bottom:1px;
+        position:absolute;
+        z-index:3;
+        right:-2px;
+        top:32px;
+        @media (max-width:576px) {
+            top:25px;
+        }
+    }
+}

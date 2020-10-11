@@ -27,11 +27,36 @@
     }
     /* modal left */
     &-left {
-        padding-bottom:120px!important;
-        padding-top:90px!important;
+        @media (max-width:576px) {
+            padding-bottom:50px!important;
+            padding-top:50px!important;
+        }
+        @include media-breakpoint-up(xs) { 
+            padding-bottom:50px!important;
+            padding-top:50px!important;
+        }
+        @include media-breakpoint-up(lg) { 
+            padding-bottom:120px!important;
+            padding-top:90px!important;
+        }
 
         & .form-group, & .pull-left, & .form-submit {
             background:transparent!important;  
+        }
+    }
+
+    &-right {
+        @media (max-width:576px) {
+            padding-bottom:20vh!important;
+            padding-top:50px!important;
+        }
+        @include media-breakpoint-up(xs) { 
+            padding-bottom:20vh!important;
+            padding-top:50px!important;
+        }
+        @include media-breakpoint-up(lg) { 
+            padding-bottom:120px!important;
+            padding-top:90px!important;
         }
     }
 

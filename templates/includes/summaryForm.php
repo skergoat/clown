@@ -252,7 +252,7 @@
                         <p class="search-text__content">75009 - PARIS</p>
                     </div>
                 </div>
-                <div>map</div>
+                <div id="map" style = "display:block;min-width: 600px; height: 400px;margin-left:120px;"></div>
             </div>
         </div>
     </div>

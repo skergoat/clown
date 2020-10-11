@@ -1,14 +1,31 @@
-// fonts
+/** font family **/
 * {
     font-family: $x-light, sans-serif;
     position:relative;
 }
 
+/** backgrounds **/
+
+// backgroubd:white
 nav, footer, section, div {
     background:white;
     text-align:justify;
 }
 
+// custom modal background 
 div.modal.fade.show, div.modal-dialog.modal-lg {
     background:transparent!important;
 }
+
+.modal-header, 
+.modal-header div:first-child, 
+.modal-body, 
+.modal-body div,
+.modal-body .modal-left {
+    background:transparent!important;
+}
+
+.modal-body .modal-right {
+    background:white!important;
+}
+

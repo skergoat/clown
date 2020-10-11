@@ -108,40 +108,54 @@
                         </div>
                     </div>
                     <!-- Bootstrap Modal -->
-                    <div class="modal fade" id="validate" role="dialog" style="border-radius:50px;">
-                        <div class="modal-dialog modal-lg" style="border-radius:10px;!important">
+                    <div class="modal fade" id="validate" role="dialog">
+                        <div class="modal-dialog modal-lg">
+                             <!-- content -->
                             <div class="modal-content">
-                                <div class="modal-header p-0" >
-                                    <div class="row mr-0 ml-0" style="width:100%;">
-                                        <div class="col-6" style="background:url('../assets/img/background.jpg');background-size:cover;"></div>
+                                <!-- header -->
+                                <div class="modal-header p-0">
+                                    <div class="row mr-0 ml-0">
+                                        <div class="col-6"></div>
                                         <div class="col-6">
                                             <button type="button" class="close" data-dismiss="modal">&times;</button>
                                         </div>
                                     </div>
                                 </div>
+                                <!-- body -->
                                 <div class="modal-body p-0">
                                     <div class="row pr-0 pl-0 mr-0 ml-0">
-                                        <div class="col-6 pb-5 pt-3 pl-5 pr-5" style="background:url('../assets/img/background.jpg');background-size:cover;padding-bottom:120px!important;padding-top:90px!important;">
-                                            <h5 style="text-align:center;" class="font-18 bold mb-3">Se Connecter</h5>
+                                        <!-- left -->
+                                        <div class="col-6 pb-5 pt-3 pl-5 pr-5 modal-left">
+                                            <h5 class="font-18 bold mb-3 text-center">Se Connecter</h5>
                                             <form>
-                                                <div class="form-group" style="background:transparent;">
+                                                <!-- login -->
+                                                <div class="form-group">
                                                     <label for="exampleInputPassword1" class="font-14 sbold">Identifiant</label>
                                                     <input type="text" class="form-control form-large font-13" id="address2">
+                                                    <!-- error message -->
+                                                    <div class="invalid-feedback"></div>
                                                 </div>
-                                                <div class="form-group" style="background:transparent;">
+                                                <!-- mdp -->
+                                                <div class="form-group">
                                                     <label for="exampleInputPassword1" class="font-14 sbold">Mot de passe</label>
-                                                    <input type="password" class="form-control form-large font-13" id="address2">
-                                                    <div class="pull-left mt-2" style="background:transparent;">
-                                                        <span class="font-13"><a href="#" style="color:#FD6044;">Mot de passe oublié ?</a></span>
+                                                    <input type="password" class="form-control form-large font-13 is-invalid" id="address2">
+                                                    <!-- error message -->
+                                                    <div class="invalid-feedback">
+                                                        Mot de passe invalide
+                                                    </div>
+                                                    <div class="pull-left mt-2">
+                                                        <span class="font-13 forgotten-password"><a href="#" class="sbold">Mot de passe oublié ?</a></span>
                                                     </div>
                                                 </div>
-                                                <div class="form-submit mt-4" style="background:transparent;">
+                                                <!-- submit -->
+                                                <div class="form-submit mt-4">
                                                     <button type="submit" class="btn button-orange btn-white-outlined black" id="button-modal" data-toggle="modal" data-target="#validate">Connexion</button>
                                                 </div>
                                             </form>
                                         </div>
-                                        <div class="col-6 d-flex align-items-center pb-4" style="background:transparent;">
-                                            <div style="width:100%;text-align:center;"><a href="#" style="color:#FD9644;" class="bold">Continuer sans créer de compte <span class='ml-2 black chevron'>></span></a></div>
+                                        <!-- right -->
+                                        <div class="col-6 d-flex align-items-center modal-right pb-4">
+                                            <div class="no-connect"><a href="#" class="bold">Continuer sans créer de compte <span class='ml-2 black chevron'>></span></a></div>
                                         </div>
                                     </div>         
                                 </div>

@@ -1,3 +1,51 @@
-.modal-header {
-    border:0px!important;
+/* general */
+.modal {
+    border-radius:50px!important;
+    /* header */
+    &-header {
+        border:0px!important;
+        & div:first-child {
+            width:100%;
+        }
+    }
+    /* content */
+    &-content {
+        background:url('../img/background.jpg');background-size:cover;
+    }
+    /* body */
+    &-body {
+        width:100%;
+        background:transparent;
+    }
+    /* modal left */
+    &-left {
+        padding-bottom:120px!important;
+        padding-top:90px!important;
+
+        & .form-group, & .pull-left, & .form-submit {
+            background:transparent!important;  
+        }
+    }
+
+    .no-connect {
+        width:100%;
+        text-align:center;
+    
+        & a {
+            color:$button-2!important;
+            &:hover {
+                color:$button-1!important
+            }
+        }
+    }
 }
+
+
+
+
+
+
+
+
+
+

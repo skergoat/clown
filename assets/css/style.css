@@ -10560,6 +10560,13 @@ input:focus {
   box-shadow: rgba(255, 145, 39, 0.25) 0px 0px 0px 0.2rem !important;
 }
 
+.forgotten-password a {
+  color: #FD6044 !important;
+}
+.forgotten-password a:hover {
+  color: #FD9644 !important;
+}
+
 .was-validated .form-control:invalid, .form-control.is-invalid {
   border: 2px solid #ff9127 !important;
   padding-right: calc(1.5em + 0.75rem);
@@ -10946,8 +10953,44 @@ input[type=number] {
   padding-bottom: 10px !important;
 }
 
+/* general */
+.modal {
+  border-radius: 50px !important;
+  /* header */
+  /* content */
+  /* body */
+  /* modal left */
+}
 .modal-header {
   border: 0px !important;
+}
+.modal-header div:first-child {
+  width: 100%;
+}
+.modal-content {
+  background: url("../img/background.jpg");
+  background-size: cover;
+}
+.modal-body {
+  width: 100%;
+  background: transparent;
+}
+.modal-left {
+  padding-bottom: 120px !important;
+  padding-top: 90px !important;
+}
+.modal-left .form-group, .modal-left .pull-left, .modal-left .form-submit {
+  background: transparent !important;
+}
+.modal .no-connect {
+  width: 100%;
+  text-align: center;
+}
+.modal .no-connect a {
+  color: #FD6044 !important;
+}
+.modal .no-connect a:hover {
+  color: #FD9644 !important;
 }
 
 @font-face {
@@ -11125,11 +11168,13 @@ input[type=number] {
   background: #FFF4EB !important;
 }
 
+/** font family **/
 * {
   font-family: "nunito_sansextralight", sans-serif;
   position: relative;
 }
 
+/** backgrounds **/
 nav, footer, section, div {
   background: white;
   text-align: justify;
@@ -11137,6 +11182,18 @@ nav, footer, section, div {
 
 div.modal.fade.show, div.modal-dialog.modal-lg {
   background: transparent !important;
+}
+
+.modal-header,
+.modal-header div:first-child,
+.modal-body,
+.modal-body div,
+.modal-body .modal-left {
+  background: transparent !important;
+}
+
+.modal-body .modal-right {
+  background: white !important;
 }
 
 /*# sourceMappingURL=style.css.map */

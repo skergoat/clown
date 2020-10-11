@@ -158,11 +158,11 @@
                                                 </div>
                                             </form>
                                             <h5 class="font-18 bold mb-3 mt-4 text-center">Ou</h5>
-                                            <div class="no-connect mt-3"><a href="http://localhost:8888/templates/account.php" class="bold font-17">Créer un compte</a></div>
+                                            <div class="no-connect mt-3"><a href="http://localhost:8888/templates/signin.php" class="bold font-17">Créer un compte</a></div>
                                         </div>
                                         <!-- right -->
                                         <div class="col-md-12 col-lg-6 d-flex flex-column justify-content-center modal-right pb-4">
-                                            <div class="no-connect mt-4"><a href="#" class="bold font-17">Continuer sans créer de compte <span class='ml-2 black chevron'>></span></a></div>
+                                            <div class="no-connect mt-4"><a href="http://localhost:8888/templates/payment.php" class="bold font-17">Continuer sans créer de compte <span class='ml-2 black chevron'>></span></a></div>
                                         </div>
                                     </div>         
                                 </div>

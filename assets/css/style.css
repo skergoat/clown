@@ -10911,6 +10911,9 @@ input[type=number] {
 #button-modal-2 {
   padding: 10px 20px 10px 20px !important;
 }
+#button-modal-2:hover {
+  padding: 9px 19px 9px 19px !important;
+}
 
 /* payment page */
 .icon-single {

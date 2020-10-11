@@ -79,9 +79,9 @@
                         </div>
                     </div>
                 </div>
-                <p class="font-13 light pt-4">En validant la commande, vous acceptez les <span class="black">Conditions Générales de Vente</span>.</p>
+                <p class="font-13 light pt-5 text-center">En validant la commande, vous acceptez les <span class="black">Conditions Générales de Vente</span>.</p>
                 <!-- submit -->
-                <div class="form-submit mt-4">
+                <div class="form-submit mt-4 d-flex justify-content-center">
                     <button type="submit" class="btn button-orange black font-14">Régler ma commande</button>
                 </div>
             </form>

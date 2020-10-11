@@ -249,7 +249,7 @@
 </div>
 
 <!-- shipping -->
-<div class="col-lg-12 mb-xs-4 mb-lg-0 mt-xs-4 mt-sm-4 mt-lg-4 p-xs-none pb-3 pt-2">
+<div class="col-lg-12 mb-xs-4 mb-lg-0 mt-xs-4 mt-sm-4 mt-lg-4 p-xs-none pb-0 pt-2">
     <!-- title -->
     <h5 class="black pb-2">Récapitulatif</h5>
     <span class="border-bottom-orange mb-1"></span>

@@ -37,6 +37,10 @@ div.modal.fade.show, div.modal-dialog.modal-lg {
     }
 }
 
+.modal-connect .modal-header div:nth-child(2) {
+    background:transparent!important;
+}
+
 .modal-body .modal-right {
     background:white!important;
 }

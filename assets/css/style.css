@@ -11062,6 +11062,10 @@ input[type=number] {
   color: #FD9644 !important;
 }
 
+.modal-connect.modal-lg, .modal-connect.modal-xl {
+  max-width: 500px !important;
+}
+
 @font-face {
   font-family: "nunito_sansregular";
   src: url("../fonts/Nunito/nunitosans-regular-webfont.woff2") format("woff2"), url("../fonts/Nunito/nunitosans-regular-webfont.woff") format("woff");
@@ -11273,6 +11277,10 @@ div.modal.fade.show, div.modal-dialog.modal-lg {
   .modal-header div:nth-child(2) {
     background: white !important;
   }
+}
+
+.modal-connect .modal-header div:nth-child(2) {
+  background: transparent !important;
 }
 
 .modal-body .modal-right {

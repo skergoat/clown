@@ -29,7 +29,7 @@
                     <div><p class="font-13 lh-2">01 47 70 05 93</p></div>
                 </div>
                 <div class="d-flex">
-                    <div><i class="icon-mail icon-pink font-20 pr-1"></i></div>
+                    <div><i class="icon-mail-alt icon-pink font-20 pr-1"></i></div>
                     <div><p class="font-13 lh-2">clown.fr@gmail.com</p></div>
                 </div>
             </div>

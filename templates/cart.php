@@ -101,7 +101,7 @@
                     <!-- submit -->
                     <div class="row mb-5 justify-content-end mr-0 ml-0">
                         <div class="form-submit">
-                            <button type="submit" class="btn button-orange btn-orange-outlined black">Mettre à jour</button>
+                            <button type="submit" class="btn button-orange btn-cart-outlined black">Mettre à jour</button>
                         </div>
                         <div class="form-submit ml-3">
                             <button type="submit" class="btn button-orange btn-cart black" id="button-modal" data-toggle="modal" data-target="#validate">Valider</button>
@@ -162,7 +162,7 @@
                                         </div>
                                         <!-- right -->
                                         <div class="col-md-12 col-lg-6 d-flex flex-column justify-content-center modal-right pb-4">
-                                            <div class="no-connect mt-4"><a href="http://localhost:8888/templates/payment.php" class="bold font-17">Continuer sans créer de compte <span class='ml-2 black chevron'>></span></a></div>
+                                            <div class="no-connect mt-4"><a href="http://localhost:8888/templates/summary.php" class="bold font-17">Continuer sans créer de compte <span class='ml-2 black chevron'>></span></a></div>
                                         </div>
                                     </div>         
                                 </div>

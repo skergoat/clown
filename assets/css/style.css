@@ -10886,13 +10886,27 @@ input[type=number] {
 
 .btn-orange-outlined {
   background: white;
+  padding: 11px 44px 11px 44px;
+  border: 1px solid #FF9127;
+  color: #FF9127;
+}
+
+.btn-orange-outlined:hover {
+  padding: 12px 45px 12px 45px;
+  background: linear-gradient(to right, #FD9644, #FD6044);
+  border: 0px solid transparent;
+  color: white;
+}
+
+.btn-cart-outlined {
+  background: white;
   border: 1px solid #FF9127;
   padding: 8px 36px 8px 36px;
   font-size: 12px !important;
   color: #FF9127;
 }
 
-.btn-orange-outlined:hover {
+.btn-cart-outlined:hover {
   padding: 9px 37px 9px 37px;
   background: linear-gradient(to right, #FD9644, #FD6044);
   border: 0px solid transparent;

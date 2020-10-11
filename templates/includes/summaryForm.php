@@ -125,79 +125,55 @@
     <h5 class="black pb-2">Livraison</h5>
     <span class="border-bottom-orange mb-1"></span>
     <!-- shipping methods -->
-    <div class="shipping-methods row b-red mt-4 p-0 m-0">
+    <div class="shipping-methods row mt-4 p-0 m-0">
         <!-- credit card -->
-        <div class="col-lg-3 mb-xs-3 mb-sm-3 pl-0 pr-xs-0 pr-xs-none pr-sm-0 pr-lg-3">
-            <div id="payment-creditcard" class="pay-choice p-4 pointer choice-selected" data-url="creditcard">
-                <img src="../assets/img/credit-card-icon.png" class="icon-single d-block mx-auto mb-3 mt-1" alt="logo lydia">
-                <p class="black font-16 text-center mb-1">Carte Bancaire (Lydia)</p>
-                <p class="light font-12 text-center">Paiement sécurisé</p>
-                <div class="d-flex justify-content-center">
-                    <img src="../assets/img/logo-lydia-single.png" class="know-more-icon logo-single" alt="logo lydia">
-                    <p class="light font-12 ml-4 mb-1"><a href="#" class="link-black">En savoir plus sur Lydia</a></p>
-                </div>
+        <div class="col-lg-2 mb-xs-3 mb-sm-3 pl-0 pr-xs-0 pr-xs-none pr-sm-0 pr-lg-3">
+            <div id="shipping-colissimo" class="payment-choice shipping-choice pt-2 pb-2 pr-0 pl-0 pointer" data-url="colissimo">
+                <img src="../assets/img/logo-colissimo-small.png" alt="logo colissimo">
             </div>
             <!-- radio -->
             <div class="mt-2 d-flex justify-content-center">
                 <div class="form-check form-check-inline">
-                    <input class="form-check-input payment-selection" type="radio" name="payment" id="creditcard" value="creditcard" checked>
+                    <input class="form-check-input shipping-selection" type="radio" name="shipping" id="colissimo" value="colissimo">
                     <span class="form-check-input form-check-input__pay checkmark"></span>
                 </div>
             </div>
         </div>
         <!-- paypal -->
-        <div class="col-lg-3 pl-xs-none pl-sm-0 pl-lg-3 pr-0">
-            <div id="payment-paypal" class="pay-choice p-4 pointer" data-url="paypal">
-                <img src="../assets/img/paypal-icon.png" class="icon-single d-block mx-auto mb-3 mt-1" alt="logo paypal">
-                <p class="black font-16 text-center mb-1">Paypal</p>
-                <p class="light font-12 text-center">Paiement sécurisé</p>
-                <div class="d-flex justify-content-center">
-                    <img src="../assets/img/logo-paypal-single.png" class="know-more-icon logo-single" alt="logo lydia">
-                    <p class="light font-12 ml-4 mb-1"><a href="#" class="link-black">En savoir plus sur Paypal</a></p>
-                </div>
+        <div class="col-lg-2 pl-xs-none pl-sm-0 pr-lg-3 pr-0">
+            <div id="shipping-chronopost" class="payment-choice shipping-choice pt-2 pb-2 pr-0 pl-0 pointer" data-url="chronopost">
+                <img src="../assets/img/logo-chronopost-small.png" alt="logo chronopost">
             </div>
             <!-- radio -->
             <div class="mt-2 d-flex justify-content-center">
                 <div class="form-check form-check-inline">
-                    <input class="form-check-input payment-selection" type="radio" name="payment" id="paypal" value="paypal">
+                    <input class="form-check-input shipping-selection" type="radio" name="shipping" id="chronopost" value="chronopost">
                     <span class="form-check-input form-check-input__pay checkmark"></span>
                 </div>
             </div>
         </div>
         <!-- paypal -->
-        <div class="col-lg-3 pl-xs-none pl-sm-0 pl-lg-3 pr-0">
-            <div id="payment-paypal" class="pay-choice p-4 pointer" data-url="paypal">
-                <img src="../assets/img/paypal-icon.png" class="icon-single d-block mx-auto mb-3 mt-1" alt="logo paypal">
-                <p class="black font-16 text-center mb-1">Paypal</p>
-                <p class="light font-12 text-center">Paiement sécurisé</p>
-                <div class="d-flex justify-content-center">
-                    <img src="../assets/img/logo-paypal-single.png" class="know-more-icon logo-single" alt="logo lydia">
-                    <p class="light font-12 ml-4 mb-1"><a href="#" class="link-black">En savoir plus sur Paypal</a></p>
-                </div>
+        <div class="col-lg-2 pl-xs-none pl-sm-0 pr-lg-3 pr-0">
+            <div id="shipping-relais" class="payment-choice shipping-choice pt-2 pb-2 pr-0 pl-0 choice-selected pointer" data-url="relais">
+                <img src="../assets/img/point-relais.png" alt="logo relais">
             </div>
             <!-- radio -->
             <div class="mt-2 d-flex justify-content-center">
                 <div class="form-check form-check-inline">
-                    <input class="form-check-input payment-selection" type="radio" name="payment" id="paypal" value="paypal">
+                    <input class="form-check-input shipping-selection" type="radio" name="shipping" id="relais" value="relais" checked="true">
                     <span class="form-check-input form-check-input__pay checkmark"></span>
                 </div>
             </div>
         </div>
         <!-- paypal -->
-        <div class="col-lg-3 pl-xs-none pl-sm-0 pl-lg-3 pr-0">
-            <div id="payment-paypal" class="pay-choice p-4 pointer" data-url="paypal">
-                <img src="../assets/img/paypal-icon.png" class="icon-single d-block mx-auto mb-3 mt-1" alt="logo paypal">
-                <p class="black font-16 text-center mb-1">Paypal</p>
-                <p class="light font-12 text-center">Paiement sécurisé</p>
-                <div class="d-flex justify-content-center">
-                    <img src="../assets/img/logo-paypal-single.png" class="know-more-icon logo-single" alt="logo lydia">
-                    <p class="light font-12 ml-4 mb-1"><a href="#" class="link-black">En savoir plus sur Paypal</a></p>
-                </div>
+        <div class="col-lg-2 pl-xs-none pl-sm-0 pr-lg-3 pr-0">
+            <div id="shipping-retrait" class="payment-choice shipping-choice pointer d-flex align-items-center justify-content-center" data-url="retrait">
+                <p class="black font-13 text-center m-0">Retrait en magasin</p>
             </div>
             <!-- radio -->
             <div class="mt-2 d-flex justify-content-center">
                 <div class="form-check form-check-inline">
-                    <input class="form-check-input payment-selection" type="radio" name="payment" id="paypal" value="paypal">
+                    <input class="form-check-input shipping-selection" type="radio" name="shipping" id="retrait" value="retrait">
                     <span class="form-check-input form-check-input__pay checkmark"></span>
                 </div>
             </div>
@@ -254,7 +230,7 @@
     <h5 class="black pb-2">Récapitulatif</h5>
     <span class="border-bottom-orange mb-1"></span>
 
-    <div class="border-radius-10 m-0 p-xs-4 pb-sm-0 p-4">
+    <div class="border-radius-10 m-0 p-xs-4 pb-sm-0 pt-4 pb-4">
         <!-- table responsive -->
         <div class="overflow-scroll">
             <!-- table top -->

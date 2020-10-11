@@ -11258,6 +11258,11 @@ input[type=number] {
   background: #FFF4EB !important;
 }
 
+#space-between {
+  top: 38% !important;
+  height: 100%;
+}
+
 .shipping-title {
   border: 1px solid #FD9644;
   border-radius: 15px;
@@ -11271,6 +11276,22 @@ input[type=number] {
   border-radius: 15px;
   border-top-left-radius: 0px;
   border-top-right-radius: 0px;
+}
+
+.payment-choice.shipping-choice {
+  height: 50px;
+  border-radius: 5px;
+  border: 1px solid #9D9D9D !important;
+}
+.payment-choice.shipping-choice img {
+  width: 130px;
+  height: 30px;
+  display: block;
+  margin: auto;
+}
+.payment-choice.shipping-choice.choice-selected {
+  border: 2px solid #ff9127 !important;
+  background: transparent !important;
 }
 
 /** font family **/

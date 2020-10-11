@@ -33,6 +33,7 @@
         $class2="select-items-large";
     </script>
     <script src="../assets/js/custom-select.js"></script>
+    <script src="../assets/js/shipping-choice.js"></script>
 <?php $script = ob_get_clean(); ?>
 <!-- include -->
 <?php require('layout/layoutSecond.php'); ?>

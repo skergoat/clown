@@ -18,19 +18,19 @@
             <div>
                 <div class="d-flex">
                     <div><i class="icon-location icon-pink font-20 pr-1"></i></div>
-                    <div><p class="font-13 lh-2">22 rue du Faubourg Montmartre - 75009 Paris <br> Métro : Grands Boulevards</p></div>
+                    <div><p class="font-13 lh-2">22 rue du Faubourg Montmartre - 75009 Paris</p></div>
                 </div>
-                <div class="d-flex">
+                <div class="mt-0 ml-4">
+                    <div class="mt-0 transports-info transports-info__metro"><img src="../assets/img/metros.png" style="width:75px;"></div>
+                    <div class="mt-2 transports-info transports-info__bus"><img src="../assets/img/bus.png"></div>
+                </div>
+                <div class="d-flex mt-4">
                     <div><i class="icon-phone icon-pink font-20 pr-1"></i></div>
                     <div><p class="font-13 lh-2">01 47 70 05 93</p></div>
                 </div>
                 <div class="d-flex">
                     <div><i class="icon-mail-alt icon-pink font-20 pr-1"></i></div>
                     <div><p class="font-13 lh-2">clown.fr@gmail.com</p></div>
-                </div>
-                <div class="mt-2">
-                    <div class="mt-3 transports-info transports-info__metro"><img src="../assets/img/metros.png"></div>
-                    <div class="mt-3 transports-info transports-info__bus"><img src="../assets/img/bus.png"></div>
                 </div>
             </div>
         </div>

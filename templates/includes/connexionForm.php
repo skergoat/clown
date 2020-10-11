@@ -42,15 +42,15 @@
     </div>
     <!-- adress -->
     <div class="form-group">
-        <label for="address1" class="font-14 sbold">Adresse</label>
-        <input type="text" class="form-control form-large font-13" id="address1" value="20 rue de Paris">
+        <label for="addressA" class="font-14 sbold">Adresse</label>
+        <input type="text" class="form-control form-large font-13" id="addressA" value="20 rue de Paris">
         <div class="invalid-feedback">
             Entrez une adresse valide svp
         </div>
     </div>
     <div class="form-group">
-        <label for="address2" class="font-14 sbold">Complément d'adresse</label>
-        <input type="text" class="form-control form-large font-13" id="address2" value="Bâtiment B">
+        <label for="addressB" class="font-14 sbold">Complément d'adresse</label>
+        <input type="text" class="form-control form-large font-13" id="addressB" value="Bâtiment B">
         <div class="invalid-feedback">
             Entrez une adresse valide svp
         </div>

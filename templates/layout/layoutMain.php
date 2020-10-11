@@ -8,6 +8,7 @@
         <link rel="stylesheet" href="../assets/fonts/fontello/css/fontello.css">
         <!-- stylesheet -->
         <link rel="stylesheet" href="../assets/css/style.css">
+        <?php $libraries ?>
     </head>
     <body>
         <!-- header -->
@@ -227,7 +228,7 @@
                                     <!-- login -->
                                     <div class="form-group">
                                         <label for="exampleInputPassword1" class="font-14 sbold">Identifiant</label>
-                                        <input type="text" class="form-control form-large font-13 is-invalid" name="login" id="address2">
+                                        <input type="text" class="form-control form-large font-13 is-invalid" name="login" id="login">
                                         <!-- error message -->
                                         <div class="invalid-feedback">
                                             identifiant invalide
@@ -236,7 +237,7 @@
                                     <!-- mdp -->
                                     <div class="form-group">
                                         <label for="exampleInputPassword1" class="font-14 sbold">Mot de passe</label>
-                                        <input type="password" class="form-control form-large font-13" name="password" id="address2">
+                                        <input type="password" class="form-control form-large font-13" name="password" id="password">
                                         <!-- error message -->
                                         <div class="invalid-feedback">
                                             Mot de passe invalide

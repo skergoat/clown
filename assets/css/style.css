@@ -11258,6 +11258,21 @@ input[type=number] {
   background: #FFF4EB !important;
 }
 
+.shipping-title {
+  border: 1px solid #FD9644;
+  border-radius: 15px;
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 0px;
+}
+
+.shipping-content {
+  border: 1px solid #FD9644;
+  border-top: 0px solid #FD9644;
+  border-radius: 15px;
+  border-top-left-radius: 0px;
+  border-top-right-radius: 0px;
+}
+
 /** font family **/
 * {
   font-family: "nunito_sansextralight", sans-serif;

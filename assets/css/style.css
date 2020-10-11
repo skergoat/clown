@@ -11292,6 +11292,17 @@ input[type=number] {
   padding: 17px !important;
 }
 
+.search-text p {
+  text-transform: uppercase;
+  font-size: 12px;
+}
+.search-text__content {
+  line-height: 1.5px;
+}
+.search-text__title {
+  color: #FD9644 !important;
+}
+
 .transports-info__metro {
   width: 170px;
 }

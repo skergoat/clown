@@ -214,8 +214,44 @@
                 </div>
                 <!-- </form> -->
             </div>
-            <div class="row p-0 m-0">
-                <div>address</div>
+            <div class="search-result row p-0 m-0 pt-3">
+                <div class="search-text d-flex flex-column">
+                    <div>
+                        <p class="search-text__title bold">1- L’univers du mobile</p>
+                        <p class="search-text__content">1 RUE DES PROUVAIRES</p>
+                        <p class="search-text__content">75001 - PARIS</p>
+                    </div>
+                    <div>
+                        <p class="search-text__title bold">2- click & services</p>
+                        <p class="search-text__content">FORUM DES HALLES LESCOT -2</p>
+                        <p class="search-text__content">75001 - PARIS</p>
+                    </div>
+                    <div>
+                        <p class="search-text__title bold">3- Paris 1 my auchan</p>
+                        <p class="search-text__content">20 PLACE DU MARCHE SAINT HONORE</p>
+                        <p class="search-text__content">75001 - PARIS</p>
+                    </div>
+                    <div>
+                        <p class="search-text__title bold">4- Avenir informatique</p>
+                        <p class="search-text__content">39 RUE BEAUREGARD</p>
+                        <p class="search-text__content">75002 - PARIS</p>
+                    </div>
+                    <div>
+                        <p class="search-text__title bold">5- Bodhi telecom</p>
+                        <p class="search-text__content">2 RUE DE MULHOUSE</p>
+                        <p class="search-text__content">75002 - PARIS</p>
+                    </div>
+                    <div>
+                        <p class="search-text__title bold">6- My Auchan Reaumur</p>
+                        <p class="search-text__content">85 RUE REAUMUR</p>
+                        <p class="search-text__content">75002 - PARIS</p>
+                    </div>
+                    <div>
+                        <p class="search-text__title bold">7- Rufezahoq</p>
+                        <p class="search-text__content">9 RUE DE BRUXELLES</p>
+                        <p class="search-text__content">75009 - PARIS</p>
+                    </div>
+                </div>
                 <div>map</div>
             </div>
         </div>

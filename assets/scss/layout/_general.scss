@@ -361,7 +361,11 @@
         justify-content:center!important;
     }
 
-    d-xs-block {
+    .mx-xs-auto {
+        margin:auto;
+    }
+
+    .d-xs-block {
         display:block!important;
     }
 }

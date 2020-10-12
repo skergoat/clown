@@ -187,28 +187,28 @@
             <div class="row p-0 pr-xs-0 pr-lg-4 m-0">
                 <!-- <form> -->
                 <div class="w-100">
-                    <div class="form-row align-items-sm-center flex-xs-column flex-sm-column flex-xl-row"> 
-                        <div class="d-xs-block d-sm-block d-md-flex">
-                            <img src="../assets/img/big-logo-point-relais.png" alt="logo point relais" class="d-block mr-3" id="big-logo-relais">
-                            <div class="d-flex align-items-center mr-3">
+                    <div class="form-row align-items-sm-center flex-xs-column flex-sm-column flex-xl-row pt-xs-3"> 
+                        <div class="d-xs-block d-sm-block d-md-flex col-auto p-0">
+                            <img src="../assets/img/big-logo-point-relais.png" alt="logo point relais" class="d-block mx-xs-auto mr-sm-3" id="big-logo-relais">
+                            <div class="d-xs-block d-flex align-items-center mr-xs-0 mr-sm-3 mt-xs-4">
                                 <label for="cityname" class="bold font-13 pr-3 mb-0">Ville</label>
                                 <input type="text" class="search form-control w-100 mb-0 font-12" id="cityname" value="Paris">
                             </div>
-                            <div class="d-flex align-items-center">
-                            <label for="zipcode" class="bold font-13 pr-3 mb-0">CP</label>
+                            <div class="d-xs-block d-flex align-items-center mt-xs-4">
+                                <label for="zipcode" class="bold font-13 pr-3 mb-0">CP</label>
                                 <input type="text" class="search form-control mb-0 font-12" id="zipcode" value="75001">
                             </div>
                         </div>
-                        <div class="d-flex align-items-center align-items-center">
+                        <div class="d-flex align-items-center align-items-center mt-xs-4">
                             <div class="col-auto">
                                 <div class="form-check">
                                     <img src="../assets/img/flag_fr.png" alt="logo point relais" id="flag">
                                 </div>
                             </div>
-                            <div class="col-auto">
+                            <div class="col-auto p-0">
                                 <button type="submit" class="btn button-orange btn-summary black">Chercher</button>
                             </div>
-                            <div class="col-auto">
+                            <div class="col-auto p-0">
                                 <div class="form-check">
                                     <img src="../assets/img/target.png" alt="logo point relais" id="logo-target">
                                 </div>
@@ -218,7 +218,7 @@
                 </div>
                 <!-- </form> -->
             </div>
-            <div class="search-result row mt-xl-4 mt-5 p-0 m-0">
+            <div class="search-result row d-sm-flex mt-5 mt-xl-4 p-0 m-0">
                 <div class="search-text flex-column flex-md-row flex-lg-row flex-xl-column d-flex mb-4 mb-xl-0">
                     <div class="search-text pl-0 col-xl-12 col-lg-12 d-flex flex-column">
                         <div>
@@ -272,7 +272,7 @@
     <h5 class="black pb-2">Récapitulatif</h5>
     <span class="border-bottom-orange mb-1"></span>
 
-    <div class="border-radius-10 m-0 p-xs-4 pb-sm-0 pt-4 pb-4">
+    <div class="border-radius-10 m-0 pb-sm-0 pt-4 pb-4">
         <!-- table responsive -->
         <div class="overflow-scroll">
             <!-- table top -->
@@ -367,7 +367,7 @@
                 </table>
                 <!-- submit -->
                 <div class="row mb-5 mt-4 justify-content-end mr-0 ml-0">
-                    <div class="form-submit">
+                    <div class="form-submit mb-xs-4">
                         <button type="submit" class="btn button-orange btn-orange-outlined black">Mettre à jour</button>
                     </div>
                     <div class="form-submit ml-3">

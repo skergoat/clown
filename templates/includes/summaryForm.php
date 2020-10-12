@@ -183,12 +183,12 @@
         <div class="shipping-title row p-2 m-0 d-flex justify-content-center">
             <h5 class="black font-17 m-0">Sélectionnez votre Point Relais® Mondial Relay.</h5>
         </div>
-        <div class="shipping-content p-xs-2 p-md-4">
+        <div class="shipping-content p-xs-2 p-sm-4">
             <div class="row p-0 pr-xs-0 pr-lg-4 m-0">
                 <!-- <form> -->
                 <div class="w-100">
-                    <div class="form-row align-items-sm-center flex-xs-column flex-sm-column flex-xl-row b-purple"> 
-                        <div class="d-xs-block d-sm-block d-md-flex b-red">
+                    <div class="form-row align-items-sm-center flex-xs-column flex-sm-column flex-xl-row"> 
+                        <div class="d-xs-block d-sm-block d-md-flex">
                             <img src="../assets/img/big-logo-point-relais.png" alt="logo point relais" class="d-block mr-3" id="big-logo-relais">
                             <div class="d-flex align-items-center mr-3">
                                 <label for="cityname" class="bold font-13 pr-3 mb-0">Ville</label>
@@ -199,7 +199,7 @@
                                 <input type="text" class="search form-control mb-0 font-12" id="zipcode" value="75001">
                             </div>
                         </div>
-                        <div class="d-flex align-items-center align-items-center b-green">
+                        <div class="d-flex align-items-center align-items-center">
                             <div class="col-auto">
                                 <div class="form-check">
                                     <img src="../assets/img/flag_fr.png" alt="logo point relais" id="flag">
@@ -218,8 +218,8 @@
                 </div>
                 <!-- </form> -->
             </div>
-            <div class="search-result row p-0 m-0 pt-3 mt-sm-3 mt-lg-0">
-                <div class="search-text flex-column flex-md-row flex-lg-row flex-xl-column d-flex mb-sm-3 mb-lg-0">
+            <div class="search-result row mt-xl-4 mt-5 p-0 m-0">
+                <div class="search-text flex-column flex-md-row flex-lg-row flex-xl-column d-flex mb-4 mb-xl-0">
                     <div class="search-text pl-0 col-xl-12 col-lg-12 d-flex flex-column">
                         <div>
                             <p class="search-text__title bold mb-2">1- L’univers du mobile</p>

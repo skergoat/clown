@@ -98,6 +98,9 @@
 <?php ob_start(); ?>
 <script>
     let $val = "payment";
+    // space-between position top
+    $('#space-between').css('top', '90%');       
+    $('.secondary-content').css('display', 'none'); 
 </script>
 <script src="../assets/js/radio-choice.js"></script>
 <?php $script = ob_get_clean(); ?>

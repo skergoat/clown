@@ -266,9 +266,9 @@
         <script src="../assets/js/menu-responsive.js"></script>
         <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+        <?= $script ?>
         <script src="../assets/js/parallax.js"></script>
         <script src="../assets/js/quantity-field.js"></script>
-        <?= $script ?>
         <script>
             // menu active link 
             $(activeId + ' .border-bottom-menu').addClass('activated-border-bottom');

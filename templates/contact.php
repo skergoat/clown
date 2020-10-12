@@ -47,6 +47,9 @@
 <script>
     // active link 
     let activeId = '#active-contact';
+    // space-between position top
+    $('#space-between').css('top', '68%');       
+    $('.secondary-content').css('display', 'none'); 
 </script>
 <?php $script = ob_get_clean(); ?>
 

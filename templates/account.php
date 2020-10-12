@@ -21,6 +21,9 @@
     <script>
         $class="select-selected-large";
         $class2="select-items-large";
+        // space-between position top
+        $('#space-between').css('top', '72%');       
+        $('.secondary-content').css('display', 'none'); 
     </script>
     <script src="../assets/js/custom-select.js"></script>
 <?php $script = ob_get_clean(); ?>

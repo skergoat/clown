@@ -42,7 +42,8 @@
     overflow:hidden;
     position:absolute;
     @include media-breakpoint-up(xs) { 
-        min-height:100vh;
+        // min-height:100vh;
+        height:100%;
         top:80%;
     }
 }

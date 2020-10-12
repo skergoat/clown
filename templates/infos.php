@@ -50,6 +50,9 @@
 <script>
     // active link 
     let activeId = '#active-infos';
+    // space-between position top
+    $('#space-between').css('top', '63%');       
+    $('.secondary-content').css('display', 'none'); 
 </script>
 <?php $script = ob_get_clean(); ?>
 

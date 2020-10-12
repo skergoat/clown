@@ -10504,7 +10504,7 @@ h3 {
   width: 100%;
   overflow: hidden;
   position: absolute;
-  min-height: 100vh;
+  height: 100%;
   top: 80%;
 }
 

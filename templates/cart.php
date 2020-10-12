@@ -191,6 +191,9 @@
     });
     // active link 
     let activeId = '#active-cart';
+    // space-between position top
+    $('#space-between').css('display', 'none');       
+    $('.secondary-content').css('display', 'none'); 
 </script>
 <?php $script = ob_get_clean(); ?>
 

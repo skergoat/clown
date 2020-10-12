@@ -187,9 +187,9 @@
             <div class="row p-0 pr-xs-0 pr-lg-4 m-0">
                 <!-- <form> -->
                 <div class="w-100">
-                    <div class="form-row b-purple flex-xs-column flex-sm-column flex-xl-row align-items-center"> 
-                        <div class="d-flex flex-xs-column b-red">
-                            <img src="../assets/img/big-logo-point-relais.png" alt="logo point relais" class="mr-3" id="big-logo-relais">
+                    <div class="form-row align-items-sm-center flex-xs-column flex-sm-column flex-xl-row b-purple"> 
+                        <div class="d-xs-block d-sm-block d-md-flex b-red">
+                            <img src="../assets/img/big-logo-point-relais.png" alt="logo point relais" class="d-block mr-3" id="big-logo-relais">
                             <div class="d-flex align-items-center mr-3">
                                 <label for="cityname" class="bold font-13 pr-3 mb-0">Ville</label>
                                 <input type="text" class="search form-control w-100 mb-0 font-12" id="cityname" value="Paris">
@@ -199,7 +199,7 @@
                                 <input type="text" class="search form-control mb-0 font-12" id="zipcode" value="75001">
                             </div>
                         </div>
-                        <div class="d-flex align-items-center b-green">
+                        <div class="d-flex align-items-center align-items-center b-green">
                             <div class="col-auto">
                                 <div class="form-check">
                                     <img src="../assets/img/flag_fr.png" alt="logo point relais" id="flag">

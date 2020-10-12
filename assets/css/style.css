@@ -10314,6 +10314,7 @@ h3 {
   top: -6px;
 }
 .menu li:hover {
+  color: red !important;
   color: #FF9127 !important;
 }
 .menu li:hover .border-bottom-menu {
@@ -11365,6 +11366,10 @@ input[type=number] {
 .choice-selected {
   border: 1px solid #ff9127 !important;
   background: #FFF4EB !important;
+}
+
+.section-3 {
+  background: #FEE690 !important;
 }
 
 /** font family **/

@@ -123,7 +123,7 @@
        <?= $content ?>
        
        <!-- footer -->
-       <footer class="footer transition mt-3">
+       <footer class="footer transition">
            <!-- logo footer -->
            <div class="mx-auto footer-top pt-2 pb-4">
                 <img src="../assets/img/logo-footer.png" class="transition footer-top__logo pt-2 pb-2">
@@ -273,7 +273,7 @@
             // menu active link 
             $(activeId + ' .border-bottom-menu').addClass('activated-border-bottom');
             // orange color not for cart link 
-            if(activateId != "#active-cart") {
+            if(activeId != "#active-cart") {
                 $(activeId + ' a').addClass('activated');
             }
         </script>

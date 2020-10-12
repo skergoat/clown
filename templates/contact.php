@@ -21,7 +21,7 @@
                     <div><p class="font-13 lh-2">22 rue du Faubourg Montmartre - 75009 Paris</p></div>
                 </div>
                 <div class="mt-0 ml-4">
-                    <div class="mt-0 transports-info transports-info__metro"><img src="../assets/img/metros.png" style="width:75px;"></div>
+                    <div class="mt-0 transports-info transports-info__metro"><img src="../assets/img/metro.png" style="width:170px;"></div>
                     <div class="mt-2 transports-info transports-info__bus"><img src="../assets/img/bus.png"></div>
                 </div>
                 <div class="d-flex mt-4">

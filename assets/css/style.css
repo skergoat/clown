@@ -10225,6 +10225,22 @@ h3 {
   .mr-xs-5 {
     margin-right: 3rem;
   }
+
+  .flex-xs-column {
+    flex-direction: column !important;
+  }
+
+  .flex-xs-row {
+    flex-direction: row !important;
+  }
+
+  .justify-content-xs-center {
+    justify-content: center !important;
+  }
+
+  .align-items-xs-center {
+    justify-content: center !important;
+  }
 }
 .header-transparent {
   opacity: 0;
@@ -11297,10 +11313,31 @@ input[type=number] {
   font-size: 12px;
 }
 .search-text__content {
-  line-height: 1.5px;
+  line-height: 1rem;
 }
 .search-text__title {
   color: #FD9644 !important;
+}
+
+#map {
+  display: block;
+  min-width: 100%;
+  height: 400px;
+  margin-left: 0px;
+}
+@media (min-width: 992px) {
+  #map {
+    display: block;
+    margin-left: 0%;
+  }
+}
+@media (min-width: 1200px) {
+  #map {
+    display: block;
+    min-width: 600px;
+    height: 400px;
+    margin-left: 12%;
+  }
 }
 
 .transports-info__metro {

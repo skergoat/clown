@@ -55,9 +55,29 @@
         font-size:12px;
     }
     &__content {
-        line-height:1.5px;
+        line-height:1rem;
     }
     &__title {
         color:$button-1!important;
+    }
+}
+
+#map {
+    
+    @include media-breakpoint-up(xs) { 
+        display:block;
+        min-width: 100%; 
+        height: 400px;
+        margin-left:0px;
+    }
+    @include media-breakpoint-up(lg) { 
+        display:block;
+        margin-left:0%;
+    }
+    @include media-breakpoint-up(xl) { 
+        display:block;
+        min-width: 600px; 
+        height: 400px;
+        margin-left:12%;
     }
 }

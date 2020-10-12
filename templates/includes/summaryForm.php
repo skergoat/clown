@@ -108,7 +108,7 @@
 </div>
 
 <!-- text area -->
-<div class="col-lg-12 mb-xs-4 mb-lg-0 mt-xs-4 mt-sm-4 mt-lg-3 p-xs-none pb-3 pt-2">
+<div class="col-lg-12 mb-xs-4 mb-lg-0 mt-xs-4 mt-sm-4 mt-lg-2 p-xs-none pb-3 pt-2">
     <!-- title -->
     <h5 class="black pb-2">Message (facultatif)</h5>
     <span class="border-bottom-orange mb-1"></span>
@@ -140,7 +140,7 @@
             </div>
         </div>
         <!-- paypal -->
-        <div class="col-lg-2 pl-xs-none pl-sm-0 pr-lg-3 pr-0">
+        <div class="col-lg-2 mb-xs-3 mb-sm-3 pl-0 pr-xs-0 pr-xs-none pr-sm-0 pr-lg-3">
             <div id="shipping-chronopost" class="payment-choice shipping-choice pt-2 pb-2 pr-0 pl-0 pointer" data-url="chronopost">
                 <img src="../assets/img/logo-chronopost-small.png" alt="logo chronopost">
             </div>
@@ -153,7 +153,7 @@
             </div>
         </div>
         <!-- paypal -->
-        <div class="col-lg-2 pl-xs-none pl-sm-0 pr-lg-3 pr-0">
+        <div class="col-lg-2 mb-xs-3 mb-sm-3 pl-0 pr-xs-0 pr-xs-none pr-sm-0 pr-lg-3">
             <div id="shipping-relais" class="payment-choice shipping-choice pt-2 pb-2 pr-0 pl-0 choice-selected pointer" data-url="relais">
                 <img src="../assets/img/point-relais.png" alt="logo relais">
             </div>
@@ -166,7 +166,7 @@
             </div>
         </div>
         <!-- paypal -->
-        <div class="col-lg-2 pl-xs-none pl-sm-0 pr-lg-3 pr-0">
+        <div class="col-lg-2 mb-xs-3 mb-sm-3 pl-0 pr-xs-0 pr-xs-none pr-sm-0 pr-lg-3">
             <div id="shipping-retrait" class="payment-choice shipping-choice pointer d-flex align-items-center justify-content-center" data-url="retrait">
                 <p class="black font-13 text-center m-0">Retrait en magasin</p>
             </div>
@@ -183,76 +183,84 @@
         <div class="shipping-title row p-2 m-0 d-flex justify-content-center">
             <h5 class="black font-17 m-0">Sélectionnez votre Point Relais® Mondial Relay.</h5>
         </div>
-        <div class="shipping-content p-4">
-            <div class="row p-0 pr-4 m-0">
+        <div class="shipping-content p-xs-2 p-md-4">
+            <div class="row p-0 pr-xs-0 pr-lg-4 m-0">
                 <!-- <form> -->
                 <div class="w-100">
-                    <div class="form-row align-items-center d-flex justify-content-between">
-                        <img src="../assets/img/big-logo-point-relais.png" alt="logo point relais" class="mr-3" id="big-logo-relais">
-                        <div class="d-flex align-items-center mr-3">
-                            <label for="cityname" class="bold font-14 pr-3 mb-0">Ville</label>
-                            <input type="text" class="search form-control w-100 mb-0 font-12" id="cityname" value="Paris">
-                        </div>
-                        <div class="d-flex align-items-center">
-                        <label for="zipcode" class="bold font-14 pr-3 mb-0">CP</label>
-                            <input type="text" class="search form-control mb-0 font-12" id="zipcode" value="75001">
-                        </div>
-                        <div class="col-auto">
-                            <div class="form-check mb-0">
-                                <img src="../assets/img/flag_fr.png" alt="logo point relais" id="flag">
+                    <div class="form-row b-purple flex-xs-column flex-sm-column flex-xl-row align-items-center"> 
+                        <div class="d-flex flex-xs-column b-red">
+                            <img src="../assets/img/big-logo-point-relais.png" alt="logo point relais" class="mr-3" id="big-logo-relais">
+                            <div class="d-flex align-items-center mr-3">
+                                <label for="cityname" class="bold font-13 pr-3 mb-0">Ville</label>
+                                <input type="text" class="search form-control w-100 mb-0 font-12" id="cityname" value="Paris">
+                            </div>
+                            <div class="d-flex align-items-center">
+                            <label for="zipcode" class="bold font-13 pr-3 mb-0">CP</label>
+                                <input type="text" class="search form-control mb-0 font-12" id="zipcode" value="75001">
                             </div>
                         </div>
-                        <div class="col-auto">
-                            <button type="submit" class="btn button-orange btn-summary black">Chercher</button>
-                        </div>
-                        <div class="col-auto">
-                            <div class="form-check mb-0">
-                                <img src="../assets/img/target.png" alt="logo point relais" id="logo-target">
+                        <div class="d-flex align-items-center b-green">
+                            <div class="col-auto">
+                                <div class="form-check">
+                                    <img src="../assets/img/flag_fr.png" alt="logo point relais" id="flag">
+                                </div>
+                            </div>
+                            <div class="col-auto">
+                                <button type="submit" class="btn button-orange btn-summary black">Chercher</button>
+                            </div>
+                            <div class="col-auto">
+                                <div class="form-check">
+                                    <img src="../assets/img/target.png" alt="logo point relais" id="logo-target">
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
                 <!-- </form> -->
             </div>
-            <div class="search-result row p-0 m-0 pt-3">
-                <div class="search-text d-flex flex-column">
-                    <div>
-                        <p class="search-text__title bold">1- L’univers du mobile</p>
-                        <p class="search-text__content">1 RUE DES PROUVAIRES</p>
-                        <p class="search-text__content">75001 - PARIS</p>
+            <div class="search-result row p-0 m-0 pt-3 mt-sm-3 mt-lg-0">
+                <div class="search-text flex-column flex-md-row flex-lg-row flex-xl-column d-flex mb-sm-3 mb-lg-0">
+                    <div class="search-text pl-0 col-xl-12 col-lg-12 d-flex flex-column">
+                        <div>
+                            <p class="search-text__title bold mb-2">1- L’univers du mobile</p>
+                            <p class="search-text__content mb-1">1 RUE DES PROUVAIRES</p>
+                            <p class="search-text__content">75001 - PARIS</p>
+                        </div>
+                        <div>
+                            <p class="search-text__title bold mb-2">2- click & services</p>
+                            <p class="search-text__content mb-1">FORUM DES HALLES LESCOT -2</p>
+                            <p class="search-text__content">75001 - PARIS</p>
+                        </div>
+                        <div>
+                            <p class="search-text__title bold mb-2">3- Paris 1 my auchan</p>
+                            <p class="search-text__content mb-1">20 PLACE DU MARCHE SAINT HONORE</p>
+                            <p class="search-text__content">75001 - PARIS</p>
+                        </div>
+                        <div>
+                            <p class="search-text__title bold mb-2">4- Avenir informatique</p>
+                            <p class="search-text__content mb-1">39 RUE BEAUREGARD</p>
+                            <p class="search-text__content">75002 - PARIS</p>
+                        </div>
                     </div>
-                    <div>
-                        <p class="search-text__title bold">2- click & services</p>
-                        <p class="search-text__content">FORUM DES HALLES LESCOT -2</p>
-                        <p class="search-text__content">75001 - PARIS</p>
-                    </div>
-                    <div>
-                        <p class="search-text__title bold">3- Paris 1 my auchan</p>
-                        <p class="search-text__content">20 PLACE DU MARCHE SAINT HONORE</p>
-                        <p class="search-text__content">75001 - PARIS</p>
-                    </div>
-                    <div>
-                        <p class="search-text__title bold">4- Avenir informatique</p>
-                        <p class="search-text__content">39 RUE BEAUREGARD</p>
-                        <p class="search-text__content">75002 - PARIS</p>
-                    </div>
-                    <div>
-                        <p class="search-text__title bold">5- Bodhi telecom</p>
-                        <p class="search-text__content">2 RUE DE MULHOUSE</p>
-                        <p class="search-text__content">75002 - PARIS</p>
-                    </div>
-                    <div>
-                        <p class="search-text__title bold">6- My Auchan Reaumur</p>
-                        <p class="search-text__content">85 RUE REAUMUR</p>
-                        <p class="search-text__content">75002 - PARIS</p>
-                    </div>
-                    <div>
-                        <p class="search-text__title bold">7- Rufezahoq</p>
-                        <p class="search-text__content">9 RUE DE BRUXELLES</p>
-                        <p class="search-text__content">75009 - PARIS</p>
+                    <div class="search-text pl-0 col-xl-12 col-lg-12 d-flex flex-column">
+                        <div>
+                            <p class="search-text__title bold mb-2">5- Bodhi telecom</p>
+                            <p class="search-text__content mb-1">2 RUE DE MULHOUSE</p>
+                            <p class="search-text__content">75002 - PARIS</p>
+                        </div>
+                        <div>
+                            <p class="search-text__title bold mb-2">6- My Auchan Reaumur</p>
+                            <p class="search-text__content mb-1">85 RUE REAUMUR</p>
+                            <p class="search-text__content">75002 - PARIS</p>
+                        </div>
+                        <div>
+                            <p class="search-text__title bold mb-2">7- Rufezahoq</p>
+                            <p class="search-text__content mb-1">9 RUE DE BRUXELLES</p>
+                            <p class="search-text__content">75009 - PARIS</p>
+                        </div>
                     </div>
                 </div>
-                <div id="map" style = "display:block;min-width: 600px; height: 400px;margin-left:120px;"></div>
+                <div id="map"></div>
             </div>
         </div>
     </div>

@@ -11354,11 +11354,11 @@ input[type=number] {
   width: 100%;
 }
 
-.pay-choice {
+.payment-choice {
   border-radius: 13px;
   border: 1px solid #9D9D9D;
 }
-.pay-choice > div {
+.payment-choice > div {
   background: transparent !important;
 }
 

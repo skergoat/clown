@@ -21,9 +21,10 @@
     <script>
         $class="select-selected-large";
         $class2="select-items-large";
+        let $val = "shipping";
     </script>
     <script src="../assets/js/custom-select.js"></script>
-    <script src="../assets/js/shipping-choice.js"></script>
+    <script src="../assets/js/radio-choice.js"></script>
 <?php $script = ob_get_clean(); ?>
 <!-- include -->
 <?php require('layout/layoutSecond.php'); ?>

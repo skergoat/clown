@@ -277,6 +277,7 @@
                 $(activeId + ' a').addClass('activated');
             }
         </script>
+        <!-- map -->
         <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
         <script>
             var map = L.map('map').setView([48.86298, 2.34319], 17);

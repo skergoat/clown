@@ -5,8 +5,8 @@ function selectChoiceRadio($element){
     // get radio id 
     let id = $($element).attr('id');
     // then add class to the box 
-    $('.pay-choice:not(#payment-'+id+')').removeClass('choice-selected');
-    $('#payment-'+id).addClass('choice-selected');
+    $('.'+$val+'-choice:not(#'+$val+'-'+id+')').removeClass('choice-selected');
+    $('#'+$val+'-'+id).addClass('choice-selected');
 }
 
 // select payment choice with Box 
@@ -14,7 +14,7 @@ function selectChoiceBox($element){
     // get radio id 
     let data = $($element).attr('data-url');
     // change box style 
-    $('.pay-choice:not(#payment-'+data+')').removeClass('choice-selected');
+    $('.'+$val+'-choice:not(#payment-'+data+')').removeClass('choice-selected');
     $($element).addClass('choice-selected');
     // then add check radio 
     $('.payment-selection:not(#'+data).prop('checked', false);
@@ -22,10 +22,10 @@ function selectChoiceBox($element){
 }
 
 // click 
-$('.payment-selection').click(function() {
+$('.'+$val+'-selection').on('click', function() {
     selectChoiceRadio(this);
 });
 
-$('.pay-choice').click(function() {
+$('.'+$val+'-choice').on('click', function() {
     selectChoiceBox(this);
 });

@@ -20,7 +20,7 @@
                 <div class="row mr-0 ml-0 mb-3">
                     <!-- credit card -->
                     <div class="col-lg-6 mb-xs-3 mb-sm-3 pl-0 pr-xs-0 pr-xs-none pr-sm-0 pr-lg-3">
-                        <div id="payment-creditcard" class="pay-choice p-4 pointer choice-selected" data-url="creditcard">
+                        <div id="payment-creditcard" class="payment-choice p-4 pointer choice-selected" data-url="creditcard">
                             <img src="../assets/img/credit-card-icon.png" class="icon-single d-block mx-auto mb-3 mt-1" alt="logo lydia">
                             <p class="black font-16 text-center mb-1">Carte Bancaire (Lydia)</p>
                             <p class="light font-12 text-center">Paiement sécurisé</p>
@@ -39,7 +39,7 @@
                     </div>
                     <!-- paypal -->
                     <div class="col-lg-6 pl-xs-none pl-sm-0 pl-lg-3 pr-0">
-                        <div id="payment-paypal" class="pay-choice p-4 pointer" data-url="paypal">
+                        <div id="payment-paypal" class="payment-choice p-4 pointer" data-url="paypal">
                             <img src="../assets/img/paypal-icon.png" class="icon-single d-block mx-auto mb-3 mt-1" alt="logo paypal">
                             <p class="black font-16 text-center mb-1">Paypal</p>
                             <p class="light font-12 text-center">Paiement sécurisé</p>
@@ -61,7 +61,7 @@
                 <div class="row mr-0 ml-0 mt-3">
                     <!-- check -->
                     <div class="col-lg-6 pl-0 pr-xs-none pr-3">
-                        <div id="payment-check" class="pay-choice p-4 pointer" data-url="check">
+                        <div id="payment-check" class="payment-choice p-4 pointer" data-url="check">
                             <img src="../assets/img/logo-check-icon.png" class="icon-single d-block mx-auto mb-3 mt-1" alt="logo check">
                             <p class="black font-16 text-center mb-1">Chèque</p>
                             <p class="light font-12 text-center">Paiement à la livraison</p>
@@ -96,7 +96,10 @@
 
 <!-- secondary content -->
 <?php ob_start(); ?>
-<script src="../assets/js/payment-choice.js"></script>
+<script>
+    let $val = "payment";
+</script>
+<script src="../assets/js/radio-choice.js"></script>
 <?php $script = ob_get_clean(); ?>
 
 <!-- include -->

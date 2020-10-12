@@ -9,3 +9,24 @@
 .br-10 {
     border-radius:10px;
 }
+
+.chevron-right .icon-right-open:before,
+.chevron-left .icon-left-open:before {
+    margin:0px!important;
+}
+
+.chevron-right .icon-right-open {
+    position: relative;
+    left: -10px;
+}
+
+.chevron-left .icon-left-open {
+    position: relative;
+    left: 10px;
+}
+
+.btn-chevron {
+    position:relative;
+    top:-1px;
+}
+

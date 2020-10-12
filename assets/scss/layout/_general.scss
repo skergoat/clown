@@ -6,6 +6,11 @@
     }    
 }
 
+/* backgrounds */
+.bgd-yellow {
+    background:$background!important;
+}
+
 /* borders */
 
 .b-black {
@@ -72,6 +77,11 @@
 
 .pointer {
     cursor:pointer;
+}
+
+ // line height 
+.line-height {
+    line-height:1.8em;
 }
 
 /* spacing for mobile */

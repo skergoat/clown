@@ -9904,6 +9904,11 @@ h3 {
     display: flex;
   }
 }
+/* backgrounds */
+.bgd-yellow {
+  background: #FEE690 !important;
+}
+
 /* borders */
 .b-black {
   border: 2px solid black !important;
@@ -9966,6 +9971,10 @@ h3 {
 /* mouse */
 .pointer {
   cursor: pointer;
+}
+
+.line-height {
+  line-height: 1.8em;
 }
 
 /* spacing for mobile */
@@ -10957,6 +10966,11 @@ input[type=number] {
   padding: 7px 44px 7px 44px;
 }
 
+.btn.btn-pink {
+  background: #FF0999 !important;
+  color: white !important;
+}
+
 /* payment page */
 .icon-single {
   max-height: 20px;
@@ -11369,10 +11383,6 @@ input[type=number] {
 
 #slider {
   height: 500px !important;
-}
-
-.section-3 {
-  background: #FEE690 !important;
 }
 
 /** font family **/

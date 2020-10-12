@@ -1,9 +1,14 @@
 <?php ob_start(); ?>
 
-<section class="b-black"></section>
-<section class="b-black">
-    <div class="container b-red">
-
+<section class="b-black" id="slider"></section>
+<section class="pb-3 pt-1">
+    <div class="container">
+        <div class="row p-0 pt-5 pb-5 d-flex flex-row justify-content-between">
+            <div class="col-3" style="max-width:230px;"><img src="../assets/img/deguisement.png" alt="" class="w-100"></div>
+            <div class="col-3" style="max-width:230px;"><img src="../assets/img/accessoires.png" alt="" class="w-100"></div>
+            <div class="col-3" style="max-width:230px;"><img src="../assets/img/fetes.png" alt="" class="w-100"></div>
+            <div class="col-3" style="max-width:230px;"><img src="../assets/img/promotions.png" alt="" class="w-100"></div>
+        </div>
     </div>
 </section>
 <section class="b-black section-3">
@@ -22,6 +27,7 @@
 
 <!-- JS  --> 
 <?php ob_start(); ?>
+<script src="../assets/js/slider.js"></script>
 <script>
     // active link 
     let activeId = '#active-home'; 

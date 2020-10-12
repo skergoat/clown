@@ -68,7 +68,6 @@
             top:-6px;
         }
         &:hover {
-            color:red!important;
             @include link-color($orange-link);
             & .border-bottom-menu {
                 opacity:1;

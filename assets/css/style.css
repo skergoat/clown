@@ -11173,6 +11173,54 @@ input[type=number] {
   max-width: 500px !important;
 }
 
+/* homepage */
+.card-product {
+  width: 24%;
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  p, .button-orange.button-orange-cards {
+    font-size: 10px !important;
+  }
+}
+@media (max-width: 992px) {
+  .card-product {
+    display: none;
+  }
+
+  .card-product:nth-child(1),
+.card-product:nth-child(2) {
+    width: 48%;
+    display: block;
+  }
+
+  .card-product:nth-child(3),
+.card-product:nth-child(4) {
+    display: none;
+  }
+}
+@media (max-width: 768px) {
+  .card-product:nth-child(2) {
+    display: none;
+  }
+
+  .card-product:first-child {
+    width: 90%;
+    display: block;
+    margin: auto !important;
+  }
+}
+@media (max-width: 576px) {
+  .card-product:nth-child(2) {
+    display: none;
+  }
+
+  .card-product:first-child {
+    width: 90%;
+    display: block;
+    margin: auto;
+  }
+}
 @font-face {
   font-family: "nunito_sansregular";
   src: url("../fonts/Nunito/nunitosans-regular-webfont.woff2") format("woff2"), url("../fonts/Nunito/nunitosans-regular-webfont.woff") format("woff");
@@ -11486,10 +11534,6 @@ input[type=number] {
   max-width: 195px;
 }
 
-.card-product {
-  width: 24%;
-}
-
 .mx-mille {
   max-width: 1050px !important;
 }
@@ -11518,42 +11562,12 @@ input[type=number] {
   top: -1px;
 }
 
-@media (min-width: 992px) and (max-width: 1199px) {
-  p, .button-orange.button-orange-cards {
-    font-size: 10px !important;
-  }
-}
 @media (max-width: 992px) {
   .logo-theme {
     max-width: 23%;
   }
-
-  .card-product {
-    display: none;
-  }
-
-  .card-product:nth-child(1),
-.card-product:nth-child(2) {
-    width: 48%;
-    display: block;
-  }
-
-  .card-product:nth-child(3),
-.card-product:nth-child(4) {
-    display: none;
-  }
 }
 @media (max-width: 768px) {
-  .card-product:nth-child(2) {
-    display: none;
-  }
-
-  .card-product:first-child {
-    width: 90%;
-    display: block;
-    margin: auto !important;
-  }
-
   .chevron-right .icon-right-open {
     position: relative;
     left: 0px;
@@ -11579,16 +11593,6 @@ input[type=number] {
 
   .column-xs-reverse {
     flex-direction: column-reverse;
-  }
-
-  .card-product:nth-child(2) {
-    display: none;
-  }
-
-  .card-product:first-child {
-    width: 90%;
-    display: block;
-    margin: auto;
   }
 
   .chevron-right .icon-right-open {

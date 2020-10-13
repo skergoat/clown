@@ -58,7 +58,7 @@
                 <div class="col-xs-10 col-sm-10 col-md-11 mx-mille mx-auto">
                     <div class="row bgd-yellow justify-content-between">
                         <div class="p-0 mr-xs-none mr-sm-2 bgd-yellow card-product">
-                            <img src="../assets/img/promos-card.png" class="img-fluid bs-red br-10" alt="Responsive image">
+                            <img src="../assets/img/promos-card.png" class="img-fluid bs-red card-first" alt="Responsive image">
                         </div>
                         <div class="p-3 mr-1 bs-red br-10 card-product">
                             <img class="card-badge" src="../assets/img/badge-promo.png" alt="Card image cap">
@@ -96,7 +96,7 @@
                 <div class="col-xs-10 col-sm-10 col-md-11 mx-mille mx-auto">
                     <div class="row bgd-yellow justify-content-between">
                         <div class="p-0 mr-xs-none mr-sm-2 bgd-yellow card-product">
-                            <img src="../assets/img/deguisements-card.png" class="img-fluid bs-red br-10" alt="Responsive image">
+                            <img src="../assets/img/deguisements-card.png" class="card-first img-fluid bs-red br-10" alt="Responsive image">
                         </div>
                         <div class="p-3 mr-1 bs-red br-10 card-product">
                             <img class="card-img-top" src="../assets/img/collant-blanc.png" alt="Card image cap">
@@ -131,7 +131,7 @@
                 <div class="col-xs-10 col-sm-10 col-md-11 mx-mille mx-auto">
                     <div class="row bgd-yellow justify-content-between">
                         <div class="p-0 mr-xs-none mr-sm-2 bgd-yellow card-product">
-                            <img src="../assets/img/fete-card.png" class="img-fluid bs-red br-10" alt="Responsive image">
+                            <img src="../assets/img/fete-card.png" class="card-first img-fluid bs-red br-10" alt="Responsive image">
                         </div>
                         <div class="p-3 mr-1 bs-red br-10 card-product">
                             <img class="card-img-top" src="../assets/img/collant-blanc.png" alt="Card image cap">
@@ -167,7 +167,7 @@
                 <div class="col-xs-10 col-sm-10 col-md-11 mx-mille mx-auto">
                     <div class="row bgd-yellow justify-content-between">
                         <div class="p-0 mr-xs-none mr-sm-2 bgd-yellow card-product">
-                            <img src="../assets/img/accessoires-card.png" class="img-fluid bs-red br-10" alt="Responsive image">
+                            <img src="../assets/img/accessoires-card.png" class="card-first img-fluid bs-red br-10" alt="Responsive image">
                         </div>
                         <div class="p-3 mr-1 bs-red br-10 card-product">
                             <img class="card-badge" src="../assets/img/badge-nouveaute.png" alt="Card image cap">

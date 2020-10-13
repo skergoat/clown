@@ -7,6 +7,10 @@
     z-index:1;
 }
 
+.card-first {
+    border-radius:10px!important;
+}
+
 // badge
 
 .card-badge {
@@ -53,6 +57,9 @@
         width:90%;
         display:block;
         margin:auto!important;
+    }
+    .card-first {
+        border-radius:20px!important;
     }
 }
 

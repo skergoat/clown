@@ -9898,6 +9898,14 @@ h3 {
 /*rgba*/
 /* padding */
 /* margin */
+.mx-mille {
+  max-width: 1050px !important;
+}
+
+.mx-mille-cent {
+  max-width: 1100px !important;
+}
+
 @media (max-width: 992px) {
   .column-md-reverse {
     flex-direction: column-reverse;
@@ -11184,6 +11192,10 @@ input[type=number] {
   z-index: 1;
 }
 
+.card-first {
+  border-radius: 10px !important;
+}
+
 .card-badge {
   position: absolute;
   z-index: 3;
@@ -11221,6 +11233,10 @@ input[type=number] {
     width: 90%;
     display: block;
     margin: auto !important;
+  }
+
+  .card-first {
+    border-radius: 20px !important;
   }
 }
 @media (max-width: 576px) {
@@ -11552,7 +11568,7 @@ input[type=number] {
 }
 
 .br-10 {
-  border-radius: 20px;
+  border-radius: 10px;
 }
 
 .chevron-right .icon-right-open:before,

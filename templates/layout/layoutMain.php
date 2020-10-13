@@ -32,7 +32,7 @@
                <!-- menu -->
                <div class="nav__primary">
                     <div class="d-flex justify-content-between nav__wrapper">
-                        <a href="#">
+                        <a href="http://localhost:8888/templates/home.php">
                             <img src="../assets/img/logo.png" class="logo d-md-block d-lg-block d-none pt-3 pb-3">
                             <img src="../assets/img/logo-responsive.png" class="logo d-md-none d-lg-none pt-2 pb-2">
                         </a>
@@ -56,7 +56,7 @@
                     </div>
                     <div id="menu-responsive" class="inactive">
                         <ul class="mb-0 p-0 list" id="menu-responsive__ul">
-                            <li><a href="#news" class="font-weight-bold link-black hover d-block pl-4 p-2">Accueil</a></li>
+                            <li><a href="http://localhost:8888/templates/home.php" class="font-weight-bold link-black hover d-block pl-4 p-2">Accueil</a></li>
                             <li><a href="http://localhost:8888/templates/product.php" class="font-weight-bold link-black hover d-block pl-4 p-2">Boutique</a></li>
                             <li><a href="http://localhost:8888/templates/infos.php" class="font-weight-bold link-black hover d-block pl-4 p-2">Infos Pratiques</a></li>
                             <li><a href="http://localhost:8888/templates/contact.php"  class="font-weight-bold link-black hover d-block pl-4 p-2">Contact</a></li>
@@ -86,12 +86,12 @@
                <!-- menu -->
                <div class="nav__primary">
                     <div class="d-flex justify-content-between nav__wrapper">
-                        <a href="#">
+                        <a href="http://localhost:8888/templates/home.php">
                             <img src="../assets/img/logo.png" class="logo d-md-block d-lg-block d-none pt-3 pb-3">
                             <img src="../assets/img/logo-responsive.png" class="logo d-md-none d-lg-none pt-2 pb-2">
                         </a>
                         <ul class="d-none d-lg-flex mb-0 list menu">
-                            <li><a href="#" class="d-flex align-items-center font-weight-bold link-black black">Accueil</a><div class="border-bottom-menu"></div></li>
+                            <li><a href="http://localhost:8888/templates/home.php" class="d-flex align-items-center font-weight-bold link-black black">Accueil</a><div class="border-bottom-menu"></div></li>
                             <li class="ml-4"><a href="http://localhost:8888/templates/product.php" class="d-flex align-items-center link-black black">Boutique</a><div class="border-bottom-menu"></div></li>
                             <li class="ml-4"><a href="http://localhost:8888/templates/infos.php" class="d-flex align-items-center link-black black">Infos Pratiques</a><div class="border-bottom-menu"></div></li>
                             <li class="ml-4"><a href="#" class="d-flex align-items-center link-black black pr-1">Contact</a><div class="border-bottom-menu"></div></li>

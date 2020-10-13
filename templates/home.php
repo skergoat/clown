@@ -33,7 +33,7 @@
 <!-- 1st section -->
 <section class="section-3 bgd-yellow pb-xs-none pb-sm-0 pb-lg-5">
     <div class="container bgd-yellow pt-5 pb-2">
-        <div class="row br-10 bs-red column-sm-reverse container-width mx-auto mt-3 p-xs-4 p-md-5 mb-5 mx-mille">
+        <div class="row br-10 bs-red column-md-reverse container-width mx-auto mt-3 p-xs-4 p-md-5 mb-5 mx-mille">
             <div class="col-sm-12 col-lg-6 pr-xs-0 pr-sm-0 pr-lg-5 pl-xs-0 pl-md-4 pb-4">
                 <h3 class="black pb-2 pt-2">Clown Montmartre</h3>
                 <span class="border-bottom-orange mb-4"></span>
@@ -60,7 +60,12 @@
                         <div class="p-0 mr-xs-none mr-sm-2 bgd-yellow card-product">
                             <img src="../assets/img/promos-card.png" class="img-fluid bs-red br-10" alt="Responsive image">
                         </div>
-                        <div class="p-0 mr-1 bs-red br-10 card-product"></div>
+                        <div class="p-3 mr-1 bs-red br-10 card-product">
+                            <img class="card-img-top" src="../assets/img/collant-blanc.png" alt="Card image cap">
+                            <p class="bold text-center mb-2">Collants sorcière enfant fluo</p>
+                            <p class="black text-center mb-3">Des <span style="text-decoration:line-through;" class="black">6,95€</span> <span class="black font-20 strong-pink">3,95€</span></p>
+                            <button class="btn button-orange button-orange-cards d-block mx-auto bold font-16">Voir le produit</button>
+                        </div>
                         <div class="p-0 ml-1 bs-red br-10 card-product"></div>
                         <div class="p-0 ml-2 bs-red br-10 card-product"></div>
                     </div>

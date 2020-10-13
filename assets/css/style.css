@@ -9898,6 +9898,16 @@ h3 {
 /*rgba*/
 /* padding */
 /* margin */
+@media (max-width: 992px) {
+  .column-md-reverse {
+    flex-direction: column-reverse;
+  }
+}
+@media (max-width: 768px) {
+  .column-sm-reverse {
+    flex-direction: column-reverse;
+  }
+}
 /* display */
 @media all and (max-width: 576px) {
   .d-xs-flex {
@@ -11001,6 +11011,14 @@ input[type=number] {
   border-radius: 0.5rem !important;
 }
 
+.button-orange.button-orange-cards {
+  padding: 8px 45px 8px 45px;
+}
+
+.button-orange.button-orange-cards:hover {
+  padding: 7px 44px 7px 44px;
+}
+
 /* payment page */
 .icon-single {
   max-height: 20px;
@@ -11500,13 +11518,14 @@ input[type=number] {
   top: -1px;
 }
 
+@media (min-width: 992px) and (max-width: 1199px) {
+  p, .button-orange.button-orange-cards {
+    font-size: 10px !important;
+  }
+}
 @media (max-width: 768px) {
   .logo-theme {
     max-width: 23%;
-  }
-
-  .column-sm-reverse {
-    flex-direction: column-reverse;
   }
 }
 @media (max-width: 576px) {

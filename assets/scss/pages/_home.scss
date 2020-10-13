@@ -90,6 +90,12 @@
     top:-1px;
 }
 
+@media (min-width:992px) and (max-width:1199px) {
+    p, .button-orange.button-orange-cards {
+        font-size:10px!important;
+    }
+}
+
 // tablet 
 // mobile 
 @media (max-width:768px)
@@ -97,10 +103,6 @@
     // logos themes 
     .logo-theme {
         max-width:23%;
-    }
-
-    .column-sm-reverse {
-        flex-direction:column-reverse;
     }
 }
 

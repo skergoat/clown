@@ -11403,6 +11403,13 @@ input[type=number] {
   background-size: cover;
 }
 
+.img-placeholder {
+  min-height: 100%;
+  object-fit: cover;
+  z-index: 1;
+  position: absolute;
+}
+
 .icon-slider {
   font-size: 30px;
   color: white !important;
@@ -11444,6 +11451,10 @@ input[type=number] {
   background: white !important;
 }
 
+.logo-theme {
+  max-width: 195px;
+}
+
 .mx-mille {
   max-width: 1050px !important;
 }
@@ -11472,6 +11483,23 @@ input[type=number] {
   top: -1px;
 }
 
+@media (max-width: 576px) {
+  .slider-control-title {
+    font-size: 20px;
+  }
+
+  .slider-control-navs {
+    height: 30%;
+  }
+
+  .logo-theme {
+    max-width: 48%;
+  }
+
+  .content__product {
+    flex-direction: column-reverse;
+  }
+}
 /** font family **/
 * {
   font-family: "nunito_sansextralight", sans-serif;

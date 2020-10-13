@@ -2,8 +2,8 @@
 <!-- slider -->
 <section class="d-flex align-items-center" id="slider" style="position:relative;">
     <div class="slider-arrows w-100 d-flex justify-content-between bgd-transparent">
-        <div class="chevron chevron-left d-flex align-items-center font-23 bgd-transparent pl-5"><i class="icon-slider icon-left-open pointer pl-3"></i></div>
-        <div class="chevron d-flex align-items-center chevron-right font-23 bgd-transparent pr-5"><i class="icon-slider icon-right-open pointer pr-3"></i></div>
+        <div class="chevron d-flex align-items-center font-23 bgd-transparent pl-xs-2 pl-5"><i class="icon-slider icon-left-open pointer"></i></div>
+        <div class="chevron d-flex align-items-center font-23 bgd-transparent pr-xs-2 pr-5"><i class="icon-slider icon-right-open pointer"></i></div>
         <div class="slider-control bgd-transparent">
             <h5 class="black pb-3 slider-control-title">Une rentrée à prix cassé ! Découvrez nos meilleures promos !</h5>
             <button class="btn btn-pink bold font-15 pl-4 pr-4 d-block mx-auto">Découvrir</button>
@@ -17,24 +17,24 @@
             </div>
         </div>
     </div>
-    <img class="img-fluid" src="../assets/img/placeholder.jpg" alt="" style="min-height:100%;object-fit:cover;z-index:1;position:absolute;" />
+    <img class="img-fluid img-placeholder" src="../assets/img/placeholder.jpg" alt="" />
 </section>
 <!-- themes logos -->
 <section class="pt-0">
     <div class="container">
         <div class="row p-0 pt-5 pb-5 d-flex flex-row justify-content-between mx-mille mx-auto">
-            <div class="col-3 p-0 pt-2 pb-3" style="max-width:195px;"><img src="../assets/img/deguisement.png" alt="" class="w-100"></div>
-            <div class="col-3 p-0 pt-2 pb-3" style="max-width:195px;"><img src="../assets/img/accessoires.png" alt="" class="w-100"></div>
-            <div class="col-3 p-0 pt-2 pb-3"style="max-width:195px;"><img src="../assets/img/fetes.png" alt="" class="w-100"></div>
-            <div class="col-3 p-0 pt-2 pb-3" style="max-width:195px;"><img src="../assets/img/promotions.png" alt="" class="w-100"></div>
+            <div class="logo-theme col-lg-3 p-0 pt-2 pb-3" style="width:50%;"><img src="../assets/img/deguisement.png" alt="" class="w-100 img-fluid"></div>
+            <div class="logo-theme col-lg-3 p-0 pt-2 pb-3" style="width:50%;"><img src="../assets/img/accessoires.png" alt="" class="w-100 img-fluid"></div>
+            <div class="logo-theme col-lg-3 p-0 pt-2 pb-3"><img src="../assets/img/fetes.png" alt="" class="w-100"></div>
+            <div class="logo-theme col-lg-3 p-0 pt-2 pb-3" ><img src="../assets/img/promotions.png" alt="" class="w-100"></div>
         </div>
     </div>
 </section>
 <!-- 1st section -->
 <section class="section-3 bgd-yellow pb-5">
     <div class="container bgd-yellow pt-5 pb-2">
-        <div class="row content__product container-width mx-auto mt-3 p-5 mb-5 mx-mille">
-            <div class="col-md-6 pr-5 pl-4 pb-4">
+        <div class="row content__product container-width mx-auto mt-3 p-xs-4 p-md-5 mb-5 mx-mille">
+            <div class="col-md-6 pr-xs-0 pr-md-5 pl-xs-0 pl-md-4 pb-4">
                 <h3 class="black pb-2 pt-2">Clown Montmartre</h3>
                 <span class="border-bottom-orange mb-4"></span>
                 <p class="line-height pb-3 font-14">
@@ -43,7 +43,7 @@
                 <button class="btn btn-pink bold font-15 pl-4 pr-4">En savoir plus</button>
             </div>
             <div class="col-md-6">
-                <img src="../assets/img/placeholder.png" class="img-fluid" alt="Responsive image">
+                <img src="../assets/img/placeholder.png" class="img-fluid mb-xs-4 mt-xs-4" alt="Responsive image">
             </div>
         </div>
         <!-- cards -->

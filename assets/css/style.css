@@ -11527,6 +11527,21 @@ input[type=number] {
   .logo-theme {
     max-width: 23%;
   }
+
+  .card-product {
+    display: none;
+  }
+
+  .card-product:nth-child(1),
+.card-product:nth-child(2) {
+    width: 48%;
+    display: block;
+  }
+
+  .card-product:nth-child(3),
+.card-product:nth-child(4) {
+    display: none;
+  }
 }
 @media (max-width: 576px) {
   .slider-control-title {
@@ -11545,7 +11560,7 @@ input[type=number] {
     flex-direction: column-reverse;
   }
 
-  .card-product {
+  .card-product:nth-child(2) {
     display: none;
   }
 

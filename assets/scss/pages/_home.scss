@@ -1,9 +1,11 @@
 #slider {
     height:500px!important;
+    background:url('../img/placeholder.jpg');
+    background-size:cover;
 }
 
 .mx-mille {
-    max-width:1000px!important;
+    max-width:1050px!important;
 }
 
 .br-10 {
@@ -17,12 +19,12 @@
 
 .chevron-right .icon-right-open {
     position: relative;
-    left: -10px;
+    left: 10px;
 }
 
 .chevron-left .icon-left-open {
     position: relative;
-    left: 10px;
+    left: -10px;
 }
 
 .btn-chevron {

@@ -10977,6 +10977,13 @@ input[type=number] {
   border-radius: 0.5rem !important;
 }
 
+.btn.btn-cards-pink {
+  background: linear-gradient(to bottom, #FF3D97, #F4346C);
+  color: white !important;
+  padding: 14px 27px 14px 27px !important;
+  border-radius: 0.5rem !important;
+}
+
 /* payment page */
 .icon-single {
   max-height: 20px;
@@ -11389,10 +11396,12 @@ input[type=number] {
 
 #slider {
   height: 500px !important;
+  background: url("../img/placeholder.jpg");
+  background-size: cover;
 }
 
 .mx-mille {
-  max-width: 1000px !important;
+  max-width: 1050px !important;
 }
 
 .br-10 {
@@ -11406,12 +11415,12 @@ input[type=number] {
 
 .chevron-right .icon-right-open {
   position: relative;
-  left: -10px;
+  left: 10px;
 }
 
 .chevron-left .icon-left-open {
   position: relative;
-  left: 10px;
+  left: -10px;
 }
 
 .btn-chevron {

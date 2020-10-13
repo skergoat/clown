@@ -121,6 +121,28 @@
     }
 }
 
+@media (max-width:768px)
+{
+    //content 
+    .card-product:nth-child(2) {
+        display:none;
+    }
+    .card-product:first-child {
+        width:90%;
+        display:block;
+        margin:auto!important;
+    }
+    .chevron-right .icon-right-open {
+        position: relative;
+        left: 0px;
+    }
+    
+    .chevron-left .icon-left-open {
+        position: relative;
+        left: 0px;
+    }
+}
+
 // mobile 
 @media (max-width:576px)
 {

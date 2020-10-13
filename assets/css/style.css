@@ -11543,6 +11543,27 @@ input[type=number] {
     display: none;
   }
 }
+@media (max-width: 768px) {
+  .card-product:nth-child(2) {
+    display: none;
+  }
+
+  .card-product:first-child {
+    width: 90%;
+    display: block;
+    margin: auto !important;
+  }
+
+  .chevron-right .icon-right-open {
+    position: relative;
+    left: 0px;
+  }
+
+  .chevron-left .icon-left-open {
+    position: relative;
+    left: 0px;
+  }
+}
 @media (max-width: 576px) {
   .slider-control-title {
     font-size: 20px;

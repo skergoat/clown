@@ -55,7 +55,7 @@
                 <div class="bgd-transparent chevron chevron-left d-flex align-items-center font-23">
                     <i class="icon-left-open pointer"></i>
                 </div>
-                <div class="col-xs-10 col-sm-11 mx-mille mx-auto">
+                <div class="col-xs-10 col-sm-10 col-md-11 mx-mille mx-auto">
                     <div class="row bgd-yellow justify-content-between">
                         <div class="p-0 mr-xs-none mr-sm-2 bgd-yellow card-product">
                             <img src="../assets/img/promos-card.png" class="img-fluid bs-red br-10" alt="Responsive image">
@@ -80,7 +80,7 @@
                 <div class="bgd-transparent chevron chevron-left d-flex align-items-center font-23">
                     <i class="icon-left-open pointer"></i>
                 </div>
-                <div class="col-xs-10 col-sm-11 mx-mille mx-auto">
+                <div class="col-xs-10 col-sm-10 col-md-11 mx-mille mx-auto">
                     <div class="row bgd-yellow justify-content-between">
                         <div class="p-0 mr-xs-none mr-sm-2 bgd-yellow card-product">
                             <img src="../assets/img/deguisements-card.png" class="img-fluid bs-red br-10" alt="Responsive image">
@@ -99,7 +99,7 @@
                 <div class="bgd-transparent chevron chevron-left d-flex align-items-center font-23">
                     <i class="icon-left-open pointer"></i>
                 </div>
-                <div class="col-xs-10 col-sm-11 mx-mille mx-auto">
+                <div class="col-xs-10 col-sm-10 col-md-11 mx-mille mx-auto">
                     <div class="row bgd-yellow justify-content-between">
                         <div class="p-0 mr-xs-none mr-sm-2 bgd-yellow card-product">
                             <img src="../assets/img/fete-card.png" class="img-fluid bs-red br-10" alt="Responsive image">
@@ -119,7 +119,7 @@
                 <div class="bgd-transparent chevron chevron-left d-flex align-items-center font-23">
                     <i class="icon-left-open pointer"></i>
                 </div>
-                <div class="col-xs-10 col-sm-11 mx-mille mx-auto">
+                <div class="col-xs-10 col-sm-10 col-md-11 mx-mille mx-auto">
                     <div class="row bgd-yellow justify-content-between">
                         <div class="p-0 mr-xs-none mr-sm-2 bgd-yellow card-product">
                             <img src="../assets/img/accessoires-card.png" class="img-fluid bs-red br-10" alt="Responsive image">

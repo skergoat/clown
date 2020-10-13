@@ -11500,6 +11500,15 @@ input[type=number] {
   top: -1px;
 }
 
+@media (max-width: 768px) {
+  .logo-theme {
+    max-width: 23%;
+  }
+
+  .column-sm-reverse {
+    flex-direction: column-reverse;
+  }
+}
 @media (max-width: 576px) {
   .slider-control-title {
     font-size: 20px;
@@ -11513,7 +11522,7 @@ input[type=number] {
     max-width: 48%;
   }
 
-  .content__product {
+  .column-xs-reverse {
     flex-direction: column-reverse;
   }
 

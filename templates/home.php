@@ -31,10 +31,10 @@
     </div>
 </section>
 <!-- 1st section -->
-<section class="section-3 bgd-yellow pb-5">
+<section class="section-3 bgd-yellow pb-xs-none pb-sm-0 pb-lg-5">
     <div class="container bgd-yellow pt-5 pb-2">
-        <div class="row content__product container-width mx-auto mt-3 p-xs-4 p-md-5 mb-5 mx-mille">
-            <div class="col-md-6 pr-xs-0 pr-md-5 pl-xs-0 pl-md-4 pb-4">
+        <div class="row br-10 bs-red column-sm-reverse container-width mx-auto mt-3 p-xs-4 p-md-5 mb-5 mx-mille">
+            <div class="col-sm-12 col-lg-6 pr-xs-0 pr-sm-0 pr-lg-5 pl-xs-0 pl-md-4 pb-4">
                 <h3 class="black pb-2 pt-2">Clown Montmartre</h3>
                 <span class="border-bottom-orange mb-4"></span>
                 <p class="line-height pb-3 font-14">
@@ -42,8 +42,8 @@
                 </p>
                 <button class="btn btn-pink bold font-15 pl-4 pr-4">En savoir plus</button>
             </div>
-            <div class="col-md-6">
-                <img src="../assets/img/placeholder.png" class="img-fluid mb-xs-4 mt-xs-4" alt="Responsive image">
+            <div class="col-sm-12 col-lg-6">
+                <img src="../assets/img/placeholder.png" class="img-fluid mb-sm-4 mb-xs-4 mb-lg-0 mt-sm-4 mt-xs-4 mt-lg-0" alt="Responsive image">
             </div>
         </div>
         <!-- cards -->

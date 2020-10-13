@@ -90,6 +90,20 @@
     top:-1px;
 }
 
+// tablet 
+// mobile 
+@media (max-width:768px)
+{ 
+    // logos themes 
+    .logo-theme {
+        max-width:23%;
+    }
+
+    .column-sm-reverse {
+        flex-direction:column-reverse;
+    }
+}
+
 // mobile 
 @media (max-width:576px)
 {
@@ -99,14 +113,13 @@
     }
     .slider-control-navs {
         height:30%;
-
     }
 
     // logos themes 
     .logo-theme {
         max-width:48%;
     }
-    .content__product {
+    .column-xs-reverse {
         flex-direction:column-reverse;
     }
 

@@ -52,72 +52,80 @@
             <h5 class="black pb-2 bgd-yellow m-0 pb-4 mx-mille mx-auto">Découvrez nos produits</h5>
             <!-- cards 1 -->
             <div class="row bgd-yellow pb-3">
-                <div class="bgd-yellow chevron chevron-left d-flex align-items-center font-23"><i class="icon-left-open pointer"></i></div>
-                <div class="col-11 mx-mille mx-auto bgd-yellow">
+                <div class="bgd-transparent chevron chevron-left d-flex align-items-center font-23">
+                    <i class="icon-left-open pointer"></i>
+                </div>
+                <div class="col-xs-10 col-sm-11 mx-mille mx-auto">
                     <div class="row bgd-yellow justify-content-between">
-                        <div class="p-0 mr-2 bgd-yellow" style="width:24%"><img src="../assets/img/promos-card.png" class="img-fluid card-clown bs-red br-10"></div>
-                        <div class="p-0 mr-1 bs-red br-10 card-product" style="width:24%">
+                        <div class="p-0 mr-xs-none mr-sm-2 bgd-yellow card-product">
+                            <img src="../assets/img/promos-card.png" class="img-fluid bs-red br-10" alt="Responsive image">
                         </div>
-                        <div class="p-0 ml-1 bs-red br-10 card-product" style="width:24%">
-                        </div>
-                        <div class="p-0 ml-2 bs-red br-10 card-product" style="width:24%">
-                        </div>
+                        <div class="p-0 mr-1 bs-red br-10 card-product"></div>
+                        <div class="p-0 ml-1 bs-red br-10 card-product"></div>
+                        <div class="p-0 ml-2 bs-red br-10 card-product"></div>
                     </div>
                 </div>
-                <div class="bgd-yellow chevron d-flex align-items-center chevron-right font-23"><i class="icon-right-open pointer"></i></div>
+                <div class="bgd-transparent chevron d-flex align-items-center chevron-right font-23">
+                    <i class="icon-right-open pointer"></i>
+                </div>
             </div>
             <button class="btn btn-cards-pink bold font-15 d-block mx-auto pl-4 pr-4 mt-4">Toutes les promos <span class="pl-2 font-10 bold btn-chevron">></span></button>
             <!-- cards 2 -->
             <div class="row mt-5 mb-4 pb-3 pt-2 bgd-yellow">
-                <div class="bgd-yellow chevron chevron-left d-flex align-items-center font-23"><i class="icon-left-open pointer"></i></div>
-                <div class="col-11 mx-mille mx-auto">
+                <div class="bgd-transparent chevron chevron-left d-flex align-items-center font-23">
+                    <i class="icon-left-open pointer"></i>
+                </div>
+                <div class="col-xs-10 col-sm-11 mx-mille mx-auto">
                     <div class="row bgd-yellow justify-content-between">
-                            <div class="p-0 mr-2 bgd-yellow" style="width:24%"><img src="../assets/img/deguisements-card.png" class="img-fluid bs-red br-10" alt="Responsive image"></div>
-                            <div class="p-0 mr-1 bs-red br-10 card-product" style="width:24%">
-                            </div>
-                            <div class="p-0 ml-1 bs-red br-10 card-product" style="width:24%">
-                            </div>
-                            <div class="p-0 ml-2 bs-red br-10 card-product" style="width:24%">
+                        <div class="p-0 mr-xs-none mr-sm-2 bgd-yellow card-product">
+                            <img src="../assets/img/deguisements-card.png" class="img-fluid bs-red br-10" alt="Responsive image">
                         </div>
+                        <div class="p-0 mr-1 bs-red br-10 card-product"></div>
+                        <div class="p-0 ml-1 bs-red br-10 card-product"></div>
+                        <div class="p-0 ml-2 bs-red br-10 card-product"></div>
                     </div>
                 </div>
-                <div class="bgd-yellow chevron d-flex align-items-center chevron-right font-23"><i class="icon-right-open pointer"></i></div>
+                <div class="bgd-transparent chevron d-flex align-items-center chevron-right font-23">
+                    <i class="icon-right-open pointer"></i>
+                </div>
+            </div>
+            <button class="btn btn-cards-pink bold font-15 d-block mx-auto pl-4 pr-4 mt-4">Tous les déguisements <span class="pl-2 font-10 bold btn-chevron">></span></button>
+            <div class="row mt-5 mb-4 pb-3 pt-2 bgd-yellow">
+                <div class="bgd-transparent chevron chevron-left d-flex align-items-center font-23">
+                    <i class="icon-left-open pointer"></i>
+                </div>
+                <div class="col-xs-10 col-sm-11 mx-mille mx-auto">
+                    <div class="row bgd-yellow justify-content-between">
+                        <div class="p-0 mr-xs-none mr-sm-2 bgd-yellow card-product">
+                            <img src="../assets/img/fete-card.png" class="img-fluid bs-red br-10" alt="Responsive image">
+                        </div>
+                        <div class="p-0 mr-1 bs-red br-10 card-product"></div>
+                        <div class="p-0 ml-1 bs-red br-10 card-product"></div>
+                        <div class="p-0 ml-2 bs-red br-10 card-product"></div>
+                    </div>
+                </div>
+                <div class="bgd-transparent chevron d-flex align-items-center chevron-right font-23">
+                    <i class="icon-right-open pointer"></i>
+                </div>
             </div>
             <button class="btn btn-cards-pink bold font-15 d-block mx-auto pl-4 pr-4 mt-4">Tous les déguisements <span class="pl-2 font-10 bold btn-chevron">></span></button>
             <!-- cards 3 -->
             <div class="row mb-4 mt-5 pb-3 pt-2 bgd-yellow">
-                <div class="bgd-yellow chevron chevron-left d-flex align-items-center font-23"><i class="icon-left-open pointer"></i></div>
-                <div class="col-11 mx-mille mx-auto">
+                <div class="bgd-transparent chevron chevron-left d-flex align-items-center font-23">
+                    <i class="icon-left-open pointer"></i>
+                </div>
+                <div class="col-xs-10 col-sm-11 mx-mille mx-auto">
                     <div class="row bgd-yellow justify-content-between">
-                        <div class="p-0 mr-2 bgd-yellow" style="width:24%"><img src="../assets/img/fete-card.png" class="img-fluid bs-red br-10" alt="Responsive image"></div>
-                        <div class="p-0 mr-1 bs-red br-10 card-product" style="width:24%">
+                        <div class="p-0 mr-xs-none mr-sm-2 bgd-yellow card-product">
+                            <img src="../assets/img/accessoires-card.png" class="img-fluid bs-red br-10" alt="Responsive image">
                         </div>
-                        <div class="p-0 ml-1 bs-red br-10 card-product" style="width:24%">
-                        </div>
-                        <div class="p-0 ml-2 bs-red br-10 card-product" style="width:24%">
-                        </div>
+                        <div class="p-0 mr-1 bs-red br-10 card-product"></div>
+                        <div class="p-0 ml-1 bs-red br-10 card-product"></div>
+                        <div class="p-0 ml-2 bs-red br-10 card-product"></div>
                     </div>
                 </div>
-                <div class="bgd-yellow chevron d-flex align-items-center chevron-right font-23"><i class="icon-right-open pointer"></i></div>
-            </div>
+            <div class="bgd-transparent chevron d-flex align-items-center chevron-right font-23"><i class="icon-right-open pointer"></i></div>
             <button class="btn btn-cards-pink bold font-15 d-block mx-auto pl-4 pr-4 mt-4">Tous les articles de fête <span class="pl-2 font-10 bold btn-chevron">></span></button>
-            <!-- cards 4 -->
-            <div class="row bgd-yellow pb-3 pt-2 mt-5">
-                <div class="bgd-yellow chevron chevron-left d-flex align-items-center font-23"><i class="icon-left-open pointer"></i></div>
-                <div class="col-11 mx-mille mx-auto">
-                    <div class="row bgd-yellow justify-content-between">
-                        <div class="p-0 mr-2 bgd-yellow" style="width:24%"><img src="../assets/img/accessoires-card.png" class="img-fluid bs-red br-10" alt="Responsive image"></div>
-                        <div class="p-0 mr-1 bs-red br-10 card-product" style="width:24%">
-                        </div>
-                        <div class="p-0 ml-1 bs-red br-10 card-product" style="width:24%">
-                        </div>
-                        <div class="p-0 ml-2 bs-red br-10 card-product" style="width:24%">
-                        </div>
-                    </div>
-                </div>
-                <div class="bgd-yellow chevron d-flex align-items-center chevron-right font-23"><i class="icon-right-open pointer"></i></div>
-            </div>
-            <button class="btn btn-cards-pink bold font-15 d-block mx-auto pl-4 pr-4 mt-4">Toutes les accessoires <span class="pl-2 font-10 bold btn-chevron">></span></button>
         </div>
     </div>
 </section>

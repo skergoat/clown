@@ -58,6 +58,10 @@
 }
 
 // content 
+.card-product {
+    width:24%;
+}
+
 .mx-mille {
     max-width:1050px!important;
 }
@@ -86,14 +90,13 @@
     top:-1px;
 }
 
-
 // mobile 
 @media (max-width:576px)
 {
+    // slider 
     .slider-control-title {
         font-size:20px;
     }
-
     .slider-control-navs {
         height:30%;
 
@@ -103,8 +106,26 @@
     .logo-theme {
         max-width:48%;
     }
-
     .content__product {
         flex-direction:column-reverse;
+    }
+
+    //content 
+    .card-product {
+        display:none;
+    }
+    .card-product:first-child {
+        width:90%;
+        display:block;
+        margin:auto
+    }
+    .chevron-right .icon-right-open {
+        position: relative;
+        left: 0px;
+    }
+    
+    .chevron-left .icon-left-open {
+        position: relative;
+        left: 0px;
     }
 }

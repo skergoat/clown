@@ -3,7 +3,11 @@
 @media all and (max-width:576px) {
     .d-xs-flex {
         display:flex;
-    }    
+    } 
+    
+    .d-xs-none {
+        display:none!important;
+    }
 }
 
 /* backgrounds */
@@ -114,6 +118,13 @@
     .overflow-hidden-xs {
         @include overflow("hidden");
     }
+
+    /* colonne mobile */
+
+    .col-xs-10 {
+        flex:0 0 83.3333333333%!important;
+    }
+    
     
     /* paddign */
 
@@ -243,6 +254,10 @@
     }
 
     /* margin */
+
+    .mx-xs-auto {
+        margin:auto;
+    }
 
     .m-xs-none {
         @include margin-xs ($m0);

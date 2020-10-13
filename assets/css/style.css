@@ -11207,7 +11207,6 @@ input[type=number] {
   right: 7%;
 }
 
-/* product page */
 @media (min-width: 992px) and (max-width: 1199px) {
   p, .button-orange.button-orange-cards {
     font-size: 10px !important;

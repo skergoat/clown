@@ -6,19 +6,23 @@
     position:relative;
     z-index:1;
 }
-
 .card-first {
     border-radius:10px!important;
 }
 
 // badge
-
 .card-badge {
     position:absolute;
     z-index:3;
     width:100px;
     right:7%;
 }
+
+/* product page */
+
+// .product-page {
+//     width:24%;
+// }
 
 @media (min-width:992px) and (max-width:1199px) {
     p, .button-orange.button-orange-cards {
@@ -29,13 +33,16 @@
 // tablet 
 @media (max-width:992px)
 { 
+    /* homepage */
+
     //content 
     .card-product {
         display:none;
     }
     // card product
     .card-product:nth-child(1),
-    .card-product:nth-child(2)
+    .card-product:nth-child(2),
+    .product-page
     {
         width:48%;
         display:block;
@@ -49,6 +56,8 @@
 
 @media (max-width:768px)
 {
+    /* homepage */
+
     //content 
     .card-product:nth-child(2) {
         display:none;
@@ -73,6 +82,11 @@
     .card-product:first-child {
         width:90%;
         display:block;
-        margin:auto
+        margin:auto;
     }
+
+    // .product-page {
+    //     width:100%!important;
+    //     margin:0px!important;
+    // }
 }

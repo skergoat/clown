@@ -7,7 +7,7 @@
     <!-- main section -->
     <section class="main-content" id="main-content-id"> 
         <!-- white separator -->       
-        <div id="space-between"></div>
+        <div id="space-between" class="bgd-white"></div>
         <!-- link top --> 
         <div class="previous pl-sm-3 pl-md-5 pt-4 ml-2 pb-3 mt-2 mb-2" id="main-title-1"><a class='black link-black' href='#'> <?= $previous ?></a></div>
         <!-- main title --> 
@@ -19,7 +19,7 @@
     </section>
 </div>
 <!-- secondary section -->
-<section class="secondary-content">
+<section class="secondary-content bgd-white">
     <div class="container-width mx-auto pb-5">
         <?= $secondaryContent ?>
     </div>

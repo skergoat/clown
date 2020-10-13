@@ -123,14 +123,14 @@
        <?= $content ?>
        
        <!-- footer -->
-       <footer class="footer transition">
+       <footer class="footer transition bgd-white">
            <!-- logo footer -->
            <div class="mx-auto footer-top pt-2 pb-4">
                 <img src="../assets/img/logo-footer.png" class="transition footer-top__logo pt-2 pb-2">
            </div>
            <!-- menus -->
             <div class="">
-                <div class="footer-top mx-auto footer-center-first flex-wrap d-flex pb-5 transition">     
+                <div class="footer-top mx-auto footer-center-first flex-wrap d-flex pb-5 transition bgd-white">     
                     <ul class="p-0 m-0 transition">
                         <li class="font-weight-bold pb-2">Plan du site</li>
                         <li><a href="" class="link-black">Accueil</a></li>
@@ -178,7 +178,7 @@
                 </div>
            </div>
            <!-- pictures -->
-           <div class="footer-center-second pb-3">
+           <div class="footer-center-second pb-3 bgd-white">
                 <div class="container transition">
                     <div class="p-3 mb-3">
                         <p class="help__p1 m-2 black orange">Besoin d'aide ?</p>

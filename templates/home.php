@@ -61,13 +61,26 @@
                             <img src="../assets/img/promos-card.png" class="img-fluid bs-red br-10" alt="Responsive image">
                         </div>
                         <div class="p-3 mr-1 bs-red br-10 card-product">
+                            <img class="card-badge" src="../assets/img/badge-promo.png" alt="Card image cap">
                             <img class="card-img-top" src="../assets/img/collant-blanc.png" alt="Card image cap">
                             <p class="bold text-center mb-2">Collants sorcière enfant fluo</p>
                             <p class="black text-center mb-3">Des <span style="text-decoration:line-through;" class="black">6,95€</span> <span class="black font-20 strong-pink">3,95€</span></p>
                             <button class="btn button-orange button-orange-cards d-block mx-auto bold font-16">Voir le produit</button>
                         </div>
-                        <div class="p-0 ml-1 bs-red br-10 card-product"></div>
-                        <div class="p-0 ml-2 bs-red br-10 card-product"></div>
+                        <div class="p-3 mr-1 bs-red br-10 card-product">
+                            <img class="card-badge" src="../assets/img/badge-promo.png" alt="Card image cap">
+                            <img class="card-img-top" src="../assets/img/collant-rose.png" alt="Card image cap">
+                            <p class="bold text-center mb-2">Collants sorcière enfant fluo</p>
+                            <p class="black text-center mb-3">Des <span style="text-decoration:line-through;" class="black">6,95€</span> <span class="black font-20 strong-pink">3,95€</span></p>
+                            <button class="btn button-orange button-orange-cards d-block mx-auto bold font-16">Voir le produit</button>
+                        </div>
+                        <div class="p-3 mr-1 bs-red br-10 card-product">
+                            <img class="card-badge" src="../assets/img/badge-promo.png" alt="Card image cap">
+                            <img class="card-img-top" src="../assets/img/collant-orange.png" alt="Card image cap">
+                            <p class="bold text-center mb-2">Collants sorcière enfant fluo</p>
+                            <p class="black text-center mb-3">Des <span style="text-decoration:line-through;" class="black">6,95€</span> <span class="black font-20 strong-pink">3,95€</span></p>
+                            <button class="btn button-orange button-orange-cards d-block mx-auto bold font-16">Voir le produit</button>
+                        </div>
                     </div>
                 </div>
                 <div class="bgd-transparent chevron d-flex align-items-center chevron-right font-23">
@@ -85,9 +98,25 @@
                         <div class="p-0 mr-xs-none mr-sm-2 bgd-yellow card-product">
                             <img src="../assets/img/deguisements-card.png" class="img-fluid bs-red br-10" alt="Responsive image">
                         </div>
-                        <div class="p-0 mr-1 bs-red br-10 card-product"></div>
-                        <div class="p-0 ml-1 bs-red br-10 card-product"></div>
-                        <div class="p-0 ml-2 bs-red br-10 card-product"></div>
+                        <div class="p-3 mr-1 bs-red br-10 card-product">
+                            <img class="card-img-top" src="../assets/img/collant-blanc.png" alt="Card image cap">
+                            <p class="bold text-center mb-2">Collants sorcière enfant fluo</p>
+                            <p class="black text-center mb-3">Des <span style="text-decoration:line-through;" class="black">6,95€</span> <span class="black font-20 strong-pink">3,95€</span></p>
+                            <button class="btn button-orange button-orange-cards d-block mx-auto bold font-16">Voir le produit</button>
+                        </div>
+                        <div class="p-3 mr-1 bs-red br-10 card-product">
+                            <img class="card-badge" src="../assets/img/badge-nouveaute.png" alt="Card image cap">
+                            <img class="card-img-top" src="../assets/img/collant-rose.png" alt="Card image cap">
+                            <p class="bold text-center mb-2">Collants sorcière enfant fluo</p>
+                            <p class="black text-center mb-3">Des <span style="text-decoration:line-through;" class="black">6,95€</span> <span class="black font-20 strong-pink">3,95€</span></p>
+                            <button class="btn button-orange button-orange-cards d-block mx-auto bold font-16">Voir le produit</button>
+                        </div>
+                        <div class="p-3 mr-1 bs-red br-10 card-product">
+                            <img class="card-img-top" src="../assets/img/collant-orange.png" alt="Card image cap">
+                            <p class="bold text-center mb-2">Collants sorcière enfant fluo</p>
+                            <p class="black text-center mb-3">Des <span style="text-decoration:line-through;" class="black">6,95€</span> <span class="black font-20 strong-pink">3,95€</span></p>
+                            <button class="btn-none btn button-orange button-orange-cards d-block mx-auto bold font-16">Voir le produit</button>
+                        </div>
                     </div>
                 </div>
                 <div class="bgd-transparent chevron d-flex align-items-center chevron-right font-23">
@@ -104,9 +133,25 @@
                         <div class="p-0 mr-xs-none mr-sm-2 bgd-yellow card-product">
                             <img src="../assets/img/fete-card.png" class="img-fluid bs-red br-10" alt="Responsive image">
                         </div>
-                        <div class="p-0 mr-1 bs-red br-10 card-product"></div>
-                        <div class="p-0 ml-1 bs-red br-10 card-product"></div>
-                        <div class="p-0 ml-2 bs-red br-10 card-product"></div>
+                        <div class="p-3 mr-1 bs-red br-10 card-product">
+                            <img class="card-img-top" src="../assets/img/collant-blanc.png" alt="Card image cap">
+                            <p class="bold text-center mb-2">Collants sorcière enfant fluo</p>
+                            <p class="black text-center mb-3">Des <span style="text-decoration:line-through;" class="black">6,95€</span> <span class="black font-20 strong-pink">3,95€</span></p>
+                            <button class="btn button-orange button-orange-cards d-block mx-auto bold font-16">Voir le produit</button>
+                        </div>
+                        <div class="p-3 mr-1 bs-red br-10 card-product">
+                            <img class="card-badge" src="../assets/img/badge-occasion.png" alt="Card image cap">
+                            <img class="card-img-top" src="../assets/img/collant-rose.png" alt="Card image cap">
+                            <p class="bold text-center mb-2">Collants sorcière enfant fluo</p>
+                            <p class="black text-center mb-3">Des <span style="text-decoration:line-through;" class="black">6,95€</span> <span class="black font-20 strong-pink">3,95€</span></p>
+                            <button class="btn button-orange button-orange-cards d-block mx-auto bold font-16">Voir le produit</button>
+                        </div>
+                        <div class="p-3 mr-1 bs-red br-10 card-product">
+                            <img class="card-img-top" src="../assets/img/collant-orange.png" alt="Card image cap">
+                            <p class="bold text-center mb-2">Collants sorcière enfant fluo</p>
+                            <p class="black text-center mb-3">Des <span style="text-decoration:line-through;" class="black">6,95€</span> <span class="black font-20 strong-pink">3,95€</span></p>
+                            <button class="btn-none btn button-orange button-orange-cards d-block mx-auto bold font-16">Voir le produit</button>
+                        </div>
                     </div>
                 </div>
                 <div class="bgd-transparent chevron d-flex align-items-center chevron-right font-23">
@@ -124,9 +169,25 @@
                         <div class="p-0 mr-xs-none mr-sm-2 bgd-yellow card-product">
                             <img src="../assets/img/accessoires-card.png" class="img-fluid bs-red br-10" alt="Responsive image">
                         </div>
-                        <div class="p-0 mr-1 bs-red br-10 card-product"></div>
-                        <div class="p-0 ml-1 bs-red br-10 card-product"></div>
-                        <div class="p-0 ml-2 bs-red br-10 card-product"></div>
+                        <div class="p-3 mr-1 bs-red br-10 card-product">
+                            <img class="card-badge" src="../assets/img/badge-nouveaute.png" alt="Card image cap">
+                            <img class="card-img-top" src="../assets/img/collant-blanc.png" alt="Card image cap">
+                            <p class="bold text-center mb-2">Collants sorcière enfant fluo</p>
+                            <p class="black text-center mb-3">Des <span style="text-decoration:line-through;" class="black">6,95€</span> <span class="black font-20 strong-pink">3,95€</span></p>
+                            <button class="btn button-orange button-orange-cards d-block mx-auto bold font-16">Voir le produit</button>
+                        </div>
+                        <div class="p-3 mr-1 bs-red br-10 card-product">
+                            <img class="card-img-top" src="../assets/img/collant-rose.png" alt="Card image cap">
+                            <p class="bold text-center mb-2">Collants sorcière enfant fluo</p>
+                            <p class="black text-center mb-3">Des <span style="text-decoration:line-through;" class="black">6,95€</span> <span class="black font-20 strong-pink">3,95€</span></p>
+                            <button class="btn button-orange button-orange-cards d-block mx-auto bold font-16">Voir le produit</button>
+                        </div>
+                        <div class="p-3 mr-1 bs-red br-10 card-product">
+                            <img class="card-img-top" src="../assets/img/collant-orange.png" alt="Card image cap">
+                            <p class="bold text-center mb-2">Collants sorcière enfant fluo</p>
+                            <p class="black text-center mb-3">Des <span style="text-decoration:line-through;" class="black">6,95€</span> <span class="black font-20 strong-pink">3,95€</span></p>
+                            <button class="btn button-orange button-orange-cards d-block mx-auto bold font-16">Voir le produit</button>
+                        </div>
                     </div>
                 </div>
             <div class="bgd-transparent chevron d-flex align-items-center chevron-right font-23"><i class="icon-right-open pointer"></i></div>

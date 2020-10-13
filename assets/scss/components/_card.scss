@@ -3,6 +3,17 @@
 // content 
 .card-product {
     width:24%;
+    position:relative;
+    z-index:1;
+}
+
+// badge
+
+.card-badge {
+    position:absolute;
+    z-index:3;
+    width:100px;
+    right:7%;
 }
 
 @media (min-width:992px) and (max-width:1199px) {

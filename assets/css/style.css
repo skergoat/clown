@@ -11019,6 +11019,10 @@ input[type=number] {
   padding: 7px 44px 7px 44px;
 }
 
+.btn-none {
+  display: none !important;
+}
+
 /* payment page */
 .icon-single {
   max-height: 20px;
@@ -11176,6 +11180,15 @@ input[type=number] {
 /* homepage */
 .card-product {
   width: 24%;
+  position: relative;
+  z-index: 1;
+}
+
+.card-badge {
+  position: absolute;
+  z-index: 3;
+  width: 100px;
+  right: 7%;
 }
 
 @media (min-width: 992px) and (max-width: 1199px) {

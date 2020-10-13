@@ -1,9 +1,21 @@
 <?php ob_start(); ?>
 <!-- slider -->
 <section class="d-flex align-items-center" id="slider" style="position:relative;">
-    <div class="slider-arrows w-100 d-flex justify-content-between bgd-transparent b-red" style="z-index:3;position:relative;">
+    <div class="slider-arrows w-100 d-flex justify-content-between bgd-transparent">
         <div class="chevron chevron-left d-flex align-items-center font-23 bgd-transparent pl-5"><i class="icon-slider icon-left-open pointer pl-3"></i></div>
         <div class="chevron d-flex align-items-center chevron-right font-23 bgd-transparent pr-5"><i class="icon-slider icon-right-open pointer pr-3"></i></div>
+        <div class="slider-control bgd-transparent">
+            <h5 class="black pb-3 slider-control-title">Une rentrée à prix cassé ! Découvrez nos meilleures promos !</h5>
+            <button class="btn btn-pink bold font-15 pl-4 pr-4 d-block mx-auto">Découvrir</button>
+            <div class="slider-control-navs bgd-transparent d-flex justify-content-center align-items-center">
+                <div class="slider-navs bgd-transparent d-flex justify-content-between">
+                    <span class="d-block slider-navs__span active"></span>
+                    <span class="d-block slider-navs__span"></span>
+                    <span class="d-block slider-navs__span"></span>
+                    <span class="d-block slider-navs__span"></span>
+                </div>
+            </div>
+        </div>
     </div>
     <img class="img-fluid" src="../assets/img/placeholder.jpg" alt="" style="min-height:100%;object-fit:cover;z-index:1;position:absolute;" />
 </section>
@@ -88,7 +100,7 @@
                 </div>
                 <div class="bgd-yellow chevron d-flex align-items-center chevron-right font-23"><i class="icon-right-open pointer"></i></div>
             </div>
-            <button class="btn btn-cards-pink bold font-15 d-block mx-auto pl-4 pr-4 mt-4">Toutes les articles de fête <span class="pl-2 font-10 bold btn-chevron">></span></button>
+            <button class="btn btn-cards-pink bold font-15 d-block mx-auto pl-4 pr-4 mt-4">Tous les articles de fête <span class="pl-2 font-10 bold btn-chevron">></span></button>
             <!-- cards 4 -->
             <div class="row bgd-yellow pb-3 pt-2 mt-5">
                 <div class="bgd-yellow chevron chevron-left d-flex align-items-center font-23"><i class="icon-left-open pointer"></i></div>

@@ -9,6 +9,43 @@
     color:white!important;
 }
 
+.slider-arrows {
+    z-index:3;
+    position:relative;
+    height:100%;
+}
+
+.slider-control {
+    height:170px;
+    position:absolute;
+    bottom:0px;
+    width:100%;
+    &-title {
+        color:white;
+        font-size:24px;
+        text-align:center;
+    }
+    &-navs {
+        height:45%;
+        position:relative;
+    }
+   
+}
+
+.slider-navs {
+    width:70px;
+    height:auto;
+    &__span {
+        width:8px;
+        height:8px;
+        background:#A8A8A8;
+        border-radius:20px;
+        &.active {
+            background:white!important;
+        }
+    }
+}
+
 .mx-mille {
     max-width:1050px!important;
 }

@@ -124,22 +124,51 @@
         <div class="row container-shop m-0 p-0 b-red justify-content-end" style="position:relative;">
             <!-- search -->
             <aside class="col-2 m-0 p-0 b-purple" style="min-height:100%!important;position:fixed;left:0px;">
-                <div class="b-red" style="height:350px;"></div>
-                <div class="b-green" style="max-height:350px;overflow-x:scroll">
+                <div class="" style="height:auto;box-shadow: 0px 7px 5px -5px rgba(214,214,214,0.7);">
+                    <div class="d-flex pointer">
+                        <div class="border-fun mr-2" style="padding-right:10px;background: linear-gradient(to top, #15A5BF, #2BCBBA);"></div>
+                        <div class="pl-0 pr-1 pb-2 pt-2 d-flex">
+                            <img src="../assets/img/icone-categories.png" alt="" style="width:30px;" class="mr-2"/> 
+                            <div class="d-flex align-items-center"><span class="d-block black font-14">Catégories</span></div>
+                        </div>
+                    </div>
+                    <div class="d-flex pointer">
+                        <div class="border-fun mr-2" style="padding-right:10px;background: linear-gradient(to top, #FD6044, #FD9644);"></div>
+                        <div class="pl-0 pr-1 pb-2 pt-2 d-flex">
+                            <img src="../assets/img/icone-themes.png" alt="" style="width:30px;" class="mr-2"/> 
+                            <div class="d-flex align-items-center"><span class="d-block black font-14">Thèmes</span></div>
+                        </div>
+                    </div>
+                    <div class="d-flex pointer">
+                        <div class="border-fun mr-2" style="padding-right:10px;background: linear-gradient(to top, #C027CD, #7B28DD);"></div>
+                        <div class="pl-0 pr-1 pb-2 pt-2 d-flex">
+                            <img src="../assets/img/icone-location.png" alt="" style="width:30px;" class="mr-2"/> 
+                            <div class="d-flex align-items-center"><span class="d-block black font-14">Location</span></div>
+                        </div>
+                    </div>
+                    <div class="d-flex pointer">
+                        <div class="border-fun mr-2" style="padding-right:10px;background: linear-gradient(to top, #FC5C65, #F8155B);"></div>
+                        <div class="pl-0 pr-1 pb-2 pt-2 d-flex">
+                            <img src="../assets/img/icone-evenements.png" alt="" style="width:30px;" class="mr-2"/> 
+                            <div class="d-flex align-items-center"><span class="d-block black font-14">Événements</span></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="" style="max-height:450px;overflow-x:scroll">
                     <form class="pt-4 pr-3 pl-3 pb-4">
                         <div class="form-row">
-                            <label class="black">Rechercher</label>
+                            <label class="black font-14">Rechercher</label>
                             <div class="input-group mb-4">
-                                <input class="form-control" type="text" placeholder="Rechercher..." aria-label="Search" style="border-right:0px solid transparent!important;">
+                                <input class="form-control font-13" type="text" placeholder="Entrez votre recherche..." aria-label="Search" style="border-right:0px solid transparent!important;height:30px!important;">
                                 <div class="input-group-append">
-                                    <span class="input-group-text bgd-transparent" id="basic-text1" style="border:1px solid #9d9d9d;border-left:0px;"><i class="icon-search text-grey"></i></span>
+                                    <span class="input-group-text bgd-transparent" id="basic-text1" style="border:1px solid #9d9d9d;border-left:0px;height:30px!important;"><i class="icon-search text-grey"></i></span>
                                 </div>
                             </div>
                             <div class="filters-container">
-                                <label class="black">Filtres</label>
+                                <label class="black font-14">Filtres</label>
                                 <!-- Filtres -->
                                 <div class="form-group custom-selects mb-2 filters">
-                                    <select name="filtre-1" id="filtre-1" class="font-13 bold">
+                                    <select name="filtre-1" id="filtre-1">
                                         <option value="">Taille</option>
                                         <option value="cheap">M</option>
                                         <option value="famous">L</option>
@@ -147,7 +176,7 @@
                                     </select>
                                 </div>
                                 <div class="form-group custom-selects mb-2 filters">
-                                    <select name="filtre-2" id="filtre-2" class="font-13 bold">
+                                    <select name="filtre-2" id="filtre-2">
                                         <option value="">Couleur</option>
                                         <option value="cheap">Blanc</option>
                                         <option value="famous">Orange</option>

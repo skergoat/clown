@@ -212,8 +212,8 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="row m-0">
-                                    <div class="col-sm-4 col-md-4 p-0 mb-xs-4 mb-sm-4 mb-md-0 bgd-transparent">
+                                <div class="row m-0"> 
+                                    <div class="col-sm-12 col-md-6 col-lg-4 p-0 mb-xs-4 mb-sm-4 bgd-transparent">
                                         <div class="br-10 bs-red pr-4 pb-4 pl-4 pt-3 mr-1 ml-1">
                                             <img class="card-badge" src="../assets/img/badge-nouveaute.png" alt="Card image cap">
                                             <img class="card-img-top" src="../assets/img/witch.png" alt="Card image cap">
@@ -222,7 +222,7 @@
                                             <button class="btn button-orange button-orange-cards d-block mx-auto bold font-16">Voir le produit</button>
                                         </div> 
                                     </div>
-                                    <div class="col-sm-4 col-md-4 p-0 mb-xs-4 mb-sm-4 mb-md-0 bgd-transparent">
+                                    <div class="col-sm-12 col-md-6 col-lg-4 p-0 mb-xs-4 mb-sm-4 bgd-transparent">
                                         <div class="br-10 bs-red pr-4 pb-4 pl-4 pt-3 mr-1 ml-1">
                                             <img class="card-img-top" src="../assets/img/collant-blanc.png" alt="Card image cap">
                                             <p class="bold text-center mb-2">Collants sorcière enfant fluo</p>
@@ -230,7 +230,7 @@
                                             <button class="btn button-orange button-orange-cards d-block mx-auto bold font-16">Voir le produit</button>
                                         </div>
                                     </div>
-                                    <div class="col-sm-4 col-md-4 p-0 mb-xs-4 mb-sm-4 mb-md-0 bgd-transparent">
+                                    <div class="col-sm-12 col-md-6 col-lg-4 p-0 mb-xs-4 mb-sm-4 bgd-transparent">
                                         <div class="br-10 bs-red pr-4 pb-4 pl-4 pt-3 mr-1 ml-1">
                                             <img class="card-badge" src="../assets/img/badge-promo.png" alt="Card image cap">
                                             <img class="card-img-top" src="../assets/img/collant-rose.png" alt="Card image cap">
@@ -239,9 +239,9 @@
                                             <button class="btn button-orange button-orange-cards d-block mx-auto bold font-16">Voir le produit</button>
                                         </div>
                                     </div>
-                                </div>
-                                <div class="row m-0 mt-5">
-                                    <div class="col-sm-4 col-md-4 p-0 mb-xs-4 mb-sm-4 mb-md-0 bgd-transparent">
+                                <!-- </div>
+                                <div class="row m-0 mt-5"> -->
+                                    <div class="col-sm-12 col-md-6 col-lg-4 p-0 mb-xs-4 mb-sm-4 bgd-transparent">
                                         <div class="br-10 bs-red pr-4 pb-4 pl-4 pt-3 mr-1 ml-1">
                                             <img class="card-img-top" src="../assets/img/collant-orange.png" alt="Card image cap">
                                             <p class="bold text-center mb-2">Collants sorcière enfant fluo</p>
@@ -249,7 +249,7 @@
                                             <button class="btn button-orange button-orange-cards d-block mx-auto bold font-16">Voir le produit</button>
                                         </div>
                                     </div>
-                                    <div class="col-sm-4 col-md-4 p-0 mb-xs-4 mb-sm-4 mb-md-0 bgd-transparent">
+                                    <div class="col-sm-12 col-md-6 col-lg-4 p-0 mb-xs-4 mb-sm-4 bgd-transparent">
                                         <div class="br-10 bs-red pr-4 pb-4 pl-4 pt-3 mr-1 ml-1">
                                             <img class="card-img-top" src="../assets/img/noeud-pape.png" alt="Card image cap">
                                             <p class="bold text-center mb-2">Noeud papillon France</p>
@@ -257,7 +257,7 @@
                                             <button class="btn button-orange button-orange-cards d-block mx-auto bold font-16">Voir le produit</button>
                                         </div>
                                     </div>
-                                    <div class="col-sm-4 col-md-4 p-0 mb-xs-4 mb-sm-4 mb-md-0 bgd-transparent">
+                                    <div class="col-sm-12 col-md-6 col-lg-4 p-0 mb-xs-4 mb-sm-4 bgd-transparent">
                                         <div class="br-10 bs-red pr-4 pb-4 pl-4 pt-3 mr-1 ml-1">
                                             <img class="card-badge" src="../assets/img/badge-occasion.png" alt="Card image cap">
                                             <img class="card-img-top" src="../assets/img/lunettes.png" alt="Card image cap">
@@ -266,9 +266,9 @@
                                             <button class="btn button-orange button-orange-cards d-block mx-auto bold font-16">Voir le produit</button>
                                         </div>
                                     </div>
-                                </div>
-                                <div class="row m-0 mt-5">
-                                    <div class="col-sm-4 col-md-4 p-0 mb-xs-4 mb-sm-4 mb-md-0 bgd-transparent">
+                                <!-- </div>
+                                <div class="row m-0 mt-5"> -->
+                                    <div class="col-sm-12 col-md-6 col-lg-4 p-0 mb-xs-4 mb-sm-4 bgd-transparent">
                                         <div class="br-10 bs-red pr-4 pb-4 pl-4 pt-3 mr-1 ml-1">
                                             <img class="card-badge" src="../assets/img/badge-nouveaute.png" alt="Card image cap">
                                             <img class="card-img-top" src="../assets/img/img-ailes.png" alt="Card image cap">
@@ -277,7 +277,7 @@
                                             <button class="btn button-orange button-orange-cards d-block mx-auto bold font-16">Voir le produit</button>
                                         </div> 
                                     </div>
-                                    <div class="col-sm-4 col-md-4 p-0 mb-xs-4 mb-sm-4 mb-md-0 bgd-transparent">
+                                    <div class="col-sm-12 col-md-6 col-lg-4 p-0 mb-xs-4 mb-sm-4 bgd-transparent">
                                         <div class="br-10 bs-red pr-4 pb-4 pl-4 pt-3 mr-1 ml-1">
                                             <img class="card-img-top" src="../assets/img/collier-or.png" alt="Card image cap">
                                             <p class="bold text-center mb-2">Bracelet danseuse de ventre</p>
@@ -285,7 +285,7 @@
                                             <button class="btn button-orange button-orange-cards d-block mx-auto bold font-16">Voir le produit</button>
                                         </div>
                                     </div>
-                                    <div class="col-sm-4 col-md-4 p-0 mb-xs-4 mb-sm-4 mb-md-0 bgd-transparent">
+                                    <div class="col-sm-12 col-md-6 col-lg-4 p-0 mb-xs-4 mb-sm-4 bgd-transparent">
                                         <div class="br-10 bs-red pr-4 pb-4 pl-4 pt-3 mr-1 ml-1">
                                             <img class="card-badge" src="../assets/img/badge-promo.png" alt="Card image cap">
                                             <img class="card-img-top" src="../assets/img/crecelle.png" alt="Card image cap">
@@ -294,9 +294,9 @@
                                             <button class="btn button-orange button-orange-cards d-block mx-auto bold font-16">Voir le produit</button>
                                         </div>
                                     </div>
-                                </div>
-                                <div class="row m-0 mt-5">
-                                    <div class="col-sm-4 col-md-4 p-0 mb-xs-4 mb-sm-4 mb-md-0 bgd-transparent">
+                               <!-- </div>
+                                <div class="row m-0 mt-5"> -->
+                                    <div class="col-sm-12 col-md-6 col-lg-4 p-0 mb-xs-4 mb-sm-4 bgd-transparent">
                                         <div class="br-10 bs-red pr-4 pb-4 pl-4 pt-3 mr-1 ml-1">
                                             <img class="card-badge" src="../assets/img/badge-nouveaute.png" alt="Card image cap">
                                             <img class="card-img-top" src="../assets/img/truc.png" alt="Card image cap">
@@ -305,7 +305,7 @@
                                             <button class="btn button-orange button-orange-cards d-block mx-auto bold font-16">Voir le produit</button>
                                         </div> 
                                     </div>
-                                    <div class="col-sm-4 col-md-4 p-0 mb-xs-4 mb-sm-4 mb-md-0 bgd-transparent">
+                                    <div class="col-sm-12 col-md-6 col-lg-4 p-0 mb-xs-4 mb-sm-4 bgd-transparent">
                                         <div class="br-10 bs-red pr-4 pb-4 pl-4 pt-3 mr-1 ml-1">
                                             <img class="card-img-top" src="../assets/img/vampire.png" alt="Card image cap">
                                             <p class="bold text-center mb-2">Collants sorcière enfant fluo</p>
@@ -313,7 +313,7 @@
                                             <button class="btn button-orange button-orange-cards d-block mx-auto bold font-16">Voir le produit</button>
                                         </div>
                                     </div>
-                                    <div class="col-sm-4 col-md-4 p-0 mb-xs-4 mb-sm-4 mb-md-0 bgd-transparent">
+                                    <div class="col-sm-12 col-md-6 col-lg-4 p-0 mb-xs-4 mb-sm-4 bgd-transparent">
                                         <div class="br-10 bs-red pr-4 pb-4 pl-4 pt-3 mr-1 ml-1">
                                             <img class="card-img-top" src="../assets/img/rose.png" alt="Card image cap">
                                             <p class="bold text-center mb-2">Collants sorcière enfant fluo</p>
@@ -321,9 +321,9 @@
                                             <button class="btn button-orange button-orange-cards d-block mx-auto bold font-16">Voir le produit</button>
                                         </div>
                                     </div>
-                                </div>
-                                <div class="row m-0 mt-5">
-                                    <div class="col-sm-4 col-md-4 p-0 mb-xs-4 mb-sm-4 mb-md-0 bgd-transparent">
+                                <!-- </div>
+                                <div class="row m-0 mt-5"> -->
+                                    <div class="col-sm-12 col-md-6 col-lg-4 p-0 mb-xs-4 mb-sm-4 bgd-transparent">
                                         <div class="br-10 bs-red pr-4 pb-4 pl-4 pt-3 mr-1 ml-1">
                                             <img class="card-badge" src="../assets/img/badge-nouveaute.png" alt="Card image cap">
                                             <img class="card-img-top" src="../assets/img/pirate.png" alt="Card image cap">
@@ -332,7 +332,7 @@
                                             <button class="btn button-orange button-orange-cards d-block mx-auto bold font-16">Voir le produit</button>
                                         </div> 
                                     </div>
-                                    <div class="col-sm-4 col-md-4 p-0 mb-xs-4 mb-sm-4 mb-md-0 bgd-transparent">
+                                    <div class="col-sm-12 col-md-6 col-lg-4 p-0 mb-xs-4 mb-sm-4 bgd-transparent">
                                         <div class="br-10 bs-red pr-4 pb-4 pl-4 pt-3 mr-1 ml-1">
                                             <img class="card-img-top" src="../assets/img/lilith.png" alt="Card image cap">
                                             <p class="bold text-center mb-2">Collants sorcière enfant fluo</p>
@@ -340,7 +340,7 @@
                                             <button class="btn button-orange button-orange-cards d-block mx-auto bold font-16">Voir le produit</button>
                                         </div>
                                     </div>
-                                    <div class="col-sm-4 col-md-4 p-0 mb-xs-4 mb-sm-4 mb-md-0 bgd-transparent">
+                                    <div class="col-sm-12 col-md-6 col-lg-4 p-0 mb-xs-4 mb-sm-4 bgd-transparent">
                                         <div class="br-10 bs-red pr-4 pb-4 pl-4 pt-3 mr-1 ml-1">
                                             <img class="card-badge" src="../assets/img/badge-occasion.png" alt="Card image cap">
                                             <img class="card-img-top" src="../assets/img/leggin.png" alt="Card image cap">

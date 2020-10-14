@@ -122,11 +122,70 @@
         </header>
 
         <div class="row container-shop m-0 p-0 b-red justify-content-end" style="position:relative;">
-            <!-- content -->
+            <!-- search -->
             <aside class="col-2 m-0 p-0 b-purple" style="min-height:100%!important;position:fixed;left:0px;">
-
+                <div class="b-red" style="height:350px;"></div>
+                <div class="b-green" style="max-height:350px;overflow-x:scroll">
+                    <form class="pt-4 pr-3 pl-3 pb-4">
+                        <div class="form-row">
+                            <label class="black">Rechercher</label>
+                            <div class="input-group mb-4">
+                                <input class="form-control" type="text" placeholder="Rechercher..." aria-label="Search" style="border-right:0px solid transparent!important;">
+                                <div class="input-group-append">
+                                    <span class="input-group-text bgd-transparent" id="basic-text1" style="border:1px solid #9d9d9d;border-left:0px;"><i class="icon-search text-grey"></i></span>
+                                </div>
+                            </div>
+                            <div class="filters-container">
+                                <label class="black">Filtres</label>
+                                <!-- Filtres -->
+                                <div class="form-group custom-selects mb-2 filters">
+                                    <select name="filtre-1" id="filtre-1" class="font-13 bold">
+                                        <option value="">Taille</option>
+                                        <option value="cheap">M</option>
+                                        <option value="famous">L</option>
+                                        <option value="cool">XL</option>
+                                    </select>
+                                </div>
+                                <div class="form-group custom-selects mb-2 filters">
+                                    <select name="filtre-2" id="filtre-2" class="font-13 bold">
+                                        <option value="">Couleur</option>
+                                        <option value="cheap">Blanc</option>
+                                        <option value="famous">Orange</option>
+                                        <option value="cool">Rose</option>
+                                    </select>
+                                </div>
+                                <div class="d-flex flex-column mt-4">
+                                    <div class="form-check mb-1">
+                                        <input class="form-check-input" type="checkbox" id="news" style="border-color:red!important;">
+                                        <label class="form-check-label font-14" for="news" style="color:black!important;">
+                                        Nouveautés
+                                        </label>
+                                    </div>
+                                    <div class="form-check mb-1">
+                                        <input class="form-check-input" type="checkbox" id="promos">
+                                        <label class="form-check-label font-14" for="promos" style="color:black!important;">
+                                        Promotions
+                                        </label>
+                                    </div>
+                                    <div class="form-check mb-1">
+                                        <input class="form-check-input" type="checkbox" id="borrowing">
+                                        <label class="form-check-label font-14" for="borrowing" style="color:black!important;">
+                                        Locations
+                                        </label>
+                                    </div>
+                                    <div class="form-check mb-1">
+                                        <input class="form-check-input" type="checkbox" id="already">
+                                        <label class="form-check-label font-14" for="already" style="color:black!important;">
+                                        Occasions
+                                        </label>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
             </aside>
-
+            <!-- content -->
             <div class="row col-10 m-0 p-0 b-pink">
                 <div class="col-12 m-0 p-0">
                     <div class="background">
@@ -200,7 +259,7 @@
                                 <div class="d-flex flex-xs-column align-items-center-xs justify-content-sm-between mb-xs-4 mb-sm-0">
                                     <div class="text-uppercase bold font-13">affichage des 128 produits</div>
                                     <div class="form-row m-0" style="width:180px;">
-                                        <!-- country -->
+                                        <!-- Filtres -->
                                         <label for="find-select" class="font-13 bold mb-2 mt-1">Trier par</label>
                                         <div class="form-group custom-selects mb-2">
                                             <select name="find" id="find-select" class="font-13 bold">

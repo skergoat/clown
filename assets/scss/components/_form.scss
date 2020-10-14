@@ -83,7 +83,7 @@ input:focus
 // connexion + signin form
 
 /* The container must be positioned relative: */
-.custom-selects {
+ .custom-selects {
     position: relative;
     width:105px;
   }
@@ -92,12 +92,12 @@ input:focus
     display: none; /*hide original SELECT element: */
   }
   
-  .select-selected, .select-selected-large, .find-by {
+  .select-selected, .select-selected-large, .find-by, .filters > .find-by {
     background-color: white;
   }
   
   /* Style the arrow inside the select element: */
-  .select-selected:after, .select-selected-large:after, .find-by:after {
+  .select-selected:after, .select-selected-large:after, .find-by:after, .filters > .find-by:after {
     position: absolute;
     content: "";
     top: 14px;
@@ -115,7 +115,7 @@ input:focus
   }
   
   /* style the items (options), including the selected item: */
-  .select-selected, .select-selected-large, .find-by {
+  .select-selected, .select-selected-large, .find-by, .filters > .find-by {
     color: black;
     font-size:13px;
     padding: 5px 10px;

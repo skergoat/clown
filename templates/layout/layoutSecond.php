@@ -1,5 +1,6 @@
 
 <?php ob_start(); ?>
+
 <div class="background">
     <div id="parallax-image">
         <img src="../assets/img/background.jpg" id="parallax-image__img" />        

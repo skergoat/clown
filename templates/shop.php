@@ -127,6 +127,70 @@
             </aside>
 
             <div class="row col-10 m-0 p-0 b-pink">
+                <div class="col-12 m-0 p-0">
+                    <div class="background">
+                        <div id="parallax-image">
+                            <img src="../assets/img/background.jpg" id="parallax-image__img" />        
+                        </div>
+                        <!-- main section -->
+                        <section class="main-content b-red" id="main-content-id"> 
+                            <!-- white separator -->       
+                            <!--<div id="space-between" class="bgd-white"></div>-->
+                            <!-- link top --> 
+                            <div class="previous pl-sm-3 pl-md-5 pt-4 ml-2 pb-3 mt-2 mb-2" id="main-title-1"><a class='black link-black' href='#'><a class='black link-black' href='#'><span class='mr-2 black chevron'><</span>Accessoires et déguisements</a></a></div>
+                            <!-- main title --> 
+                            <div class="title pb-4 mt-4" id="main-title-2">
+                                <h2 class='text-center black main-title-sm mb-3'>Ailes</h2>
+                                <h5 class='text-center light sub-title-sm lh-xs-17 font-18'>Ailes d’ange, de fée, de démon, d’insecte</h5>
+                            </div>
+                            <!-- primary content --> 
+                            <div class="content mt-1 mb-5">
+                                <div class="row bgd-yellow pb-0 m-0">
+                                    <div class="bgd-transparent chevron chevron-left d-flex align-items-center font-23">
+                                        <i class="icon-left-open pointer" style="left:0px;"></i>
+                                    </div>
+                                    <div class="col-xs-10 col-sm-10 col-md-11 mx-mille mx-auto">
+                                        <div class="row bgd-yellow justify-content-between">
+                                            <div class="p-0 mr-xs-none mr-sm-2 bgd-yellow card-product">
+                                                <img src="../assets/img/promos-card.png" class="img-fluid bs-red card-first" alt="Responsive image">
+                                            </div>
+                                            <div class="p-3 mr-1 bs-red br-10 card-product bgd-white">
+                                                <img class="card-badge" src="../assets/img/badge-promo.png" alt="Card image cap">
+                                                <img class="card-img-top" src="../assets/img/collant-blanc.png" alt="Card image cap">
+                                                <p class="bold text-center mb-2">Collants sorcière enfant fluo</p>
+                                                <p class="black text-center mb-3">Des <span style="text-decoration:line-through;" class="black">6,95€</span> <span class="black font-20 strong-pink">3,95€</span></p>
+                                                <button class="btn button-orange button-orange-cards d-block mx-auto bold font-16">Voir le produit</button>
+                                            </div>
+                                            <div class="p-3 mr-1 bs-red br-10 card-product bgd-white">
+                                                <img class="card-badge" src="../assets/img/badge-promo.png" alt="Card image cap">
+                                                <img class="card-img-top" src="../assets/img/collant-rose.png" alt="Card image cap">
+                                                <p class="bold text-center mb-2">Collants sorcière enfant fluo</p>
+                                                <p class="black text-center mb-3">Des <span style="text-decoration:line-through;" class="black">6,95€</span> <span class="black font-20 strong-pink">3,95€</span></p>
+                                                <button class="btn button-orange button-orange-cards d-block mx-auto bold font-16">Voir le produit</button>
+                                            </div>
+                                            <div class="p-3 mr-1 bs-red br-10 card-product bgd-white">
+                                                <img class="card-badge" src="../assets/img/badge-promo.png" alt="Card image cap">
+                                                <img class="card-img-top" src="../assets/img/collant-orange.png" alt="Card image cap">
+                                                <p class="bold text-center mb-2">Collants sorcière enfant fluo</p>
+                                                <p class="black text-center mb-3">Des <span style="text-decoration:line-through;" class="black">6,95€</span> <span class="black font-20 strong-pink">3,95€</span></p>
+                                                <button class="btn button-orange button-orange-cards d-block mx-auto bold font-16">Voir le produit</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="bgd-transparent chevron d-flex align-items-center chevron-right font-23">
+                                        <i class="icon-right-open pointer" style="left:0px;"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                    </div>
+                    <!-- secondary section -->
+                    <section class="secondary-content bgd-white">
+                        <div class="container-width mx-auto pb-5">
+                            <?= $secondaryContent ?>
+                        </div>
+                    </section>
+                </div>
                 <!-- footer -->
                 <footer class="footer col-12 p-0 transition bgd-white b-green" style="height:100%;width:100%;">
                     <!-- logo footer -->

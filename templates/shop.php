@@ -193,11 +193,11 @@
                     </div>
                     <!-- secondary section -->
                     <section class="secondary-content bgd-white">
-                        <div class="container-width mx-auto pb-5 pr-5 pl-5">
+                        <div class="container-width mx-auto pb-xs-none pr-xs-none pl-xs-none pb-5 pr-5 pl-5">
                             <div class="col-12 pb-lg-3 pt-5">
                                 <!-- title -->
-                                <h5 class="black pb-4">Tous les produits</h5>
-                                <div class="d-flex justify-content-between mb-0">
+                                <h5 class="black pb-4 text-xs-center">Tous les produits</h5>
+                                <div class="d-flex flex-xs-column align-items-center-xs justify-content-sm-between mb-xs-4 mb-sm-0">
                                     <div class="text-uppercase bold font-13">affichage des 128 produits</div>
                                     <div class="form-row m-0" style="width:180px;">
                                         <!-- country -->
@@ -350,13 +350,13 @@
                                         </div>
                                     </div>
                                 </div>
-                                <button class="btn btn-cards-pink btn-shop bold font-15 d-block mx-auto mt-5 mb-0">Charger plus de produits</button>
+                                <button class="btn btn-cards-pink btn-shop bold font-15 d-block pt-xs-none mt-sm-5 mb-sm-0 mx-auto">Charger plus de produits</button>
                             </div>
                         </div>
                     </section>
                 </div>
                 <!-- footer -->
-                <footer class="footer col-12 p-0 transition bgd-white b-green" style="height:auto;width:100%;">
+                <footer class="footer col-12 p-0 pt-xs-5 transition bgd-white b-green" style="height:auto;width:100%;">
                     <!-- logo footer -->
                     <div class="mx-auto footer-top pt-2 pb-4">
                             <img src="../assets/img/logo-footer.png" class="transition footer-top__logo pt-2 pb-2">

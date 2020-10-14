@@ -11641,6 +11641,66 @@ input[type=number] {
     left: 0px;
   }
 }
+.icon-cancel {
+  color: red !important;
+}
+
+.icon-check {
+  color: green !important;
+}
+
+button.size {
+  border: 0px solid transparent !important;
+  padding: 7px 12px 7px 12px !important;
+  border-radius: 5px;
+  background: #FFE4D8 !important;
+}
+button.size:nth-child(2) {
+  padding: 7px 10px 7px 10px !important;
+}
+button.size:last-child {
+  padding: 7px 8px 7px 8px !important;
+}
+button.size.active {
+  background: linear-gradient(to bottom, #FD9644, #FD6044) !important;
+  color: white !important;
+}
+
+.shopping.checkmark {
+  height: 12px;
+  width: 12px;
+}
+
+.form-check.form-check-inline .shopping.checkmark:after {
+  top: 6px;
+  left: 8px;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: orange;
+}
+
+.form-check.form-check-inline input:checked ~ .shopping.checkmark,
+.shopping.form-check-inline .form-check-input {
+  margin-bottom: 8px;
+}
+
+.form-check.form-check-inline input:checked ~ .shopping.checkmark {
+  border: 0.12em solid orange;
+}
+
+.shopping.form-check-inline .form-check-input {
+  margin-left: 5px;
+}
+
+.shopping.form-check-inline {
+  margin-right: 0rem !important;
+}
+
+.shopping.button-orange {
+  padding: 9px 25px 9px 25px;
+}
+
 /** font family **/
 * {
   font-family: "nunito_sansextralight", sans-serif;

@@ -6,65 +6,81 @@
 <!-- primary content  -->
 <?php ob_start(); ?>
 <div class="row mx-auto content__product container-width p-5">
-    <div class="col-6 b-red p-5">
+    <div class="col-6 p-5">
         <img class="card-img-top d-block mx-auto" src="../assets/img/collant-orange.png" alt="Card image cap" style="max-width:90%;">
     </div>
-    <div class="col-6 b-blue pr-5">
-        <div class="b-green mr-4">
-            <p class="black">Description</p>
+    <div class="col-6 pr-5">
+        <div class="mr-4 mb-4">
+            <p class="black font-17 mb-2">Description</p>
             <p class="font-13 line-height">Une magicienne maléfique est née avec ces collants sorcière enfant 6/10 ans fuschias et noirs.</p>
         </div>
-        <div class="b-green mr-4">
-            <p class="black">Disponibilité</p>
+        <div class="mr-4 mb-2">
+            <p class="black font-17">Disponibilité</p>
             <div class="d-flex">
                 <ul class="p-0 pr-5" style="list-style-type:none;">
-                    <li class="font-14">Achat</li>
-                    <li class="font-14">Location</li>
+                    <li class="font-13"><i class="icon-check"></i>Achat</li>
+                    <li class="font-13"><i class="icon-cancel"></i>Location</li>
                 </ul>
                 <ul style="list-style-type:none;">
-                    <li class="font-14">Boutique</li>
-                    <li class="font-14">En ligne</li>
+                    <li class="font-13"><i class="icon-check"></i>Boutique</li>
+                    <li class="font-13"><i class="icon-check"></i>En ligne</li>
                 </ul>
             </div>
         </div>
-        <div class="b-green mr-4">
-            <p class="black">Commander</p>
+        <div class="mr-4">
+            <p class="black font-16">Commander</p>
             <form>
                 <div class="form-row m-0">
-                    <button class="black mr-2 font-14">S</button>
-                    <button class="black mr-2 font-14">M</button>
-                    <button class="black mr-2 font-14">L</button>
-                    <button class="black font-14">XL</button>
+                    <button class="black mr-2 font-14 size active">S</button>
+                    <button class="black mr-2 font-14 size">M</button>
+                    <button class="black mr-2 font-14 size">L</button>
+                    <button class="black font-14 size">XL</button>
                 </div>
-                <div class="form-row m-0 mt-4">
+                <div class="form-row m-0 mt-3">
                     <div class="form-row mr-3">
-                        <input type="radio" class="mt-1 ml-1 mr-1"/>
-                        <label class="font-14">Achat</label>
+                        <!-- <input type="radio" class="mt-1 ml-1 mr-1"/> -->
+                        <div class="form-check shopping form-check-inline">
+                            <input class="form-check-input payment-selection" type="radio" name="whenbuy" id="whenbuy" value="whenbuy" checked>
+                            <span class="form-check-input form-check-input__pay shopping checkmark"></span>
+                        </div>
+                        <label class="font-13">Achat</label>
                     </div>
                     <div class="form-row">
-                        <input type="radio" class="mt-1 mr-1"/>
-                        <label class="font-14">Location</label>
+                        <div class="form-check shopping form-check-inline">
+                            <input class="form-check-input payment-selection" type="radio" name="borrow" id="borrow" value="borrow">
+                            <span class="form-check-input form-check-input__pay shopping checkmark"></span>
+                        </div>
+                        <!-- <input type="radio" class="mt-1 mr-1"/> -->
+                        <label class="font-13">Location</label>
                     </div>
                 </div>
                 <div class="form-row m-0">
                     <div class="form-row mr-3">
-                        <input type="radio" class="mt-1 ml-1 mr-1"/>
-                        <label class="font-14">En ligne</label>
+                        <div class="form-check shopping form-check-inline">
+                            <input class="form-check-input payment-selection" type="radio" name="online" id="online" value="online" checked>
+                            <span class="form-check-input form-check-input__pay shopping checkmark"></span>
+                        </div>
+                        <!-- <input type="radio" class="mt-1 ml-1 mr-1"/> -->
+                        <label class="font-13">En ligne</label>
                     </div>
                     <div class="form-row">
-                        <input type="radio" class="mt-1 mr-1"/>
-                        <label class="font-14">En boutique</label>
+                        <div class="form-check shopping form-check-inline">
+                            <input class="form-check-input payment-selection" type="radio" name="inshop" id="inshop" value="inshop">
+                            <span class="form-check-input form-check-input__pay shopping checkmark"></span>
+                        </div>
+                        <!-- <input type="radio" class="mt-1 mr-1"/> -->
+                        <label class="font-13">En boutique</label>
                     </div>
                 </div>
                 <div class="pt-2">
-                    <p class="font-14">Articles restants : <span class="font-14">22</span></p>
-                    <p>6,95€</p>
-                    <div class="form-row align-items-center justify-content-between">
-                        <label>Quantite</label>
-                        <div class="quantity">
+                    <p class="font-13 mb-2">Articles restants : <span class="font-13 strong-pink black">22</span></p>
+                    <p class="strong-pink black font-18">6,95€</p>
+                    <div class="form-row align-items-center mt-4">
+                        <label class="font-13 pl-1">Quantité</label>
+                        <div class="quantity ml-4">
                             <input type="number" min="1" max="9" step="1" value="1">
                         </div>
-                        <button class="btn button-orange btn-cart bold">Ajouter au panier</button>
+                        <button class="btn shopping button-orange btn-cart bold ml-4">Ajouter au panier</button>
                     </div>
                 </div>
                 <div class="d-flex mt-4 justify-content-between">

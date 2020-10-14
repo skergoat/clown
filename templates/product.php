@@ -75,9 +75,9 @@
                 <div class="pt-2">
                     <p class="font-13 mb-2">Articles restants : <span class="font-13 strong-pink black">22</span></p>
                     <p class="strong-pink black font-18">6,95€</p>
-                    <div class="form-row align-items-center mt-4">
-                        <label class="font-13 pl-1">Quantité</label>
-                        <div class="quantity ml-4">
+                    <div class="form-row align-items-center mt-3">
+                        <label class="font-13 pl-1 mb-0 mt-1">Quantité</label>
+                        <div class="shopping quantity ml-4 mt-3">
                             <input type="number" min="1" max="9" step="1" value="1">
                         </div>
                         <button class="btn shopping button-orange btn-cart bold ml-4">Ajouter au panier</button>

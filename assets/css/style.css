@@ -11669,6 +11669,14 @@ button.size.active {
 .shopping.checkmark {
   height: 12px;
   width: 12px;
+  border: 0.12rem solid black;
+}
+.shopping.checkmark.disabled {
+  border: 0.12rem solid #9d9d9d;
+}
+
+label.disabled {
+  color: #9d9d9d !important;
 }
 
 .form-check.form-check-inline .shopping.checkmark:after {
@@ -11699,6 +11707,10 @@ button.size.active {
 
 .shopping.button-orange {
   padding: 9px 25px 9px 25px;
+}
+
+.shipping-conditions {
+  color: #9d9d9d !important;
 }
 
 /** font family **/

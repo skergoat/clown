@@ -48,10 +48,10 @@
                     <div class="form-row">
                         <div class="form-check shopping form-check-inline">
                             <input class="form-check-input payment-selection" type="radio" name="borrow" id="borrow" value="borrow">
-                            <span class="form-check-input form-check-input__pay shopping checkmark"></span>
+                            <span class="form-check-input form-check-input__pay shopping checkmark disabled"></span>
                         </div>
                         <!-- <input type="radio" class="mt-1 mr-1"/> -->
-                        <label class="font-13">Location</label>
+                        <label class="font-13 disabled">Location</label>
                     </div>
                 </div>
                 <div class="form-row m-0">
@@ -83,18 +83,18 @@
                         <button class="btn shopping button-orange btn-cart bold ml-4">Ajouter au panier</button>
                     </div>
                 </div>
-                <div class="d-flex mt-4 justify-content-between">
-                    <div>
+                <div class="d-flex mt-4">
+                    <div class="mr-4">
                         <div><img class="card-img-top d-block mx-auto" src="../assets/img/undo.png" alt="Card image cap" style="max-width:12px;"></div>
-                        <div class="font-13">Retour sous 30 jours</div>
+                        <div class="font-13 shipping-conditions">Retour sous 30 jours</div>
                     </div>
-                    <div>
-                        <div><img class="card-img-top d-block mx-auto" src="../assets/img/shipping-fast.png" alt="Card image cap" style="max-width:14px;"></div>
-                        <div class="font-13">Livraison rapide</div>
+                    <div class="mr-4">
+                        <div><img class="card-img-top d-block mx-auto" src="../assets/img/shipping-fast.png" alt="Card image cap" style="max-width:15px;"></div>
+                        <div class="font-13 shipping-conditions">Livraison rapide</div>
                     </div>
-                    <div>
+                    <div class="mr-4">
                         <div><img class="card-img-top d-block mx-auto" src="../assets/img/lock.png" alt="Card image cap" style="max-width:12px;"></div>
-                        <div class="font-13">Paiement sécurisé</div>
+                        <div class="font-13 shipping-conditions">Paiement sécurisé</div>
                     </div>
                 </div>
             </form>

@@ -6,8 +6,8 @@
 <!-- primary content  -->
 <?php ob_start(); ?>
 <div class="row mx-auto content__product container-width p-5">
-    <div class="col-6 p-5">
-        <img class="card-img-top d-block mx-auto" src="../assets/img/collant-orange.png" alt="Card image cap" style="max-width:90%;">
+    <div class="col-6 pt-5 pb-5 pr-5 pl-0">
+        <img class="card-img-top d-block ml-5 mr-5" src="../assets/img/collant-orange.png" alt="Card image cap" style="max-width:80%;">
     </div>
     <div class="col-6 pr-5">
         <div class="mr-4 mb-4">
@@ -75,7 +75,7 @@
                 <div class="pt-2">
                     <p class="font-13 mb-2">Articles restants : <span class="font-13 strong-pink black">22</span></p>
                     <p class="strong-pink black font-18">6,95€</p>
-                    <div class="form-row align-items-center mt-3">
+                    <div class="form-row align-items-center mt-2">
                         <label class="font-13 pl-1 mb-0 mt-1">Quantité</label>
                         <div class="shopping quantity ml-4 mt-3">
                             <input type="number" min="1" max="9" step="1" value="1">

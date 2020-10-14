@@ -23,7 +23,7 @@
         $class2="select-items-large";
         let $val = "shipping";
          // space-between position top
-         $('#space-between').css('top', '29%');       
+        $('#space-between').css('top', '29%');       
         $('.secondary-content').css('display', 'none'); 
     </script>
     <script src="../assets/js/custom-select.js"></script>

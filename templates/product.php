@@ -38,7 +38,6 @@
                 </div>
                 <div class="form-row m-0 mt-3">
                     <div class="form-row mr-3">
-                        <!-- <input type="radio" class="mt-1 ml-1 mr-1"/> -->
                         <div class="form-check shopping form-check-inline">
                             <input class="form-check-input payment-selection" type="radio" name="whenbuy" id="whenbuy" value="whenbuy" checked>
                             <span class="form-check-input form-check-input__pay shopping checkmark"></span>
@@ -50,7 +49,6 @@
                             <input class="form-check-input payment-selection" type="radio" name="borrow" id="borrow" value="borrow">
                             <span class="form-check-input form-check-input__pay shopping checkmark disabled"></span>
                         </div>
-                        <!-- <input type="radio" class="mt-1 mr-1"/> -->
                         <label class="font-13 disabled">Location</label>
                     </div>
                 </div>
@@ -60,7 +58,6 @@
                             <input class="form-check-input payment-selection" type="radio" name="online" id="online" value="online" checked>
                             <span class="form-check-input form-check-input__pay shopping checkmark"></span>
                         </div>
-                        <!-- <input type="radio" class="mt-1 ml-1 mr-1"/> -->
                         <label class="font-13">En ligne</label>
                     </div>
                     <div class="form-row">
@@ -68,7 +65,6 @@
                             <input class="form-check-input payment-selection" type="radio" name="inshop" id="inshop" value="inshop">
                             <span class="form-check-input form-check-input__pay shopping checkmark"></span>
                         </div>
-                        <!-- <input type="radio" class="mt-1 mr-1"/> -->
                         <label class="font-13">En boutique</label>
                     </div>
                 </div>

@@ -12,6 +12,7 @@
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
     </head>
     <body>
+        <div class="cookies font-13 p-2 pr-4 bgd-white">Ce site web utilise les cookies. En navigant sur notre site, vous acceptez notre <a href="#" class="link-black bold font-13">politique de confidentialité</a>.</div>
         <!-- header -->
        <header>
            <div class="mx-auto navs">
@@ -134,44 +135,50 @@
                         </div>
                         <!-- main section -->
                         <section class="main-content b-red" id="main-content-id"> 
-                            <!-- white separator -->       
-                            <!--<div id="space-between" class="bgd-white"></div>-->
                             <!-- link top --> 
                             <div class="previous pl-sm-3 pl-md-5 pt-4 ml-2 pb-3 mt-2 mb-2" id="main-title-1"><a class='black link-black' href='#'><a class='black link-black' href='#'><span class='mr-2 black chevron'><</span>Accessoires et déguisements</a></a></div>
                             <!-- main title --> 
-                            <div class="title pb-4 mt-4" id="main-title-2">
+                            <div class="title pb-4 mt-4 mb-5" id="main-title-2">
                                 <h2 class='text-center black main-title-sm mb-3'>Ailes</h2>
                                 <h5 class='text-center light sub-title-sm lh-xs-17 font-18'>Ailes d’ange, de fée, de démon, d’insecte</h5>
                             </div>
                             <!-- primary content --> 
-                            <div class="content mt-1 mb-5">
-                                <div class="row bgd-yellow pb-0 m-0">
+                            <div class="content mb-5 mt-5">
+                                <div class="row pr-5 pl-5 pb-0 m-0">
                                     <div class="bgd-transparent chevron chevron-left d-flex align-items-center font-23">
                                         <i class="icon-left-open pointer" style="left:0px;"></i>
                                     </div>
                                     <div class="col-xs-10 col-sm-10 col-md-11 mx-mille mx-auto">
-                                        <div class="row bgd-yellow justify-content-between">
-                                            <div class="p-0 mr-xs-none mr-sm-2 bgd-yellow card-product">
-                                                <img src="../assets/img/promos-card.png" class="img-fluid bs-red card-first" alt="Responsive image">
+                                    <!-- title -->
+                                    <div class="mb-4">
+                                        <h5 class="black">Ne manquez pas nos promotions du moment !</h5>
+                                    </div>
+                                        <div class="row justify-content-between p-0 m-0">
+                                            <div class="p-3 mr-1 bs-red br-10 card-product bgd-white">
+                                                <img class="card-badge" src="../assets/img/badge-promo.png" alt="Card image cap">
+                                                <img class="card-img-top" src="../assets/img/witch.png" alt="Card image cap">
+                                                <p class="bold text-center mb-2">Collier halloween</p>
+                                                <p class="black text-center mb-3">Dès 3,95€</p>
+                                                <button class="btn button-orange button-orange-cards d-block mx-auto bold font-16">Voir le produit</button>
                                             </div>
                                             <div class="p-3 mr-1 bs-red br-10 card-product bgd-white">
                                                 <img class="card-badge" src="../assets/img/badge-promo.png" alt="Card image cap">
                                                 <img class="card-img-top" src="../assets/img/collant-blanc.png" alt="Card image cap">
-                                                <p class="bold text-center mb-2">Collants sorcière enfant fluo</p>
+                                                <p class="bold text-center mb-2">Collants sorcière enfant</p>
                                                 <p class="black text-center mb-3">Des <span style="text-decoration:line-through;" class="black">6,95€</span> <span class="black font-20 strong-pink">3,95€</span></p>
                                                 <button class="btn button-orange button-orange-cards d-block mx-auto bold font-16">Voir le produit</button>
                                             </div>
                                             <div class="p-3 mr-1 bs-red br-10 card-product bgd-white">
                                                 <img class="card-badge" src="../assets/img/badge-promo.png" alt="Card image cap">
                                                 <img class="card-img-top" src="../assets/img/collant-rose.png" alt="Card image cap">
-                                                <p class="bold text-center mb-2">Collants sorcière enfant fluo</p>
+                                                <p class="bold text-center mb-2">Collants sorcière enfant</p>
                                                 <p class="black text-center mb-3">Des <span style="text-decoration:line-through;" class="black">6,95€</span> <span class="black font-20 strong-pink">3,95€</span></p>
                                                 <button class="btn button-orange button-orange-cards d-block mx-auto bold font-16">Voir le produit</button>
                                             </div>
                                             <div class="p-3 mr-1 bs-red br-10 card-product bgd-white">
                                                 <img class="card-badge" src="../assets/img/badge-promo.png" alt="Card image cap">
                                                 <img class="card-img-top" src="../assets/img/collant-orange.png" alt="Card image cap">
-                                                <p class="bold text-center mb-2">Collants sorcière enfant fluo</p>
+                                                <p class="bold text-center mb-2">Collants sorcière enfant</p>
                                                 <p class="black text-center mb-3">Des <span style="text-decoration:line-through;" class="black">6,95€</span> <span class="black font-20 strong-pink">3,95€</span></p>
                                                 <button class="btn button-orange button-orange-cards d-block mx-auto bold font-16">Voir le produit</button>
                                             </div>
@@ -186,13 +193,166 @@
                     </div>
                     <!-- secondary section -->
                     <section class="secondary-content bgd-white">
-                        <div class="container-width mx-auto pb-5">
-                            <?= $secondaryContent ?>
+                        <div class="container-width mx-auto pb-5 pr-5 pl-5">
+                            <div class="col-12 pb-lg-3 pt-5">
+                                <!-- title -->
+                                <h5 class="black pb-4">Tous les produits</h5>
+                                <div class="d-flex justify-content-between mb-0">
+                                    <div class="text-uppercase bold font-13">affichage des 128 produits</div>
+                                    <div class="form-row m-0" style="width:180px;">
+                                        <!-- country -->
+                                        <label for="find-select" class="font-13 bold mb-2 mt-1">Trier par</label>
+                                        <div class="form-group custom-selects mb-2">
+                                            <select name="find" id="find-select" class="font-13 bold">
+                                                <option value="">Prix croissants</option>
+                                                <option value="cheap">Le moins cher</option>
+                                                <option value="famous">Populaire</option>
+                                                <option value="cool">Le plus cool</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row m-0">
+                                    <div class="col-sm-4 col-md-4 p-0 mb-xs-4 mb-sm-4 mb-md-0 bgd-transparent">
+                                        <div class="br-10 bs-red pr-4 pb-4 pl-4 pt-3 mr-1 ml-1">
+                                            <img class="card-badge" src="../assets/img/badge-nouveaute.png" alt="Card image cap">
+                                            <img class="card-img-top" src="../assets/img/witch.png" alt="Card image cap">
+                                            <p class="bold text-center mb-2">Collier halloween</p>
+                                            <p class="black text-center mb-3">Dès 3,95€</p>
+                                            <button class="btn button-orange button-orange-cards d-block mx-auto bold font-16">Voir le produit</button>
+                                        </div> 
+                                    </div>
+                                    <div class="col-sm-4 col-md-4 p-0 mb-xs-4 mb-sm-4 mb-md-0 bgd-transparent">
+                                        <div class="br-10 bs-red pr-4 pb-4 pl-4 pt-3 mr-1 ml-1">
+                                            <img class="card-img-top" src="../assets/img/collant-blanc.png" alt="Card image cap">
+                                            <p class="bold text-center mb-2">Collants sorcière enfant fluo</p>
+                                            <p class="black text-center mb-3">Dès 6,95€</p>
+                                            <button class="btn button-orange button-orange-cards d-block mx-auto bold font-16">Voir le produit</button>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-4 col-md-4 p-0 mb-xs-4 mb-sm-4 mb-md-0 bgd-transparent">
+                                        <div class="br-10 bs-red pr-4 pb-4 pl-4 pt-3 mr-1 ml-1">
+                                            <img class="card-img-top" src="../assets/img/collant-rose.png" alt="Card image cap">
+                                            <p class="bold text-center mb-2">Collants sorcière enfant fluo</p>
+                                            <p class="black text-center mb-3">Dès 6,95€</p>
+                                            <button class="btn button-orange button-orange-cards d-block mx-auto bold font-16">Voir le produit</button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row m-0 mt-5">
+                                    <div class="col-sm-4 col-md-4 p-0 mb-xs-4 mb-sm-4 mb-md-0 bgd-transparent">
+                                        <div class="br-10 bs-red pr-4 pb-4 pl-4 pt-3 mr-1 ml-1">
+                                            <img class="card-img-top" src="../assets/img/collant-orange.png" alt="Card image cap">
+                                            <p class="bold text-center mb-2">Collants sorcière enfant fluo</p>
+                                            <p class="black text-center mb-3">Dès 6,95€</p>
+                                            <button class="btn button-orange button-orange-cards d-block mx-auto bold font-16">Voir le produit</button>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-4 col-md-4 p-0 mb-xs-4 mb-sm-4 mb-md-0 bgd-transparent">
+                                        <div class="br-10 bs-red pr-4 pb-4 pl-4 pt-3 mr-1 ml-1">
+                                            <img class="card-img-top" src="../assets/img/collant-blanc.png" alt="Card image cap">
+                                            <p class="bold text-center mb-2">Collants sorcière enfant fluo</p>
+                                            <p class="black text-center mb-3">Dès 6,95€</p>
+                                            <button class="btn button-orange button-orange-cards d-block mx-auto bold font-16">Voir le produit</button>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-4 col-md-4 p-0 mb-xs-4 mb-sm-4 mb-md-0 bgd-transparent">
+                                        <div class="br-10 bs-red pr-4 pb-4 pl-4 pt-3 mr-1 ml-1">
+                                            <img class="card-img-top" src="../assets/img/collant-rose.png" alt="Card image cap">
+                                            <p class="bold text-center mb-2">Collants sorcière enfant fluo</p>
+                                            <p class="black text-center mb-3">Dès 6,95€</p>
+                                            <button class="btn button-orange button-orange-cards d-block mx-auto bold font-16">Voir le produit</button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row m-0 mt-5">
+                                    <div class="col-sm-4 col-md-4 p-0 mb-xs-4 mb-sm-4 mb-md-0 bgd-transparent">
+                                        <div class="br-10 bs-red pr-4 pb-4 pl-4 pt-3 mr-1 ml-1">
+                                            <img class="card-badge" src="../assets/img/badge-nouveaute.png" alt="Card image cap">
+                                            <img class="card-img-top" src="../assets/img/witch.png" alt="Card image cap">
+                                            <p class="bold text-center mb-2">Collier halloween</p>
+                                            <p class="black text-center mb-3">Dès 3,95€</p>
+                                            <button class="btn button-orange button-orange-cards d-block mx-auto bold font-16">Voir le produit</button>
+                                        </div> 
+                                    </div>
+                                    <div class="col-sm-4 col-md-4 p-0 mb-xs-4 mb-sm-4 mb-md-0 bgd-transparent">
+                                        <div class="br-10 bs-red pr-4 pb-4 pl-4 pt-3 mr-1 ml-1">
+                                            <img class="card-img-top" src="../assets/img/collant-blanc.png" alt="Card image cap">
+                                            <p class="bold text-center mb-2">Collants sorcière enfant fluo</p>
+                                            <p class="black text-center mb-3">Dès 6,95€</p>
+                                            <button class="btn button-orange button-orange-cards d-block mx-auto bold font-16">Voir le produit</button>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-4 col-md-4 p-0 mb-xs-4 mb-sm-4 mb-md-0 bgd-transparent">
+                                        <div class="br-10 bs-red pr-4 pb-4 pl-4 pt-3 mr-1 ml-1">
+                                            <img class="card-img-top" src="../assets/img/collant-rose.png" alt="Card image cap">
+                                            <p class="bold text-center mb-2">Collants sorcière enfant fluo</p>
+                                            <p class="black text-center mb-3">Dès 6,95€</p>
+                                            <button class="btn button-orange button-orange-cards d-block mx-auto bold font-16">Voir le produit</button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row m-0 mt-5">
+                                    <div class="col-sm-4 col-md-4 p-0 mb-xs-4 mb-sm-4 mb-md-0 bgd-transparent">
+                                        <div class="br-10 bs-red pr-4 pb-4 pl-4 pt-3 mr-1 ml-1">
+                                            <img class="card-badge" src="../assets/img/badge-nouveaute.png" alt="Card image cap">
+                                            <img class="card-img-top" src="../assets/img/witch.png" alt="Card image cap">
+                                            <p class="bold text-center mb-2">Collier halloween</p>
+                                            <p class="black text-center mb-3">Dès 3,95€</p>
+                                            <button class="btn button-orange button-orange-cards d-block mx-auto bold font-16">Voir le produit</button>
+                                        </div> 
+                                    </div>
+                                    <div class="col-sm-4 col-md-4 p-0 mb-xs-4 mb-sm-4 mb-md-0 bgd-transparent">
+                                        <div class="br-10 bs-red pr-4 pb-4 pl-4 pt-3 mr-1 ml-1">
+                                            <img class="card-img-top" src="../assets/img/collant-blanc.png" alt="Card image cap">
+                                            <p class="bold text-center mb-2">Collants sorcière enfant fluo</p>
+                                            <p class="black text-center mb-3">Dès 6,95€</p>
+                                            <button class="btn button-orange button-orange-cards d-block mx-auto bold font-16">Voir le produit</button>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-4 col-md-4 p-0 mb-xs-4 mb-sm-4 mb-md-0 bgd-transparent">
+                                        <div class="br-10 bs-red pr-4 pb-4 pl-4 pt-3 mr-1 ml-1">
+                                            <img class="card-img-top" src="../assets/img/collant-rose.png" alt="Card image cap">
+                                            <p class="bold text-center mb-2">Collants sorcière enfant fluo</p>
+                                            <p class="black text-center mb-3">Dès 6,95€</p>
+                                            <button class="btn button-orange button-orange-cards d-block mx-auto bold font-16">Voir le produit</button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row m-0 mt-5">
+                                    <div class="col-sm-4 col-md-4 p-0 mb-xs-4 mb-sm-4 mb-md-0 bgd-transparent">
+                                        <div class="br-10 bs-red pr-4 pb-4 pl-4 pt-3 mr-1 ml-1">
+                                            <img class="card-badge" src="../assets/img/badge-nouveaute.png" alt="Card image cap">
+                                            <img class="card-img-top" src="../assets/img/witch.png" alt="Card image cap">
+                                            <p class="bold text-center mb-2">Collier halloween</p>
+                                            <p class="black text-center mb-3">Dès 3,95€</p>
+                                            <button class="btn button-orange button-orange-cards d-block mx-auto bold font-16">Voir le produit</button>
+                                        </div> 
+                                    </div>
+                                    <div class="col-sm-4 col-md-4 p-0 mb-xs-4 mb-sm-4 mb-md-0 bgd-transparent">
+                                        <div class="br-10 bs-red pr-4 pb-4 pl-4 pt-3 mr-1 ml-1">
+                                            <img class="card-img-top" src="../assets/img/collant-blanc.png" alt="Card image cap">
+                                            <p class="bold text-center mb-2">Collants sorcière enfant fluo</p>
+                                            <p class="black text-center mb-3">Dès 6,95€</p>
+                                            <button class="btn button-orange button-orange-cards d-block mx-auto bold font-16">Voir le produit</button>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-4 col-md-4 p-0 mb-xs-4 mb-sm-4 mb-md-0 bgd-transparent">
+                                        <div class="br-10 bs-red pr-4 pb-4 pl-4 pt-3 mr-1 ml-1">
+                                            <img class="card-img-top" src="../assets/img/collant-rose.png" alt="Card image cap">
+                                            <p class="bold text-center mb-2">Collants sorcière enfant fluo</p>
+                                            <p class="black text-center mb-3">Dès 6,95€</p>
+                                            <button class="btn button-orange button-orange-cards d-block mx-auto bold font-16">Voir le produit</button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <button class="btn btn-cards-pink btn-shop bold font-15 d-block mx-auto mt-5 mb-0">Charger plus de produits</button>
+                            </div>
                         </div>
                     </section>
                 </div>
                 <!-- footer -->
-                <footer class="footer col-12 p-0 transition bgd-white b-green" style="height:100%;width:100%;">
+                <footer class="footer col-12 p-0 transition bgd-white b-green" style="height:auto;width:100%;">
                     <!-- logo footer -->
                     <div class="mx-auto footer-top pt-2 pb-4">
                             <img src="../assets/img/logo-footer.png" class="transition footer-top__logo pt-2 pb-2">
@@ -281,10 +441,10 @@
         <script src="../assets/js/menu-responsive.js"></script>
         <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-        <?= $script ?>
         <script src="../assets/js/parallax.js"></script>
-        <script src="../assets/js/quantity-field.js"></script>
         <script>
+            // activate link 
+            let activeId = '#active-shop';
             // menu active link 
             $(activeId + ' .border-bottom-menu').addClass('activated-border-bottom');
             // orange color not for cart link 
@@ -292,18 +452,13 @@
                 $(activeId + ' a').addClass('activated');
             }
         </script>
-        <!-- map -->
-        <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
         <script>
-            var map = L.map('map').setView([48.86298, 2.34319], 17);
-            L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-                attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
-            }).addTo(map);
-
-            L.marker([48.86298, 2.34319]).addTo(map)
-                .bindPopup('A pretty CSS3 popup.<br> Easily customizable.')
-                .openPopup();
+            // select
+            $class="find-by";
+            $class2="find-by-items";
+            let $val = "shipping";
         </script>
+        <script src="../assets/js/custom-select.js"></script>
     </body>
 </html>
 

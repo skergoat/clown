@@ -232,7 +232,7 @@
                             </div>
                             <!-- primary content --> 
                             <div class="content mb-5 mt-xs-none mt-sm-5">
-                                <div class="row pr-xs-none pl-xs-none pr-sm-3 pl-sm-3 pr-lg-5 pl-l-5 pb-0 m-0">
+                                <div class="row pr-xs-none pl-xs-none pr-sm-3 pl-sm-3 pr-lg-5 pl-lg-5 pb-0 m-0">
                                     <div class="bgd-transparent chevron chevron-left d-flex align-items-center font-23">
                                         <i class="icon-left-open pointer" style="left:0px;"></i>
                                     </div>

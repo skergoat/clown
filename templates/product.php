@@ -5,16 +5,16 @@
 
 <!-- primary content  -->
 <?php ob_start(); ?>
-<div class="row mx-auto content__product container-width p-5">
-    <div class="col-6 pt-5 pb-5 pr-5 pl-0">
-        <img class="card-img-top d-block ml-5 mr-5" src="../assets/img/collant-orange.png" alt="Card image cap" style="max-width:80%;">
+<div class="row flex-xs-column flex-sm-column flex-md-row mx-auto content__product container-width p-xs-3 p-lg-5">
+    <div class="col-xs-12 col-lg-6 mx-xs-auto pr-xs-none pt-lg-5 pb-lg-5 pr-lg-5 pl-0">
+        <img class="primary-img-top d-block mb-xs-4 mx-auto ml-lg-5 mr-lg-5 mt-lg-5" src="../assets/img/collant-orange.png" alt="Card image cap">
     </div>
-    <div class="col-6 pr-5">
-        <div class="mr-4 mb-4">
+    <div class="col-xs-12 col-lg-6 pr-xs-0 pr-lg-5">
+        <div class="mr-lg-none mr-lg-4 mb-4">
             <p class="black font-17 mb-2">Description</p>
             <p class="font-13 line-height">Une magicienne maléfique est née avec ces collants sorcière enfant 6/10 ans fuschias et noirs.</p>
         </div>
-        <div class="mr-4 mb-2">
+        <div class="mr-lg-none mr-lg-4 mb-2">
             <p class="black font-17">Disponibilité</p>
             <div class="d-flex">
                 <ul class="p-0 pr-5" style="list-style-type:none;">
@@ -27,7 +27,7 @@
                 </ul>
             </div>
         </div>
-        <div class="mr-4">
+        <div class="mr-lg-none mr-lg-4">
             <p class="black font-16">Commander</p>
             <form>
                 <div class="form-row m-0">
@@ -75,26 +75,26 @@
                 <div class="pt-2">
                     <p class="font-13 mb-2">Articles restants : <span class="font-13 strong-pink black">22</span></p>
                     <p class="strong-pink black font-18">6,95€</p>
-                    <div class="form-row align-items-center mt-2">
+                    <div class="form-row align-items-center justify-content-xs-between mt-2">
                         <label class="font-13 pl-1 mb-0 mt-1">Quantité</label>
-                        <div class="shopping quantity ml-4 mt-3">
+                        <div class="shopping quantity ml-xs-none ml-lg-4 mt-3">
                             <input type="number" min="1" max="9" step="1" value="1">
                         </div>
-                        <button class="btn shopping button-orange btn-cart bold ml-4">Ajouter au panier</button>
+                        <button class="btn shopping button-orange btn-cart bold ml-xs-none ml-lg-4">Ajouter au panier</button>
                     </div>
                 </div>
-                <div class="d-flex mt-4">
-                    <div class="mr-4">
+                <div class="d-flex mt-xs-5 mt-lg-4">
+                    <div class="mr-lg-none mr-lg-4">
                         <div><img class="card-img-top d-block mx-auto" src="../assets/img/undo.png" alt="Card image cap" style="max-width:12px;"></div>
-                        <div class="font-13 shipping-conditions">Retour sous 30 jours</div>
+                        <div class="font-13 shipping-conditions text-center">Retour sous 30 jours</div>
                     </div>
-                    <div class="mr-4">
+                    <div class="mr-lg-none mr-lg-4">
                         <div><img class="card-img-top d-block mx-auto" src="../assets/img/shipping-fast.png" alt="Card image cap" style="max-width:15px;"></div>
-                        <div class="font-13 shipping-conditions">Livraison rapide</div>
+                        <div class="font-13 shipping-conditions text-center">Livraison rapide</div>
                     </div>
-                    <div class="mr-4">
+                    <div class="mr-lg-none mr-lg-4">
                         <div><img class="card-img-top d-block mx-auto" src="../assets/img/lock.png" alt="Card image cap" style="max-width:12px;"></div>
-                        <div class="font-13 shipping-conditions">Paiement sécurisé</div>
+                        <div class="font-13 shipping-conditions text-center">Paiement sécurisé</div>
                     </div>
                 </div>
             </form>

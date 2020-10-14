@@ -1,3 +1,8 @@
+// card 
+.primary-img-top {
+    max-width:80%;
+}
+
 // icons 
 .icon-cancel {
     color:red!important;
@@ -6,6 +11,11 @@
 .icon-check {
     color:green!important;
 }
+
+.icon-check:before, .icon-cancel:before {
+    margin-left:0px!important;
+}
+
 // buttons 
 button.size {
     border:0px solid transparent!important;
@@ -102,4 +112,11 @@ label.disabled {
 
 .shipping-conditions {
     color:#9d9d9d!important;
+}
+
+@media (max-width:576px)
+{
+    .shopping.quantity input {
+        height:31px!important;
+    }
 }

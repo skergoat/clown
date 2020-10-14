@@ -10286,6 +10286,10 @@ h3 {
     flex-direction: row !important;
   }
 
+  .justify-content-xs-between {
+    justify-content: space-between !important;
+  }
+
   .justify-content-center-xs {
     justify-content: center !important;
   }
@@ -11641,12 +11645,20 @@ input[type=number] {
     left: 0px;
   }
 }
+.primary-img-top {
+  max-width: 80%;
+}
+
 .icon-cancel {
   color: red !important;
 }
 
 .icon-check {
   color: green !important;
+}
+
+.icon-check:before, .icon-cancel:before {
+  margin-left: 0px !important;
 }
 
 button.size {
@@ -11739,6 +11751,11 @@ label.disabled {
   color: #9d9d9d !important;
 }
 
+@media (max-width: 576px) {
+  .shopping.quantity input {
+    height: 31px !important;
+  }
+}
 /** font family **/
 * {
   font-family: "nunito_sansextralight", sans-serif;

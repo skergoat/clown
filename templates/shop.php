@@ -144,7 +144,7 @@
                             </div>
                             <!-- primary content --> 
                             <div class="content mb-5 mt-xs-none mt-sm-5">
-                                <div class="row pr-xs-none pl-xs-none pr-sm-5 pl-sm-5 pb-0 m-0">
+                                <div class="row pr-xs-none pl-xs-none pr-sm-3 pl-sm-3 pr-lg-5 pl-l-5 pb-0 m-0">
                                     <div class="bgd-transparent chevron chevron-left d-flex align-items-center font-23">
                                         <i class="icon-left-open pointer" style="left:0px;"></i>
                                     </div>
@@ -192,8 +192,8 @@
                         </section>
                     </div>
                     <!-- secondary section -->
-                    <section class="secondary-content bgd-white">
-                        <div class="container-width mx-auto pb-xs-none pr-xs-none pl-xs-none pb-5 pr-5 pl-5">
+                    <section class="secondary-content bgd-white pb-5">
+                        <div class="container-width mx-auto pb-xs-none pr-xs-none pl-xs-none pr-sm-3 pl-sm-3 pr-lg-5 pl-l-5">
                             <div class="col-12 pb-lg-3 pt-5">
                                 <!-- title -->
                                 <h5 class="black pb-4 text-xs-center">Tous les produits</h5>
@@ -239,8 +239,6 @@
                                             <button class="btn button-orange button-orange-cards d-block mx-auto bold font-16">Voir le produit</button>
                                         </div>
                                     </div>
-                                <!-- </div>
-                                <div class="row m-0 mt-5"> -->
                                     <div class="col-sm-12 col-md-6 col-lg-4 p-0 mb-xs-4 mb-sm-4 bgd-transparent">
                                         <div class="br-10 bs-red pr-4 pb-4 pl-4 pt-3 mr-1 ml-1">
                                             <img class="card-img-top" src="../assets/img/collant-orange.png" alt="Card image cap">
@@ -266,8 +264,6 @@
                                             <button class="btn button-orange button-orange-cards d-block mx-auto bold font-16">Voir le produit</button>
                                         </div>
                                     </div>
-                                <!-- </div>
-                                <div class="row m-0 mt-5"> -->
                                     <div class="col-sm-12 col-md-6 col-lg-4 p-0 mb-xs-4 mb-sm-4 bgd-transparent">
                                         <div class="br-10 bs-red pr-4 pb-4 pl-4 pt-3 mr-1 ml-1">
                                             <img class="card-badge" src="../assets/img/badge-nouveaute.png" alt="Card image cap">
@@ -294,8 +290,6 @@
                                             <button class="btn button-orange button-orange-cards d-block mx-auto bold font-16">Voir le produit</button>
                                         </div>
                                     </div>
-                               <!-- </div>
-                                <div class="row m-0 mt-5"> -->
                                     <div class="col-sm-12 col-md-6 col-lg-4 p-0 mb-xs-4 mb-sm-4 bgd-transparent">
                                         <div class="br-10 bs-red pr-4 pb-4 pl-4 pt-3 mr-1 ml-1">
                                             <img class="card-badge" src="../assets/img/badge-nouveaute.png" alt="Card image cap">
@@ -321,8 +315,6 @@
                                             <button class="btn button-orange button-orange-cards d-block mx-auto bold font-16">Voir le produit</button>
                                         </div>
                                     </div>
-                                <!-- </div>
-                                <div class="row m-0 mt-5"> -->
                                     <div class="col-sm-12 col-md-6 col-lg-4 p-0 mb-xs-4 mb-sm-4 bgd-transparent">
                                         <div class="br-10 bs-red pr-4 pb-4 pl-4 pt-3 mr-1 ml-1">
                                             <img class="card-badge" src="../assets/img/badge-nouveaute.png" alt="Card image cap">
@@ -350,13 +342,13 @@
                                         </div>
                                     </div>
                                 </div>
-                                <button class="btn btn-cards-pink btn-shop bold font-15 d-block pt-xs-none mt-sm-5 mb-sm-0 mx-auto">Charger plus de produits</button>
+                                <button class="btn btn-cards-pink btn-shop bold font-15 d-block pt-xs-none mt-sm-4 mb-xs-none mb-sm-0 mx-auto">Charger plus de produits</button>
                             </div>
                         </div>
                     </section>
                 </div>
                 <!-- footer -->
-                <footer class="footer col-12 p-0 pt-xs-5 transition bgd-white b-green" style="height:auto;width:100%;">
+                <footer class="footer col-12 p-0 transition bgd-white" style="height:auto;width:100%;">
                     <!-- logo footer -->
                     <div class="mx-auto footer-top pt-2 pb-4">
                             <img src="../assets/img/logo-footer.png" class="transition footer-top__logo pt-2 pb-2">

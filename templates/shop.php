@@ -121,9 +121,9 @@
             </div>
         </header>
 
-        <div class="row container-shop m-0 p-0 b-red justify-content-end" style="position:relative;">
+        <div class="row container-shop m-0 p-0 justify-content-end" style="position:relative;">
             <!-- search -->
-            <aside class="col-2 m-0 p-0 b-purple" style="min-height:100%!important;position:fixed;left:0px;">
+            <aside class="col-2 m-0 p-0" style="border-right:0.1rem solid #f1f1f1;min-height:100%!important;position:fixed;left:0px;">
                 <div class="" style="height:auto;box-shadow: 0px 7px 5px -5px rgba(214,214,214,0.7);">
                     <div class="d-flex pointer">
                         <div class="border-fun mr-2" style="padding-right:10px;background: linear-gradient(to top, #15A5BF, #2BCBBA);"></div>
@@ -222,7 +222,7 @@
                             <img src="../assets/img/background.jpg" id="parallax-image__img" />        
                         </div>
                         <!-- main section -->
-                        <section class="main-content b-red" id="main-content-id"> 
+                        <section class="main-content" id="main-content-id"> 
                             <!-- link top --> 
                             <div class="previous pl-sm-3 pl-md-5 pt-4 ml-2 pb-3 mt-2 mb-2" id="main-title-1"><a class='black link-black' href='#'><a class='black link-black' href='#'><span class='mr-2 black chevron'><</span>Accessoires et déguisements</a></a></div>
                             <!-- main title --> 
@@ -247,7 +247,8 @@
                                                 <img class="card-img-top" src="../assets/img/witch.png" alt="Card image cap">
                                                 <p class="bold text-center mb-2">Collier halloween</p>
                                                 <p class="black text-center mb-3">Dès 3,95€</p>
-                                                <button class="btn button-orange button-orange-cards d-block mx-auto bold font-16">Voir le produit</button>
+                                                <!-- <button class="btn button-orange button-orange-cards d-block mx-auto bold font-16">Voir le produit</button> -->
+                                                <a href="http://localhost:8888/templates/product.php" class="btn button-orange button-orange-cards d-block mx-auto bold font-16" style="margin-top:20px;">Voir le produit</a>
                                             </div>
                                             <div class="p-3 mr-1 bs-red br-10 card-product bgd-white">
                                                 <img class="card-badge" src="../assets/img/badge-promo.png" alt="Card image cap">

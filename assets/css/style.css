@@ -10959,6 +10959,73 @@ input[type=number] {
   top: 4px;
 }
 
+/* Customize the label (the container) */
+.checkbox-container {
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 22px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.checkbox-container input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+/* Create a custom checkbox */
+.checkboxmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 25px;
+  width: 25px;
+  background-color: #eee;
+}
+
+/* On mouse-over, add a grey background color */
+.checkbox-container:hover input ~ .checkboxmark {
+  background-color: #ccc;
+}
+
+/* When the checkbox is checked, add a blue background */
+.checkbox-container input:checked ~ .checkboxmark {
+  background-color: #2196F3;
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.checkboxmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* Show the checkmark when checked */
+.checkbox-container input:checked ~ .checkboxmark:after {
+  display: block;
+}
+
+/* Style the checkmark/indicator */
+.checkbox-container .checkboxmark:after {
+  left: 9px;
+  top: 5px;
+  width: 5px;
+  height: 10px;
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
 .btn:active,
 .btn:focus,
 .button-orange:active,
@@ -11804,6 +11871,30 @@ label.disabled {
   z-index: 9999;
   border-top-right-radius: 5px;
   display: none;
+}
+
+.checkboxmark.custom {
+  background: transparent !important;
+  border-radius: 2px;
+  height: 15px;
+  width: 15px;
+}
+.checkboxmark.custom.news {
+  border: 2px solid #FC5C65 !important;
+}
+.checkboxmark.custom.promos {
+  border: 2px solid #5F27CD !important;
+}
+.checkboxmark.custom.borrow {
+  border: 2px solid #FD9644 !important;
+}
+.checkboxmark.custom.occasion {
+  border: 2px solid #2BCBBA !important;
+}
+
+.checkbox-container {
+  padding-left: 25px;
+  padding-bottom: 0px;
 }
 
 /** font family **/

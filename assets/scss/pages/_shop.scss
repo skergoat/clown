@@ -45,6 +45,32 @@
     display:none;
 }
 
+// checkbox
+.checkboxmark.custom {
+    background:transparent!important;
+    border-radius:2px;
+    height:15px;
+    width:15px;
+    &.news {
+        border:2px solid #FC5C65!important;
+    }
+    &.promos {
+        border:2px solid #5F27CD!important;
+    }
+    &.borrow {
+        border:2px solid #FD9644!important;
+    }
+    &.occasion {
+        border:2px solid #2BCBBA!important;
+    }
+}
+
+.checkbox-container {
+    padding-left:25px;
+    padding-bottom:0px;
+}
+
+
 @media (max-width:778px)
 {
     // aside {

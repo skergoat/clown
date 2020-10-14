@@ -183,29 +183,37 @@
                                         <option value="cool">Rose</option>
                                     </select>
                                 </div>
+                                <div class="d-flex">
+                                    <span class="btn regular d-block font-12 mr-2" style="padding:1px 10px 1px 10px!important;background:linear-gradient(to right, #FD9644, #FD6044);color:white;border-radius:20px;">XL<i class="icon-cancel ml-1" style="color:black!important;"></i></span>
+                                    <span class="btn regular d-block font-12 mr-2" style="padding:1px 10px 1px 10px!important;background:linear-gradient(to right, #FD9644, #FD6044);color:white;border-radius:20px;">Rouge<i class="icon-cancel ml-1" style="color:black!important;font-weight:500;"></i></span>
+                                </div>
                                 <div class="d-flex flex-column mt-4">
-                                    <div class="form-check mb-1">
-                                        <input class="form-check-input" type="checkbox" id="news" style="border-color:red!important;">
-                                        <label class="form-check-label font-14" for="news" style="color:black!important;">
-                                        Nouveautés
+                                    <div class="form-check mb-1 p-0">
+                                        <label class="form-check-label font-14 checkbox-container mb-1" for="news" style="color:black!important;">
+                                            <span style="position:relative;top:-3px;">Nouveautés</span>
+                                            <input class="form-check-input" type="checkbox" id="news" style="border-color:red!important;">
+                                            <span class="checkboxmark custom news"></span>
                                         </label>
                                     </div>
-                                    <div class="form-check mb-1">
-                                        <input class="form-check-input" type="checkbox" id="promos">
-                                        <label class="form-check-label font-14" for="promos" style="color:black!important;">
-                                        Promotions
+                                    <div class="form-check mb-1 p-0">
+                                        <label class="form-check-label font-14 checkbox-container mb-1" for="promos" style="color:black!important;">
+                                            <span style="position:relative;top:-3px;">Promotions</span>
+                                            <input class="form-check-input" type="checkbox" id="promos" style="border-color:red!important;">
+                                            <span class="checkboxmark custom promos"></span>
                                         </label>
                                     </div>
-                                    <div class="form-check mb-1">
-                                        <input class="form-check-input" type="checkbox" id="borrowing">
-                                        <label class="form-check-label font-14" for="borrowing" style="color:black!important;">
-                                        Locations
+                                    <div class="form-check mb-1 p-0">
+                                        <label class="form-check-label font-14 checkbox-container mb-1" for="borrow" style="color:black!important;">
+                                            <span style="position:relative;top:-3px;">Location</span>
+                                            <input class="form-check-input" type="checkbox" id="borrow" style="border-color:red!important;">
+                                            <span class="checkboxmark custom borrow"></span>
                                         </label>
                                     </div>
-                                    <div class="form-check mb-1">
-                                        <input class="form-check-input" type="checkbox" id="already">
-                                        <label class="form-check-label font-14" for="already" style="color:black!important;">
-                                        Occasions
+                                    <div class="form-check mb-1 p-0">
+                                        <label class="form-check-label font-14 checkbox-container mb-1" for="occasion" style="color:black!important;">
+                                            <span style="position:relative;top:-3px;">Occasions</span>
+                                            <input class="form-check-input" type="checkbox" id="occasion" style="border-color:red!important;">
+                                            <span class="checkboxmark custom occasion"></span>
                                         </label>
                                     </div>
                                 </div>

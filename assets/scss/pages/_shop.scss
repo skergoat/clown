@@ -46,6 +46,11 @@
 }
 
 // checkbox
+.checkbox-container {
+    padding-left:25px;
+    padding-bottom:0px;
+}
+
 .checkboxmark.custom {
     background:transparent!important;
     border-radius:2px;
@@ -65,9 +70,32 @@
     }
 }
 
-.checkbox-container {
-    padding-left:25px;
-    padding-bottom:0px;
+.checkbox-container input:checked ~ .checkboxmark {
+    &.custom.news {
+        background-color: #FC5C65!important;
+    }
+    &.custom.promos {
+        background-color: #5F27CD!important;
+    } 
+    &.custom.borrow {
+        background-color: #FD9644!important;
+    }  
+    &.custom.occasion {
+        background-color: #2BCBBA!important;
+    }   
+}
+
+/* Style the checkmark/indicator */
+.checkbox-container .checkboxmark:after {
+    left: 3px;
+    top: 0px;
+    width: 5px;
+    height: 10px;
+    border: solid white;
+    border-width: 0 1px 1px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
 }
 
 

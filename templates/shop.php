@@ -123,8 +123,8 @@
 
         <div class="row container-shop m-0 p-0 justify-content-end" style="position:relative;">
             <!-- search -->
-            <aside class="col-2 m-0 p-0" style="border-right:0.1rem solid #f1f1f1;min-height:100%!important;position:fixed;left:0px;">
-                <div class="" style="height:auto;box-shadow: 0px 7px 5px -5px rgba(214,214,214,0.7);">
+            <aside class="col-2 m-0 p-0" style="min-height:100%!important;position:fixed;left:0px;">
+                <div class="" style="height:auto;box-shadow: 0px 0px 5px 0px rgba(214,214,214,0.7);margin-right:2px;">
                     <div class="d-flex pointer">
                         <div class="border-fun mr-2" style="padding-right:10px;background: linear-gradient(to top, #15A5BF, #2BCBBA);"></div>
                         <div class="pl-0 pr-1 pb-2 pt-2 d-flex">

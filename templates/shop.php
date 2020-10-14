@@ -118,147 +118,98 @@
                     </div>
                </div>
             </div>
-       </header>
-        <!-- content -->
-       <?= $content ?>
-       
-       <!-- footer -->
-       <footer class="footer transition bgd-white">
-           <!-- logo footer -->
-           <div class="mx-auto footer-top pt-2 pb-4">
-                <img src="../assets/img/logo-footer.png" class="transition footer-top__logo pt-2 pb-2">
-           </div>
-           <!-- menus -->
-            <div class="bgd-white">
-                <div class="footer-top mx-auto footer-center-first flex-wrap d-flex pb-5 transition bgd-white">     
-                    <ul class="p-0 m-0 transition">
-                        <li class="font-weight-bold pb-2">Plan du site</li>
-                        <li><a href="" class="link-black">Accueil</a></li>
-                        <li><a href="" class="link-black">Boutique</a></li>
-                        <li><a href="" class="link-black">Location</a></li>
-                        <li><a href="" class="link-black">Infos Pratiques</a></li>
-                        <li><a href="" class="link-black">Contact</a></li>
-                    </ul> 
-                    <ul class="p-0 m-0">
-                        <li class="font-weight-bold pb-2">Categories</li>
-                        <li><a href="" class="link-black">Accessoires & déguisements</a></li>
-                        <li><a href="" class="link-black">Barbes & moustaches</a></li>
-                        <li><a href="" class="link-black">Chapeaux & coiffes</a></li>
-                        <li><a href="" class="link-black">Cotillons</a></li>
-                        <li><a href="" class="link-black">Décorations</a></li>
-                        <li><a href="" class="link-black">Déguisements</a></li>
-                        <li><a href="" class="link-black">Farces et attrapes</a></li>
-                        <li><a href="" class="link-black">Feux d’artifices</a></li>
-                        <li><a href="" class="link-black">Jouets & gadgets</a></li>
-                        <li><a href="" class="link-black">Loups (demi-masques)</a></li>
-                        <li><a href="" class="link-black">Maquillage</a></li>
-                        <li><a href="" class="link-black">Masques</a></li>
-                        <li><a href="" class="link-black">Perruques</a></li>
-                    </ul> 
-                    <ul class="p-0 m-0 mt-sm-4 mt-md-4">
-                        <li class="font-weight-bold pb-2">Evenements</li>
-                        <li><a href="" class="link-black">Coupe du monde</a></li>
-                        <li><a href="" class="link-black">Halloween</a></li>
-                        <li><a href="" class="link-black">Jour de l’an</a></li>
-                        <li><a href="" class="link-black">Mardi Gras</a></li>
-                        <li><a href="" class="link-black">Nöel</a></li>
-                        <li><a href="" class="link-black">Pourim</a></li>
-                        <li><a href="" class="link-black">St Valentin</a></li>
-                    </ul> 
-                    <ul class="p-0 m-0 mt-sm-4 mt-md-4">
-                        <li class="font-weight-bold pb-2">Thèmes</li>
-                        <li><a href="" class="link-black">Super-héros</a></li>
-                        <li><a href="" class="link-black">Cow-boys & indiens</a></li>
-                        <li><a href="" class="link-black">Disco</a></li>
-                        <li><a href="" class="link-black">Hippie</a></li>
-                        <li><a href="" class="link-black">Années 80</a></li>
-                        <li><a href="" class="link-black">Star Wars</a></li>
-                        <li><a href="" class="link-black">Séries</a></li>
-                    </ul>
-                </div>
-           </div>
-           <!-- pictures -->
-           <div class="footer-center-second pb-3 bgd-white">
-                <div class="container transition">
-                    <div class="p-3 mb-3">
-                        <p class="help__p1 m-2 black orange">Besoin d'aide ?</p>
-                        <p class="help__p2 m-2 light-grey">Lundi - Samedi : 9h30 - 19h</p>
-                        <p class="help__p3 m-2 black">01 47 70 05 93</p>
+        </header>
+
+        <div class="row container-shop m-0 p-0 b-red justify-content-end" style="position:relative;">
+            <!-- content -->
+            <aside class="col-2 m-0 p-0 b-purple" style="min-height:100%!important;position:fixed;left:0px;">
+
+            </aside>
+
+            <div class="row col-10 m-0 p-0 b-pink">
+                <!-- footer -->
+                <footer class="footer col-12 p-0 transition bgd-white b-green" style="height:100%;width:100%;">
+                    <!-- logo footer -->
+                    <div class="mx-auto footer-top pt-2 pb-4">
+                            <img src="../assets/img/logo-footer.png" class="transition footer-top__logo pt-2 pb-2">
                     </div>
-                    <div class="partner-1 m-1">
-                        <img src="../assets/img/trustpilot.png" class="d-md-block d-lg-block d-none mx-auto pt-4 pb-2">
-                        <img src="../assets/img/trustpilot-responsive.png" class="d-md-none d-lg-none mx-auto pt-5 pb-4">
-                    </div>
-                    <div class="partner-2 pt-2 pb-4 d-flex flex-wrap justify-content-lg-between justify-content-xs-start">
-                        <img src="../assets/img/logo-lydia.png">
-                        <img src="../assets/img/logo-paypal.png">
-                        <img src="../assets/img/logo-visa.png">
-                        <img src="../assets/img/logo-mastercard.png">
-                        <img src="../assets/img/logo-americanexpress.png">
-                        <img src="../assets/img/logo-colissimo.png" class="">
-                        <img src="../assets/img/logo-chronopost.png" class="">
-                    </div>            
-                </div>
-           </div>
-           <!-- bottom -->
-           <div class="footer-bottom p-3 bgd-white">
-                Copyright © Clown Montmartre 2020. Tous droits réservés.
-           </div>
-        </footer>
-        <!-- Bootstrap Modal -->
-        <div class="modal fade" id="connection" role="dialog">
-            <div class="modal-dialog modal-connect modal-lg">
-                    <!-- content -->
-                <div class="modal-content">
-                    <!-- header -->
-                    <div class="modal-header p-0">
-                        <div class="row mr-0 ml-0">
-                            <div class="col-6"></div>
-                            <div class="col-6">
-                                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <!-- menus -->
+                        <div class="bgd-white">
+                            <div class="footer-top mx-auto footer-center-first flex-wrap d-flex pb-5 transition bgd-white">     
+                                <ul class="p-0 m-0 transition">
+                                    <li class="font-weight-bold pb-2">Plan du site</li>
+                                    <li><a href="" class="link-black">Accueil</a></li>
+                                    <li><a href="" class="link-black">Boutique</a></li>
+                                    <li><a href="" class="link-black">Location</a></li>
+                                    <li><a href="" class="link-black">Infos Pratiques</a></li>
+                                    <li><a href="" class="link-black">Contact</a></li>
+                                </ul> 
+                                <ul class="p-0 m-0">
+                                    <li class="font-weight-bold pb-2">Categories</li>
+                                    <li><a href="" class="link-black">Accessoires & déguisements</a></li>
+                                    <li><a href="" class="link-black">Barbes & moustaches</a></li>
+                                    <li><a href="" class="link-black">Chapeaux & coiffes</a></li>
+                                    <li><a href="" class="link-black">Cotillons</a></li>
+                                    <li><a href="" class="link-black">Décorations</a></li>
+                                    <li><a href="" class="link-black">Déguisements</a></li>
+                                    <li><a href="" class="link-black">Farces et attrapes</a></li>
+                                    <li><a href="" class="link-black">Feux d’artifices</a></li>
+                                    <li><a href="" class="link-black">Jouets & gadgets</a></li>
+                                    <li><a href="" class="link-black">Loups (demi-masques)</a></li>
+                                    <li><a href="" class="link-black">Maquillage</a></li>
+                                    <li><a href="" class="link-black">Masques</a></li>
+                                    <li><a href="" class="link-black">Perruques</a></li>
+                                </ul> 
+                                <ul class="p-0 m-0 mt-sm-4 mt-md-4">
+                                    <li class="font-weight-bold pb-2">Evenements</li>
+                                    <li><a href="" class="link-black">Coupe du monde</a></li>
+                                    <li><a href="" class="link-black">Halloween</a></li>
+                                    <li><a href="" class="link-black">Jour de l’an</a></li>
+                                    <li><a href="" class="link-black">Mardi Gras</a></li>
+                                    <li><a href="" class="link-black">Nöel</a></li>
+                                    <li><a href="" class="link-black">Pourim</a></li>
+                                    <li><a href="" class="link-black">St Valentin</a></li>
+                                </ul> 
+                                <ul class="p-0 m-0 mt-sm-4 mt-md-4">
+                                    <li class="font-weight-bold pb-2">Thèmes</li>
+                                    <li><a href="" class="link-black">Super-héros</a></li>
+                                    <li><a href="" class="link-black">Cow-boys & indiens</a></li>
+                                    <li><a href="" class="link-black">Disco</a></li>
+                                    <li><a href="" class="link-black">Hippie</a></li>
+                                    <li><a href="" class="link-black">Années 80</a></li>
+                                    <li><a href="" class="link-black">Star Wars</a></li>
+                                    <li><a href="" class="link-black">Séries</a></li>
+                                </ul>
                             </div>
-                        </div>
                     </div>
-                    <!-- body -->
-                    <div class="modal-body p-0">
-                        <div class="row pr-0 pl-0 mr-0 ml-0">
-                            <!-- left -->
-                            <div class="col-12 pl-5 pr-5 modal-left">
-                                <h5 class="font-18 bold mb-3 text-center">Se Connecter</h5>
-                                <form action="#" method="post">
-                                    <!-- login -->
-                                    <div class="form-group">
-                                        <label for="exampleInputPassword1" class="font-14 sbold">Identifiant</label>
-                                        <input type="text" class="form-control form-large font-13 is-invalid" name="login" id="login">
-                                        <!-- error message -->
-                                        <div class="invalid-feedback">
-                                            identifiant invalide
-                                        </div>
-                                    </div>
-                                    <!-- mdp -->
-                                    <div class="form-group">
-                                        <label for="exampleInputPassword1" class="font-14 sbold">Mot de passe</label>
-                                        <input type="password" class="form-control form-large font-13" name="password" id="password">
-                                        <!-- error message -->
-                                        <div class="invalid-feedback">
-                                            Mot de passe invalide
-                                        </div>
-                                        <div class="pull-left mt-2">
-                                            <span class="font-13 forgotten-password"><a href="#" class="sbold">Mot de passe oublié ?</a></span>
-                                        </div>
-                                    </div>
-                                    <!-- submit -->
-                                    <div class="form-submit mt-4">
-                                        <!-- btn de demonstration -->
-                                        <a href="http://localhost:8888/templates/account.php" class="btn button-orange btn-white-outlined black" id="button-modal-2">Connexion</a> 
-                                        <!-- btn definitif -->
-                                        <!-- <button type="submit" class="btn button-orange btn-white-outlined black" id="button-modal" data-toggle="modal" data-target="#validate">Connexion</button> -->
-                                    </div>
-                                </form>
+                    <!-- pictures -->
+                    <div class="footer-center-second pb-3 bgd-white">
+                            <div class="container transition">
+                                <div class="p-3 mb-3">
+                                    <p class="help__p1 m-2 black orange">Besoin d'aide ?</p>
+                                    <p class="help__p2 m-2 light-grey">Lundi - Samedi : 9h30 - 19h</p>
+                                    <p class="help__p3 m-2 black">01 47 70 05 93</p>
+                                </div>
+                                <div class="partner-1 m-1">
+                                    <img src="../assets/img/trustpilot.png" class="d-md-block d-lg-block d-none mx-auto pt-4 pb-2">
+                                    <img src="../assets/img/trustpilot-responsive.png" class="d-md-none d-lg-none mx-auto pt-5 pb-4">
+                                </div>
+                                <div class="partner-2 pt-2 pb-4 d-flex flex-wrap justify-content-lg-between justify-content-xs-start">
+                                    <img src="../assets/img/logo-lydia.png">
+                                    <img src="../assets/img/logo-paypal.png">
+                                    <img src="../assets/img/logo-visa.png">
+                                    <img src="../assets/img/logo-mastercard.png">
+                                    <img src="../assets/img/logo-americanexpress.png">
+                                    <img src="../assets/img/logo-colissimo.png" class="">
+                                    <img src="../assets/img/logo-chronopost.png" class="">
+                                </div>            
                             </div>
-                        </div>         
                     </div>
-                </div>
+                    <!-- bottom -->
+                    <div class="footer-bottom p-3 bgd-white">
+                            Copyright © Clown Montmartre 2020. Tous droits réservés.
+                    </div>
+                </footer>
             </div>
         </div>
         <!-- end modal -->
@@ -291,3 +242,4 @@
         </script>
     </body>
 </html>
+

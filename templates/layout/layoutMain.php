@@ -129,7 +129,7 @@
                 <img src="../assets/img/logo-footer.png" class="transition footer-top__logo pt-2 pb-2">
            </div>
            <!-- menus -->
-            <div class="">
+            <div class="bgd-white">
                 <div class="footer-top mx-auto footer-center-first flex-wrap d-flex pb-5 transition bgd-white">     
                     <ul class="p-0 m-0 transition">
                         <li class="font-weight-bold pb-2">Plan du site</li>
@@ -201,7 +201,7 @@
                 </div>
            </div>
            <!-- bottom -->
-           <div class="footer-bottom p-3">
+           <div class="footer-bottom p-3 bgd-white">
                 Copyright © Clown Montmartre 2020. Tous droits réservés.
            </div>
         </footer>

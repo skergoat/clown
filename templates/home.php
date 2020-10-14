@@ -192,7 +192,7 @@
                 </div>
             <div class="bgd-transparent chevron d-flex align-items-center chevron-right font-23"><i class="icon-right-open pointer"></i></div>
             </div>
-            <button class="btn btn-cards-pink bold font-15 d-block mx-auto pl-4 pr-4 mt-4">Tous les articles de fête <span class="pl-2 font-10 bold btn-chevron">></span></button>
+            <button class="btn btn-cards-pink bold font-15 d-block mx-auto pl-4 pr-4 mt-4 mb-xs-5 mb-sm-5 mb-lg-0">Tous les articles de fête <span class="pl-2 font-10 bold btn-chevron">></span></button>
         </div>
     </div>
 </section>

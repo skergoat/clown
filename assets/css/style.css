@@ -11236,19 +11236,6 @@ input[type=number] {
 }
 @media (max-width: 768px) {
   /* homepage */
-  .card-product:nth-child(2) {
-    display: none;
-  }
-
-  .card-product:first-child {
-    width: 90%;
-    display: block;
-    margin: auto !important;
-  }
-
-  .card-first {
-    border-radius: 20px !important;
-  }
 }
 @media (max-width: 576px) {
   .card-product:nth-child(2) {

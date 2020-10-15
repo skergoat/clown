@@ -11334,7 +11334,7 @@ input[type=number] {
 }
 
 .focus {
-  transform: scale(1.2) !important;
+  transform: scale(1.1) !important;
   position: absolute;
   z-index: 999 !important;
   transition: 0.3s ease-in-out;
@@ -11456,7 +11456,7 @@ input[type=number] {
   bottom: 0px;
   z-index: 9999;
   border-top-right-radius: 5px;
-  box-shadow: 4px -3px 8px -7px rgba(0, 0, 0, 0.75);
+  box-shadow: 5px -1px 9px -7px rgba(0, 0, 0, 0.75);
   display: block;
 }
 
@@ -12003,6 +12003,7 @@ aside {
 }
 
 .themes-box {
+  overflow: scroll;
   height: auto;
   box-shadow: 0px 0px 5px 0px rgba(214, 214, 214, 0.7);
   margin-right: 2px;
@@ -12045,7 +12046,8 @@ aside {
 
 .search-clik-open {
   max-height: 130px !important;
-  overflow-y: scroll !important;
+  min-width: 300px;
+  overflow: scroll !important;
   height: 0px;
 }
 .search-clik-open ul {

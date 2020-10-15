@@ -1,4 +1,4 @@
-// sup menu 
+// themes menu 
 $('.theme-btn').on('click', function() {
     // open / close 
     let data = $(this).attr('data-url');
@@ -32,3 +32,5 @@ $('.sub-menu li').on('click', function() {
         $('.sub-menu li').not(this).removeClass('selection');
     }
 });
+
+

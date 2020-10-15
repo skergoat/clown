@@ -23,3 +23,13 @@ $('.sup-menu li').on('click', function() {
         }
     }
 });
+
+// sub menu li 
+
+$('.sub-menu li').on('click', function() {
+    $(this).toggleClass('selection');
+    // close others 
+    if($('.sub-menu li').not(this).hasClass('selection')) {
+        $('.sub-menu li').not(this).removeClass('selection');
+    }
+});

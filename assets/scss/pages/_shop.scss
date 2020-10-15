@@ -79,6 +79,9 @@ aside {
     overflow-y:hidden!important;
     height:0px;
     margin-bottom:0px;
+    & li {
+        cursor:pointer!important;
+    }
     &-cat .selection {
         color:#2BCBBA!important;
         font-family:$bold;

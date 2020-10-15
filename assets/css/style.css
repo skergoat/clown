@@ -12000,6 +12000,9 @@ aside {
   height: 0px;
   margin-bottom: 0px;
 }
+.sub-menu li {
+  cursor: pointer !important;
+}
 .sub-menu-cat .selection {
   color: #2BCBBA !important;
   font-family: "nunito_sansbold";

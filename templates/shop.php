@@ -154,72 +154,74 @@
                         </div>
                     </div>
                 </div>
-                <div class="search-box">
-                    <form class="pt-4 pr-3 pl-3 pb-4">
-                        <div class="form-row">
-                            <label class="black font-14">Rechercher</label>
-                            <div class="input-group mb-4">
-                                <input class="form-control font-13" type="text" placeholder="Entrez votre recherche..." aria-label="Search" id="search-input">
-                                <div class="input-group-append">
-                                    <span class="input-group-text bgd-transparent" id="basic-text1"><i class="icon-search text-grey"></i></span>
+                <div class="b-shadow-right">
+                    <div class="search-box">
+                        <form class="pt-4 pr-3 pl-3 pb-4">
+                            <div class="form-row">
+                                <label class="black font-14">Rechercher</label>
+                                <div class="input-group mb-4">
+                                    <input class="form-control font-13" type="text" placeholder="Entrez votre recherche..." aria-label="Search" id="search-input">
+                                    <div class="input-group-append">
+                                        <span class="input-group-text bgd-transparent" id="basic-text1"><i class="icon-search text-grey"></i></span>
+                                    </div>
+                                </div>
+                                <div class="filters-container">
+                                    <label class="black font-14">Filtres</label>
+                                    <!-- Filtres -->
+                                    <div class="form-group custom-selects mb-2 filters">
+                                        <select name="filtre-1" id="filtre-1">
+                                            <option value="">Taille</option>
+                                            <option value="cheap">M</option>
+                                            <option value="famous">L</option>
+                                            <option value="cool">XL</option>
+                                        </select>
+                                    </div>
+                                    <div class="form-group custom-selects mb-2 filters">
+                                        <select name="filtre-2" id="filtre-2">
+                                            <option value="">Couleur</option>
+                                            <option value="cheap">Blanc</option>
+                                            <option value="famous">Orange</option>
+                                            <option value="cool">Rose</option>
+                                        </select>
+                                    </div>
+                                    <div class="d-flex">
+                                        <span class="btn stickers regular d-block font-12 mr-2">XL<i class="icon-cancel ml-1"></i></span>
+                                        <span class="btn stickers regular d-block font-12 mr-2">Rouge<i class="icon-cancel ml-1"></i></span>
+                                    </div>
+                                    <div class="d-flex flex-column mt-4">
+                                        <div class="form-check mb-1 p-0">
+                                            <label class="form-check-label font-14 checkbox-container mb-1" for="news">
+                                                <span>Nouveautés</span>
+                                                <input class="form-check-input" type="checkbox" id="news">
+                                                <span class="checkboxmark custom news"></span>
+                                            </label>
+                                        </div>
+                                        <div class="form-check mb-1 p-0">
+                                            <label class="form-check-label font-14 checkbox-container mb-1" for="promos">
+                                                <span>Promotions</span>
+                                                <input class="form-check-input" type="checkbox" id="promos">
+                                                <span class="checkboxmark custom promos"></span>
+                                            </label>
+                                        </div>
+                                        <div class="form-check mb-1 p-0">
+                                            <label class="form-check-label font-14 checkbox-container mb-1" for="borrow">
+                                                <span>Location</span>
+                                                <input class="form-check-input" type="checkbox" id="borrow">
+                                                <span class="checkboxmark custom borrow"></span>
+                                            </label>
+                                        </div>
+                                        <div class="form-check mb-1 p-0">
+                                            <label class="form-check-label font-14 checkbox-container mb-1" for="occasion">
+                                                <span>Occasions</span>
+                                                <input class="form-check-input" type="checkbox" id="occasion">
+                                                <span class="checkboxmark custom occasion"></span>
+                                            </label>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
-                            <div class="filters-container">
-                                <label class="black font-14">Filtres</label>
-                                <!-- Filtres -->
-                                <div class="form-group custom-selects mb-2 filters">
-                                    <select name="filtre-1" id="filtre-1">
-                                        <option value="">Taille</option>
-                                        <option value="cheap">M</option>
-                                        <option value="famous">L</option>
-                                        <option value="cool">XL</option>
-                                    </select>
-                                </div>
-                                <div class="form-group custom-selects mb-2 filters">
-                                    <select name="filtre-2" id="filtre-2">
-                                        <option value="">Couleur</option>
-                                        <option value="cheap">Blanc</option>
-                                        <option value="famous">Orange</option>
-                                        <option value="cool">Rose</option>
-                                    </select>
-                                </div>
-                                <div class="d-flex">
-                                    <span class="btn stickers regular d-block font-12 mr-2">XL<i class="icon-cancel ml-1"></i></span>
-                                    <span class="btn stickers regular d-block font-12 mr-2">Rouge<i class="icon-cancel ml-1"></i></span>
-                                </div>
-                                <div class="d-flex flex-column mt-4">
-                                    <div class="form-check mb-1 p-0">
-                                        <label class="form-check-label font-14 checkbox-container mb-1" for="news">
-                                            <span>Nouveautés</span>
-                                            <input class="form-check-input" type="checkbox" id="news">
-                                            <span class="checkboxmark custom news"></span>
-                                        </label>
-                                    </div>
-                                    <div class="form-check mb-1 p-0">
-                                        <label class="form-check-label font-14 checkbox-container mb-1" for="promos">
-                                            <span>Promotions</span>
-                                            <input class="form-check-input" type="checkbox" id="promos">
-                                            <span class="checkboxmark custom promos"></span>
-                                        </label>
-                                    </div>
-                                    <div class="form-check mb-1 p-0">
-                                        <label class="form-check-label font-14 checkbox-container mb-1" for="borrow">
-                                            <span>Location</span>
-                                            <input class="form-check-input" type="checkbox" id="borrow">
-                                            <span class="checkboxmark custom borrow"></span>
-                                        </label>
-                                    </div>
-                                    <div class="form-check mb-1 p-0">
-                                        <label class="form-check-label font-14 checkbox-container mb-1" for="occasion">
-                                            <span>Occasions</span>
-                                            <input class="form-check-input" type="checkbox" id="occasion">
-                                            <span class="checkboxmark custom occasion"></span>
-                                        </label>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </form>
+                        </form>
+                    </div>
                 </div>
             </aside>
             <!-- content -->

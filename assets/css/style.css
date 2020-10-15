@@ -11872,9 +11872,15 @@ aside {
 }
 
 .search-box {
-  max-height: 450px;
+  max-height: 60vh !important;
+  min-height: 60vh !important;
   overflow-x: scroll;
-  box-shadow: 0px 1px 5px -1px rgba(214, 214, 214, 0.7);
+  margin-right: 2px;
+}
+
+.b-shadow-right {
+  box-shadow: 0px 1px 5px -1px rgba(214, 214, 214, 0.7) !important;
+  min-height: 100vh !important;
   margin-right: 2px;
 }
 

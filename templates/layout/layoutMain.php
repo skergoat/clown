@@ -12,6 +12,7 @@
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
     </head>
     <body>
+        <div class="cookies font-13 p-2 pr-4 bgd-white">Ce site web utilise les cookies. En navigant sur notre site, vous acceptez notre <a href="#" class="link-black bold font-13">politique de confidentialité</a>.</div>
         <!-- header -->
        <header>
            <div class="mx-auto navs">
@@ -119,6 +120,40 @@
                </div>
             </div>
        </header>
+       <div class="cart-pop bgd-white p-2">
+            <div class="cart-pop__arrow mx-auto"></div>
+            <div class="">
+                <div class="cart-pop__head d-flex justify-content-between p-1">
+                    <div id="cart-popup"><span class="badge badge-danger bold">2</span><i class="icon-basket"></i></div>
+                    <div class="font-13 black">Total : <span class="black" style="color:#FD9644;">10,90€</span></div>
+                </div>
+                <div class="cart-pop__body pb-2 pt-2 pr-1 pl-1">
+                    <div class="cart-items-inside">
+                        <div class="d-flex">
+                            <img src="../assets/img/collant-blanc.png" class="d-block" alt="Card image cap">
+                            <div>
+                                <span class="font-11 regular">Collant sorciere enfant...</span>
+                                <div class="d-flex justify-content-between">
+                                    <span class="d-block black font-11">6,95€</span>
+                                    <span class="d-block font-11">Quantité : 1</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="d-flex">
+                            <img src="../assets/img/noeud-pape.png" class="d-block" alt="Card image cap">
+                            <div>
+                                <span class="font-11 regular">Noeud papillon France</span>
+                                <div class="d-flex justify-content-between">
+                                    <span class="d-block black font-11">3,95€</span>
+                                    <span class="d-block font-11">Quantité : 1</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <a href="http://localhost:8888/templates/cart.php" type="submit" class="btn button-orange btn-cart bold mx-auto d-block mt-3 font-13">Voir le panier</a>
+                </div>
+            </div>
+        </div>
         <!-- content -->
        <?= $content ?>
        
@@ -277,6 +312,7 @@
                 $(activeId + ' a').addClass('activated');
             }
         </script>
+        <script src="../assets/js/cart.js"></script>
         <!-- map -->
         <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
         <script>

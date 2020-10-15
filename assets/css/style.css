@@ -10417,10 +10417,10 @@ h3 {
   border-top: 1px solid rgba(0, 0, 0, 0.1);
 }
 
-#active-cart {
+#active-cart, #cart-popup {
   position: relative;
 }
-#active-cart .badge-danger {
+#active-cart .badge-danger, #cart-popup .badge-danger {
   background: #FF4B5F;
   border-radius: 20px;
   height: 13px;
@@ -10433,7 +10433,20 @@ h3 {
   top: 32px;
 }
 @media (max-width: 576px) {
-  #active-cart .badge-danger {
+  #active-cart .badge-danger, #cart-popup .badge-danger {
+    top: 25px;
+  }
+}
+
+#cart-popup {
+  position: relative;
+}
+#cart-popup .badge-danger {
+  right: -2px;
+  top: -3px;
+}
+@media (max-width: 576px) {
+  #cart-popup .badge-danger {
     top: 25px;
   }
 }
@@ -11344,6 +11357,68 @@ input[type=number] {
     margin: auto;
   }
 }
+#cart-popup-window {
+  display: none !important;
+}
+
+#cart-popup-window.active {
+  display: block !important;
+}
+
+.cart-pop {
+  width: 200px;
+  height: auto;
+  position: fixed;
+  z-index: 99999;
+  right: 1.5%;
+  top: 100px;
+  box-shadow: 0px 4px 12px 5px rgba(167, 28, 28, 0.21) !important;
+  border-radius: 10px;
+}
+.cart-pop__arrow {
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 0 10px 10px 10px;
+  border-color: transparent transparent white transparent;
+  position: relative;
+  top: -15px;
+}
+.cart-pop__head {
+  border-bottom: 0.05em solid #E6E6E6;
+}
+.cart-pop__body img {
+  max-width: 50px !important;
+}
+
+@media (min-width: 1100px) and (max-width: 1300px) {
+  .cart-pop__arrow {
+    position: relative !important;
+    left: 15px !important;
+  }
+}
+@media (min-width: 992px) and (max-width: 1100px) {
+  .cart-pop__arrow {
+    position: relative !important;
+    left: 23px !important;
+  }
+}
+@media (max-width: 992px) {
+  .cart-pop__arrow {
+    position: relative !important;
+    left: 35px !important;
+  }
+}
+.cookies {
+  position: fixed;
+  left: 0px;
+  bottom: 0px;
+  z-index: 9999;
+  border-top-right-radius: 5px;
+  box-shadow: 4px -3px 8px -7px rgba(0, 0, 0, 0.75);
+  display: none;
+}
+
 @font-face {
   font-family: "nunito_sansregular";
   src: url("../fonts/Nunito/nunitosans-regular-webfont.woff2") format("woff2"), url("../fonts/Nunito/nunitosans-regular-webfont.woff") format("woff");
@@ -11388,6 +11463,10 @@ input[type=number] {
 }
 .font-10 {
   font-size: 10px !important;
+}
+
+.font-11 {
+  font-size: 11px !important;
 }
 
 .font-12 {
@@ -11943,15 +12022,6 @@ aside {
 .find-by.select-arrow-active:after, .filters > .find-by.select-arrow-active:after {
   border-color: transparent transparent #9d9d9d transparent;
   top: 7px;
-}
-
-.cookies {
-  position: fixed;
-  left: 0px;
-  bottom: 0px;
-  z-index: 9999;
-  border-top-right-radius: 5px;
-  display: none;
 }
 
 .checkbox-container {

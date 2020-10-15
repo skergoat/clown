@@ -42,11 +42,11 @@
                             <li id="active-shop" class="ml-4"><a href="http://localhost:8888/templates/shop.php" class="d-flex align-items-center link-black black">Boutique</a><div class="border-bottom-menu"></div></li>
                             <li id="active-infos" class="ml-4"><a href="http://localhost:8888/templates/infos.php" class="d-flex align-items-center link-black black">Infos Pratiques</a><div class="border-bottom-menu"></div></li>
                             <li id="active-contact" class="ml-4"><a href="http://localhost:8888/templates/contact.php"  class="d-flex align-items-center link-black black pr-1">Contact</a><div class="border-bottom-menu"></div></li>
-                            <li id="active-cart" class="ml-4"><a href="http://localhost:8888/templates/cart.php" class="d-flex align-items-center link-black hover-no-change black pr-1"><span class="badge badge-danger bold">2</span><i class="icon-basket"></i></a><div class="border-bottom-menu"></div></li>
+                            <li id="active-cart" class="ml-4"><a href="#" class="d-flex align-items-center link-black hover-no-change black pr-1"><span class="badge badge-danger bold">2</span><i id="cart-popup-btn" class="icon-basket"></i></a><div class="border-bottom-menu"></div></li>
                         </ul>
                         <!-- Navigation links (hidden by default) -->
                         <div class="d-xs-flex d-sm-flex d-md-flex d-lg-none d-flex">
-                            <a href="http://localhost:8888/templates/cart.php" id="active-cart" class="d-flex align-items-center font-weight-bold link-black hover-no-change pr-1" style="position:relative;"><span class="badge badge-danger bold">2</span><i class="icon-basket"></i></a>
+                            <a href="#" id="active-cart" class="d-flex align-items-center font-weight-bold link-black hover-no-change pr-1" style="position:relative;"><span class="badge badge-danger bold">2</span><i id="cart-popup-btn" class="icon-basket"></i></a>
                             <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
                             <div class="hamburger">
                                 <div class="icon hamburger__link" id="open-menu">
@@ -96,11 +96,11 @@
                             <li class="ml-4"><a href="http://localhost:8888/templates/product.php" class="d-flex align-items-center link-black black">Boutique</a><div class="border-bottom-menu"></div></li>
                             <li class="ml-4"><a href="http://localhost:8888/templates/infos.php" class="d-flex align-items-center link-black black">Infos Pratiques</a><div class="border-bottom-menu"></div></li>
                             <li class="ml-4"><a href="#" class="d-flex align-items-center link-black black pr-1">Contact</a><div class="border-bottom-menu"></div></li>
-                            <li class="ml-4"><a href="#" class="d-flex align-items-center link-black hover-no-change black pr-1"><i class="icon-basket"></i></a><div class="border-bottom-menu"></div></li>
+                            <li class="ml-4"><a href="#" class="d-flex align-items-center link-black hover-no-change black pr-1"><i class="icon-basket" id="icon-basket-btn"></i></a><div class="border-bottom-menu"></div></li>
                         </ul>
                         <!-- Navigation links (hidden by default) -->
                         <div class="d-xs-flex d-sm-flex d-md-flex d-lg-none d-flex">
-                            <a href="#" class="d-flex align-items-center font-weight-bold link-black hover-no-change pr-1 mr-3"><i class="icon-basket"></i></a>
+                            <a href="#" class="d-flex align-items-center font-weight-bold link-black hover-no-change pr-1 mr-3"><i class="icon-basket" id="icon-basket-btn"></i></a>
                             <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
                             <div class="hamburger">
                                 <div class="icon hamburger__link" id="open-menu">
@@ -120,6 +120,41 @@
                </div>
             </div>
         </header>
+
+        <div id="cart-popup-window" class="cart-pop bgd-white p-2">
+            <div class="cart-pop__arrow mx-auto"></div>
+            <div class="">
+                <div class="cart-pop__head d-flex justify-content-between p-1">
+                    <div id="cart-popup"><span class="badge badge-danger bold">2</span><i class="icon-basket"></i></div>
+                    <div class="font-13 black">Total : <span class="black" style="color:#FD9644;">10,90€</span></div>
+                </div>
+                <div class="cart-pop__body pb-2 pt-2 pr-1 pl-1">
+                    <div class="cart-items-inside">
+                        <div class="d-flex">
+                            <img src="../assets/img/collant-blanc.png" class="d-block" alt="Card image cap">
+                            <div>
+                                <span class="font-11 regular">Collant sorciere enfant...</span>
+                                <div class="d-flex justify-content-between">
+                                    <span class="d-block black font-11">6,95€</span>
+                                    <span class="d-block font-11">Quantité : 1</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="d-flex">
+                            <img src="../assets/img/noeud-pape.png" class="d-block" alt="Card image cap">
+                            <div>
+                                <span class="font-11 regular">Noeud papillon France</span>
+                                <div class="d-flex justify-content-between">
+                                    <span class="d-block black font-11">3,95€</span>
+                                    <span class="d-block font-11">Quantité : 1</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <a href="http://localhost:8888/templates/cart.php" type="submit" class="btn button-orange btn-cart bold mx-auto d-block mt-3 font-13">Voir le panier</a>
+                </div>
+            </div>
+        </div>
 
         <div class="row container-shop m-0 p-0 justify-content-end">
             <!-- search -->
@@ -656,6 +691,7 @@
             let $val = "shipping";
         </script>
         <script src="../assets/js/custom-select.js"></script>
+        <script src="../assets/js/cart.js"></script>
     </body>
 </html>
 

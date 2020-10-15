@@ -111,7 +111,7 @@
     }
 }
 
-#active-cart {
+#active-cart, #cart-popup {
     position:relative;
     & .badge-danger {
         background:#FF4B5F;
@@ -124,6 +124,17 @@
         z-index:3;
         right:-2px;
         top:32px;
+        @media (max-width:576px) {
+            top:25px;
+        }
+    }
+}
+// shop page 
+#cart-popup {
+    position:relative;
+    & .badge-danger {
+        right:-2px;
+        top:-3px;
         @media (max-width:576px) {
             top:25px;
         }

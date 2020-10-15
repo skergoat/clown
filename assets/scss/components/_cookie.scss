@@ -7,5 +7,9 @@
     border-top-right-radius:5px;
     box-shadow: 4px -3px 8px -7px rgba(0, 0, 0, 0.75);
     // provisoire
-    display:none;
+    display:block;
+}
+
+.cookies.inactive {
+    display:none!important;
 }

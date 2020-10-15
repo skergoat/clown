@@ -12,7 +12,7 @@
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
     </head>
     <body>
-        <div class="cookies font-13 p-2 pr-4 bgd-white">Ce site web utilise les cookies. En navigant sur notre site, vous acceptez notre <a href="#" class="link-black bold font-13">politique de confidentialité</a>.</div>
+        <div class="cookies font-13 p-2 pr-4 bgd-white">Ce site web utilise les cookies. En navigant sur notre site, vous acceptez notre <a href="#" class="link-black bold font-13">politique de confidentialité</a>.<i class="icon-cancel ml-1 pointer" id="close-cookie" style="color:black!important"></i></div>
         <!-- header -->
        <header>
            <div class="mx-auto navs">
@@ -171,34 +171,34 @@
                         <div class="d-flex" style="height: 100%!important;">
                             <div class="border-fun border-fun__cat mr-2"></div>
                             <ul id="ul-cat">
-                                <li>Accessoires deguisements</li>
-                                <li>Barbes moustaches</li>
-                                <li>Chapeau et coiffes</li>
-                                <li>Cotillons</li>
-                                <li>Decorations</li>
-                                <li>Deguisements</li>
-                                <li>Farces et attrapes</li>
-                                <li>Feux d'artifices</li>
-                                <li>Jouets - Gadgets</li>
-                                <li>Location</li>
-                                <li>Loups (demi-masques)</li>
-                                <li>Maquillages</li>
-                                <li>Masques</li>
-                                <li>Perruques</li>
-                                <li>Accessoires deguisements</li>
-                                <li>Barbes moustaches</li>
-                                <li>Chapeau et coiffes</li>
-                                <li>Cotillons</li>
-                                <li>Decorations</li>
-                                <li>Deguisements</li>
-                                <li>Farces et attrapes</li>
-                                <li>Feux d'artifices</li>
-                                <li>Jouets - Gadgets</li>
-                                <li>Location</li>
-                                <li>Loups (demi-masques)</li>
-                                <li>Maquillages</li>
-                                <li>Masques</li>
-                                <li>Perruques</li>
+                                <li class="selected font-14">Accessoires et deguisements</li>
+                                <li class="font-14">Barbes moustaches</li>
+                                <li class="font-14">Chapeau et coiffes</li>
+                                <li class="font-14">Cotillons</li>
+                                <li class="font-14">Decorations</li>
+                                <li class="font-14">Deguisements</li>
+                                <li class="font-14">Farces et attrapes</li>
+                                <li class="font-14">Feux d'artifices</li>
+                                <li class="font-14">Jouets - Gadgets</li>
+                                <li class="font-14">Location</li>
+                                <li class="font-14">Loups (demi-masques)</li>
+                                <li class="font-14">Maquillages</li>
+                                <li class="font-14">Masques</li>
+                                <li class="font-14">Perruques</li>
+                                <li class="font-14">Accessoires deguisements</li>
+                                <li class="font-14">Barbes moustaches</li>
+                                <li class="font-14">Chapeau et coiffes</li>
+                                <li class="font-14">Cotillons</li>
+                                <li class="font-14">Decorations</li>
+                                <li class="font-14">Deguisements</li>
+                                <li class="font-14">Farces et attrapes</li>
+                                <li class="font-14">Feux d'artifices</li>
+                                <li class="font-14">Jouets - Gadgets</li>
+                                <li class="font-14">Location</li>
+                                <li class="font-14">Loups (demi-masques)</li>
+                                <li class="font-14">Maquillages</li>
+                                <li class="font-14">Masques</li>
+                                <li class="font-14">Perruques</li>
                             </ul>
                         </div>
                     </div>
@@ -213,34 +213,34 @@
                         <div class="d-flex" style="height: 100%!important;">
                             <div class="border-fun border-fun__themes mr-2"></div>
                             <ul id="ul-themes">
-                                <li>Accessoires deguisements</li>
-                                <li>Barbes moustaches</li>
-                                <li>Chapeau et coiffes</li>
-                                <li>Cotillons</li>
-                                <li>Decorations</li>
-                                <li>Deguisements</li>
-                                <li>Farces et attrapes</li>
-                                <li>Feux d'artifices</li>
-                                <li>Jouets - Gadgets</li>
-                                <li>Location</li>
-                                <li>Loups (demi-masques)</li>
-                                <li>Maquillages</li>
-                                <li>Masques</li>
-                                <li>Perruques</li>
-                                <li>Accessoires deguisements</li>
-                                <li>Barbes moustaches</li>
-                                <li>Chapeau et coiffes</li>
-                                <li>Cotillons</li>
-                                <li>Decorations</li>
-                                <li>Deguisements</li>
-                                <li>Farces et attrapes</li>
-                                <li>Feux d'artifices</li>
-                                <li>Jouets - Gadgets</li>
-                                <li>Location</li>
-                                <li>Loups (demi-masques)</li>
-                                <li>Maquillages</li>
-                                <li>Masques</li>
-                                <li>Perruques</li>
+                                <li class="selected font-14">Accessoires et deguisements</li>
+                                <li class="font-14">Barbes moustaches</li>
+                                <li class="font-14">Chapeau et coiffes</li>
+                                <li class="font-14">Cotillons</li>
+                                <li class="font-14">Decorations</li>
+                                <li class="font-14">Deguisements</li>
+                                <li class="font-14">Farces et attrapes</li>
+                                <li class="font-14">Feux d'artifices</li>
+                                <li class="font-14">Jouets - Gadgets</li>
+                                <li class="font-14">Location</li>
+                                <li class="font-14">Loups (demi-masques)</li>
+                                <li class="font-14">Maquillages</li>
+                                <li class="font-14">Masques</li>
+                                <li class="font-14">Perruques</li>
+                                <li class="font-14">Accessoires deguisements</li>
+                                <li class="font-14">Barbes moustaches</li>
+                                <li class="font-14">Chapeau et coiffes</li>
+                                <li class="font-14">Cotillons</li>
+                                <li class="font-14">Decorations</li>
+                                <li class="font-14">Deguisements</li>
+                                <li class="font-14">Farces et attrapes</li>
+                                <li class="font-14">Feux d'artifices</li>
+                                <li class="font-14">Jouets - Gadgets</li>
+                                <li class="font-14">Location</li>
+                                <li class="font-14">Loups (demi-masques)</li>
+                                <li class="font-14">Maquillages</li>
+                                <li class="font-14">Masques</li>
+                                <li class="font-14">Perruques</li>
                             </ul>
                         </div>
                     </div>
@@ -255,34 +255,34 @@
                         <div class="d-flex" style="height: 100%!important;">
                             <div class="border-fun border-fun__location mr-2"></div>
                             <ul id="ul-location">
-                                <li>Accessoires deguisements</li>
-                                <li>Barbes moustaches</li>
-                                <li>Chapeau et coiffes</li>
-                                <li>Cotillons</li>
-                                <li>Decorations</li>
-                                <li>Deguisements</li>
-                                <li>Farces et attrapes</li>
-                                <li>Feux d'artifices</li>
-                                <li>Jouets - Gadgets</li>
-                                <li>Location</li>
-                                <li>Loups (demi-masques)</li>
-                                <li>Maquillages</li>
-                                <li>Masques</li>
-                                <li>Perruques</li>
-                                <li>Accessoires deguisements</li>
-                                <li>Barbes moustaches</li>
-                                <li>Chapeau et coiffes</li>
-                                <li>Cotillons</li>
-                                <li>Decorations</li>
-                                <li>Deguisements</li>
-                                <li>Farces et attrapes</li>
-                                <li>Feux d'artifices</li>
-                                <li>Jouets - Gadgets</li>
-                                <li>Location</li>
-                                <li>Loups (demi-masques)</li>
-                                <li>Maquillages</li>
-                                <li>Masques</li>
-                                <li>Perruques</li>
+                                <li class="selected font-14">Accessoires et deguisements</li>
+                                <li class="font-14">Barbes moustaches</li>
+                                <li class="font-14">Chapeau et coiffes</li>
+                                <li class="font-14">Cotillons</li>
+                                <li class="font-14">Decorations</li>
+                                <li class="font-14">Deguisements</li>
+                                <li class="font-14">Farces et attrapes</li>
+                                <li class="font-14">Feux d'artifices</li>
+                                <li class="font-14">Jouets - Gadgets</li>
+                                <li class="font-14">Location</li>
+                                <li class="font-14">Loups (demi-masques)</li>
+                                <li class="font-14">Maquillages</li>
+                                <li class="font-14">Masques</li>
+                                <li class="font-14">Perruques</li>
+                                <li class="font-14">Accessoires deguisements</li>
+                                <li class="font-14">Barbes moustaches</li>
+                                <li class="font-14">Chapeau et coiffes</li>
+                                <li class="font-14">Cotillons</li>
+                                <li class="font-14">Decorations</li>
+                                <li class="font-14">Deguisements</li>
+                                <li class="font-14">Farces et attrapes</li>
+                                <li class="font-14">Feux d'artifices</li>
+                                <li class="font-14">Jouets - Gadgets</li>
+                                <li class="font-14">Location</li>
+                                <li class="font-14">Loups (demi-masques)</li>
+                                <li class="font-14">Maquillages</li>
+                                <li class="font-14">Masques</li>
+                                <li class="font-14">Perruques</li>
                             </ul>
                         </div>
                     </div>
@@ -297,34 +297,34 @@
                         <div class="d-flex" style="height: 100%!important;">
                             <div class="border-fun border-fun__event mr-2"></div>
                             <ul id="ul-event">
-                                <li>Accessoires deguisements</li>
-                                <li>Barbes moustaches</li>
-                                <li>Chapeau et coiffes</li>
-                                <li>Cotillons</li>
-                                <li>Decorations</li>
-                                <li>Deguisements</li>
-                                <li>Farces et attrapes</li>
-                                <li>Feux d'artifices</li>
-                                <li>Jouets - Gadgets</li>
-                                <li>Location</li>
-                                <li>Loups (demi-masques)</li>
-                                <li>Maquillages</li>
-                                <li>Masques</li>
-                                <li>Perruques</li>
-                                <li>Accessoires deguisements</li>
-                                <li>Barbes moustaches</li>
-                                <li>Chapeau et coiffes</li>
-                                <li>Cotillons</li>
-                                <li>Decorations</li>
-                                <li>Deguisements</li>
-                                <li>Farces et attrapes</li>
-                                <li>Feux d'artifices</li>
-                                <li>Jouets - Gadgets</li>
-                                <li>Location</li>
-                                <li>Loups (demi-masques)</li>
-                                <li>Maquillages</li>
-                                <li>Masques</li>
-                                <li>Perruques</li>
+                                <li class="selected font-14">Accessoires et deguisements</li>
+                                <li class="font-14">Barbes moustaches</li>
+                                <li class="font-14">Chapeau et coiffes</li>
+                                <li class="font-14">Cotillons</li>
+                                <li class="font-14">Decorations</li>
+                                <li class="font-14">Deguisements</li>
+                                <li class="font-14">Farces et attrapes</li>
+                                <li class="font-14">Feux d'artifices</li>
+                                <li class="font-14">Jouets - Gadgets</li>
+                                <li class="font-14">Location</li>
+                                <li class="font-14">Loups (demi-masques)</li>
+                                <li class="font-14">Maquillages</li>
+                                <li class="font-14">Masques</li>
+                                <li class="font-14">Perruques</li>
+                                <li class="font-14">Accessoires deguisements</li>
+                                <li class="font-14">Barbes moustaches</li>
+                                <li class="font-14">Chapeau et coiffes</li>
+                                <li class="font-14">Cotillons</li>
+                                <li class="font-14">Decorations</li>
+                                <li class="font-14">Deguisements</li>
+                                <li class="font-14">Farces et attrapes</li>
+                                <li class="font-14">Feux d'artifices</li>
+                                <li class="font-14">Jouets - Gadgets</li>
+                                <li class="font-14">Location</li>
+                                <li class="font-14">Loups (demi-masques)</li>
+                                <li class="font-14">Maquillages</li>
+                                <li class="font-14">Masques</li>
+                                <li class="font-14">Perruques</li>
                             </ul>
                         </div>
                     </div>
@@ -833,6 +833,7 @@
         <script src="../assets/js/custom-select.js"></script>
         <script src="../assets/js/cart.js"></script>
         <script src="../assets/js/themes.js"></script>
+        <script src="../assets/js/cookie.js"></script>
     </body>
 </html>
 

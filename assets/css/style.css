@@ -11416,7 +11416,11 @@ input[type=number] {
   z-index: 9999;
   border-top-right-radius: 5px;
   box-shadow: 4px -3px 8px -7px rgba(0, 0, 0, 0.75);
-  display: none;
+  display: block;
+}
+
+.cookies.inactive {
+  display: none !important;
 }
 
 @font-face {
@@ -11975,12 +11979,36 @@ aside {
   overflow-y: scroll !important;
   height: 0px;
 }
+.search-clik-open ul {
+  padding-left: 0.7rem;
+}
 .search-clik-open ul li {
   list-style-type: none;
+  margin-bottom: 0.4rem;
 }
 
 .search-clik-open.active {
   height: auto !important;
+}
+
+#ul-cat li.selected {
+  color: #2BCBBA !important;
+  font-family: "nunito_sansbold";
+}
+
+#ul-themes li.selected {
+  color: #FD9644 !important;
+  font-family: "nunito_sansbold";
+}
+
+#ul-location li.selected {
+  color: #C027CD !important;
+  font-family: "nunito_sansbold";
+}
+
+#ul-event li.selected {
+  color: #FC5C65 !important;
+  font-family: "nunito_sansbold";
 }
 
 .search-box {

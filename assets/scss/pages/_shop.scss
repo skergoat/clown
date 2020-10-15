@@ -57,13 +57,37 @@ aside {
     overflow-y:scroll!important;
     height:0px;
     // height:auto;
-    & ul li{
-        list-style-type:none;
+    & ul {
+        padding-left:0.7rem;
+        & li{
+            list-style-type:none;
+            margin-bottom:0.4rem;
+        }
     }
 }
 
 .search-clik-open.active {
     height:auto!important;
+}
+
+#ul-cat li.selected {
+    color:#2BCBBA!important;
+    font-family:$bold;
+}
+
+#ul-themes li.selected {
+    color:#FD9644!important;
+    font-family:$bold;
+}
+
+#ul-location li.selected {
+    color:#C027CD!important;
+    font-family:$bold;
+}
+
+#ul-event li.selected {
+    color:#FC5C65!important;
+    font-family:$bold;
 }
 
 // search and search filters 

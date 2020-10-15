@@ -1,3 +1,4 @@
+// shop page aside 
 // open close themes 
 $('.theme-btn').on('click', function() {
     // open / close 

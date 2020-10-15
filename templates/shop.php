@@ -168,37 +168,39 @@
                         </div>
                     </div>
                     <div id="themes-open-cat" class="search-clik-open d-flex">
-                        <div class="border-fun border-fun__cat mr-2"></div>
-                        <ul id="ul-cat">
-                            <li>Accessoires deguisements</li>
-                            <li>Barbes moustaches</li>
-                            <li>Chapeau et coiffes</li>
-                            <li>Cotillons</li>
-                            <li>Decorations</li>
-                            <li>Deguisements</li>
-                            <li>Farces et attrapes</li>
-                            <li>Feux d'artifices</li>
-                            <li>Jouets - Gadgets</li>
-                            <li>Location</li>
-                            <li>Loups (demi-masques)</li>
-                            <li>Maquillages</li>
-                            <li>Masques</li>
-                            <li>Perruques</li>
-                            <li>Accessoires deguisements</li>
-                            <li>Barbes moustaches</li>
-                            <li>Chapeau et coiffes</li>
-                            <li>Cotillons</li>
-                            <li>Decorations</li>
-                            <li>Deguisements</li>
-                            <li>Farces et attrapes</li>
-                            <li>Feux d'artifices</li>
-                            <li>Jouets - Gadgets</li>
-                            <li>Location</li>
-                            <li>Loups (demi-masques)</li>
-                            <li>Maquillages</li>
-                            <li>Masques</li>
-                            <li>Perruques</li>
-                        </ul>
+                        <div class="d-flex" style="height: 100%!important;">
+                            <div class="border-fun border-fun__cat mr-2"></div>
+                            <ul id="ul-cat">
+                                <li>Accessoires deguisements</li>
+                                <li>Barbes moustaches</li>
+                                <li>Chapeau et coiffes</li>
+                                <li>Cotillons</li>
+                                <li>Decorations</li>
+                                <li>Deguisements</li>
+                                <li>Farces et attrapes</li>
+                                <li>Feux d'artifices</li>
+                                <li>Jouets - Gadgets</li>
+                                <li>Location</li>
+                                <li>Loups (demi-masques)</li>
+                                <li>Maquillages</li>
+                                <li>Masques</li>
+                                <li>Perruques</li>
+                                <li>Accessoires deguisements</li>
+                                <li>Barbes moustaches</li>
+                                <li>Chapeau et coiffes</li>
+                                <li>Cotillons</li>
+                                <li>Decorations</li>
+                                <li>Deguisements</li>
+                                <li>Farces et attrapes</li>
+                                <li>Feux d'artifices</li>
+                                <li>Jouets - Gadgets</li>
+                                <li>Location</li>
+                                <li>Loups (demi-masques)</li>
+                                <li>Maquillages</li>
+                                <li>Masques</li>
+                                <li>Perruques</li>
+                            </ul>
+                        </div>
                     </div>
                     <div id="theme-theme" class="theme-btn d-flex pointer" data-url="themes">
                         <div class="border-fun border-fun-orange mr-2"></div>
@@ -208,37 +210,39 @@
                         </div>
                     </div>
                     <div id="themes-open-themes" class="search-clik-open d-flex">
-                        <div class="border-fun border-fun__themes mr-2"></div>
-                        <ul id="ul-themes">
-                            <li>Accessoires deguisements</li>
-                            <li>Barbes moustaches</li>
-                            <li>Chapeau et coiffes</li>
-                            <li>Cotillons</li>
-                            <li>Decorations</li>
-                            <li>Deguisements</li>
-                            <li>Farces et attrapes</li>
-                            <li>Feux d'artifices</li>
-                            <li>Jouets - Gadgets</li>
-                            <li>Location</li>
-                            <li>Loups (demi-masques)</li>
-                            <li>Maquillages</li>
-                            <li>Masques</li>
-                            <li>Perruques</li>
-                            <li>Accessoires deguisements</li>
-                            <li>Barbes moustaches</li>
-                            <li>Chapeau et coiffes</li>
-                            <li>Cotillons</li>
-                            <li>Decorations</li>
-                            <li>Deguisements</li>
-                            <li>Farces et attrapes</li>
-                            <li>Feux d'artifices</li>
-                            <li>Jouets - Gadgets</li>
-                            <li>Location</li>
-                            <li>Loups (demi-masques)</li>
-                            <li>Maquillages</li>
-                            <li>Masques</li>
-                            <li>Perruques</li>
-                        </ul>
+                        <div class="d-flex" style="height: 100%!important;">
+                            <div class="border-fun border-fun__themes mr-2"></div>
+                            <ul id="ul-themes">
+                                <li>Accessoires deguisements</li>
+                                <li>Barbes moustaches</li>
+                                <li>Chapeau et coiffes</li>
+                                <li>Cotillons</li>
+                                <li>Decorations</li>
+                                <li>Deguisements</li>
+                                <li>Farces et attrapes</li>
+                                <li>Feux d'artifices</li>
+                                <li>Jouets - Gadgets</li>
+                                <li>Location</li>
+                                <li>Loups (demi-masques)</li>
+                                <li>Maquillages</li>
+                                <li>Masques</li>
+                                <li>Perruques</li>
+                                <li>Accessoires deguisements</li>
+                                <li>Barbes moustaches</li>
+                                <li>Chapeau et coiffes</li>
+                                <li>Cotillons</li>
+                                <li>Decorations</li>
+                                <li>Deguisements</li>
+                                <li>Farces et attrapes</li>
+                                <li>Feux d'artifices</li>
+                                <li>Jouets - Gadgets</li>
+                                <li>Location</li>
+                                <li>Loups (demi-masques)</li>
+                                <li>Maquillages</li>
+                                <li>Masques</li>
+                                <li>Perruques</li>
+                            </ul>
+                        </div>
                     </div>
                     <div id="theme-location" class="theme-btn d-flex pointer" data-url="location">
                         <div class="border-fun border-fun-purple mr-2"></div>
@@ -248,37 +252,39 @@
                         </div>
                     </div>
                     <div id="themes-open-location" class="search-clik-open d-flex">
-                        <div class="border-fun border-fun__location mr-2"></div>
-                        <ul id="ul-location">
-                            <li>Accessoires deguisements</li>
-                            <li>Barbes moustaches</li>
-                            <li>Chapeau et coiffes</li>
-                            <li>Cotillons</li>
-                            <li>Decorations</li>
-                            <li>Deguisements</li>
-                            <li>Farces et attrapes</li>
-                            <li>Feux d'artifices</li>
-                            <li>Jouets - Gadgets</li>
-                            <li>Location</li>
-                            <li>Loups (demi-masques)</li>
-                            <li>Maquillages</li>
-                            <li>Masques</li>
-                            <li>Perruques</li>
-                            <li>Accessoires deguisements</li>
-                            <li>Barbes moustaches</li>
-                            <li>Chapeau et coiffes</li>
-                            <li>Cotillons</li>
-                            <li>Decorations</li>
-                            <li>Deguisements</li>
-                            <li>Farces et attrapes</li>
-                            <li>Feux d'artifices</li>
-                            <li>Jouets - Gadgets</li>
-                            <li>Location</li>
-                            <li>Loups (demi-masques)</li>
-                            <li>Maquillages</li>
-                            <li>Masques</li>
-                            <li>Perruques</li>
-                        </ul>
+                        <div class="d-flex" style="height: 100%!important;">
+                            <div class="border-fun border-fun__location mr-2"></div>
+                            <ul id="ul-location">
+                                <li>Accessoires deguisements</li>
+                                <li>Barbes moustaches</li>
+                                <li>Chapeau et coiffes</li>
+                                <li>Cotillons</li>
+                                <li>Decorations</li>
+                                <li>Deguisements</li>
+                                <li>Farces et attrapes</li>
+                                <li>Feux d'artifices</li>
+                                <li>Jouets - Gadgets</li>
+                                <li>Location</li>
+                                <li>Loups (demi-masques)</li>
+                                <li>Maquillages</li>
+                                <li>Masques</li>
+                                <li>Perruques</li>
+                                <li>Accessoires deguisements</li>
+                                <li>Barbes moustaches</li>
+                                <li>Chapeau et coiffes</li>
+                                <li>Cotillons</li>
+                                <li>Decorations</li>
+                                <li>Deguisements</li>
+                                <li>Farces et attrapes</li>
+                                <li>Feux d'artifices</li>
+                                <li>Jouets - Gadgets</li>
+                                <li>Location</li>
+                                <li>Loups (demi-masques)</li>
+                                <li>Maquillages</li>
+                                <li>Masques</li>
+                                <li>Perruques</li>
+                            </ul>
+                        </div>
                     </div>
                     <div id="theme-event" class="theme-btn d-flex pointer" data-url="event">
                         <div class="border-fun border-fun-red mr-2"></div>
@@ -288,37 +294,39 @@
                         </div>
                     </div>
                     <div id="themes-open-event" class="search-clik-open d-flex">
-                        <div class="border-fun border-fun__event mr-2"></div>
-                        <ul id="ul-event">
-                            <li>Accessoires deguisements</li>
-                            <li>Barbes moustaches</li>
-                            <li>Chapeau et coiffes</li>
-                            <li>Cotillons</li>
-                            <li>Decorations</li>
-                            <li>Deguisements</li>
-                            <li>Farces et attrapes</li>
-                            <li>Feux d'artifices</li>
-                            <li>Jouets - Gadgets</li>
-                            <li>Location</li>
-                            <li>Loups (demi-masques)</li>
-                            <li>Maquillages</li>
-                            <li>Masques</li>
-                            <li>Perruques</li>
-                            <li>Accessoires deguisements</li>
-                            <li>Barbes moustaches</li>
-                            <li>Chapeau et coiffes</li>
-                            <li>Cotillons</li>
-                            <li>Decorations</li>
-                            <li>Deguisements</li>
-                            <li>Farces et attrapes</li>
-                            <li>Feux d'artifices</li>
-                            <li>Jouets - Gadgets</li>
-                            <li>Location</li>
-                            <li>Loups (demi-masques)</li>
-                            <li>Maquillages</li>
-                            <li>Masques</li>
-                            <li>Perruques</li>
-                        </ul>
+                        <div class="d-flex" style="height: 100%!important;">
+                            <div class="border-fun border-fun__event mr-2"></div>
+                            <ul id="ul-event">
+                                <li>Accessoires deguisements</li>
+                                <li>Barbes moustaches</li>
+                                <li>Chapeau et coiffes</li>
+                                <li>Cotillons</li>
+                                <li>Decorations</li>
+                                <li>Deguisements</li>
+                                <li>Farces et attrapes</li>
+                                <li>Feux d'artifices</li>
+                                <li>Jouets - Gadgets</li>
+                                <li>Location</li>
+                                <li>Loups (demi-masques)</li>
+                                <li>Maquillages</li>
+                                <li>Masques</li>
+                                <li>Perruques</li>
+                                <li>Accessoires deguisements</li>
+                                <li>Barbes moustaches</li>
+                                <li>Chapeau et coiffes</li>
+                                <li>Cotillons</li>
+                                <li>Decorations</li>
+                                <li>Deguisements</li>
+                                <li>Farces et attrapes</li>
+                                <li>Feux d'artifices</li>
+                                <li>Jouets - Gadgets</li>
+                                <li>Location</li>
+                                <li>Loups (demi-masques)</li>
+                                <li>Maquillages</li>
+                                <li>Masques</li>
+                                <li>Perruques</li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
                 <div class="b-shadow-right">

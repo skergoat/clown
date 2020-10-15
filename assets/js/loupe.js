@@ -1,4 +1,5 @@
 ;(function(){
+  // disable on small devices    
     function roundToPlace(num, place) {
         return Math.round(num*Math.pow(10, place))/Math.pow(10, place);
     }
@@ -55,6 +56,6 @@
           }
         }
       });
-    });  
-      
-    }());
+    }); 
+  
+}());

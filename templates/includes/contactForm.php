@@ -9,24 +9,24 @@
     <label for="citizenship" class="mb-2 mt-2 pb-xs-2 font-13">Civilité</label>
     <div class="form-group">
         <div class="form-check form-check-inline">
-            <input class="form-check-input" type="radio" name="citizenship" id="citizenship1" value="monsieur" checked>
+            <input class="form-check-input" type="radio" name="gender" id="gender1" value="monsieur" checked>
             <span class="form-check-input checkmark"></span>
-            <label class="form-check-label font-13" for="exampleRadios1" style="color:#9D9D9D">M.</label>
+            <label class="form-check-label font-13" for="gender1" style="color:#9D9D9D">M.</label>
          </div>
         <div class="form-check form-check-inline">
-            <input class="form-check-input" type="radio" name="citizenship" id="citizenship2" value="madame">
+            <input class="form-check-input" type="radio" name="gender" id="gender2" value="madame">
             <span class="form-check-input checkmark"></span>
-            <label class="form-check-label font-13" for="exampleRadios1">Mme</label>
+            <label class="form-check-label font-13" for="gender2">Mme</label>
         </div>
         <div class="form-check form-check-inline">
-            <input class="form-check-input" type="radio" name="citizenship" id="citizenship3" value="mademoiselle">
+            <input class="form-check-input" type="radio" name="gender" id="gender3" value="mademoiselle">
             <span class="form-check-input checkmark"></span>
-            <label class="form-check-label font-13" for="exampleRadios1">Mlle</label>
+            <label class="form-check-label font-13" for="gender3">Mlle</label>
         </div>
         <div class="form-check form-check-inline">
-            <input class="form-check-input" type="radio" name="citizenship" id="citizenship3" value="autre">
+            <input class="form-check-input" type="radio" name="gender" id="gender4" value="autre">
             <span class="form-check-input checkmark"></span>
-            <label class="form-check-label font-13" for="exampleRadios1">Autre</label>
+            <label class="form-check-label font-13" for="gender4">Autre</label>
         </div>
         <!-- error message -->
         <div class="invalid-feedback">

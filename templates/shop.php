@@ -195,7 +195,7 @@
                             <div class="form-row">
                                 <label class="black font-14">Rechercher</label>
                                 <div class="input-group mb-4">
-                                    <input class="form-control font-13" type="text" placeholder="Entrez votre recherche..." aria-label="Search" id="search-input">
+                                    <input class="form-control font-13" type="text" placeholder="Entrez votre recherche..." aria-label="Search" id="search-input1">
                                     <div class="input-group-append">
                                         <span class="input-group-text bgd-transparent" id="basic-text1"><i class="icon-search text-grey"></i></span>
                                     </div>
@@ -225,30 +225,30 @@
                                     </div>
                                     <div class="d-flex flex-column mt-4">
                                         <div class="form-check mb-1 p-0">
-                                            <label class="form-check-label font-14 checkbox-container mb-1" for="news">
+                                            <label class="form-check-label font-14 checkbox-container mb-1" for="news1">
                                                 <span>Nouveautés</span>
-                                                <input class="form-check-input" type="checkbox" id="news">
+                                                <input class="form-check-input" type="checkbox" id="news1">
                                                 <span class="checkboxmark custom news"></span>
                                             </label>
                                         </div>
                                         <div class="form-check mb-1 p-0">
-                                            <label class="form-check-label font-14 checkbox-container mb-1" for="promos">
+                                            <label class="form-check-label font-14 checkbox-container mb-1" for="promos2">
                                                 <span>Promotions</span>
-                                                <input class="form-check-input" type="checkbox" id="promos">
+                                                <input class="form-check-input" type="checkbox" id="promos2">
                                                 <span class="checkboxmark custom promos"></span>
                                             </label>
                                         </div>
                                         <div class="form-check mb-1 p-0">
-                                            <label class="form-check-label font-14 checkbox-container mb-1" for="borrow">
+                                            <label class="form-check-label font-14 checkbox-container mb-1" for="borrow1">
                                                 <span>Location</span>
-                                                <input class="form-check-input" type="checkbox" id="borrow">
-                                                <span class="checkboxmark custom borrow"></span>
+                                                <input class="form-check-input" type="checkbox" id="borrow1">
+                                                <span class="checkboxmark custom borrows"></span>
                                             </label>
                                         </div>
                                         <div class="form-check mb-1 p-0">
-                                            <label class="form-check-label font-14 checkbox-container mb-1" for="occasion">
+                                            <label class="form-check-label font-14 checkbox-container mb-1" for="occasion2">
                                                 <span>Occasions</span>
-                                                <input class="form-check-input" type="checkbox" id="occasion">
+                                                <input class="form-check-input" type="checkbox" id="occasion2">
                                                 <span class="checkboxmark custom occasion"></span>
                                             </label>
                                         </div>
@@ -519,7 +519,7 @@
                                 <div class="form-row">
                                     <label class="black font-14">Rechercher</label>
                                     <div class="input-group mb-4">
-                                        <input class="form-control font-13" type="text" placeholder="Entrez votre recherche..." aria-label="Search" id="search-input">
+                                        <input class="form-control font-13" type="text" placeholder="Entrez votre recherche..." aria-label="Search" id="search-input2">
                                         <div class="input-group-append">
                                             <span class="input-group-text bgd-transparent" id="basic-text1"><i class="icon-search text-grey"></i></span>
                                         </div>
@@ -528,7 +528,7 @@
                                         <label class="black font-14">Filtres</label>
                                         <!-- Filtres -->
                                         <div class="form-group custom-selects mb-2 filters">
-                                            <select name="filtre-1" id="filtre-1">
+                                            <select name="filtre-1" id="filtres-1">
                                                 <option value="">Taille</option>
                                                 <option value="cheap">M</option>
                                                 <option value="famous">L</option>
@@ -536,7 +536,7 @@
                                             </select>
                                         </div>
                                         <div class="form-group custom-selects mb-2 filters">
-                                            <select name="filtre-2" id="filtre-2">
+                                            <select name="filtre-2" id="filtres-2">
                                                 <option value="">Couleur</option>
                                                 <option value="cheap">Blanc</option>
                                                 <option value="famous">Orange</option>
@@ -549,30 +549,30 @@
                                         </div>
                                         <div class="d-flex flex-column mt-4">
                                             <div class="form-check mb-1 p-0">
-                                                <label class="form-check-label font-14 checkbox-container mb-1" for="news">
+                                                <label class="form-check-label font-14 checkbox-container mb-1" for="news2">
                                                     <span>Nouveautés</span>
-                                                    <input class="form-check-input" type="checkbox" id="news">
+                                                    <input class="form-check-input" type="checkbox" id="news2">
                                                     <span class="checkboxmark custom news"></span>
                                                 </label>
                                             </div>
                                             <div class="form-check mb-1 p-0">
-                                                <label class="form-check-label font-14 checkbox-container mb-1" for="promos">
+                                                <label class="form-check-label font-14 checkbox-container mb-1" for="promos1">
                                                     <span>Promotions</span>
-                                                    <input class="form-check-input" type="checkbox" id="promos">
+                                                    <input class="form-check-input" type="checkbox" id="promos1">
                                                     <span class="checkboxmark custom promos"></span>
                                                 </label>
                                             </div>
                                             <div class="form-check mb-1 p-0">
-                                                <label class="form-check-label font-14 checkbox-container mb-1" for="borrow">
+                                                <label class="form-check-label font-14 checkbox-container mb-1" for="borrow2">
                                                     <span>Location</span>
-                                                    <input class="form-check-input" type="checkbox" id="borrow">
-                                                    <span class="checkboxmark custom borrow"></span>
+                                                    <input class="form-check-input" type="checkbox" id="borrow2">
+                                                    <span class="checkboxmark custom borrows"></span>
                                                 </label>
                                             </div>
                                             <div class="form-check mb-1 p-0">
-                                                <label class="form-check-label font-14 checkbox-container mb-1" for="occasion">
+                                                <label class="form-check-label font-14 checkbox-container mb-1" for="occasion1">
                                                     <span>Occasions</span>
-                                                    <input class="form-check-input" type="checkbox" id="occasion">
+                                                    <input class="form-check-input" type="checkbox" id="occasion1">
                                                     <span class="checkboxmark custom occasion"></span>
                                                 </label>
                                             </div>

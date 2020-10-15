@@ -56,7 +56,7 @@ aside {
     height:30px!important;
 }
 
-#search-input {
+#search-input1, #search-input2 {
     border-right:0px solid transparent!important;
     height:30px!important;
 }
@@ -119,13 +119,14 @@ aside {
     border-radius:2px;
     height:15px;
     width:15px;
+    top:1px!important;
     &.news {
         border:2px solid #FC5C65!important;
     }
     &.promos {
         border:2px solid #5F27CD!important;
     }
-    &.borrow {
+    &.borrows {
         border:2px solid #FD9644!important;
     }
     &.occasion {
@@ -140,7 +141,7 @@ aside {
     &.custom.promos {
         background-color: #5F27CD!important;
     } 
-    &.custom.borrow {
+    &.custom.borrows {
         background-color: #FD9644!important;
     }  
     &.custom.occasion {

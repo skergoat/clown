@@ -11973,7 +11973,7 @@ aside {
   height: 30px !important;
 }
 
-#search-input {
+#search-input1, #search-input2 {
   border-right: 0px solid transparent !important;
   height: 30px !important;
 }
@@ -12034,6 +12034,7 @@ aside {
   border-radius: 2px;
   height: 15px;
   width: 15px;
+  top: 1px !important;
 }
 .checkboxmark.custom.news {
   border: 2px solid #FC5C65 !important;
@@ -12041,7 +12042,7 @@ aside {
 .checkboxmark.custom.promos {
   border: 2px solid #5F27CD !important;
 }
-.checkboxmark.custom.borrow {
+.checkboxmark.custom.borrows {
   border: 2px solid #FD9644 !important;
 }
 .checkboxmark.custom.occasion {
@@ -12054,7 +12055,7 @@ aside {
 .checkbox-container input:checked ~ .checkboxmark.custom.promos {
   background-color: #5F27CD !important;
 }
-.checkbox-container input:checked ~ .checkboxmark.custom.borrow {
+.checkbox-container input:checked ~ .checkboxmark.custom.borrows {
   background-color: #FD9644 !important;
 }
 .checkbox-container input:checked ~ .checkboxmark.custom.occasion {

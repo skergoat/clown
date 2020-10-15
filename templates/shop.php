@@ -154,7 +154,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="" style="max-height:450px;overflow-x:scroll">
+                <div class="" style="max-height:450px;overflow-x:scroll;box-shadow: 0px 1px 5px -1px rgba(214,214,214,0.7);margin-right:2px;">
                     <form class="pt-4 pr-3 pl-3 pb-4">
                         <div class="form-row">
                             <label class="black font-14">Rechercher</label>

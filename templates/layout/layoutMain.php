@@ -42,11 +42,11 @@
                             <li id="active-shop" class="ml-4"><a href="http://localhost:8888/templates/shop.php" class="d-flex align-items-center link-black black">Boutique</a><div class="border-bottom-menu"></div></li>
                             <li id="active-infos" class="ml-4"><a href="http://localhost:8888/templates/infos.php" class="d-flex align-items-center link-black black">Infos Pratiques</a><div class="border-bottom-menu"></div></li>
                             <li id="active-contact" class="ml-4"><a href="http://localhost:8888/templates/contact.php"  class="d-flex align-items-center link-black black pr-1">Contact</a><div class="border-bottom-menu"></div></li>
-                            <li id="active-cart" class="ml-4"><a href="http://localhost:8888/templates/cart.php" class="d-flex align-items-center link-black hover-no-change black pr-1"><span class="badge badge-danger bold">2</span><i class="icon-basket"></i></a><div class="border-bottom-menu"></div></li>
+                            <li id="active-cart" class="ml-4"><a href="#" class="d-flex align-items-center link-black hover-no-change black pr-1"><span class="badge badge-danger bold">2</span><i id="cart-popup-btn" class="icon-basket"></i></a><div class="border-bottom-menu"></div></li>
                         </ul>
                         <!-- Navigation links (hidden by default) -->
                         <div class="d-xs-flex d-sm-flex d-md-flex d-lg-none d-flex">
-                            <a href="http://localhost:8888/templates/cart.php" id="active-cart" class="d-flex align-items-center font-weight-bold link-black hover-no-change pr-1" style="position:relative;"><span class="badge badge-danger bold">2</span><i class="icon-basket"></i></a>
+                            <a href="#" id="active-cart" class="d-flex align-items-center font-weight-bold link-black hover-no-change pr-1" style="position:relative;"><span class="badge badge-danger bold">2</span><i id="cart-popup-btn" class="icon-basket"></i></a>
                             <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
                             <div class="hamburger">
                                 <div class="icon hamburger__link" id="open-menu">
@@ -120,7 +120,7 @@
                </div>
             </div>
        </header>
-       <div class="cart-pop bgd-white p-2">
+       <div id="cart-popup-window" class="cart-pop bgd-white p-2">
             <div class="cart-pop__arrow mx-auto"></div>
             <div class="">
                 <div class="cart-pop__head d-flex justify-content-between p-1">
@@ -313,17 +313,5 @@
             }
         </script>
         <script src="../assets/js/cart.js"></script>
-        <!-- map -->
-        <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
-        <script>
-            var map = L.map('map').setView([48.86298, 2.34319], 17);
-            L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-                attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
-            }).addTo(map);
-
-            L.marker([48.86298, 2.34319]).addTo(map)
-                .bindPopup('A pretty CSS3 popup.<br> Easily customizable.')
-                .openPopup();
-        </script>
     </body>
 </html>

@@ -97,6 +97,9 @@
 <!-- secondary content -->
 <?php ob_start(); ?>
 <script>
+    // active link 
+    let activeId = '#active-cart';
+    // button
     let $val = "payment";
     // space-between position top
     $('#space-between').css('top', '90%');       

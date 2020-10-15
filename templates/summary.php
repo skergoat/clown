@@ -19,6 +19,9 @@
 
 <?php ob_start(); ?>
     <script>
+        // active link 
+        let activeId = '#active-cart';
+        // radio 
         $class="select-selected-large";
         $class2="select-items-large";
         let $val = "shipping";
@@ -28,6 +31,18 @@
     </script>
     <script src="../assets/js/custom-select.js"></script>
     <script src="../assets/js/radio-choice.js"></script>
+     <!-- map -->
+     <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+        <script>
+            var map = L.map('map').setView([48.86298, 2.34319], 17);
+            L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+                attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+            }).addTo(map);
+
+            L.marker([48.86298, 2.34319]).addTo(map)
+                .bindPopup('A pretty CSS3 popup.<br> Easily customizable.')
+                .openPopup();
+        </script>
 <?php $script = ob_get_clean(); ?>
 <!-- include -->
 <?php require('layout/layoutSecond.php'); ?>

@@ -186,13 +186,19 @@ footer {
     width:100%;
 }
 
-@media (max-width:778px)
+#aside-responsive {
+    position:relative!important;
+    height:auto!important;
+    min-height: auto!important;
+    & .b-shadow-right, & .search-box {
+        min-height:auto!important;
+    }
+}
+
+@media (max-width:576px)
 {
-    // aside {
-    //     z-index:9999;
-    //     background:red;
-    //     min-width:100%!important;
-    //     height:300px;
-    // }
-   
+    .card-product.first-child {
+        position:relative!important;
+        width:100%!important
+    }
 }

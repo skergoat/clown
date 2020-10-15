@@ -10309,6 +10309,10 @@ h3 {
   .d-xs-block {
     display: block !important;
   }
+
+  .d-xs-none {
+    display: none !important;
+  }
 }
 .header-transparent {
   opacity: 0;
@@ -12013,6 +12017,21 @@ footer {
   width: 100%;
 }
 
+#aside-responsive {
+  position: relative !important;
+  height: auto !important;
+  min-height: auto !important;
+}
+#aside-responsive .b-shadow-right, #aside-responsive .search-box {
+  min-height: auto !important;
+}
+
+@media (max-width: 576px) {
+  .card-product.first-child {
+    position: relative !important;
+    width: 100% !important;
+  }
+}
 /** font family **/
 * {
   font-family: "nunito_sansextralight", sans-serif;

@@ -10715,8 +10715,7 @@ input:focus {
 
 .checkbox-container span {
   color: black !important;
-  position: relative;
-  top: -3px;
+  top: -3px !important;
 }
 
 /** signin form **/
@@ -11993,6 +11992,19 @@ aside {
   -webkit-transform: rotate(45deg);
   -ms-transform: rotate(45deg);
   transform: rotate(45deg);
+}
+
+.icon-left-open.shop-icon {
+  left: 0px !important;
+}
+
+.text-line-through {
+  text-decoration: line-through !important;
+}
+
+footer {
+  height: auto;
+  width: 100%;
 }
 
 /** font family **/

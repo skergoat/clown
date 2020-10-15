@@ -167,12 +167,12 @@
                             <div class="d-flex align-items-center"><span class="d-block black font-14">Catégories</span></div>
                         </div>
                     </div>
-                    <div id="themes-open-cat" class="search-clik-open d-flex">
+                    <div id="themes-open-cat" class="search-clik-open active d-flex">
                         <div class="d-flex" style="height: 100%!important;">
                             <div class="border-fun border-fun__cat mr-2"></div>
-                            <ul id="ul-cat">
-                                <li class="selected font-14 bold pointer d-flex"><span class="arrow-0 mr-1">></span> Accessoires et deguisements</li>
-                                    <ul id="ul-ul-cat" style="">
+                            <ul class="sup-menu" id="sup-menu-cat">
+                                <li class="selected font-14 bold pointer d-flex" data-url="accessoires-1"><span class="arrow-0 mr-1">></span> Accessoires et deguisements</li>
+                                    <ul class="sub-menu sub-menu-cat selectioned" id="li-accessoires-1" style="">
                                         <li class="font-14 selection">+ Ailes</li>
                                         <li class="font-14">+ Armes et autres</li>
                                         <li class="font-14">+ Bijoux et ceintures</li>
@@ -181,7 +181,16 @@
                                         <li class="font-14">+ Cigarettes et autres</li>
                                         <li class="font-14">+ Collants et jarretieres</li>
                                     </ul>
-                                <li class="font-14 bold pointer d-flex"><span class="arrow-0 mr-1">></span> Barbes moustaches</li>
+                                <li class="font-14 bold pointer d-flex" data-url="barbe-1"><span class="arrow-0 mr-1">></span> Barbes moustaches</li>
+                                    <ul class="sub-menu sub-menu-cat" id="li-barbe-1" style="">
+                                        <li class="font-14 selection">+ Ailes</li>
+                                        <li class="font-14">+ Armes et autres</li>
+                                        <li class="font-14">+ Bijoux et ceintures</li>
+                                        <li class="font-14">+ Boa et plumes</li>
+                                        <li class="font-14">+ Chaussures et surbottes</li>
+                                        <li class="font-14">+ Cigarettes et autres</li>
+                                        <li class="font-14">+ Collants et jarretieres</li>
+                                    </ul>
                                 <li class="font-14 bold pointer d-flex"><span class="arrow-0 mr-1">></span> Chapeau et coiffes</li>
                                 <li class="font-14 bold pointer d-flex"><span class="arrow-0 mr-1">></span> Cotillons</li>
                                 <li class="font-14 bold pointer d-flex"><span class="arrow-0 mr-1">></span> Decorations</li>
@@ -221,9 +230,9 @@
                     <div id="themes-open-themes" class="search-clik-open d-flex">
                         <div class="d-flex" style="height: 100%!important;">
                             <div class="border-fun border-fun__themes mr-2"></div>
-                            <ul id="ul-themes">
-                                <li class="selected font-14 bold pointer d-flex"><span class="arrow-0 mr-1">></span> Accessoires et deguisements</li>
-                                    <ul id="ul-ul-cat" style="">
+                            <ul class="sup-menu" id="sup-menu-theme">
+                                <li class="selected font-14 bold pointer d-flex" data-url="accessoires-2"><span class="arrow-0 mr-1">></span> Accessoires et deguisements</li>
+                                    <ul class="sub-menu sub-menu-themes selectioned" id="li-accessoires-2" style="">
                                         <li class="font-14 selection">+ Ailes</li>
                                         <li class="font-14">+ Armes et autres</li>
                                         <li class="font-14">+ Bijoux et ceintures</li>
@@ -232,7 +241,16 @@
                                         <li class="font-14">+ Cigarettes et autres</li>
                                         <li class="font-14">+ Collants et jarretieres</li>
                                     </ul>
-                                <li class="font-14 bold pointer d-flex"><span class="arrow-0 mr-1">></span> Barbes moustaches</li>
+                                <li class="font-14 bold pointer d-flex" data-url="barbe-2"><span class="arrow-0 mr-1">></span> Barbes moustaches</li>
+                                    <ul class="sub-menu sub-menu-themes" id="li-barbe-2" style="">
+                                        <li class="font-14 selection">+ Ailes</li>
+                                        <li class="font-14">+ Armes et autres</li>
+                                        <li class="font-14">+ Bijoux et ceintures</li>
+                                        <li class="font-14">+ Boa et plumes</li>
+                                        <li class="font-14">+ Chaussures et surbottes</li>
+                                        <li class="font-14">+ Cigarettes et autres</li>
+                                        <li class="font-14">+ Collants et jarretieres</li>
+                                    </ul>
                                 <li class="font-14 bold pointer d-flex"><span class="arrow-0 mr-1">></span> Chapeau et coiffes</li>
                                 <li class="font-14 bold pointer d-flex"><span class="arrow-0 mr-1">></span> Cotillons</li>
                                 <li class="font-14 bold pointer d-flex"><span class="arrow-0 mr-1">></span> Decorations</li>
@@ -272,9 +290,9 @@
                     <div id="themes-open-location" class="search-clik-open d-flex">
                         <div class="d-flex" style="height: 100%!important;">
                             <div class="border-fun border-fun__location mr-2"></div>
-                            <ul id="ul-location">
-                                <li class="selected font-14 bold pointer d-flex"><span class="arrow-0 mr-1">></span> Accessoires et deguisements</li>
-                                    <ul id="ul-ul-cat" style="">
+                            <ul class="sup-menu" id="sup-menu-location">
+                                <li class="selected font-14 bold pointer d-flex" data-url="accessoires-3"><span class="arrow-0 mr-1">></span> Accessoires et deguisements</li>
+                                    <ul class="sub-menu sub-menu-location selectioned" id="li-accessoires-3" style="">
                                         <li class="font-14 selection">+ Ailes</li>
                                         <li class="font-14">+ Armes et autres</li>
                                         <li class="font-14">+ Bijoux et ceintures</li>
@@ -283,7 +301,16 @@
                                         <li class="font-14">+ Cigarettes et autres</li>
                                         <li class="font-14">+ Collants et jarretieres</li>
                                     </ul>
-                                <li class="font-14 bold pointer d-flex"><span class="arrow-0 mr-1">></span> Barbes moustaches</li>
+                                <li class="font-14 bold pointer d-flex" data-url="barbe-3"><span class="arrow-0 mr-1">></span> Barbes moustaches</li>
+                                    <ul class="sub-menu sub-menu-location" id="li-barbe-3" style="">
+                                        <li class="font-14 selection">+ Ailes</li>
+                                        <li class="font-14">+ Armes et autres</li>
+                                        <li class="font-14">+ Bijoux et ceintures</li>
+                                        <li class="font-14">+ Boa et plumes</li>
+                                        <li class="font-14">+ Chaussures et surbottes</li>
+                                        <li class="font-14">+ Cigarettes et autres</li>
+                                        <li class="font-14">+ Collants et jarretieres</li>
+                                    </ul>
                                 <li class="font-14 bold pointer d-flex"><span class="arrow-0 mr-1">></span> Chapeau et coiffes</li>
                                 <li class="font-14 bold pointer d-flex"><span class="arrow-0 mr-1">></span> Cotillons</li>
                                 <li class="font-14 bold pointer d-flex"><span class="arrow-0 mr-1">></span> Decorations</li>
@@ -323,9 +350,9 @@
                     <div id="themes-open-event" class="search-clik-open d-flex">
                         <div class="d-flex" style="height: 100%!important;">
                             <div class="border-fun border-fun__event mr-2"></div>
-                            <ul id="ul-event">
-                                <li class="selected font-14 bold pointer d-flex"><span class="arrow-0 mr-1">></span> Accessoires et deguisements</li>
-                                    <ul id="ul-ul-cat" style="">
+                            <ul class="sup-menu" id="sup-menu-event">
+                                <li class="selected font-14 bold pointer d-flex" data-url="accessoires-4"><span class="arrow-0 mr-1">></span> Accessoires et deguisements</li>
+                                    <ul class="sub-menu sub-menu-event selectioned" id="li-accessoires-4" style="">
                                         <li class="font-14 selection">+ Ailes</li>
                                         <li class="font-14">+ Armes et autres</li>
                                         <li class="font-14">+ Bijoux et ceintures</li>
@@ -334,7 +361,16 @@
                                         <li class="font-14">+ Cigarettes et autres</li>
                                         <li class="font-14">+ Collants et jarretieres</li>
                                     </ul>
-                                <li class="font-14 bold pointer d-flex"><span class="arrow-0 mr-1">></span> Barbes moustaches</li>
+                                <li class="font-14 bold pointer d-flex" data-url="barbe-4"><span class="arrow-0 mr-1">></span> Barbes moustaches</li>
+                                    <ul class="sub-menu sub-menu-event" id="li-barbe-4" style="">
+                                        <li class="font-14 selection">+ Ailes</li>
+                                        <li class="font-14">+ Armes et autres</li>
+                                        <li class="font-14">+ Bijoux et ceintures</li>
+                                        <li class="font-14">+ Boa et plumes</li>
+                                        <li class="font-14">+ Chaussures et surbottes</li>
+                                        <li class="font-14">+ Cigarettes et autres</li>
+                                        <li class="font-14">+ Collants et jarretieres</li>
+                                    </ul>
                                 <li class="font-14 bold pointer d-flex"><span class="arrow-0 mr-1">></span> Chapeau et coiffes</li>
                                 <li class="font-14 bold pointer d-flex"><span class="arrow-0 mr-1">></span> Cotillons</li>
                                 <li class="font-14 bold pointer d-flex"><span class="arrow-0 mr-1">></span> Decorations</li>

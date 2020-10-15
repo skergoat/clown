@@ -121,47 +121,47 @@
             </div>
         </header>
 
-        <div class="row container-shop m-0 p-0 justify-content-end" style="position:relative;">
+        <div class="row container-shop m-0 p-0 justify-content-end">
             <!-- search -->
-            <aside class="col-2 m-0 p-0" style="min-height:100%!important;position:fixed;left:0px;">
-                <div class="" style="height:auto;box-shadow: 0px 0px 5px 0px rgba(214,214,214,0.7);margin-right:2px;">
+            <aside class="col-2 m-0 p-0">
+                <div class="themes-box">
                     <div class="d-flex pointer">
-                        <div class="border-fun mr-2" style="padding-right:10px;background: linear-gradient(to top, #15A5BF, #2BCBBA);"></div>
+                        <div class="border-fun border-fun-green mr-2"></div>
                         <div class="pl-0 pr-1 pb-2 pt-2 d-flex">
-                            <img src="../assets/img/icone-categories.png" alt="" style="width:30px;" class="mr-2"/> 
+                            <img src="../assets/img/icone-categories.png" alt="" class="mr-2"/> 
                             <div class="d-flex align-items-center"><span class="d-block black font-14">Catégories</span></div>
                         </div>
                     </div>
                     <div class="d-flex pointer">
-                        <div class="border-fun mr-2" style="padding-right:10px;background: linear-gradient(to top, #FD6044, #FD9644);"></div>
+                        <div class="border-fun border-fun-orange mr-2"></div>
                         <div class="pl-0 pr-1 pb-2 pt-2 d-flex">
-                            <img src="../assets/img/icone-themes.png" alt="" style="width:30px;" class="mr-2"/> 
+                            <img src="../assets/img/icone-themes.png" alt="" class="mr-2"/> 
                             <div class="d-flex align-items-center"><span class="d-block black font-14">Thèmes</span></div>
                         </div>
                     </div>
                     <div class="d-flex pointer">
-                        <div class="border-fun mr-2" style="padding-right:10px;background: linear-gradient(to top, #C027CD, #7B28DD);"></div>
+                        <div class="border-fun border-fun-purple mr-2"></div>
                         <div class="pl-0 pr-1 pb-2 pt-2 d-flex">
-                            <img src="../assets/img/icone-location.png" alt="" style="width:30px;" class="mr-2"/> 
+                            <img src="../assets/img/icone-location.png" alt="" class="mr-2"/> 
                             <div class="d-flex align-items-center"><span class="d-block black font-14">Location</span></div>
                         </div>
                     </div>
                     <div class="d-flex pointer">
-                        <div class="border-fun mr-2" style="padding-right:10px;background: linear-gradient(to top, #FC5C65, #F8155B);"></div>
+                        <div class="border-fun border-fun-red mr-2"></div>
                         <div class="pl-0 pr-1 pb-2 pt-2 d-flex">
-                            <img src="../assets/img/icone-evenements.png" alt="" style="width:30px;" class="mr-2"/> 
+                            <img src="../assets/img/icone-evenements.png" alt="" class="mr-2"/> 
                             <div class="d-flex align-items-center"><span class="d-block black font-14">Événements</span></div>
                         </div>
                     </div>
                 </div>
-                <div class="" style="max-height:450px;overflow-x:scroll;box-shadow: 0px 1px 5px -1px rgba(214,214,214,0.7);margin-right:2px;">
+                <div class="search-box">
                     <form class="pt-4 pr-3 pl-3 pb-4">
                         <div class="form-row">
                             <label class="black font-14">Rechercher</label>
                             <div class="input-group mb-4">
-                                <input class="form-control font-13" type="text" placeholder="Entrez votre recherche..." aria-label="Search" style="border-right:0px solid transparent!important;height:30px!important;">
+                                <input class="form-control font-13" type="text" placeholder="Entrez votre recherche..." aria-label="Search" id="search-input">
                                 <div class="input-group-append">
-                                    <span class="input-group-text bgd-transparent" id="basic-text1" style="border:1px solid #9d9d9d;border-left:0px;height:30px!important;"><i class="icon-search text-grey"></i></span>
+                                    <span class="input-group-text bgd-transparent" id="basic-text1"><i class="icon-search text-grey"></i></span>
                                 </div>
                             </div>
                             <div class="filters-container">
@@ -184,35 +184,35 @@
                                     </select>
                                 </div>
                                 <div class="d-flex">
-                                    <span class="btn regular d-block font-12 mr-2" style="padding:1px 10px 1px 10px!important;background:linear-gradient(to right, #FD9644, #FD6044);color:white;border-radius:20px;">XL<i class="icon-cancel ml-1" style="color:black!important;"></i></span>
-                                    <span class="btn regular d-block font-12 mr-2" style="padding:1px 10px 1px 10px!important;background:linear-gradient(to right, #FD9644, #FD6044);color:white;border-radius:20px;">Rouge<i class="icon-cancel ml-1" style="color:black!important;font-weight:500;"></i></span>
+                                    <span class="btn stickers regular d-block font-12 mr-2">XL<i class="icon-cancel ml-1"></i></span>
+                                    <span class="btn stickers regular d-block font-12 mr-2">Rouge<i class="icon-cancel ml-1"></i></span>
                                 </div>
                                 <div class="d-flex flex-column mt-4">
                                     <div class="form-check mb-1 p-0">
-                                        <label class="form-check-label font-14 checkbox-container mb-1" for="news" style="color:black!important;">
-                                            <span style="position:relative;top:-3px;">Nouveautés</span>
-                                            <input class="form-check-input" type="checkbox" id="news" style="border-color:red!important;">
+                                        <label class="form-check-label font-14 checkbox-container mb-1" for="news">
+                                            <span>Nouveautés</span>
+                                            <input class="form-check-input" type="checkbox" id="news">
                                             <span class="checkboxmark custom news"></span>
                                         </label>
                                     </div>
                                     <div class="form-check mb-1 p-0">
-                                        <label class="form-check-label font-14 checkbox-container mb-1" for="promos" style="color:black!important;">
-                                            <span style="position:relative;top:-3px;">Promotions</span>
-                                            <input class="form-check-input" type="checkbox" id="promos" style="border-color:red!important;">
+                                        <label class="form-check-label font-14 checkbox-container mb-1" for="promos">
+                                            <span>Promotions</span>
+                                            <input class="form-check-input" type="checkbox" id="promos">
                                             <span class="checkboxmark custom promos"></span>
                                         </label>
                                     </div>
                                     <div class="form-check mb-1 p-0">
-                                        <label class="form-check-label font-14 checkbox-container mb-1" for="borrow" style="color:black!important;">
-                                            <span style="position:relative;top:-3px;">Location</span>
-                                            <input class="form-check-input" type="checkbox" id="borrow" style="border-color:red!important;">
+                                        <label class="form-check-label font-14 checkbox-container mb-1" for="borrow">
+                                            <span>Location</span>
+                                            <input class="form-check-input" type="checkbox" id="borrow">
                                             <span class="checkboxmark custom borrow"></span>
                                         </label>
                                     </div>
                                     <div class="form-check mb-1 p-0">
-                                        <label class="form-check-label font-14 checkbox-container mb-1" for="occasion" style="color:black!important;">
-                                            <span style="position:relative;top:-3px;">Occasions</span>
-                                            <input class="form-check-input" type="checkbox" id="occasion" style="border-color:red!important;">
+                                        <label class="form-check-label font-14 checkbox-container mb-1" for="occasion">
+                                            <span>Occasions</span>
+                                            <input class="form-check-input" type="checkbox" id="occasion">
                                             <span class="checkboxmark custom occasion"></span>
                                         </label>
                                     </div>

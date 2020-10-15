@@ -10713,6 +10713,12 @@ input:focus {
   color: #9d9d9d !important;
 }
 
+.checkbox-container span {
+  color: black !important;
+  position: relative;
+  top: -3px;
+}
+
 /** signin form **/
 #country-select {
   border: 1px solid #9d9d9d !important;
@@ -11830,6 +11836,72 @@ label.disabled {
     height: 31px !important;
   }
 }
+.container-shop {
+  position: relative;
+}
+
+/* aside */
+aside {
+  min-height: 100% !important;
+  position: fixed !important;
+  left: 0px;
+}
+
+.themes-box {
+  height: auto;
+  box-shadow: 0px 0px 5px 0px rgba(214, 214, 214, 0.7);
+  margin-right: 2px;
+}
+.themes-box img {
+  width: 30px;
+}
+
+.border-fun {
+  padding-right: 10px;
+}
+.border-fun-green {
+  background: linear-gradient(to top, #15A5BF, #2BCBBA);
+}
+.border-fun-orange {
+  background: linear-gradient(to top, #FD6044, #FD9644);
+}
+.border-fun-purple {
+  background: linear-gradient(to top, #C027CD, #7B28DD);
+}
+.border-fun-red {
+  background: linear-gradient(to top, #FC5C65, #F8155B);
+}
+
+.search-box {
+  max-height: 450px;
+  overflow-x: scroll;
+  box-shadow: 0px 1px 5px -1px rgba(214, 214, 214, 0.7);
+  margin-right: 2px;
+}
+
+#basic-text1 {
+  border: 1px solid #9d9d9d;
+  border-left: 0px;
+  height: 30px !important;
+}
+
+#search-input {
+  border-right: 0px solid transparent !important;
+  height: 30px !important;
+}
+
+.stickers {
+  padding: 1px 10px 1px 10px !important;
+  background: linear-gradient(to right, #FD9644, #FD6044);
+  color: white;
+  border-radius: 20px;
+}
+.stickers i {
+  color: black !important;
+  color: black !important;
+  font-weight: 500;
+}
+
 .btn.btn-cards-pink.btn-shop {
   padding: 12px 35px 12px 35px !important;
 }

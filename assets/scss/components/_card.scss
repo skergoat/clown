@@ -18,6 +18,17 @@
     right:7%;
 }
 
+.card-hover {
+    cursor:pointer;
+}
+
+.focus {
+    transform:scale(1.2)!important;
+    position:relative;
+    z-index:999!important;
+    background:white!important;
+}
+
 @media (min-width:992px) and (max-width:1199px) {
     p, .button-orange.button-orange-cards {
         font-size:10px!important;
@@ -61,3 +72,4 @@
         margin:auto;
     }
 }
+

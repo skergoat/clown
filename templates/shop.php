@@ -160,33 +160,165 @@
             <!-- search -->
             <aside class="col-2 m-0 p-0 d-xs-none d-sm-none d-lg-block">
                 <div class="themes-box">
-                    <div class="d-flex pointer">
+                    <div id="theme-cat" class="theme-btn d-flex pointer" data-url="cat">
                         <div class="border-fun border-fun-green mr-2"></div>
                         <div class="pl-0 pr-1 pb-2 pt-2 d-flex">
                             <img src="../assets/img/icone-categories.png" alt="" class="mr-2"/> 
                             <div class="d-flex align-items-center"><span class="d-block black font-14">Catégories</span></div>
                         </div>
                     </div>
-                    <div class="d-flex pointer">
+                    <div id="themes-open-cat" class="search-clik-open d-flex">
+                        <div class="border-fun border-fun__cat mr-2"></div>
+                        <ul id="ul-cat">
+                            <li>Accessoires deguisements</li>
+                            <li>Barbes moustaches</li>
+                            <li>Chapeau et coiffes</li>
+                            <li>Cotillons</li>
+                            <li>Decorations</li>
+                            <li>Deguisements</li>
+                            <li>Farces et attrapes</li>
+                            <li>Feux d'artifices</li>
+                            <li>Jouets - Gadgets</li>
+                            <li>Location</li>
+                            <li>Loups (demi-masques)</li>
+                            <li>Maquillages</li>
+                            <li>Masques</li>
+                            <li>Perruques</li>
+                            <li>Accessoires deguisements</li>
+                            <li>Barbes moustaches</li>
+                            <li>Chapeau et coiffes</li>
+                            <li>Cotillons</li>
+                            <li>Decorations</li>
+                            <li>Deguisements</li>
+                            <li>Farces et attrapes</li>
+                            <li>Feux d'artifices</li>
+                            <li>Jouets - Gadgets</li>
+                            <li>Location</li>
+                            <li>Loups (demi-masques)</li>
+                            <li>Maquillages</li>
+                            <li>Masques</li>
+                            <li>Perruques</li>
+                        </ul>
+                    </div>
+                    <div id="theme-theme" class="theme-btn d-flex pointer" data-url="themes">
                         <div class="border-fun border-fun-orange mr-2"></div>
                         <div class="pl-0 pr-1 pb-2 pt-2 d-flex">
                             <img src="../assets/img/icone-themes.png" alt="" class="mr-2"/> 
                             <div class="d-flex align-items-center"><span class="d-block black font-14">Thèmes</span></div>
                         </div>
                     </div>
-                    <div class="d-flex pointer">
+                    <div id="themes-open-themes" class="search-clik-open d-flex">
+                        <div class="border-fun border-fun__themes mr-2"></div>
+                        <ul id="ul-themes">
+                            <li>Accessoires deguisements</li>
+                            <li>Barbes moustaches</li>
+                            <li>Chapeau et coiffes</li>
+                            <li>Cotillons</li>
+                            <li>Decorations</li>
+                            <li>Deguisements</li>
+                            <li>Farces et attrapes</li>
+                            <li>Feux d'artifices</li>
+                            <li>Jouets - Gadgets</li>
+                            <li>Location</li>
+                            <li>Loups (demi-masques)</li>
+                            <li>Maquillages</li>
+                            <li>Masques</li>
+                            <li>Perruques</li>
+                            <li>Accessoires deguisements</li>
+                            <li>Barbes moustaches</li>
+                            <li>Chapeau et coiffes</li>
+                            <li>Cotillons</li>
+                            <li>Decorations</li>
+                            <li>Deguisements</li>
+                            <li>Farces et attrapes</li>
+                            <li>Feux d'artifices</li>
+                            <li>Jouets - Gadgets</li>
+                            <li>Location</li>
+                            <li>Loups (demi-masques)</li>
+                            <li>Maquillages</li>
+                            <li>Masques</li>
+                            <li>Perruques</li>
+                        </ul>
+                    </div>
+                    <div id="theme-location" class="theme-btn d-flex pointer" data-url="location">
                         <div class="border-fun border-fun-purple mr-2"></div>
                         <div class="pl-0 pr-1 pb-2 pt-2 d-flex">
                             <img src="../assets/img/icone-location.png" alt="" class="mr-2"/> 
                             <div class="d-flex align-items-center"><span class="d-block black font-14">Location</span></div>
                         </div>
                     </div>
-                    <div class="d-flex pointer">
+                    <div id="themes-open-location" class="search-clik-open d-flex">
+                        <div class="border-fun border-fun__location mr-2"></div>
+                        <ul id="ul-location">
+                            <li>Accessoires deguisements</li>
+                            <li>Barbes moustaches</li>
+                            <li>Chapeau et coiffes</li>
+                            <li>Cotillons</li>
+                            <li>Decorations</li>
+                            <li>Deguisements</li>
+                            <li>Farces et attrapes</li>
+                            <li>Feux d'artifices</li>
+                            <li>Jouets - Gadgets</li>
+                            <li>Location</li>
+                            <li>Loups (demi-masques)</li>
+                            <li>Maquillages</li>
+                            <li>Masques</li>
+                            <li>Perruques</li>
+                            <li>Accessoires deguisements</li>
+                            <li>Barbes moustaches</li>
+                            <li>Chapeau et coiffes</li>
+                            <li>Cotillons</li>
+                            <li>Decorations</li>
+                            <li>Deguisements</li>
+                            <li>Farces et attrapes</li>
+                            <li>Feux d'artifices</li>
+                            <li>Jouets - Gadgets</li>
+                            <li>Location</li>
+                            <li>Loups (demi-masques)</li>
+                            <li>Maquillages</li>
+                            <li>Masques</li>
+                            <li>Perruques</li>
+                        </ul>
+                    </div>
+                    <div id="theme-event" class="theme-btn d-flex pointer" data-url="event">
                         <div class="border-fun border-fun-red mr-2"></div>
                         <div class="pl-0 pr-1 pb-2 pt-2 d-flex">
                             <img src="../assets/img/icone-evenements.png" alt="" class="mr-2"/> 
                             <div class="d-flex align-items-center"><span class="d-block black font-14">Événements</span></div>
                         </div>
+                    </div>
+                    <div id="themes-open-event" class="search-clik-open d-flex">
+                        <div class="border-fun border-fun__event mr-2"></div>
+                        <ul id="ul-event">
+                            <li>Accessoires deguisements</li>
+                            <li>Barbes moustaches</li>
+                            <li>Chapeau et coiffes</li>
+                            <li>Cotillons</li>
+                            <li>Decorations</li>
+                            <li>Deguisements</li>
+                            <li>Farces et attrapes</li>
+                            <li>Feux d'artifices</li>
+                            <li>Jouets - Gadgets</li>
+                            <li>Location</li>
+                            <li>Loups (demi-masques)</li>
+                            <li>Maquillages</li>
+                            <li>Masques</li>
+                            <li>Perruques</li>
+                            <li>Accessoires deguisements</li>
+                            <li>Barbes moustaches</li>
+                            <li>Chapeau et coiffes</li>
+                            <li>Cotillons</li>
+                            <li>Decorations</li>
+                            <li>Deguisements</li>
+                            <li>Farces et attrapes</li>
+                            <li>Feux d'artifices</li>
+                            <li>Jouets - Gadgets</li>
+                            <li>Location</li>
+                            <li>Loups (demi-masques)</li>
+                            <li>Maquillages</li>
+                            <li>Masques</li>
+                            <li>Perruques</li>
+                        </ul>
                     </div>
                 </div>
                 <div class="b-shadow-right">
@@ -484,28 +616,28 @@
                 <!-- search -->
                 <aside id="aside-responsive" class="col-12 m-0 p-0 d-xs-block d-sm-block d-lg-none bgd-white">
                     <div class="themes-box">
-                        <div class="d-flex pointer">
+                        <div id="theme-cat" class="theme-btn d-flex pointer">
                             <div class="border-fun border-fun-green mr-2"></div>
                             <div class="pl-0 pr-1 pb-2 pt-2 d-flex">
                                 <img src="../assets/img/icone-categories.png" alt="" class="mr-2"/> 
                                 <div class="d-flex align-items-center"><span class="d-block black font-14">Catégories</span></div>
                             </div>
                         </div>
-                        <div class="d-flex pointer">
+                        <div id="theme-theme" class="theme-btn d-flex pointer">
                             <div class="border-fun border-fun-orange mr-2"></div>
                             <div class="pl-0 pr-1 pb-2 pt-2 d-flex">
                                 <img src="../assets/img/icone-themes.png" alt="" class="mr-2"/> 
                                 <div class="d-flex align-items-center"><span class="d-block black font-14">Thèmes</span></div>
                             </div>
                         </div>
-                        <div class="d-flex pointer">
+                        <div id="theme-location" class="theme-btn d-flex pointer">
                             <div class="border-fun border-fun-purple mr-2"></div>
                             <div class="pl-0 pr-1 pb-2 pt-2 d-flex">
                                 <img src="../assets/img/icone-location.png" alt="" class="mr-2"/> 
                                 <div class="d-flex align-items-center"><span class="d-block black font-14">Location</span></div>
                             </div>
                         </div>
-                        <div class="d-flex pointer">
+                        <div id="theme-event" class="theme-btn d-flex pointer">
                             <div class="border-fun border-fun-red mr-2"></div>
                             <div class="pl-0 pr-1 pb-2 pt-2 d-flex">
                                 <img src="../assets/img/icone-evenements.png" alt="" class="mr-2"/> 
@@ -692,6 +824,7 @@
         </script>
         <script src="../assets/js/custom-select.js"></script>
         <script src="../assets/js/cart.js"></script>
+        <script src="../assets/js/themes.js"></script>
     </body>
 </html>
 

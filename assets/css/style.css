@@ -11953,6 +11953,35 @@ aside {
 .border-fun-red {
   background: linear-gradient(to top, #FC5C65, #F8155B);
 }
+.border-fun__cat {
+  background: #15A5BF;
+  min-height: 100% !important;
+}
+.border-fun__themes {
+  background: #FD6044;
+  min-height: 100% !important;
+}
+.border-fun__location {
+  background: #C027CD;
+  min-height: 100% !important;
+}
+.border-fun__event {
+  background: #FC5C65;
+  min-height: 100% !important;
+}
+
+.search-clik-open {
+  max-height: 130px !important;
+  overflow-y: scroll !important;
+  height: 0px;
+}
+.search-clik-open ul li {
+  list-style-type: none;
+}
+
+.search-clik-open.active {
+  height: auto !important;
+}
 
 .search-box {
   max-height: 60vh !important;

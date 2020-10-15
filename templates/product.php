@@ -7,7 +7,10 @@
 <?php ob_start(); ?>
 <div class="row flex-xs-column flex-sm-column flex-md-row mx-auto content__product container-width p-xs-3 p-sm-5">
     <div class="col-xs-12 col-lg-6 mx-xs-auto pr-xs-none pt-lg-5 pb-lg-5 pr-lg-5 pl-0">
-        <img class="primary-img-top d-block mb-xs-4 mx-auto ml-lg-5 mr-lg-5 mt-lg-5" src="../assets/img/collant-orange.png" alt="Card image cap">
+        <div class="loupe-widget js-loupe">
+            <div class="loupe-widget__loupe js-loupe-element"></div>
+            <img class="loupe-widget__image js-loupe-image primary-img-top d-block mb-xs-4 mx-auto ml-lg-5 mr-lg-5 mt-lg-5" src="../assets/img/collant-orange.png" alt="Card image cap" data-image-full="../assets/img/collant-orange.png">
+        </div>
     </div>
     <div class="col-xs-12 col-lg-6 pr-xs-0 pr-lg-5">
         <div class="mr-lg-none mr-lg-4 mb-4">
@@ -209,6 +212,7 @@
     // activate link 
     let activeId = '#active-shop';
 </script>
+<script src="../assets/js/loupe.js"></script>
 <?php $script = ob_get_clean(); ?>
 
 <!-- include -->

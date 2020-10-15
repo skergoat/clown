@@ -11991,23 +11991,38 @@ aside {
   height: auto !important;
 }
 
-#ul-cat li.selected {
+.arrow-0 {
+  transform: rotate(0deg);
+}
+
+.selected > .arrow-0 {
+  display: block;
+  font-family: "nunito_sansbold";
+  transform: rotate(180deg);
+  position: relative;
+  top: 0.25rem;
+}
+
+#ul-ul-cat .selection {
   color: #2BCBBA !important;
   font-family: "nunito_sansbold";
 }
 
-#ul-themes li.selected {
+#ul-ul-themes .selection {
   color: #FD9644 !important;
   font-family: "nunito_sansbold";
 }
 
-#ul-location li.selected {
+#ul-ul-location .selection {
   color: #C027CD !important;
   font-family: "nunito_sansbold";
 }
 
-#ul-event li.selected {
+#ul-ul-event .selection {
   color: #FC5C65 !important;
+  font-family: "nunito_sansbold";
+}
+#ul-ul-event .selection .arrow-0 {
   font-family: "nunito_sansbold";
 }
 

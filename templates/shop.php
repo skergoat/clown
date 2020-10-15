@@ -559,85 +559,112 @@
                                     </div>
                                 </div>
                                 <div class="row m-0"> 
-                                    <div class="card-hover col-sm-12 col-md-6 col-lg-4 p-0 mb-xs-4 mb-sm-4 bgd-transparent" data-url="1">
-                                        <div class="br-10 bs-red pr-4 pb-4 pl-4 pt-3 mr-1 ml-1" id="card-1">
+                                    <div class="card-box col-sm-12 col-md-6 col-lg-4 p-0 mb-xs-4 mb-sm-4 bgd-transparent" style="position:relative;">
+                                        <div class="card-hover br-10 bs-red pr-4 pb-4 pl-4 pt-3 mr-1 ml-1" data-url="1">
                                             <img class="card-badge" src="../assets/img/badge-nouveaute.png" alt="Card image cap">
                                             <img class="card-img-top" src="../assets/img/witch.png" alt="Card image cap">
                                             <p class="bold text-center mb-2">Collier halloween</p>
                                             <p class="black text-center mb-3">Dès 3,95€</p>
-                                            <button class="btn button-orange button-orange-cards d-block mx-auto bold font-16">Voir le produit</button>
+                                            <div class="b-red info-plus" id="info-plus-1">
+                                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi ante risus, sagittis hendrerit varius sit amet, varius id neque. 
+                                            </div>
+                                            <button type="submit" class="btn button-orange button-orange-cards d-block mx-auto bold font-16">Voir le produit</button>
                                         </div> 
                                     </div>
-                                    <div class="card-hover col-sm-12 col-md-6 col-lg-4 p-0 mb-xs-4 mb-sm-4 bgd-transparent" data-url="2">
-                                        <div class="br-10 bs-red pr-4 pb-4 pl-4 pt-3 mr-1 ml-1" id="card-2">
+                                    <div class="card-box col-sm-12 col-md-6 col-lg-4 p-0 mb-xs-4 mb-sm-4 bgd-transparent" style="position:relative;">
+                                        <div class="card-hover br-10 bs-red pr-4 pb-4 pl-4 pt-3 mr-1 ml-1" data-url="2">
                                             <img class="card-img-top" src="../assets/img/collant-blanc.png" alt="Card image cap">
                                             <p class="bold text-center mb-2">Collants sorcière enfant fluo</p>
                                             <p class="black text-center mb-3">Dès 6,95€</p>
+                                            <div class="b-red info-plus" id="info-plus-2">
+                                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi ante risus, sagittis hendrerit varius sit amet, varius id neque. 
+                                            </div>
                                             <button class="btn button-orange button-orange-cards d-block mx-auto bold font-16">Voir le produit</button>
                                         </div>
                                     </div>
-                                    <div class="card-hover col-sm-12 col-md-6 col-lg-4 p-0 mb-xs-4 mb-sm-4 bgd-transparent" data-url="3">
-                                        <div class="br-10 bs-red pr-4 pb-4 pl-4 pt-3 mr-1 ml-1" id="card-3">
+                                    <div class="card-box col-sm-12 col-md-6 col-lg-4 p-0 mb-xs-4 mb-sm-4 bgd-transparent">
+                                        <div class="card-hover br-10 bs-red pr-4 pb-4 pl-4 pt-3 mr-1 ml-1" data-url="3">
                                             <img class="card-badge" src="../assets/img/badge-promo.png" alt="Card image cap">
                                             <img class="card-img-top" src="../assets/img/collant-rose.png" alt="Card image cap">
                                             <p class="bold text-center mb-2">Collants sorcière enfant fluo</p>
                                             <p class="bold text-center mb-2"><span class="text-line-through black">6,95€</span> <span class="black font-20 strong-pink">3,95€</span></p>
+                                            <div class="b-red info-plus" id="info-plus-3">
+                                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi ante risus, sagittis hendrerit varius sit amet, varius id neque.
+                                            </div>
                                             <button class="btn button-orange button-orange-cards d-block mx-auto bold font-16">Voir le produit</button>
                                         </div>
                                     </div>
-                                    <div class="card-hover col-sm-12 col-md-6 col-lg-4 p-0 mb-xs-4 mb-sm-4 bgd-transparent" data-url="4">
-                                        <div class="br-10 bs-red pr-4 pb-4 pl-4 pt-3 mr-1 ml-1" id="card-4">
+                                    <div class="card-box col-sm-12 col-md-6 col-lg-4 p-0 mb-xs-4 mb-sm-4 bgd-transparent">
+                                        <div class="card-hover br-10 bs-red pr-4 pb-4 pl-4 pt-3 mr-1 ml-1" data-url="4">
                                             <img class="card-img-top" src="../assets/img/collant-orange.png" alt="Card image cap">
                                             <p class="bold text-center mb-2">Collants sorcière enfant fluo</p>
                                             <p class="black text-center mb-3">Dès 6,95€</p>
+                                            <div class="b-red info-plus" id="info-plus-4">
+                                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi ante risus, sagittis hendrerit varius sit amet, varius id neque. 
+                                            </div>
                                             <button class="btn button-orange button-orange-cards d-block mx-auto bold font-16">Voir le produit</button>
                                         </div>
                                     </div>
-                                    <div class="card-hover col-sm-12 col-md-6 col-lg-4 p-0 mb-xs-4 mb-sm-4 bgd-transparent" data-url="5">
-                                        <div class="br-10 bs-red pr-4 pb-4 pl-4 pt-3 mr-1 ml-1" id="card-5">
+                                    <div class="card-box col-sm-12 col-md-6 col-lg-4 p-0 mb-xs-4 mb-sm-4 bgd-transparent">
+                                        <div class="card-hover br-10 bs-red pr-4 pb-4 pl-4 pt-3 mr-1 ml-1" data-url="5">
                                             <img class="card-img-top" src="../assets/img/noeud-pape.png" alt="Card image cap">
                                             <p class="bold text-center mb-2">Noeud papillon France</p>
                                             <p class="black text-center mb-3">Dès 6,95€</p>
+                                            <div class="b-red info-plus" id="info-plus-5">
+                                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi ante risus, sagittis hendrerit varius sit amet, varius id neque. 
+                                            </div>
                                             <button class="btn button-orange button-orange-cards d-block mx-auto bold font-16">Voir le produit</button>
                                         </div>
                                     </div>
-                                    <div class="card-hover col-sm-12 col-md-6 col-lg-4 p-0 mb-xs-4 mb-sm-4 bgd-transparent" data-url="6">
-                                        <div class="br-10 bs-red pr-4 pb-4 pl-4 pt-3 mr-1 ml-1" id="card-6">
+                                    <div class="card-box col-sm-12 col-md-6 col-lg-4 p-0 mb-xs-4 mb-sm-4 bgd-transparent">
+                                        <div class="card-hover br-10 bs-red pr-4 pb-4 pl-4 pt-3 mr-1 ml-1" data-url="6">
                                             <img class="card-badge" src="../assets/img/badge-occasion.png" alt="Card image cap">
                                             <img class="card-img-top" src="../assets/img/lunettes.png" alt="Card image cap">
                                             <p class="bold text-center mb-2">Lunettes disco avec boule argent</p>
                                             <p class="black text-center mb-3">Dès 6,95€</p>
+                                            <div class="b-red info-plus" id="info-plus-6">
+                                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi ante risus, sagittis hendrerit varius sit amet, varius id neque.
+                                            </div>
                                             <button class="btn button-orange button-orange-cards d-block mx-auto bold font-16">Voir le produit</button>
                                         </div>
                                     </div>
-                                    <div class="card-hover col-sm-12 col-md-6 col-lg-4 p-0 mb-xs-4 mb-sm-4 bgd-transparent" data-url="7">
-                                        <div class="br-10 bs-red pr-4 pb-4 pl-4 pt-3 mr-1 ml-1" id="card-7">
+                                    <div class="card-box col-sm-12 col-md-6 col-lg-4 p-0 mb-xs-4 mb-sm-4 bgd-transparent">
+                                        <div class="card-hover br-10 bs-red pr-4 pb-4 pl-4 pt-3 mr-1 ml-1" data-url="7">
                                             <img class="card-badge" src="../assets/img/badge-nouveaute.png" alt="Card image cap">
                                             <img class="card-img-top" src="../assets/img/img-ailes.png" alt="Card image cap">
                                             <p class="bold text-center mb-2">Ailes d’ange en plumes blanches</p>
                                             <p class="black text-center mb-3">Dès 3,95€</p>
+                                            <div class="b-red info-plus" id="info-plus-7">
+                                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi ante risus, sagittis hendrerit varius sit amet, varius id neque. 
+                                            </div>
                                             <button class="btn button-orange button-orange-cards d-block mx-auto bold font-16">Voir le produit</button>
                                         </div> 
                                     </div>
-                                    <div class="card-hover col-sm-12 col-md-6 col-lg-4 p-0 mb-xs-4 mb-sm-4 bgd-transparent" data-url="8">
-                                        <div class="br-10 bs-red pr-4 pb-4 pl-4 pt-3 mr-1 ml-1" id="card-8">
+                                    <div class="card-box col-sm-12 col-md-6 col-lg-4 p-0 mb-xs-4 mb-sm-4 bgd-transparent">
+                                        <div class="card-hover br-10 bs-red pr-4 pb-4 pl-4 pt-3 mr-1 ml-1" data-url="8">
                                             <img class="card-img-top" src="../assets/img/collier-or.png" alt="Card image cap">
                                             <p class="bold text-center mb-2">Bracelet danseuse de ventre</p>
                                             <p class="black text-center mb-3">Dès 6,95€</p>
+                                            <div class="b-red info-plus" id="info-plus-8">
+                                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi ante risus, sagittis hendrerit varius sit amet, varius id neque. 
+                                            </div>
                                             <button class="btn button-orange button-orange-cards d-block mx-auto bold font-16">Voir le produit</button>
                                         </div>
                                     </div>
-                                    <div class="card-hover col-sm-12 col-md-6 col-lg-4 p-0 mb-xs-4 mb-sm-4 bgd-transparent" data-url="9">
-                                        <div class="br-10 bs-red pr-4 pb-4 pl-4 pt-3 mr-1 ml-1" id="card-9">
+                                    <div class="card-box col-sm-12 col-md-6 col-lg-4 p-0 mb-xs-4 mb-sm-4 bgd-transparent">
+                                        <div class="card-hover br-10 bs-red pr-4 pb-4 pl-4 pt-3 mr-1 ml-1" data-url="9">
                                             <img class="card-badge" src="../assets/img/badge-promo.png" alt="Card image cap">
                                             <img class="card-img-top" src="../assets/img/crecelle.png" alt="Card image cap">
                                             <p class="bold text-center mb-2">Crecelle en bois double</p>
                                             <p class="black text-center mb-3">Dès 6,95€</p>
+                                            <div class="b-red info-plus" id="info-plus-9">
+                                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi ante risus, sagittis hendrerit varius sit amet, varius id neque. 
+                                            </div>
                                             <button class="btn button-orange button-orange-cards d-block mx-auto bold font-16">Voir le produit</button>
                                         </div>
                                     </div>
-                                    <div class="card-hover col-sm-12 col-md-6 col-lg-4 p-0 mb-xs-4 mb-sm-4 bgd-transparent" data-url="10">
-                                        <div class="br-10 bs-red pr-4 pb-4 pl-4 pt-3 mr-1 ml-1" id="card-10">
+                                    <div class="card-box col-sm-12 col-md-6 col-lg-4 p-0 mb-xs-4 mb-sm-4 bgd-transparent">
+                                        <div class="card-hover br-10 bs-red pr-4 pb-4 pl-4 pt-3 mr-1 ml-1" data-url="10">
                                             <img class="card-badge" src="../assets/img/badge-nouveaute.png" alt="Card image cap">
                                             <img class="card-img-top" src="../assets/img/truc.png" alt="Card image cap">
                                             <p class="bold text-center mb-2">Collier halloween</p>
@@ -645,24 +672,24 @@
                                             <button class="btn button-orange button-orange-cards d-block mx-auto bold font-16">Voir le produit</button>
                                         </div> 
                                     </div>
-                                    <div class="card-hover col-sm-12 col-md-6 col-lg-4 p-0 mb-xs-4 mb-sm-4 bgd-transparent" data-url="11">
-                                        <div class="br-10 bs-red pr-4 pb-4 pl-4 pt-3 mr-1 ml-1" id="card-11">
+                                    <div class="card-box col-sm-12 col-md-6 col-lg-4 p-0 mb-xs-4 mb-sm-4 bgd-transparent">
+                                        <div class="card-hover br-10 bs-red pr-4 pb-4 pl-4 pt-3 mr-1 ml-1" data-url="11">
                                             <img class="card-img-top" src="../assets/img/vampire.png" alt="Card image cap">
                                             <p class="bold text-center mb-2">Collants sorcière enfant fluo</p>
                                             <p class="black text-center mb-3">Dès 6,95€</p>
                                             <button class="btn button-orange button-orange-cards d-block mx-auto bold font-16">Voir le produit</button>
                                         </div>
                                     </div>
-                                    <div class="card-hover col-sm-12 col-md-6 col-lg-4 p-0 mb-xs-4 mb-sm-4 bgd-transparent" data-url="12">
-                                        <div class="br-10 bs-red pr-4 pb-4 pl-4 pt-3 mr-1 ml-1" id="card-12">
+                                    <div class="card-box col-sm-12 col-md-6 col-lg-4 p-0 mb-xs-4 mb-sm-4 bgd-transparent">
+                                        <div class="card-hover br-10 bs-red pr-4 pb-4 pl-4 pt-3 mr-1 ml-1" data-url="12">
                                             <img class="card-img-top" src="../assets/img/rose.png" alt="Card image cap">
                                             <p class="bold text-center mb-2">Collants sorcière enfant fluo</p>
                                             <p class="bold text-center mb-2"><span class="text-line-through black">6,95€</span> <span class="black font-20 strong-pink">3,95€</span></p>
                                             <button class="btn button-orange button-orange-cards d-block mx-auto bold font-16">Voir le produit</button>
                                         </div>
                                     </div>
-                                    <div class="card-hover col-sm-12 col-md-6 col-lg-4 p-0 mb-xs-4 mb-sm-4 bgd-transparent" data-url="13">
-                                        <div class="br-10 bs-red pr-4 pb-4 pl-4 pt-3 mr-1 ml-1" id="card-13">
+                                    <div class="card-box col-sm-12 col-md-6 col-lg-4 p-0 mb-xs-4 mb-sm-4 bgd-transparent">
+                                        <div class="card-hover br-10 bs-red pr-4 pb-4 pl-4 pt-3 mr-1 ml-1" data-url="13">
                                             <img class="card-badge" src="../assets/img/badge-nouveaute.png" alt="Card image cap">
                                             <img class="card-img-top" src="../assets/img/pirate.png" alt="Card image cap">
                                             <p class="bold text-center mb-2">Collier halloween</p>
@@ -670,16 +697,16 @@
                                             <button class="btn button-orange button-orange-cards d-block mx-auto bold font-16">Voir le produit</button>
                                         </div> 
                                     </div>
-                                    <div class="card-hover col-sm-12 col-md-6 col-lg-4 p-0 mb-xs-4 mb-sm-4 bgd-transparent" data-url="14">
-                                        <div class="br-10 bs-red pr-4 pb-4 pl-4 pt-3 mr-1 ml-1" id="card-14">
+                                    <div class="card-box col-sm-12 col-md-6 col-lg-4 p-0 mb-xs-4 mb-sm-4 bgd-transparent">
+                                        <div class="card-hover br-10 bs-red pr-4 pb-4 pl-4 pt-3 mr-1 ml-1" data-url="14">
                                             <img class="card-img-top" src="../assets/img/lilith.png" alt="Card image cap">
                                             <p class="bold text-center mb-2">Collants sorcière enfant fluo</p>
                                             <p class="black text-center mb-3">Dès 6,95€</p>
                                             <button class="btn button-orange button-orange-cards d-block mx-auto bold font-16">Voir le produit</button>
                                         </div>
                                     </div>
-                                    <div class="card-hover col-sm-12 col-md-6 col-lg-4 p-0 mb-xs-4 mb-sm-4 bgd-transparent" data-url="15">
-                                        <div class="br-10 bs-red pr-4 pb-4 pl-4 pt-3 mr-1 ml-1" id="card-15">
+                                    <div class="card-box col-sm-12 col-md-6 col-lg-4 p-0 mb-xs-4 mb-sm-4 bgd-transparent">
+                                        <div class="card-hover br-10 bs-red pr-4 pb-4 pl-4 pt-3 mr-1 ml-1" data-url="15">
                                             <img class="card-badge" src="../assets/img/badge-occasion.png" alt="Card image cap">
                                             <img class="card-img-top" src="../assets/img/leggin.png" alt="Card image cap">
                                             <p class="bold text-center mb-2">Collants sorcière enfant fluo</p>

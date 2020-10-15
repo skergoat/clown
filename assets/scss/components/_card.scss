@@ -18,16 +18,34 @@
     right:7%;
 }
 
+// click on card (shop page)
+.card-box {
+    position:relative!important;
+}
+
 .card-hover {
     cursor:pointer;
+    transition:0.3s ease-in-out;
+    background:white!important;
 }
 
 .focus {
     transform:scale(1.2)!important;
-    position:relative;
+    position:absolute;
     z-index:999!important;
-    background:white!important;
+    transition:0.3s ease-in-out;
 }
+
+.info-plus {
+    height:0px;
+    overflow:hidden;
+}
+
+.info-plus.open {
+    height:auto;
+    overflow:visible;
+}
+
 
 @media (min-width:992px) and (max-width:1199px) {
     p, .button-orange.button-orange-cards {

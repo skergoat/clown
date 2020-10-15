@@ -10320,7 +10320,7 @@ h3 {
 
 .navs {
   box-shadow: 2px -1px 5px 2px #eaedf4;
-  z-index: 999;
+  z-index: 999999999;
   position: fixed;
   background: white;
   width: 100vw;
@@ -11323,15 +11323,31 @@ input[type=number] {
   right: 7%;
 }
 
+.card-box {
+  position: relative !important;
+}
+
 .card-hover {
   cursor: pointer;
+  transition: 0.3s ease-in-out;
+  background: white !important;
 }
 
 .focus {
   transform: scale(1.2) !important;
-  position: relative;
+  position: absolute;
   z-index: 999 !important;
-  background: white !important;
+  transition: 0.3s ease-in-out;
+}
+
+.info-plus {
+  height: 0px;
+  overflow: hidden;
+}
+
+.info-plus.open {
+  height: auto;
+  overflow: visible;
 }
 
 @media (min-width: 992px) and (max-width: 1199px) {

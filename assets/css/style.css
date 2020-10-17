@@ -10522,17 +10522,17 @@ h3 {
     max-width: 450px;
   }
 }
-.footer-center-second .container div:nth-child(3) img {
+.footer-center-second .container div:nth-child(3) span {
   width: 20%;
   padding: 10px;
 }
 @media (min-width: 768px) {
-  .footer-center-second .container div:nth-child(3) img {
+  .footer-center-second .container div:nth-child(3) span {
     width: 17%;
   }
 }
 @media (min-width: 992px) {
-  .footer-center-second .container div:nth-child(3) img {
+  .footer-center-second .container div:nth-child(3) span {
     width: 10%;
   }
 }

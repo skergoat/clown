@@ -82,7 +82,7 @@
         }
         // 7 logos 
         &:nth-child(3) {
-            & img {
+            & span {
                 @include media-breakpoint-up(xs) { 
                     width:20%;
                     padding:10px;

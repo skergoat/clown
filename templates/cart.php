@@ -1,7 +1,7 @@
 <!-- titles -->
 <?php $title = "home" ?>
 <?php $mainTitle = "<h2 class='text-center black main-title-sm'>Panier</h2>" ?>
-<?php $previous = "<a class='black link-black' href='localhost:8888templates/home.php'><span class='mr-2 black chevron'><</span>Accueil</a>" ?>
+<?php $previous = "<a class='black link-black' href='http://localhost:8888/templates/home.php'><span class='mr-2 black chevron'><</span>Accueil</a>" ?>
 
 <!-- primary content  -->
 <?php ob_start(); ?>
@@ -152,17 +152,17 @@
                                                 <!-- submit -->
                                                 <div class="form-submit mt-4">
                                                     <!-- btn de demonstration -->
-                                                    <a href="localhost:8888templates/account.php" class="btn button-orange btn-white-outlined black" id="button-modal-2">Connexion</a> 
+                                                    <a href="http://localhost:8888/templates/account.php" class="btn button-orange btn-white-outlined black" id="button-modal-2">Connexion</a> 
                                                     <!-- btn definitif -->
                                                     <!-- <button type="submit" class="btn button-orange btn-white-outlined black" id="button-modal" data-toggle="modal" data-target="#validate">Connexion</button> -->
                                                 </div>
                                             </form>
                                             <h5 class="font-18 bold mb-3 mt-4 text-center">Ou</h5>
-                                            <div class="no-connect mt-3"><a href="localhost:8888templates/signin.php" class="bold font-17">Créer un compte</a></div>
+                                            <div class="no-connect mt-3"><a href="http://localhost:8888/templates/signin.php" class="bold font-17">Créer un compte</a></div>
                                         </div>
                                         <!-- right -->
                                         <div class="col-md-12 col-lg-6 d-flex flex-column justify-content-center modal-right pb-4">
-                                            <div class="no-connect mt-4"><a href="localhost:8888templates/summary.php" class="bold font-17">Continuer sans créer de compte <span class='ml-2 black chevron'>></span></a></div>
+                                            <div class="no-connect mt-4"><a href="http://localhost:8888/templates/summary.php" class="bold font-17">Continuer sans créer de compte <span class='ml-2 black chevron'>></span></a></div>
                                         </div>
                                     </div>         
                                 </div>

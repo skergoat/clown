@@ -33,15 +33,15 @@
                <!-- menu -->
                <div class="nav__primary">
                     <div class="d-flex justify-content-between nav__wrapper">
-                        <a href="localhost:8888/templates/home.php">
+                        <a href="http://localhost:8888/templates/home.php">
                             <img src="../assets/img/logo.png" class="logo d-md-block d-lg-block d-none pt-3 pb-3">
                             <img src="../assets/img/logo-responsive.png" class="logo d-md-none d-lg-none pt-2 pb-2">
                         </a>
                         <ul class="d-none d-lg-flex mb-0 list menu">
-                            <li id="active-home"><a href="localhost:8888/templates/home.php" class="d-flex align-items-center font-weight-bold link-black black">Accueil</a><div class="border-bottom-menu"></div></li>
-                            <li id="active-shop" class="ml-4"><a href="localhost:8888/templates/shop.php" class="d-flex align-items-center link-black black">Boutique</a><div class="border-bottom-menu"></div></li>
-                            <li id="active-infos" class="ml-4"><a href="localhost:8888/templates/infos.php" class="d-flex align-items-center link-black black">Infos Pratiques</a><div class="border-bottom-menu"></div></li>
-                            <li id="active-contact" class="ml-4"><a href="localhost:8888/templates/contact.php"  class="d-flex align-items-center link-black black pr-1">Contact</a><div class="border-bottom-menu"></div></li>
+                            <li id="active-home"><a href="http://localhost:8888/templates/home.php" class="d-flex align-items-center font-weight-bold link-black black">Accueil</a><div class="border-bottom-menu"></div></li>
+                            <li id="active-shop" class="ml-4"><a href="http://localhost:8888/templates/shop.php" class="d-flex align-items-center link-black black">Boutique</a><div class="border-bottom-menu"></div></li>
+                            <li id="active-infos" class="ml-4"><a href="http://localhost:8888/templates/infos.php" class="d-flex align-items-center link-black black">Infos Pratiques</a><div class="border-bottom-menu"></div></li>
+                            <li id="active-contact" class="ml-4"><a href="http://localhost:8888/templates/contact.php"  class="d-flex align-items-center link-black black pr-1">Contact</a><div class="border-bottom-menu"></div></li>
                             <li id="active-cart" class="ml-4"><a class="d-flex align-items-center link-black hover-no-change black pr-1"><span class="badge badge-danger bold">2</span><i id="cart-popup-btn" class="icon-basket"></i></a><div class="border-bottom-menu"></div></li>
                         </ul>
                         <!-- Navigation links (hidden by default) -->
@@ -57,10 +57,10 @@
                     </div>
                     <div id="menu-responsive" class="inactive">
                         <ul class="mb-0 p-0 list" id="menu-responsive__ul">
-                            <li><a href="localhost:8888/templates/home.php" class="font-weight-bold link-black hover d-block pl-4 p-2">Accueil</a></li>
-                            <li><a href="localhost:8888/templates/shop.php" class="font-weight-bold link-black hover d-block pl-4 p-2">Boutique</a></li>
-                            <li><a href="localhost:8888/templates/infos.php" class="font-weight-bold link-black hover d-block pl-4 p-2">Infos Pratiques</a></li>
-                            <li><a href="localhost:8888/templates/contact.php"  class="font-weight-bold link-black hover d-block pl-4 p-2">Contact</a></li>
+                            <li><a href="http://localhost:8888/templates/home.php" class="font-weight-bold link-black hover d-block pl-4 p-2">Accueil</a></li>
+                            <li><a href="http://localhost:8888/templates/shop.php" class="font-weight-bold link-black hover d-block pl-4 p-2">Boutique</a></li>
+                            <li><a href="http://localhost:8888/templates/infos.php" class="font-weight-bold link-black hover d-block pl-4 p-2">Infos Pratiques</a></li>
+                            <li><a href="http://localhost:8888/templates/contact.php"  class="font-weight-bold link-black hover d-block pl-4 p-2">Contact</a></li>
                         </ul>
                     </div>
                </div>
@@ -87,14 +87,14 @@
                <!-- menu -->
                <div class="nav__primary">
                     <div class="d-flex justify-content-between nav__wrapper">
-                        <a href="localhost:8888/templates/home.php">
+                        <a href="http://localhost:8888/templates/home.php">
                             <img src="../assets/img/logo.png" class="logo d-md-block d-lg-block d-none pt-3 pb-3">
                             <img src="../assets/img/logo-responsive.png" class="logo d-md-none d-lg-none pt-2 pb-2">
                         </a>
                         <ul class="d-none d-lg-flex mb-0 list menu">
-                            <li><a href="localhost:8888/templates/home.php" class="d-flex align-items-center font-weight-bold link-black black">Accueil</a><div class="border-bottom-menu"></div></li>
-                            <li class="ml-4"><a href="localhost:8888/templates/product.php" class="d-flex align-items-center link-black black">Boutique</a><div class="border-bottom-menu"></div></li>
-                            <li class="ml-4"><a href="localhost:8888/templates/infos.php" class="d-flex align-items-center link-black black">Infos Pratiques</a><div class="border-bottom-menu"></div></li>
+                            <li><a href="http://localhost:8888/templates/home.php" class="d-flex align-items-center font-weight-bold link-black black">Accueil</a><div class="border-bottom-menu"></div></li>
+                            <li class="ml-4"><a href="http://localhost:8888/templates/product.php" class="d-flex align-items-center link-black black">Boutique</a><div class="border-bottom-menu"></div></li>
+                            <li class="ml-4"><a href="http://localhost:8888/templates/infos.php" class="d-flex align-items-center link-black black">Infos Pratiques</a><div class="border-bottom-menu"></div></li>
                             <li class="ml-4"><a href="#" class="d-flex align-items-center link-black black pr-1">Contact</a><div class="border-bottom-menu"></div></li>
                             <li class="ml-4"><a href="#" class="d-flex align-items-center link-black hover-no-change black pr-1"><i class="icon-basket"></i></a><div class="border-bottom-menu"></div></li>
                         </ul>
@@ -285,7 +285,7 @@
                                     <!-- submit -->
                                     <div class="form-submit mt-4">
                                         <!-- btn de demonstration -->
-                                        <a href="localhost:8888/templates/account.php" class="btn button-orange btn-white-outlined black" id="button-modal-2">Connexion</a> 
+                                        <a href="http://localhost:8888/templates/account.php" class="btn button-orange btn-white-outlined black" id="button-modal-2">Connexion</a> 
                                         <!-- btn definitif -->
                                         <!-- <button type="submit" class="btn button-orange btn-white-outlined black" id="button-modal" data-toggle="modal" data-target="#validate">Connexion</button> -->
                                     </div>
@@ -314,7 +314,7 @@
             // temporary cart button 
             $('#to-cart').on('click', function(e) {
                 e.preventDefault();
-                window.location.href = "localhost:8888/templates/cart.php";
+                window.location.href = "http://localhost:8888/templates/cart.php";
             });
         </script>
         <script src="../assets/js/cart.js"></script>

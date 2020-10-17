@@ -352,7 +352,7 @@
                     </div>
                     <div class="form-submit ml-3">
                         <!-- btn provisoire -->
-                        <a href="https://skergoat.com/clown/templates/payment.php" class="btn button-orange black">Valider</a>
+                        <a href="http://localhost:8888/templates/payment.php" class="btn button-orange black">Valider</a>
                         <!-- btn définitif -->
                         <!-- <button type="submit" class="btn button-orange btn-cart black">Valider</button> -->
                     </div>

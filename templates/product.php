@@ -1,7 +1,7 @@
 <!-- titles -->
 <?php $title = "home" ?>
 <?php $mainTitle = "<h2 class='text-center black main-title-sm mb-3'>Collants sorcière enfant fluo</h2>" ?>
-<?php $previous = "<a class='black link-black' href='localhost:8888/templates/shop.php'><span class='mr-2 black chevron'><</span>Boutique</a>" ?>
+<?php $previous = "<a class='black link-black' href='http://localhost:8888/templates/shop.php'><span class='mr-2 black chevron'><</span>Boutique</a>" ?>
 
 <!-- primary content  -->
 <?php ob_start(); ?>

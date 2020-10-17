@@ -155,7 +155,7 @@
         <!-- paypal -->
         <div class="col-lg-2 mb-xs-3 mb-sm-3 pl-0 pr-xs-0 pr-xs-none pr-sm-0 pr-lg-3">
             <div id="shipping-relais" class="payment-choice shipping-choice pt-2 pb-2 pr-0 pl-0 choice-selected pointer" data-url="relais">
-                <img src="../assets/img/point-relais.png" alt="logo relais">
+                <div><img src="../assets/img/point-relais.png" alt="logo relais"></div>
             </div>
             <!-- radio -->
             <div class="mt-2 d-flex justify-content-center">
@@ -189,7 +189,7 @@
                 <div class="w-100">
                     <div class="form-row align-items-sm-center flex-xs-column flex-sm-column flex-xl-row pt-xs-3"> 
                         <div class="d-xs-block d-sm-block d-md-flex col-auto p-0">
-                            <img src="../assets/img/big-logo-point-relais.png" alt="logo point relais" class="d-block mx-xs-auto mr-sm-3" id="big-logo-relais">
+                            <div><img src="../assets/img/big-logo-point-relais.png" alt="logo point relais" class="d-block mx-xs-auto mr-sm-3" id="big-logo-relais"></div>
                             <div class="d-xs-block d-flex align-items-center mr-xs-0 mr-sm-3 mt-xs-4">
                                 <label for="cityname" class="bold font-13 pr-3 mb-0">Ville</label>
                                 <input type="text" class="search form-control w-100 mb-0 font-12" id="cityname" value="Paris">
@@ -219,7 +219,7 @@
                 <!-- </form> -->
             </div>
             <div class="search-result row d-sm-flex mt-5 mt-xl-4 p-0 m-0">
-                <div class="search-text flex-column flex-md-row flex-lg-row flex-xl-column d-flex mb-4 mb-xl-0">
+                <div class="d-xs-flex d-sm-flex d-xl-block"> 
                     <div class="search-text pl-0 col-xl-12 col-lg-12 d-flex flex-column">
                         <div>
                             <p class="search-text__title bold mb-2">1- L’univers du mobile</p>
@@ -352,7 +352,7 @@
                     </div>
                     <div class="form-submit ml-3">
                         <!-- btn provisoire -->
-                        <a href="http://localhost:8888/templates/payment.php" class="btn button-orange black">Valider</a>
+                        <a href="https://skergoat.com/clown/templates/payment.php" class="btn button-orange black">Valider</a>
                         <!-- btn définitif -->
                         <!-- <button type="submit" class="btn button-orange btn-cart black">Valider</button> -->
                     </div>

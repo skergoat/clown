@@ -33,15 +33,15 @@
                <!-- menu -->
                <div class="nav__primary">
                     <div class="d-flex justify-content-between nav__wrapper">
-                        <a href="http://localhost:8888/templates/home.php">
+                        <a href="localhost:8888/templates/home.php">
                             <img src="../assets/img/logo.png" class="logo d-md-block d-lg-block d-none pt-3 pb-3">
                             <img src="../assets/img/logo-responsive.png" class="logo d-md-none d-lg-none pt-2 pb-2">
                         </a>
                         <ul class="d-none d-lg-flex mb-0 list menu">
-                            <li id="active-home"><a href="http://localhost:8888/templates/home.php" class="d-flex align-items-center font-weight-bold link-black black">Accueil</a><div class="border-bottom-menu"></div></li>
-                            <li id="active-shop" class="ml-4"><a href="http://localhost:8888/templates/shop.php" class="d-flex align-items-center link-black black">Boutique</a><div class="border-bottom-menu"></div></li>
-                            <li id="active-infos" class="ml-4"><a href="http://localhost:8888/templates/infos.php" class="d-flex align-items-center link-black black">Infos Pratiques</a><div class="border-bottom-menu"></div></li>
-                            <li id="active-contact" class="ml-4"><a href="http://localhost:8888/templates/contact.php"  class="d-flex align-items-center link-black black pr-1">Contact</a><div class="border-bottom-menu"></div></li>
+                            <li id="active-home"><a href="localhost:8888/templates/home.php" class="d-flex align-items-center font-weight-bold link-black black">Accueil</a><div class="border-bottom-menu"></div></li>
+                            <li id="active-shop" class="ml-4"><a href="localhost:8888/templates/shop.php" class="d-flex align-items-center link-black black">Boutique</a><div class="border-bottom-menu"></div></li>
+                            <li id="active-infos" class="ml-4"><a href="localhost:8888/templates/infos.php" class="d-flex align-items-center link-black black">Infos Pratiques</a><div class="border-bottom-menu"></div></li>
+                            <li id="active-contact" class="ml-4"><a href="localhost:8888/templates/contact.php"  class="d-flex align-items-center link-black black pr-1">Contact</a><div class="border-bottom-menu"></div></li>
                             <li id="active-cart" class="ml-4"><a href="#" class="d-flex align-items-center link-black hover-no-change black pr-1"><span class="badge badge-danger bold">2</span><i id="cart-popup-btn" class="icon-basket"></i></a><div class="border-bottom-menu"></div></li>
                         </ul>
                         <!-- Navigation links (hidden by default) -->
@@ -57,10 +57,10 @@
                     </div>
                     <div id="menu-responsive" class="inactive">
                         <ul class="mb-0 p-0 list" id="menu-responsive__ul">
-                            <li><a href="http://localhost:8888/templates/home.php" class="font-weight-bold link-black hover d-block pl-4 p-2">Accueil</a></li>
-                            <li><a href="http://localhost:8888/templates/shop.php" class="font-weight-bold link-black hover d-block pl-4 p-2">Boutique</a></li>
-                            <li><a href="http://localhost:8888/templates/infos.php" class="font-weight-bold link-black hover d-block pl-4 p-2">Infos Pratiques</a></li>
-                            <li><a href="http://localhost:8888/templates/contact.php"  class="font-weight-bold link-black hover d-block pl-4 p-2">Contact</a></li>
+                            <li><a href="localhost:8888/templates/home.php" class="font-weight-bold link-black hover d-block pl-4 p-2">Accueil</a></li>
+                            <li><a href="localhost:8888/templates/shop.php" class="font-weight-bold link-black hover d-block pl-4 p-2">Boutique</a></li>
+                            <li><a href="localhost:8888/templates/infos.php" class="font-weight-bold link-black hover d-block pl-4 p-2">Infos Pratiques</a></li>
+                            <li><a href="localhost:8888/templates/contact.php"  class="font-weight-bold link-black hover d-block pl-4 p-2">Contact</a></li>
                         </ul>
                     </div>
                </div>
@@ -87,14 +87,14 @@
                <!-- menu -->
                <div class="nav__primary">
                     <div class="d-flex justify-content-between nav__wrapper">
-                        <a href="http://localhost:8888/templates/home.php">
+                        <a href="localhost:8888/templates/home.php">
                             <img src="../assets/img/logo.png" class="logo d-md-block d-lg-block d-none pt-3 pb-3">
                             <img src="../assets/img/logo-responsive.png" class="logo d-md-none d-lg-none pt-2 pb-2">
                         </a>
                         <ul class="d-none d-lg-flex mb-0 list menu">
-                            <li><a href="http://localhost:8888/templates/home.php" class="d-flex align-items-center font-weight-bold link-black black">Accueil</a><div class="border-bottom-menu"></div></li>
-                            <li class="ml-4"><a href="http://localhost:8888/templates/product.php" class="d-flex align-items-center link-black black">Boutique</a><div class="border-bottom-menu"></div></li>
-                            <li class="ml-4"><a href="http://localhost:8888/templates/infos.php" class="d-flex align-items-center link-black black">Infos Pratiques</a><div class="border-bottom-menu"></div></li>
+                            <li><a href="localhost:8888/templates/home.php" class="d-flex align-items-center font-weight-bold link-black black">Accueil</a><div class="border-bottom-menu"></div></li>
+                            <li class="ml-4"><a href="localhost:8888/templates/product.php" class="d-flex align-items-center link-black black">Boutique</a><div class="border-bottom-menu"></div></li>
+                            <li class="ml-4"><a href="localhost:8888/templates/infos.php" class="d-flex align-items-center link-black black">Infos Pratiques</a><div class="border-bottom-menu"></div></li>
                             <li class="ml-4"><a href="#" class="d-flex align-items-center link-black black pr-1">Contact</a><div class="border-bottom-menu"></div></li>
                             <li class="ml-4"><a href="#" class="d-flex align-items-center link-black hover-no-change black pr-1"><i class="icon-basket" id="icon-basket-btn"></i></a><div class="border-bottom-menu"></div></li>
                         </ul>
@@ -131,7 +131,7 @@
                 <div class="cart-pop__body pb-2 pt-2 pr-1 pl-1">
                     <div class="cart-items-inside">
                         <div class="d-flex">
-                            <img src="../assets/img/collant-blanc.png" class="d-block" alt="Card image cap">
+                            <div><img src="../assets/img/collant-blanc.png" class="d-block" alt="Card image cap"></div>
                             <div>
                                 <span class="font-11 regular">Collant sorciere enfant...</span>
                                 <div class="d-flex justify-content-between">
@@ -141,7 +141,7 @@
                             </div>
                         </div>
                         <div class="d-flex">
-                            <img src="../assets/img/noeud-pape.png" class="d-block" alt="Card image cap">
+                            <div><img src="../assets/img/noeud-pape.png" class="d-block" alt="Card image cap"></div>
                             <div>
                                 <span class="font-11 regular">Noeud papillon France</span>
                                 <div class="d-flex justify-content-between">
@@ -151,7 +151,7 @@
                             </div>
                         </div>
                     </div>
-                    <a href="http://localhost:8888/templates/cart.php" type="submit" class="btn button-orange btn-cart bold mx-auto d-block mt-3 font-13">Voir le panier</a>
+                    <button type="submit" class="btn button-orange btn-cart bold mx-auto d-block mt-3 font-13" id="to-cart">Voir le panier</button>
                 </div>
             </div>
         </div>
@@ -163,7 +163,7 @@
                     <div id="theme-cat" class="theme-btn d-flex pointer" data-url="cat">
                         <div class="border-fun border-fun-green mr-2"></div>
                         <div class="pl-0 pr-1 pb-2 pt-2 d-flex">
-                            <img src="../assets/img/icone-categories.png" alt="" class="mr-2"/> 
+                            <div><img src="../assets/img/icone-categories.png" alt="" class="mr-2"/> </div>
                             <div class="d-flex align-items-center"><span class="d-block black font-14">Catégories</span></div>
                         </div>
                     </div>
@@ -223,7 +223,7 @@
                     <div id="theme-theme" class="theme-btn d-flex pointer" data-url="themes">
                         <div class="border-fun border-fun-orange mr-2"></div>
                         <div class="pl-0 pr-1 pb-2 pt-2 d-flex">
-                            <img src="../assets/img/icone-themes.png" alt="" class="mr-2"/> 
+                            <div><img src="../assets/img/icone-themes.png" alt="" class="mr-2"/> </div>
                             <div class="d-flex align-items-center"><span class="d-block black font-14">Thèmes</span></div>
                         </div>
                     </div>
@@ -283,7 +283,7 @@
                     <div id="theme-location" class="theme-btn d-flex pointer" data-url="location">
                         <div class="border-fun border-fun-purple mr-2"></div>
                         <div class="pl-0 pr-1 pb-2 pt-2 d-flex">
-                            <img src="../assets/img/icone-location.png" alt="" class="mr-2"/> 
+                            <div><img src="../assets/img/icone-location.png" alt="" class="mr-2"/> </div>
                             <div class="d-flex align-items-center"><span class="d-block black font-14">Location</span></div>
                         </div>
                     </div>
@@ -343,7 +343,7 @@
                     <div id="theme-event" class="theme-btn d-flex pointer" data-url="event">
                         <div class="border-fun border-fun-red mr-2"></div>
                         <div class="pl-0 pr-1 pb-2 pt-2 d-flex">
-                            <img src="../assets/img/icone-evenements.png" alt="" class="mr-2"/> 
+                            <div><img src="../assets/img/icone-evenements.png" alt="" class="mr-2"/> </div>
                             <div class="d-flex align-items-center"><span class="d-block black font-14">Événements</span></div>
                         </div>
                     </div>
@@ -505,7 +505,7 @@
                                                 <p class="bold text-center mb-2">Collier halloween</p>
                                                 <p class="black text-center mb-3">Dès 3,95€</p>
                                                 <!-- <button class="btn button-orange button-orange-cards d-block mx-auto bold font-16">Voir le produit</button> -->
-                                                <a href="http://localhost:8888/templates/product.php" class="btn button-orange button-orange-cards d-block mx-auto bold font-16" style="margin-top:20px;">Voir le produit</a>
+                                                <a href="localhost:8888/templates/product.php" class="btn button-orange button-orange-cards d-block mx-auto bold font-16" style="margin-top:20px;">Voir le produit</a>
                                             </div>
                                             <div class="p-3 mr-1 bs-red br-10 card-product bgd-white">
                                                 <img class="card-badge" src="../assets/img/badge-promo.png" alt="Card image cap">
@@ -584,7 +584,7 @@
                                                     </div>
                                                 </div>
                                             </div>
-                                            <a href="http://localhost:8888/templates/product.php" class="btn button-orange button-orange-cards d-block mx-auto bold font-16" style="max-width:200px;">Voir le produit</a>
+                                            <a href="localhost:8888/templates/product.php" class="btn button-orange button-orange-cards d-block mx-auto bold font-16" style="max-width:200px;">Voir le produit</a>
                                             <!-- <button type="submit" class="btn button-orange button-orange-cards d-block mx-auto bold font-16">Voir le produit</button> -->
                                         </div> 
                                     </div>
@@ -612,7 +612,7 @@
                                                     </div>
                                                 </div>
                                             </div>
-                                            <a href="http://localhost:8888/templates/product.php" class="btn button-orange button-orange-cards d-block mx-auto bold font-16" style="max-width:200px;">Voir le produit</a>
+                                            <a href="localhost:8888/templates/product.php" class="btn button-orange button-orange-cards d-block mx-auto bold font-16" style="max-width:200px;">Voir le produit</a>
                                             <!-- <button type="submit" class="btn button-orange button-orange-cards d-block mx-auto bold font-16">Voir le produit</button> -->
                                         </div>
                                     </div>
@@ -641,7 +641,7 @@
                                                     </div>
                                                 </div>
                                             </div>
-                                            <a href="http://localhost:8888/templates/product.php" class="btn button-orange button-orange-cards d-block mx-auto bold font-16" style="max-width:200px;">Voir le produit</a>
+                                            <a href="localhost:8888/templates/product.php" class="btn button-orange button-orange-cards d-block mx-auto bold font-16" style="max-width:200px;">Voir le produit</a>
                                             <!-- <button type="submit" class="btn button-orange button-orange-cards d-block mx-auto bold font-16">Voir le produit</button> -->
                                         </div>
                                     </div>
@@ -669,7 +669,7 @@
                                                     </div>
                                                 </div>
                                             </div>
-                                            <a href="http://localhost:8888/templates/product.php" class="btn button-orange button-orange-cards d-block mx-auto bold font-16" style="max-width:200px;">Voir le produit</a>
+                                            <a href="localhost:8888/templates/product.php" class="btn button-orange button-orange-cards d-block mx-auto bold font-16" style="max-width:200px;">Voir le produit</a>
                                             <!-- <button type="submit" class="btn button-orange button-orange-cards d-block mx-auto bold font-16">Voir le produit</button> -->
                                         </div>
                                     </div>
@@ -697,7 +697,7 @@
                                                     </div>
                                                 </div>
                                             </div>
-                                            <a href="http://localhost:8888/templates/product.php" class="btn button-orange button-orange-cards d-block mx-auto bold font-16" style="max-width:200px;">Voir le produit</a>
+                                            <a href="localhost:8888/templates/product.php" class="btn button-orange button-orange-cards d-block mx-auto bold font-16" style="max-width:200px;">Voir le produit</a>
                                             <!-- <button type="submit" class="btn button-orange button-orange-cards d-block mx-auto bold font-16">Voir le produit</button> -->
                                         </div>
                                     </div>
@@ -726,7 +726,7 @@
                                                     </div>
                                                 </div>
                                             </div>
-                                            <a href="http://localhost:8888/templates/product.php" class="btn button-orange button-orange-cards d-block mx-auto bold font-16" style="max-width:200px;">Voir le produit</a>
+                                            <a href="localhost:8888/templates/product.php" class="btn button-orange button-orange-cards d-block mx-auto bold font-16" style="max-width:200px;">Voir le produit</a>
                                             <!-- <button type="submit" class="btn button-orange button-orange-cards d-block mx-auto bold font-16">Voir le produit</button> -->
                                         </div>
                                     </div>
@@ -755,7 +755,7 @@
                                                     </div>
                                                 </div>
                                             </div>
-                                            <a href="http://localhost:8888/templates/product.php" class="btn button-orange button-orange-cards d-block mx-auto bold font-16" style="max-width:200px;">Voir le produit</a>
+                                            <a href="localhost:8888/templates/product.php" class="btn button-orange button-orange-cards d-block mx-auto bold font-16" style="max-width:200px;">Voir le produit</a>
                                             <!-- <button type="submit" class="btn button-orange button-orange-cards d-block mx-auto bold font-16">Voir le produit</button> -->
                                         </div> 
                                     </div>
@@ -783,7 +783,7 @@
                                                     </div>
                                                 </div>
                                             </div>
-                                            <a href="http://localhost:8888/templates/product.php" class="btn button-orange button-orange-cards d-block mx-auto bold font-16" style="max-width:200px;">Voir le produit</a>
+                                            <a href="localhost:8888/templates/product.php" class="btn button-orange button-orange-cards d-block mx-auto bold font-16" style="max-width:200px;">Voir le produit</a>
                                             <!-- <button type="submit" class="btn button-orange button-orange-cards d-block mx-auto bold font-16">Voir le produit</button> -->
                                         </div>
                                     </div>
@@ -812,7 +812,7 @@
                                                     </div>
                                                 </div>
                                             </div>
-                                            <a href="http://localhost:8888/templates/product.php" class="btn button-orange button-orange-cards d-block mx-auto bold font-16" style="max-width:200px;">Voir le produit</a>
+                                            <a href="localhost:8888/templates/product.php" class="btn button-orange button-orange-cards d-block mx-auto bold font-16" style="max-width:200px;">Voir le produit</a>
                                             <!-- <button type="submit" class="btn button-orange button-orange-cards d-block mx-auto bold font-16">Voir le produit</button> -->
                                         </div>
                                     </div>
@@ -841,7 +841,7 @@
                                                     </div>
                                                 </div>
                                             </div>
-                                            <a href="http://localhost:8888/templates/product.php" class="btn button-orange button-orange-cards d-block mx-auto bold font-16" style="max-width:200px;">Voir le produit</a>
+                                            <a href="localhost:8888/templates/product.php" class="btn button-orange button-orange-cards d-block mx-auto bold font-16" style="max-width:200px;">Voir le produit</a>
                                             <!-- <button type="submit" class="btn button-orange button-orange-cards d-block mx-auto bold font-16">Voir le produit</button> -->
                                         </div> 
                                     </div>
@@ -869,7 +869,7 @@
                                                     </div>
                                                 </div>
                                             </div>
-                                            <a href="http://localhost:8888/templates/product.php" class="btn button-orange button-orange-cards d-block mx-auto bold font-16" style="max-width:200px;">Voir le produit</a>
+                                            <a href="localhost:8888/templates/product.php" class="btn button-orange button-orange-cards d-block mx-auto bold font-16" style="max-width:200px;">Voir le produit</a>
                                             <!-- <button type="submit" class="btn button-orange button-orange-cards d-block mx-auto bold font-16">Voir le produit</button> -->
                                         </div>
                                     </div>
@@ -897,7 +897,7 @@
                                                     </div>
                                                 </div>
                                             </div>
-                                            <a href="http://localhost:8888/templates/product.php" class="btn button-orange button-orange-cards d-block mx-auto bold font-16" style="max-width:200px;">Voir le produit</a>
+                                            <button type="submit" class="btn button-orange btn-cart bold mx-auto d-block mt-3 font-13" id="to-cart">Voir le panier</button> 
                                             <!-- <button type="submit" class="btn button-orange button-orange-cards d-block mx-auto bold font-16">Voir le produit</button> -->
                                         </div>
                                     </div>
@@ -996,7 +996,7 @@
                         <div id="theme-cat" class="theme-btn d-flex pointer" data-url="cat-res">
                             <div class="border-fun border-fun-green mr-2"></div>
                             <div class="pl-0 pr-1 pb-2 pt-2 d-flex">
-                                <img src="../assets/img/icone-categories.png" alt="" class="mr-2"/> 
+                                <div><img src="../assets/img/icone-categories.png" alt="" class="mr-2"/></div>
                                 <div class="d-flex align-items-center"><span class="d-block black font-14">Catégories</span></div>
                             </div>
                         </div>
@@ -1056,7 +1056,7 @@
                         <div id="theme-theme" class="theme-btn d-flex pointer" data-url="themes-res">
                             <div class="border-fun border-fun-orange mr-2"></div>
                             <div class="pl-0 pr-1 pb-2 pt-2 d-flex">
-                                <img src="../assets/img/icone-themes.png" alt="" class="mr-2"/> 
+                                <div><img src="../assets/img/icone-themes.png" alt="" class="mr-2"/></div> 
                                 <div class="d-flex align-items-center"><span class="d-block black font-14">Thèmes</span></div>
                             </div>
                         </div>
@@ -1116,7 +1116,7 @@
                         <div id="theme-location" class="theme-btn d-flex pointer" data-url="location-res">
                             <div class="border-fun border-fun-purple mr-2"></div>
                             <div class="pl-0 pr-1 pb-2 pt-2 d-flex">
-                                <img src="../assets/img/icone-location.png" alt="" class="mr-2"/> 
+                                <div><img src="../assets/img/icone-location.png" alt="" class="mr-2"/></div>
                                 <div class="d-flex align-items-center"><span class="d-block black font-14">Location</span></div>
                             </div>
                         </div>
@@ -1176,7 +1176,7 @@
                         <div id="theme-event" class="theme-btn d-flex pointer" data-url="event-res">
                             <div class="border-fun border-fun-red mr-2"></div>
                             <div class="pl-0 pr-1 pb-2 pt-2 d-flex">
-                                <img src="../assets/img/icone-evenements.png" alt="" class="mr-2"/> 
+                                <div><img src="../assets/img/icone-evenements.png" alt="" class="mr-2"/></div>
                                 <div class="d-flex align-items-center"><span class="d-block black font-14">Événements</span></div>
                             </div>
                         </div>
@@ -1404,6 +1404,11 @@
             if(activeId != "#active-cart") {
                 $(activeId + ' a').addClass('activated');
             }
+            // temporary cart button 
+            $('#to-cart').on('click', function(e) {
+                e.preventDefault();
+                window.location.href = "localhost:8888/templates/cart.php";
+            });
         </script>
         <script>
             // select

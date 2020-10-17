@@ -1,7 +1,7 @@
 <!-- titles -->
 <?php $title = "home" ?>
 <?php $mainTitle = "<h2 class='text-center black main-title-sm mb-3'>Paiement</h2>" ?>
-<?php $previous = "<a class='black link-black' href='http://localhost:8888/templates/home.php'><span class='mr-2 black chevron'><</span>Accueil</a>" ?>
+<?php $previous = "<a class='black link-black' href='localhost:8888/templates/home.php'><span class='mr-2 black chevron'><</span>Accueil</a>" ?>
 
 <!-- primary content  -->
 <?php ob_start(); ?>
@@ -21,7 +21,7 @@
                     <!-- credit card -->
                     <div class="col-lg-6 mb-xs-3 mb-sm-3 pl-0 pr-xs-0 pr-xs-none pr-sm-0 pr-lg-3">
                         <div id="payment-creditcard" class="payment-choice p-4 pointer choice-selected" data-url="creditcard">
-                            <img src="../assets/img/credit-card-icon.png" class="icon-single d-block mx-auto mb-3 mt-1" alt="logo lydia">
+                            <div><img src="../assets/img/credit-card-icon.png" class="icon-single d-block mx-auto mb-3 mt-1" alt="logo lydia"></div>
                             <p class="black font-16 text-center mb-1">Carte Bancaire (Lydia)</p>
                             <p class="light font-12 text-center">Paiement sécurisé</p>
                             <div class="d-flex justify-content-center">

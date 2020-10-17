@@ -1,7 +1,7 @@
 <!-- titles -->
 <?php $title = "home" ?>
 <?php $mainTitle = "<h2 class='text-center black main-title-sm mb-3'>Récapitulatif de ma commande</h2>" ?>
-<?php $previous = "<a class='black link-black' href='http://localhost:8888/templates/cart.php'><span class='mr-2 black chevron'><</span>Panier</a>" ?>
+<?php $previous = "<a class='black link-black' href='localhost:8888/templates/cart.php'><span class='mr-2 black chevron'><</span>Panier</a>" ?>
 
 <!-- primary content  -->
 <?php ob_start(); ?>

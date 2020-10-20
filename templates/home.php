@@ -1,5 +1,5 @@
 <?php ob_start(); ?>
-<div class="demo">
+<div class="demo" id="slider-top">
     <ul id="lightSlider">
         <li data-thumb="https://sachinchoolur.github.io/lightslider/img/thumb/cS-1.jpg">
             <img src="../assets/img/slide-1.jpg" />
@@ -69,6 +69,20 @@
             <!-- title -->
             <h5 class="black pb-2 bgd-yellow m-0 pb-4 mx-mille mx-auto">Découvrez nos produits</h5>
             <!-- cards 1 -->
+            <div class="demo" id="slider-cards">
+                <ul id="cardSlider">
+                    <li data-thumb="https://sachinchoolur.github.io/lightslider/img/thumb/cS-1.jpg">
+                        <img src="../assets/img/promos-card.png" class="img-fluid bs-red card-first" alt="Responsive image">
+                    </li>
+                    <li data-thumb="https://sachinchoolur.github.io/lightslider/img/thumb/cS-2.jpg">
+                        <img class="card-badge" src="../assets/img/badge-promo.png" alt="Card image cap">
+                        <img class="card-img-top" src="../assets/img/collant-blanc.png" alt="Card image cap">
+                        <p class="bold text-center mb-2">Collants sorcière enfant fluo</p>
+                        <p class="black text-center mb-3">Des <span style="text-decoration:line-through;" class="black">6,95€</span> <span class="black font-20 strong-pink">3,95€</span></p>
+                        <button class="btn button-orange button-orange-cards d-block mx-auto bold font-16">Voir le produit</button>
+                    </li>
+                </ul>
+            </div>
             <div class="row bgd-yellow pb-3">
                 <div class="bgd-transparent chevron chevron-left d-flex align-items-center font-23">
                     <i class="icon-left-open pointer"></i>
@@ -219,7 +233,6 @@
 
 <!-- JS  --> 
 <?php ob_start(); ?>
-<script src="../assets/js/slider.js"></script>
 <script>
     // active link 
     let activeId = '#active-home'; 

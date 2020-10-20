@@ -7,9 +7,10 @@
         <!-- fonts -->
         <link rel="stylesheet" href="../assets/fonts/fontello/css/fontello.css">
         <!-- stylesheet -->
+        <link type="text/css" rel="stylesheet" href="../../vendor/lightslider/src/css/lightslider.css" />                  
         <link rel="stylesheet" href="../assets/css/style.css">
         <!-- leaflet -->
-        <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
+        <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />        
     </head>
     <body>
         <div class="cookies font-13 p-2 pr-4 bgd-white">Ce site web utilise les cookies. En navigant sur notre site, vous acceptez notre <a href="#" class="link-black bold font-13">politique de confidentialité</a>.<i class="icon-cancel ml-1 pointer" id="close-cookie" style="color:black!important"></i></div>
@@ -154,6 +155,7 @@
                 </div>
             </div>
         </div>
+        
         <!-- content -->
        <?= $content ?>
        
@@ -300,6 +302,17 @@
         <!-- script -->
         <script src="../assets/js/menu-responsive.js"></script>
         <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+        <!-- slider -->
+        <script src="../../vendor/lightslider/src/js/lightslider.js"></script>
+        <script type="text/javascript">
+        $('#lightSlider').lightSlider({
+            // gallery: true,
+            item: 1,
+            loop:true,
+            slideMargin: 0,
+            // thumbItem: 9
+        });
+        </script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
         <?= $script ?>
         <script src="../assets/js/parallax.js"></script>

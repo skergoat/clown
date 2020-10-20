@@ -1,0 +1,36 @@
+.demo {
+    width:100%!important;
+}
+// controls container 
+.lSAction {
+    position:static !important;
+}
+// controls 
+.lSAction > .lSNext, .lSAction > .lSPrev {
+    background-size:cover;
+}
+.lSAction > a {
+    background-image:none;
+}
+.lSNext {
+    background-image:url('../img/control-right.png')!important;
+}
+
+.lSPrev {
+    background-image:url('../img/control-left.png')!important;
+}
+// controls bottom 
+.lSSlideOuter {
+    position:relative;
+}
+.lSPager.lSpg {
+    position:absolute;
+    top:90%;
+    width: 100%;
+}
+.lSSlideOuter .lSPager.lSpg > li a {
+    background-color:#A8A8A8;
+}
+.lSSlideOuter .lSPager.lSpg > li:hover a, .lSSlideOuter .lSPager.lSpg > li.active a {
+    background-color:white;
+}

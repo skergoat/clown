@@ -1,6 +1,24 @@
 <?php ob_start(); ?>
+<div class="demo">
+    <ul id="lightSlider">
+        <li data-thumb="https://sachinchoolur.github.io/lightslider/img/thumb/cS-1.jpg">
+            <img src="../assets/img/slide-1.jpg" />
+            <div style="position:absolute;top:65%;width:100%;">
+                <h5 class="black pb-3 slider-control-title">Une rentrée à prix cassé ! Découvrez nos meilleures promos !</h5>
+                <button class="btn btn-pink bold font-15 pl-4 pr-4 d-block mx-auto">Découvrir</button>
+            </div>
+        </li>
+        <li data-thumb="https://sachinchoolur.github.io/lightslider/img/thumb/cS-2.jpg">
+            <img src="../assets/img/slide-2.jpg" />
+            <div style="position:absolute;top:65%;width:100%;">
+                <h5 class="black pb-3 slider-control-title">Une rentrée à prix vraiment cassé ! Découvrez nos meilleures promos !</h5>
+                <button class="btn btn-pink bold font-15 pl-4 pr-4 d-block mx-auto">Découvrir</button>
+            </div>
+        </li>
+    </ul>
+</div>
 <!-- slider -->
-<section class="d-flex align-items-center" id="slider" style="position:relative;">
+<!-- <section class="d-flex align-items-center" id="slider" style="position:relative;">
     <div class="slider-arrows w-100 d-flex justify-content-between bgd-transparent">
         <div class="chevron d-flex align-items-center font-23 bgd-transparent pl-xs-2 pl-5"><i class="icon-slider icon-left-open pointer"></i></div>
         <div class="chevron d-flex align-items-center font-23 bgd-transparent pr-xs-2 pr-5"><i class="icon-slider icon-right-open pointer"></i></div>
@@ -18,7 +36,7 @@
         </div>
     </div>
     <img class="img-fluid img-placeholder" src="../assets/img/placeholder.jpg" alt="" />
-</section>
+</section>-->
 <!-- themes logos -->
 <section class="pt-0">
     <div class="container">

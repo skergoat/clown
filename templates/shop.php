@@ -1372,13 +1372,13 @@
                                     <img src="../assets/img/trustpilot-responsive.png" class="d-md-none d-lg-none mx-auto pt-5 pb-4">
                                 </div>
                                 <div class="partner-2 pt-2 pb-4 d-flex flex-wrap justify-content-lg-between justify-content-xs-start">
-                                    <img src="../assets/img/logo-lydia.png">
-                                    <img src="../assets/img/logo-paypal.png">
-                                    <img src="../assets/img/logo-visa.png">
-                                    <img src="../assets/img/logo-mastercard.png">
-                                    <img src="../assets/img/logo-americanexpress.png">
-                                    <img src="../assets/img/logo-colissimo.png" class="">
-                                    <img src="../assets/img/logo-chronopost.png" class="">
+                                    <span class="d-block"><img src="../assets/img/logo-lydia.png" style="width:100%"></span>
+                                    <span class="d-block"><img src="../assets/img/logo-paypal.png" style="width:100%"></span>
+                                    <span class="d-block"><img src="../assets/img/logo-visa.png" style="width:100%"></span>
+                                    <span class="d-block"><img src="../assets/img/logo-mastercard.png" style="width:100%"></span>
+                                    <span class="d-block"><img src="../assets/img/logo-americanexpress.png" style="width:100%"></span>
+                                    <span class="d-block"><img src="../assets/img/logo-colissimo.png" style="width:100%"></span>
+                                    <span class="d-block"><img src="../assets/img/logo-chronopost.png" style="width:100%"></span>
                                 </div>            
                             </div>
                     </div>

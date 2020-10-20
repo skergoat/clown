@@ -42,11 +42,11 @@
                             <li id="active-shop" class="ml-4"><a href="http://localhost:8888/templates/shop.php" class="d-flex align-items-center link-black black">Boutique</a><div class="border-bottom-menu"></div></li>
                             <li id="active-infos" class="ml-4"><a href="http://localhost:8888/templates/infos.php" class="d-flex align-items-center link-black black">Infos Pratiques</a><div class="border-bottom-menu"></div></li>
                             <li id="active-contact" class="ml-4"><a href="http://localhost:8888/templates/contact.php"  class="d-flex align-items-center link-black black pr-1">Contact</a><div class="border-bottom-menu"></div></li>
-                            <li id="active-cart" class="ml-4"><a href="#" class="d-flex align-items-center link-black hover-no-change black pr-1"><span class="badge badge-danger bold">2</span><i id="cart-popup-btn" class="icon-basket"></i></a><div class="border-bottom-menu"></div></li>
+                            <li id="active-cart" class="ml-4"><a href="#" class="d-flex align-items-center link-black hover-no-change black pr-1"><span class="badge badge-danger bold">2</span><i id="cart-popup-btn" class="icon-basket pointer"></i></a><div class="border-bottom-menu"></div></li>
                         </ul>
                         <!-- Navigation links (hidden by default) -->
                         <div class="d-xs-flex d-sm-flex d-md-flex d-lg-none d-flex">
-                            <a href="#" id="active-cart" class="d-flex align-items-center font-weight-bold link-black hover-no-change pr-1" style="position:relative;"><span class="badge badge-danger bold">2</span><i id="cart-popup-btn" class="icon-basket"></i></a>
+                            <a href="#" id="active-cart" class="d-flex align-items-center font-weight-bold link-black hover-no-change pr-1" style="position:relative;"><span class="badge badge-danger bold">2</span><i id="cart-popup-btn" class="icon-basket pointer"></i></a>
                             <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
                             <div class="hamburger">
                                 <div class="icon hamburger__link" id="open-menu">
@@ -96,11 +96,11 @@
                             <li class="ml-4"><a href="http://localhost:8888/templates/product.php" class="d-flex align-items-center link-black black">Boutique</a><div class="border-bottom-menu"></div></li>
                             <li class="ml-4"><a href="http://localhost:8888/templates/infos.php" class="d-flex align-items-center link-black black">Infos Pratiques</a><div class="border-bottom-menu"></div></li>
                             <li class="ml-4"><a href="#" class="d-flex align-items-center link-black black pr-1">Contact</a><div class="border-bottom-menu"></div></li>
-                            <li class="ml-4"><a href="#" class="d-flex align-items-center link-black hover-no-change black pr-1"><i class="icon-basket" id="icon-basket-btn"></i></a><div class="border-bottom-menu"></div></li>
+                            <li class="ml-4"><a href="#" class="d-flex align-items-center link-black hover-no-change black pr-1"><i class="icon-basket pointer" id="icon-basket-btn"></i></a><div class="border-bottom-menu"></div></li>
                         </ul>
                         <!-- Navigation links (hidden by default) -->
                         <div class="d-xs-flex d-sm-flex d-md-flex d-lg-none d-flex">
-                            <a href="#" class="d-flex align-items-center font-weight-bold link-black hover-no-change pr-1 mr-3"><i class="icon-basket" id="icon-basket-btn"></i></a>
+                            <a href="#" class="d-flex align-items-center font-weight-bold link-black hover-no-change pr-1 mr-3"><i class="icon-basket pointer" id="icon-basket-btn"></i></a>
                             <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
                             <div class="hamburger">
                                 <div class="icon hamburger__link" id="open-menu">
@@ -125,7 +125,7 @@
             <div class="cart-pop__arrow mx-auto"></div>
             <div class="">
                 <div class="cart-pop__head d-flex justify-content-between p-1">
-                    <div id="cart-popup"><span class="badge badge-danger bold">2</span><i class="icon-basket"></i></div>
+                    <div id="cart-popup"><span class="badge badge-danger bold">2</span><i class="icon-basket pointer"></i></div>
                     <div class="font-13 black">Total : <span class="black" style="color:#FD9644;">10,90€</span></div>
                 </div>
                 <div class="cart-pop__body pb-2 pt-2 pr-1 pl-1">

@@ -29,17 +29,19 @@
                             </ul>
                         </div>
                         <div class="connection" style="position:relative">
-                            <div id="flag-popup" class="cart-pop bgd-white p-2">
+                            <div class="flag-popup cart-pop bgd-white p-2">
                                 <div class="flag-popup-arrow mx-auto"></div>
-                                <img src="../assets/img/flag-en.png" class="flag flag-center">
+                                <img src="../assets/img/flag-fr.png" class="flag flag-center flag-bottom flag-bottom-fr" data-url="en">
+                                <img src="../assets/img/flag-en.png" class="flag flag-center flag-bottom flag-bottom-en flag-active" data-url="fr">
                             </div>
-                            <img src="../assets/img/flag-fr.png" class="flag flag-active mr-3">
+                            <img src="../assets/img/flag-fr.png" class="flag flag-top-fr flag-current mr-3"> 
+                            <img src="../assets/img/flag-en.png" class="flag flag-top-en mr-3">
                             <a class="font-weight-bold link-black bold" href="#" id="link-modal" data-toggle="modal" data-target="#connection"> Se connecter</a> ou <a class="link-black font-weight-bold bold" href="http://localhost:8888/templates/signin.php">S'inscrire</a>
                         </div>
                    </div>
                </div>
                <!-- menu -->
-               <div class="nav__primary">
+               <div class="nav__primary" style="position:relative;">
                     <div class="d-flex justify-content-between nav__wrapper">
                         <a href="http://localhost:8888/templates/home.php">
                             <img src="../assets/img/logo.png" class="logo d-md-block d-lg-block d-none pt-3 pb-3">
@@ -71,7 +73,40 @@
                             <li><a href="http://localhost:8888/templates/contact.php"  class="font-weight-bold link-black hover d-block pl-4 p-2">Contact</a></li>
                         </ul>
                     </div>
-               </div>
+                    <div id="cart-popup-window" class="cart-pop bgd-white p-2">
+                <div class="cart-pop__arrow mx-auto"></div>
+                    <div class="">
+                        <div class="cart-pop__head d-flex justify-content-between p-1">
+                            <div id="cart-popup"><span class="badge badge-danger bold">2</span><i class="icon-basket icon-basket"></i></div>
+                            <div class="font-13 black">Total : <span class="black" style="color:#FD9644;">10,90€</span></div>
+                        </div>
+                        <div class="cart-pop__body pb-2 pt-2 pr-1 pl-1">
+                            <div class="cart-items-inside">
+                                <div class="d-flex">
+                                    <div><img src="../assets/img/collant-blanc.png" class="d-block" alt="Card image cap"></div>
+                                    <div>
+                                        <span class="font-11 regular">Collant sorciere enfant...</span>
+                                        <div class="d-flex justify-content-between">
+                                            <span class="d-block black font-11">6,95€</span>
+                                            <span class="d-block font-11">Quantité : 1</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="d-flex">
+                                    <div><img src="../assets/img/noeud-pape.png" class="d-block" alt="Card image cap"></div>
+                                    <div>
+                                        <span class="font-11 regular">Noeud papillon France</span>
+                                        <div class="d-flex justify-content-between">
+                                            <span class="d-block black font-11">3,95€</span>
+                                            <span class="d-block font-11">Quantité : 1</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <button type="submit" class="btn button-orange btn-cart bold mx-auto d-block mt-3 font-13" id="to-cart">Voir le panier</button> 
+                        </div>
+                    </div>
+                </div>
             </div>
        </header>
 
@@ -128,40 +163,6 @@
                </div>
             </div>
        </header>
-       <div id="cart-popup-window" class="cart-pop bgd-white p-2">
-            <div class="cart-pop__arrow mx-auto"></div>
-            <div class="">
-                <div class="cart-pop__head d-flex justify-content-between p-1">
-                    <div id="cart-popup"><span class="badge badge-danger bold">2</span><i class="icon-basket icon-basket"></i></div>
-                    <div class="font-13 black">Total : <span class="black" style="color:#FD9644;">10,90€</span></div>
-                </div>
-                <div class="cart-pop__body pb-2 pt-2 pr-1 pl-1">
-                    <div class="cart-items-inside">
-                        <div class="d-flex">
-                            <div><img src="../assets/img/collant-blanc.png" class="d-block" alt="Card image cap"></div>
-                            <div>
-                                <span class="font-11 regular">Collant sorciere enfant...</span>
-                                <div class="d-flex justify-content-between">
-                                    <span class="d-block black font-11">6,95€</span>
-                                    <span class="d-block font-11">Quantité : 1</span>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="d-flex">
-                            <div><img src="../assets/img/noeud-pape.png" class="d-block" alt="Card image cap"></div>
-                            <div>
-                                <span class="font-11 regular">Noeud papillon France</span>
-                                <div class="d-flex justify-content-between">
-                                    <span class="d-block black font-11">3,95€</span>
-                                    <span class="d-block font-11">Quantité : 1</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <button type="submit" class="btn button-orange btn-cart bold mx-auto d-block mt-3 font-13" id="to-cart">Voir le panier</button> 
-                </div>
-            </div>
-        </div>
         
         <!-- content -->
        <?= $content ?>
@@ -343,5 +344,6 @@
         </script>
         <script src="../assets/js/cart.js"></script>
         <script src="../assets/js/cookie.js"></script>
+        <script src="../assets/js/flag.js"></script>
     </body>
 </html>

@@ -11409,10 +11409,10 @@ input[type=number] {
 .cart-pop {
   width: 200px;
   height: auto;
-  position: fixed;
+  position: absolute;
   z-index: 1030;
   right: 1.5%;
-  top: 100px;
+  top: 65px;
   box-shadow: 0px 4px 12px 5px rgba(167, 28, 28, 0.21) !important;
   border-radius: 10px;
 }
@@ -11528,13 +11528,21 @@ input[type=number] {
 .flag {
   max-width: 20px;
   cursor: pointer;
+  display: none;
 }
 .flag-center {
-  display: block;
   margin: auto;
 }
 
-#flag-popup {
+.flag-current {
+  display: inline-block;
+}
+
+.flag-active {
+  display: block;
+}
+
+.flag-popup {
   width: 50px;
   height: 50px;
   position: absolute;
@@ -11544,6 +11552,11 @@ input[type=number] {
   box-shadow: 0px 4px 12px 5px rgba(167, 28, 28, 0.21) !important;
   border-radius: 10px;
   cursor: pointer;
+  display: none;
+}
+
+.open {
+  display: block !important;
 }
 
 .flag-popup-arrow {

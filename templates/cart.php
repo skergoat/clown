@@ -146,7 +146,7 @@
                                                         Mot de passe invalide
                                                     </div>
                                                     <div class="pull-left mt-2">
-                                                        <span class="font-13 forgotten-password"><a href="#" class="sbold">Mot de passe oublié ?</a></span>
+                                                        <span class="font-13 forgotten-password"><a href="http://localhost:8888/templates/forgotPassword.php" class="sbold">Mot de passe oublié ?</a></span>
                                                     </div>
                                                 </div>
                                                 <!-- submit -->

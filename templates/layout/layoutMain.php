@@ -28,7 +28,7 @@
                                 <li class="mr-2"><a href="#" class="link-black"><i class="icon-instagram"></i></a></li>
                             </ul>
                         </div>
-                        <div class="connection"><a class="font-weight-bold link-black bold" href="" id="link-modal" data-toggle="modal" data-target="#connection"> Se connecter</a> ou <a class="link-black font-weight-bold bold" href="http://localhost:8888/templates/signin.php">S'inscrire</a></div>
+                        <div class="connection"><a class="font-weight-bold link-black bold" href="#" id="link-modal" data-toggle="modal" data-target="#connection"> Se connecter</a> ou <a class="link-black font-weight-bold bold" href="http://localhost:8888/templates/signin.php">S'inscrire</a></div>
                    </div>
                </div>
                <!-- menu -->
@@ -281,7 +281,7 @@
                                             Mot de passe invalide
                                         </div>
                                         <div class="pull-left mt-2">
-                                            <span class="font-13 forgotten-password"><a href="#" class="sbold">Mot de passe oublié ?</a></span>
+                                            <span class="font-13 forgotten-password"><a href="http://localhost:8888/templates/forgotPassword.php" class="sbold">Mot de passe oublié ?</a></span>
                                         </div>
                                     </div>
                                     <!-- submit -->

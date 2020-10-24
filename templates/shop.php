@@ -27,7 +27,7 @@
                                 <li class="mr-2"><a href="#" class="link-black"><i class="icon-instagram"></i></a></li>
                             </ul>
                         </div>
-                        <div class="connection"><a class="font-weight-bold link-black bold" href="" id="link-modal" data-toggle="modal" data-target="#connection"> Se connecter</a> ou <a class="link-black font-weight-bold bold" href="http://localhost:8888/templates/signin.php">S'inscrire</a></div>
+                        <div class="connection"><a class="font-weight-bold link-black bold" href="#" id="link-modal" data-toggle="modal" data-target="#connection"> Se connecter</a> ou <a class="link-black font-weight-bold bold" href="http://localhost:8888/templates/signin.php">S'inscrire</a></div>
                    </div>
                </div>
                <!-- menu -->
@@ -81,7 +81,7 @@
                                 <li class="mr-2"><a href="#" class="link-black"><i class="icon-instagram"></i></a></li>
                             </ul>
                         </div>
-                        <div class="connection"><a class="font-weight-bold link-black bold" href="#"> Se connecter</a> ou <a class="link-black font-weight-bold bold" href="#">S'inscrire</a></div>
+                        <div class="connection"><a class="font-weight-bold link-black bold" href="#" id="link-modal" data-toggle="modal" data-target="#connection"> Se connecter</a> ou <a class="link-black font-weight-bold bold" href="http://localhost:8888/templates/signin.php">S'inscrire</a></div>
                    </div>
                </div>
                <!-- menu -->
@@ -1387,6 +1387,62 @@
                             Copyright © Clown Montmartre 2020. Tous droits réservés.
                     </div>
                 </footer>
+                <!-- Bootstrap Modal -->
+                <div class="modal fade" id="connection" role="dialog">
+                    <div class="modal-dialog modal-connect modal-lg">
+                            <!-- content -->
+                        <div class="modal-content">
+                            <!-- header -->
+                            <div class="modal-header p-0">
+                                <div class="row mr-0 ml-0">
+                                    <div class="col-6"></div>
+                                    <div class="col-6">
+                                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- body -->
+                            <div class="modal-body p-0">
+                                <div class="row pr-0 pl-0 mr-0 ml-0">
+                                    <!-- left -->
+                                    <div class="col-12 pl-5 pr-5 modal-left">
+                                        <h5 class="font-18 bold mb-3 text-center">Se Connecter</h5>
+                                        <form action="#" method="post">
+                                            <!-- login -->
+                                            <div class="form-group">
+                                                <label for="exampleInputPassword1" class="font-14 sbold">Identifiant</label>
+                                                <input type="text" class="form-control form-large font-13 is-invalid" name="login" id="login">
+                                                <!-- error message -->
+                                                <div class="invalid-feedback">
+                                                    identifiant invalide
+                                                </div>
+                                            </div>
+                                            <!-- mdp -->
+                                            <div class="form-group">
+                                                <label for="exampleInputPassword1" class="font-14 sbold">Mot de passe</label>
+                                                <input type="password" class="form-control form-large font-13" name="password" id="password">
+                                                <!-- error message -->
+                                                <div class="invalid-feedback">
+                                                    Mot de passe invalide
+                                                </div>
+                                                <div class="pull-left mt-2">
+                                                    <span class="font-13 forgotten-password"><a href="http://localhost:8888/templates/forgotPassword.php" class="sbold">Mot de passe oublié ?</a></span>
+                                                </div>
+                                            </div>
+                                            <!-- submit -->
+                                            <div class="form-submit mt-4">
+                                                <!-- btn de demonstration -->
+                                                <a href="http://localhost:8888/templates/account.php" class="btn button-orange btn-white-outlined black" id="button-modal-2">Connexion</a> 
+                                                <!-- btn definitif -->
+                                                <!-- <button type="submit" class="btn button-orange btn-white-outlined black" id="button-modal" data-toggle="modal" data-target="#validate">Connexion</button> -->
+                                            </div>
+                                        </form>
+                                    </div>
+                                </div>         
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
         <!-- end modal -->

@@ -19,6 +19,13 @@ function selectChoiceBox($element){
     // then add check radio 
     $('.payment-selection:not(#'+data).prop('checked', false);
     $('#'+data).prop('checked', true);
+    // colissimo option 
+    if($('#colissimo').is(':checked')) { 
+        $('.dropdown.dropdown-reception').addClass('active');
+    }
+    else {
+        $('.dropdown.dropdown-reception').removeClass('active');
+    }
 }
 
 // click 
@@ -29,3 +36,6 @@ $('.'+$val+'-selection').on('click', function() {
 $('.'+$val+'-choice').on('click', function() {
     selectChoiceBox(this);
 });
+
+
+

@@ -11785,6 +11785,13 @@ input[type=number] {
   color: #FD9644 !important;
 }
 
+.dropdown.dropdown-reception {
+  display: none !important;
+}
+.dropdown.dropdown-reception.active {
+  display: block !important;
+}
+
 #map {
   display: block;
   min-width: 100%;

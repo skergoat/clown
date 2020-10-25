@@ -138,6 +138,17 @@
                     <span class="form-check-input form-check-input__pay checkmark"></span>
                 </div>
             </div>
+            <!-- reception options -->
+            <div class="dropdown dropdown-reception mt-3 mx-auto">
+                <button class="btn dropdown-color btn-sm dropdown-toggle regular d-block mx-auto mt-2" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Lieu de réception
+                </button>
+                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                    <a class="dropdown-item d-flex justify-content-between" href="#">Domicile</a>
+                    <a class="dropdown-item d-flex justify-content-between" href="#">Commerçant</a>
+                    <a class="dropdown-item d-flex justify-content-between" href="#">La Poste</a>
+                </div>
+            </div>
         </div>
         <!-- paypal -->
         <div class="col-lg-2 mb-xs-3 mb-sm-3 pl-0 pr-xs-0 pr-xs-none pr-sm-0 pr-lg-3">

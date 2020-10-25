@@ -62,6 +62,14 @@
     }
 }
 
+// reception options 
+.dropdown.dropdown-reception {
+    display:none!important;
+    &.active {
+        display:block!important;
+    }
+}
+
 #map {
     
     @include media-breakpoint-up(xs) { 

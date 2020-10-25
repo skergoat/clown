@@ -82,7 +82,10 @@
                 <p class="font-13 light pt-5 text-center">En validant la commande, vous acceptez les <span class="black">Conditions Générales de Vente</span>.</p>
                 <!-- submit -->
                 <div class="form-submit mt-4 d-flex justify-content-center">
-                    <button type="submit" class="btn button-orange black font-14">Régler ma commande</button>
+                    <!-- button provisoire -->
+                    <a href="http://localhost:8888/templates/confirm.php" type="submit" class="btn button-orange black font-14">Régler ma commande</a>
+                    <!-- button definitif -->
+                    <!-- <button type="submit" class="btn button-orange black font-14">Régler ma commande</button> -->
                 </div>
             </form>
         </div>

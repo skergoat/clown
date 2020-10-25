@@ -1,0 +1,25 @@
+.table.table-confirm th, table.table-confirm td {
+    border:0px!important;
+    padding-top:10px;
+    padding-bottom:15px;
+}
+
+// map 
+#maps {
+    @include media-breakpoint-up(xs) { 
+        display:block;
+        min-width: 100%; 
+        height: 400px;
+        margin-left:0px;
+    }
+    @include media-breakpoint-up(lg) { 
+        display:block;
+        margin-left:0%;
+    }
+    @include media-breakpoint-up(xl) { 
+        display:block;
+        min-width: 200px; 
+        height: 200px;
+        // margin-left:12%;
+    }
+}

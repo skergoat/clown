@@ -1,14 +1,14 @@
 <!-- titles -->
 <?php $title = "récapitulatif" ?>
-<?php $mainTitle = "<h2 class='text-center black main-title-sm mb-3'>Récapitulatif de ma commande</h2>" ?>
-<?php $previous = "<a class='black link-black' href='http://localhost:8888/templates/cart.php'><span class='mr-2 black chevron'><</span>Panier</a>" ?>
+<?php $mainTitle = "<h2 class='text-center black main-title-sm mb-3'>La commande n.675055 a bien été enregistrée</h2>" ?>
+<?php $previous = "<a class='black link-black' href='http://localhost:8888/templates/payment.php'><span class='mr-2 black chevron'><</span>paiement</a>" ?>
 
 <!-- primary content  -->
 <?php ob_start(); ?>
 <div class="content__product container-width mx-auto">
     <!-- contact form -->
     <form class="row border-radius-10 m-0 pt-5 pr-xs-3 pr-sm-4 pl-4 pb-5 signin">
-        <?php include('includes/summaryForm.php'); ?>
+        <?php include('includes/confirmation.php'); ?>
     </form>
 </div>
 <?php $primaryContent = ob_get_clean(); ?>
@@ -34,7 +34,7 @@
      <!-- map -->
      <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
         <script>
-            var map = L.map('map').setView([48.86298, 2.34319], 17);
+            var map = L.map('maps').setView([48.86298, 2.34319], 17);
             L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
                 attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
             }).addTo(map);

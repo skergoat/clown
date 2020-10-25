@@ -3,185 +3,60 @@
     <!-- title -->
     <h5 class="black pb-2">Coordonnées</h5>
     <span class="border-bottom-orange mb-4"></span>
-    <!-- row 1 -->
-    <div class="form-row">
-        <!-- first name -->
-        <div class="form-group col-md-6">
-            <label for="firstname" class="font-14 sbold">Prénom</label>
-            <input type="text" class="form-control form-large font-14" id="firstname" value="Théo">
-            <div class="invalid-feedback">
-                Entrez un nom svp
-            </div>
-        </div>
-        <!-- last name -->
-        <div class="form-group col-md-6">
-            <label for="lastname" class="font-14 sbold">Nom de famille</label>
-            <input type="text" class="form-control form-large font-13" id="lastname" placeholder="Votre nom de famille">
-            <div class="invalid-feedback">
-                Entrez un nom svp
-            </div>
-        </div>
-    </div>
-    <!-- row 2 -->
-    <div class="form-row">
-        <!-- mail -->
-        <div class="form-group col-md-6">
-            <label for="mail" class="font-14 sbold">E-mail</label>
-            <input type="text" class="form-control form-large font-13" id="mail" value="theo@identiteur.fr">
-            <div class="invalid-feedback">
-                Entrez un mail svp
-            </div>
-        </div>
-        <!-- company -->
-        <div class="form-group col-md-6">
-            <label for="tel" class="font-14 sbold">Téléphone</label>
-            <input type="tel" class="form-control form-large font-13" id="tel" value="06.63.66.35.97">
-            <div class="invalid-feedback">
-                Entrez un nom valide svp
-            </div>
-        </div>
-    </div>
-    <div class="form-group">
-        <label for="company" class="font-14 sbold">Société (facultatif)</label>
-        <input type="text" class="form-control form-large font-13" id="company" value="theo.graphics">
-        <div class="invalid-feedback">
-            Entrez une adresse valide svp
-        </div>
-    </div>
+    <!-- address -->
+    <table class="table table-confirm">
+        <tbody>
+            <tr>
+                <td><span class="bold">Nom/Prénom</span></td>
+                <td>Théo Phil</td>
+            </tr>
+            <tr>
+                <td><span class="bold">Email</span></td>
+                <td>theo@identiteur.fr</td>
+            </tr>
+            <tr>
+                <td><span class="bold">Téléphone</span></td>
+                <td>06.63.66.35.97</td>
+            </tr>
+            <tr>
+                <td><span class="bold">Société</span></td>
+                <td>theo.graphics</td>
+            </tr>
+            <tr>
+                <td><span class="bold">Adresse de Facturation</span></td>
+                <td>20 rue de Paris, 75015 Paris, FRANCE</td>
+            </tr>
+            <tr>
+                <td><span class="bold">Adresse de Livraison</span></td>
+                <td>20 rue de Paris, 75015 Paris, FRANCE</td>
+            </tr>
+        </tbody>
+    </table>
 </div>
 <div class="col-lg-6 mb-xs-4 mb-lg-0 mt-xs-4 mt-sm-4 mt-lg-0 p-xs-none pl-xs-none pl-lg-5 pb-3 pt-2">
     <!-- title -->
-    <h5 class="black pb-2">Adresse de facturation</h5>
+    <h5 class="black pb-2">Choix d'expédition</h5>
     <span class="border-bottom-orange mb-4"></span>
-    <!-- adress -->
-    <div class="form-group">
-        <label for="address1" class="font-14 sbold">Adresse</label>
-        <input type="text" class="form-control form-large font-13 is-invalid" id="address1" value="20 rue de Paris">
-        <div class="invalid-feedback">
-            Entrez une adresse valide svp
-        </div>
-    </div>
-    <div class="form-group">
-        <label for="addressBis" class="font-14 sbold">Complément d'adresse</label>
-        <input type="text" class="form-control form-large font-13" id="addressBis" value="Bâtiment B">
-        <div class="invalid-feedback">
-            Entrez une adresse valide svp
-        </div>
-    </div>
-    <!-- row 3 -->
-    <div class="form-row">
-        <!-- zip code -->
-        <div class="form-group col-md-6">
-            <label for="currentpass" class="font-14 sbold">Code postal</label>
-            <input type="text" class="form-control form-large font-13" id="currentpass" value="75001">
-            <div class="invalid-feedback">
-                Entrez un code postal valide svp
-            </div>
-        </div>
-        <!-- city -->
-        <div class="form-group col-md-6">
-            <label for="city" class="font-14 sbold">Ville</label>
-            <input type="text" class="form-control form-large font-13" id="city" value="Paris">
-            <!-- error message -->
-            <div class="invalid-feedback">
-                Entrez un nom valide svp
-            </div>
-        </div>
-    </div>
-    <!-- country -->
-    <label for="country-select" class="font-13">Pays</label>
-    <div class="form-group custom-selects">
-        <select name="country" id="country-select" class="font-13 bold">
-            <option value="">France</option>
-            <option value="parrot">Belgique</option>
-            <option value="hamster">Suisse</option>
-            <option value="cat">Allemagne</option>
-            <option value="spider">Pays-Bas</option>
-            <option value="dog">Angleterre</option>
-            <option value="goldfish">Danemark</option>
-        </select>
-        <!-- error message -->
-        <div class="invalid-feedback">
-            Ce champ est requis
-        </div>
-    </div>
+    <!-- shipping -->
     <div class="d-flex">
-        <a href="#" class="bold d-block" id="shipping-address-link">Entrez une addresse de livraison différente</a><span class="arrow-down d-block mt-2 ml-3" id="address-arrow"></span>
-    </div>
-</div>
-
-<!-- formulaire -->
-<!-- left -->
-<div class="shipping-adress col-lg-6 pl-lg-4 mb-xs-none mb-sm-0 mb-lg-4 mb-lg-0 pl-xs-none pr-xs-none pr-sm-0 pr-lg-5 pt-2"></div>
-<!-- right -->
-<div class="shipping-adress col-lg-6 mb-xs-4 mb-lg-0 mt-xs-4 mt-sm-4 mt-lg-0 p-xs-none pl-xs-none pl-lg-5 pb-3 pt-2">
-    <!-- title -->
-    <h5 class="black pb-2">Adresse de livraison</h5>
-    <span class="border-bottom-orange mb-4"></span>
-    <!-- adress -->
-    <div class="form-group">
-        <label for="address1" class="font-14 sbold">Adresse</label>
-        <input type="text" class="form-control form-large font-13 is-invalid" id="address1" value="20 rue de Paris">
-        <div class="invalid-feedback">
-            Entrez une adresse valide svp
+        <div id="shipping-relais" class="payment-choice shipping-choice pt-2 pb-2 pr-2 pl-2 mr-4 mt-2" data-url="relais">
+            <div><img src="../assets/img/point-relais.png" alt="logo relais"></div>
+        </div>
+        <div>
+            <p class="search-text__title bold mb-2">L’univers du mobile</p>
+            <p class="search-text__content mb-1 font-12">1 RUE DES PROUVAIRES</p>
+            <p class="search-text__content font-12">75001 - PARIS</p>
         </div>
     </div>
-    <div class="form-group">
-        <label for="addressBis" class="font-14 sbold">Complément d'adresse</label>
-        <input type="text" class="form-control form-large font-13" id="addressBis" value="Bâtiment B">
-        <div class="invalid-feedback">
-            Entrez une adresse valide svp
-        </div>
-    </div>
-    <!-- row 3 -->
-    <div class="form-row">
-        <!-- zip code -->
-        <div class="form-group col-md-6">
-            <label for="currentpass" class="font-14 sbold">Code postal</label>
-            <input type="text" class="form-control form-large font-13" id="currentpass" value="75001">
-            <div class="invalid-feedback">
-                Entrez un code postal valide svp
-            </div>
-        </div>
-        <!-- city -->
-        <div class="form-group col-md-6">
-            <label for="city" class="font-14 sbold">Ville</label>
-            <input type="text" class="form-control form-large font-13" id="city" value="Paris">
-            <!-- error message -->
-            <div class="invalid-feedback">
-                Entrez un nom valide svp
-            </div>
-        </div>
-    </div>
-    <!-- country -->
-    <label for="country-select" class="font-13">Pays</label>
-    <div class="form-group custom-selects">
-        <select name="country" id="country-select" class="font-13 bold">
-            <option value="">France</option>
-            <option value="parrot">Belgique</option>
-            <option value="hamster">Suisse</option>
-            <option value="cat">Allemagne</option>
-            <option value="spider">Pays-Bas</option>
-            <option value="dog">Angleterre</option>
-            <option value="goldfish">Danemark</option>
-        </select>
-        <!-- error message -->
-        <div class="invalid-feedback">
-            Ce champ est requis
-        </div>
-    </div>
+    <div class="mt-4" id="maps"></div>
 </div>
 
 <!-- text area -->
 <div class="col-lg-12 mb-xs-4 mb-lg-0 mt-xs-4 mt-sm-4 mt-lg-2 p-xs-none pb-3 pt-2">
     <!-- title -->
-    <h5 class="black pb-2">Message (facultatif)</h5>
+    <h5 class="black pb-2">Votre Message</h5>
     <span class="border-bottom-orange mb-1"></span>
-    <!-- text area -->
-    <div class="form-group">
-        <label for="exampleFormControlTextarea1"></label>
-        <textarea class="form-control font-12" id="exampleFormControlTextarea1" placeholder="Emballage, date de votre soirée..." rows="5"></textarea>
-    </div>
+    <p class="pt-3 font-15" style="text-align:justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam accumsan sapien sit amet quam semper elementum. Nam mattis turpis rutrum massa congue pellentesque ac eu erat. Maecenas mauris est, posuere ac lectus eget, facilisis vulputate dolor. Aenean sed augue dignissim, ultricies sem nec, scelerisque erat. Suspendisse at nulla vel metus rutrum gravida a id urna. Aliquam porta ipsum eget sapien lobortis, ac sollicitudin neque sodales. Vestibulum vel libero et elit fermentum ultrices luctus id velit. Etiam eleifend, purus ac facilisis tincidunt, est urna porta orci, cursus tempor odio tortor non augue.</p>
 </div>
 
 <!-- shipping -->
@@ -299,7 +174,7 @@
                 <div class="d-xs-flex d-sm-flex d-xl-block"> 
                     <div class="search-text pl-0 col-xl-12 col-lg-12 d-flex flex-column">
                         <div>
-                            <p class="search-text__title bold mb-2">L’univers du mobile</p>
+                            <p class="search-text__title bold mb-2">1- L’univers du mobile</p>
                             <p class="search-text__content mb-1">1 RUE DES PROUVAIRES</p>
                             <p class="search-text__content">75001 - PARIS</p>
                         </div>

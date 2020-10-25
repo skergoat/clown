@@ -121,7 +121,7 @@
             </div>
         </header>
 
-        <div id="cart-popup-window" class="cart-pop bgd-white p-2">
+        <div id="cart-popup-window" class="cart-pop cart-pop__shop bgd-white p-2">
             <div class="cart-pop__arrow mx-auto"></div>
             <div class="">
                 <div class="cart-pop__head d-flex justify-content-between p-1">

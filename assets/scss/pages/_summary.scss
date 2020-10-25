@@ -70,8 +70,39 @@
     }
 }
 
+// shipping adress 
+.shipping-adress {
+    display:none;
+    &.active {
+        display:block; 
+    }
+}
+
+#shipping-address-link {
+    color:#FD8C44;
+}
+
+// arrow up and down
+.arrow-down {
+    width: 0; 
+    height: 0; 
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-top: 5px solid black;
+    margin-top:10px!important;
+}
+
+.arrow-up {
+    width: 0; 
+    height: 0; 
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-bottom: 5px solid black;
+    margin-top:10px!important;
+}
+
+// map 
 #map {
-    
     @include media-breakpoint-up(xs) { 
         display:block;
         min-width: 100%; 

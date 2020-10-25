@@ -12073,7 +12073,7 @@ label.disabled {
   display: block;
   height: 20px;
   width: 20px;
-  border: 0.02rem solid black;
+  border: 0.02rem solid #666666;
 }
 .color-square__orange {
   background: orange;

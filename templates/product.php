@@ -41,8 +41,9 @@
         </div>
         <div class="mr-lg-none mr-lg-4">
             <p class="black font-16">Commander</p>
+            <p class="font-14 mb-4">Référence : <span class="black">550695</span></p>
             <form>
-                <div class="form-row m-0 justify-content-between">
+                <div class="form-row m-0 mb-4 justify-content-between">
                     <div>
                         <button class="black mr-2 font-14 size active">S</button>
                         <button class="black mr-2 font-14 size">M</button>
@@ -63,7 +64,7 @@
                         <span class="black mr-2">Matière : </span>nylon 
                     </div> 
                 </div>
-                <div class="form-row m-0 mt-3">
+                <div class="form-row m-0 mt-0 mb-3">
                     <div class="form-row mr-3">
                         <div class="form-check shopping form-check-inline">
                             <input class="form-check-input payment-selection" type="radio" name="whenbuy" id="whenbuy" value="whenbuy" checked>
@@ -79,9 +80,9 @@
                         <label class="font-13 disabled">Location</label>
                     </div>
                 </div>
-                <div class="pt-2">
-                    <p class="strong-pink black font-18">6,95€ <span class="font-13 light" style="color:#212529;">(Location dès 10€ / jour)</span></p>
-                    <div class="form-row align-items-center justify-content-xs-between mt-2">
+                <div class="">
+                    <p class="strong-pink black font-18">6,95€ <span class="font-13" style="color:#212529;">(Location dès 10€ / jour)</span></p>
+                    <div class="form-row align-items-center justify-content-xs-between">
                         <label class="font-13 pl-1 mb-0 mt-1">Quantité</label>
                         <div class="shopping quantity ml-xs-none ml-sm-4 mt-3">
                             <input type="number" min="1" max="9" step="1" value="1">

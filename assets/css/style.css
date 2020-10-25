@@ -12461,6 +12461,17 @@ footer {
   }
 }
 
+.table-cart-top__confirm td:last-child {
+  padding-bottom: 1.5rem;
+  padding-top: 1.5rem;
+  color: black;
+}
+
+.btn-cb {
+  position: relative;
+  top: 10px;
+}
+
 /** font family **/
 * {
   font-family: "nunito_sansextralight", sans-serif;

@@ -20,6 +20,19 @@
         display:block;
         min-width: 200px; 
         height: 200px;
-        // margin-left:12%;
     }
+}
+
+// table 
+.table-cart-top__confirm td:last-child {
+    padding-bottom: 1.5rem;
+    padding-top: 1.5rem;
+    color:black;
+}
+
+// CB 
+
+.btn-cb {
+    position:relative;
+    top:10px;
 }

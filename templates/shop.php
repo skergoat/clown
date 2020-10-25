@@ -18,7 +18,7 @@
            <div class="mx-auto navs">
                <!-- reseaux -->
                <div class="nav__secondary">
-                   <div class="d-flex justify-content-between nav__wrapper">
+               <div class="d-flex justify-content-between nav__wrapper">
                        <div class="d-flex align-items-center pt-1 pb-1">
                             <p class="d-none d-md-block m-0">Suivez-nous sur les reseaux sociaux !</p>
                             <ul class="d-flex m-0 pl-3 list">
@@ -27,7 +27,16 @@
                                 <li class="mr-2"><a href="#" class="link-black"><i class="icon-instagram"></i></a></li>
                             </ul>
                         </div>
-                        <div class="connection"><a class="font-weight-bold link-black bold" href="#" id="link-modal" data-toggle="modal" data-target="#connection"> Se connecter</a> ou <a class="link-black font-weight-bold bold" href="http://localhost:8888/templates/signin.php">S'inscrire</a></div>
+                        <div class="connection" style="position:relative">
+                            <div class="flag-popup cart-pop bgd-white p-2">
+                                <div class="flag-popup-arrow mx-auto"></div>
+                                <img src="../assets/img/flag-fr.png" class="flag flag-center flag-bottom flag-bottom-fr" data-url="en">
+                                <img src="../assets/img/flag-en.png" class="flag flag-center flag-bottom flag-bottom-en flag-active" data-url="fr">
+                            </div>
+                            <img src="../assets/img/flag-fr.png" class="flag flag-top-fr flag-current mr-3"> 
+                            <img src="../assets/img/flag-en.png" class="flag flag-top-en mr-3">
+                            <a class="font-weight-bold link-black bold" href="#" id="link-modal" data-toggle="modal" data-target="#connection"> Se connecter</a> ou <a class="link-black font-weight-bold bold" href="http://localhost:8888/templates/signin.php">S'inscrire</a>
+                        </div>
                    </div>
                </div>
                <!-- menu -->
@@ -1477,6 +1486,7 @@
         <script src="../assets/js/themes.js"></script>
         <script src="../assets/js/cookie.js"></script>
         <script src="../assets/js/card-click.js"></script>
+        <script src="../assets/js/flag.js"></script>
     </body>
 </html>
 

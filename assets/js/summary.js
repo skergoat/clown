@@ -5,7 +5,7 @@ $('#shipping-address-link').on('click', function(e) {
     // space-between position top
     if($('.shipping-adress').hasClass('active')) {
         $('#space-between').css('top', '25%');
-        $(this).text('Garder votre addresse de facturation');    
+        $(this).text('Gardez votre addresse de facturation');    
     }
     else {
         $('#space-between').css('top', '29%'); 

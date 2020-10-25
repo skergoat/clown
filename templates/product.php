@@ -7,6 +7,7 @@
 <?php ob_start(); ?>
 <div class="row flex-xs-column flex-sm-column flex-md-row mx-auto content__product container-width p-xs-3 p-sm-5">
     <div class="col-xs-12 col-lg-6 mx-xs-auto pr-xs-none pt-lg-5 pb-lg-5 pr-lg-5 pl-0">
+        <!-- share -->
         <ul class="share d-flex m-0 mt-3 p-0 list">
             <li class="pr-1 mt-1 font-15 bold">Partager</li>
             <li class="mr-2"><a href="#" class="link-black"><i class="icon-facebook share-fb"></i></a></li>
@@ -20,6 +21,7 @@
             <img class="loupe-widget__image js-loupe-image primary-img-top d-block mb-xs-4 mx-auto ml-lg-5 mr-lg-5 mt-lg-5" src="../assets/img/collant-orange.png" alt="Card image cap" data-image-full="../assets/img/collant-orange.png">
         </div>
         <img class="d-xs-block d-sm-block d-lg-none primary-img-top d-block mb-xs-4 mx-auto ml-lg-5 mr-lg-5 mt-lg-5" src="../assets/img/collant-orange.png" alt="Card image cap">
+        <span class="icon-question-circle-o pointer d-block" title="Question sur l'article" id="link-modal" data-toggle="modal" data-target="#ask-question"></span>
     </div>
     <div class="col-xs-12 col-lg-6 pr-xs-0 pr-lg-5">
         <div class="mr-lg-none mr-lg-4 mb-4">
@@ -209,8 +211,55 @@
     </div>
 </div>
 
-<!-- <button class="btn btn-cards-pink bold font-15 d-block mx-auto pl-4 pr-4 mt-5 mb-3">Charger plus de produits</button>-->
-
+<!-- Bootstrap Modal -->
+<div class="modal fade" id="ask-question" role="dialog">
+    <div class="modal-dialog modal-connect modal-lg">
+            <!-- content -->
+        <div class="modal-content">
+            <!-- header -->
+            <div class="modal-header p-0">
+                <div class="row mr-0 ml-0">
+                    <div class="col-6"></div>
+                    <div class="col-6">
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    </div>
+                </div>
+            </div>
+            <!-- body -->
+            <div class="modal-body p-0">
+                <div class="row pr-0 pl-0 mr-0 ml-0">
+                    <!-- left -->
+                    <div class="col-12 pl-5 pr-5 modal-left">
+                        <h5 class="font-18 bold mb-3 text-center">Question sur l'article</h5>
+                        <form action="#" method="post">
+                            <!-- mail -->
+                            <div class="form-group">
+                                <label for="email" class="font-14 sbold">Mail</label>
+                                <input type="mail" class="form-control form-large font-13 is-invalid" name="email" id="email">
+                                <!-- error message -->
+                                <div class="invalid-feedback">
+                                    Entrez un mail valide, svp
+                                </div>
+                            </div>
+                            <!-- message -->
+                            <div class="form-group">
+                                <label for="message" class="font-14 sbold">Message</label>
+                                <textarea class="form-control" id="message" rows="3"></textarea>
+                            </div>
+                            <!-- submit -->
+                            <div class="form-submit mt-4">
+                                <!-- btn de demonstration -->
+                                <a href="http://localhost:8888/templates/account.php" class="btn button-orange btn-white-outlined black" id="button-modal-2">Envoyer</a> 
+                                <!-- btn definitif -->
+                                <!-- <button type="submit" class="btn button-orange btn-white-outlined black" id="button-modal" data-toggle="modal" data-target="#validate">Connexion</button> -->
+                            </div>
+                        </form>
+                    </div>
+                </div>         
+            </div>
+        </div>
+    </div>
+</div>
 
 <?php $secondaryContent = ob_get_clean(); ?>
 

@@ -12100,6 +12100,15 @@ label.disabled {
   color: #C437A4 !important;
 }
 
+.icon-question-circle-o {
+  height: auto;
+  width: auto;
+  position: absolute;
+  bottom: -9px;
+  color: #FD9644;
+  font-size: 30px;
+}
+
 @media (max-width: 992px) {
   .primary-img-top {
     margin-top: 10px !important;

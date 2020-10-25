@@ -168,7 +168,8 @@
         <!-- paypal -->
         <div class="col-lg-2 mb-xs-3 mb-sm-3 pl-0 pr-xs-0 pr-xs-none pr-sm-0 pr-lg-3">
             <div id="shipping-retrait" class="payment-choice shipping-choice pointer d-flex align-items-center justify-content-center" data-url="retrait">
-                <p class="black font-13 text-center m-0">Retrait en magasin</p>
+                <span class="icon-shop" style="color:black!important;font-size:15px;"></span>
+                <p class="black font-12 text-center m-0 ml-2">Retrait en magasin</p>
             </div>
             <!-- radio -->
             <div class="mt-2 d-flex justify-content-center">

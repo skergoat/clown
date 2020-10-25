@@ -9,49 +9,49 @@
     {
       "uid": "9dd9e835aebe1060ba7190ad2b2ed951",
       "css": "search",
-      "code": 59392,
+      "code": 128269,
       "src": "fontawesome"
     },
     {
       "uid": "14017aae737730faeda4a6fd8fb3a5f0",
       "css": "check",
-      "code": 59393,
+      "code": 10003,
       "src": "entypo"
     },
     {
-      "uid": "wlri7uftq4zbi82q2xuf08ayd8kpijlk",
+      "uid": "d870630ff8f81e6de3958ecaeac532f2",
       "css": "left-open",
-      "code": 59394,
-      "src": "typicons"
+      "code": 59229,
+      "src": "fontawesome"
     },
     {
-      "uid": "6zhrgcf3co77hnljttd3b2mrc8z5fiq5",
+      "uid": "399ef63b1e23ab1b761dfbb5591fa4da",
       "css": "right-open",
-      "code": 59395,
-      "src": "typicons"
+      "code": 59230,
+      "src": "fontawesome"
     },
     {
       "uid": "c709da589c923ba3c2ad48d9fc563e93",
       "css": "cancel",
-      "code": 59396,
+      "code": 10005,
       "src": "entypo"
     },
     {
       "uid": "0d08dbb1dd648a43bdea81b7e6c9e036",
       "css": "location",
-      "code": 59397,
+      "code": 59172,
       "src": "fontawesome"
     },
     {
       "uid": "5854855e963044f93b15738a5bb27a29",
       "css": "phone",
-      "code": 59398,
+      "code": 128222,
       "src": "entypo"
     },
     {
       "uid": "9affc98d652b86628d650ee58dbf0357",
       "css": "basket",
-      "code": 59399,
+      "code": 59197,
       "src": "fontawesome"
     },
     {
@@ -88,6 +88,12 @@
       "uid": "bbfb51903f40597f0b70fd75bc7b5cac",
       "css": "trash",
       "code": 61944,
+      "src": "fontawesome"
+    },
+    {
+      "uid": "9d3e9faf68fd4e12def853f0d4e1173b",
+      "css": "whatsapp",
+      "code": 62002,
       "src": "fontawesome"
     }
   ]

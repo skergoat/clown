@@ -135,9 +135,40 @@ label.disabled {
     }
 }
 
+// share 
+
+.share {
+    position:absolute;
+    top:-10px;
+    font-size:20px;
+    &-fb {
+        color:#4867AA!important;
+    }
+    &-twi {
+        color:#1CA2F3!important;
+    }
+    &-wha {
+        color:#1DBEA5!important;
+    }
+    &-insta {
+        color:#C437A4!important;
+    }
+}
+
+@media (max-width:992px)
+{
+    .primary-img-top {
+        margin-top:10px!important;
+    }
+}
+
 @media (max-width:576px)
 {
     .shopping.quantity input {
         height:31px!important;
+    }
+
+    .primary-img-top {
+        margin-top:30px!important;
     }
 }

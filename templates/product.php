@@ -7,6 +7,13 @@
 <?php ob_start(); ?>
 <div class="row flex-xs-column flex-sm-column flex-md-row mx-auto content__product container-width p-xs-3 p-sm-5">
     <div class="col-xs-12 col-lg-6 mx-xs-auto pr-xs-none pt-lg-5 pb-lg-5 pr-lg-5 pl-0">
+        <ul class="share d-flex m-0 mt-3 p-0 list">
+            <li class="pr-1 mt-1 font-15 bold">Partager</li>
+            <li class="mr-2"><a href="#" class="link-black"><i class="icon-facebook share-fb"></i></a></li>
+            <li class="mr-2"><a href="#" class="link-black"><i class="icon-twitter share-twi"></i></a></li>
+            <li class="mr-2"><a href="#" class="link-black"><i class="icon-instagram share-insta"></i></a></li>
+            <li class="mr-2"><a href="#" class="link-black"><i class="icon-whatsapp share-wha"></i></a></li>
+        </ul>
         <!-- loupe responsive -->
         <div class="loupe-widget js-loupe d-xs-none d-sm-none d-lg-block">
             <div class="loupe-widget__loupe js-loupe-element"></div>
@@ -73,7 +80,6 @@
                     </div>
                 </div>
                 <div class="pt-2">
-                    <!-- <p class="font-13 mb-2">Articles restants : <span class="font-13 strong-pink black">22</span></p> -->
                     <p class="strong-pink black font-18">6,95€ <span class="font-13 light" style="color:#212529;">(Location dès 10€ / jour)</span></p>
                     <div class="form-row align-items-center justify-content-xs-between mt-2">
                         <label class="font-13 pl-1 mb-0 mt-1">Quantité</label>

@@ -3,6 +3,7 @@
  
 .icon-check:before { content: '\2713'; } /* '✓' */
 .icon-cancel:before { content: '\2715'; } /* '✕' */
+.icon-shop:before { content: '\e02a'; } /* '' */
 .icon-location:before { content: '\e724'; } /* '' */
 .icon-basket:before { content: '\e73d'; } /* '' */
 .icon-left-open:before { content: '\e75d'; } /* '' */

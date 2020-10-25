@@ -7,6 +7,12 @@
   "ascent": 850,
   "glyphs": [
     {
+      "uid": "5d27926667773d186de09fda4312af27",
+      "css": "shop",
+      "code": 57386,
+      "src": "linecons"
+    },
+    {
       "uid": "14017aae737730faeda4a6fd8fb3a5f0",
       "css": "check",
       "code": 10003,
@@ -67,6 +73,12 @@
       "src": "fontawesome"
     },
     {
+      "uid": "4c1ef492f1d2c39a2250ae457cee2a6e",
+      "css": "instagram",
+      "code": 61805,
+      "src": "fontawesome"
+    },
+    {
       "uid": "bbfb51903f40597f0b70fd75bc7b5cac",
       "css": "trash",
       "code": 61944,
@@ -94,12 +106,6 @@
       "uid": "9dd9e835aebe1060ba7190ad2b2ed951",
       "css": "search",
       "code": 128269,
-      "src": "fontawesome"
-    },
-    {
-      "uid": "4c1ef492f1d2c39a2250ae457cee2a6e",
-      "css": "instagram",
-      "code": 61805,
       "src": "fontawesome"
     }
   ]

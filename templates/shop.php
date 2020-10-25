@@ -87,7 +87,7 @@
                <!-- menu -->
                <div class="nav__primary">
                     <div class="d-flex justify-content-between nav__wrapper">
-                        <a href="http://localhost:8888//templates/home.php">
+                        <a href="http://localhost:8888/templates/home.php">
                             <img src="../assets/img/logo.png" class="logo d-md-block d-lg-block d-none pt-3 pb-3">
                             <img src="../assets/img/logo-responsive.png" class="logo d-md-none d-lg-none pt-2 pb-2">
                         </a>

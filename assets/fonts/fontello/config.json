@@ -25,6 +25,12 @@
       "src": "fontawesome"
     },
     {
+      "uid": "9affc98d652b86628d650ee58dbf0357",
+      "css": "basket",
+      "code": 59197,
+      "src": "fontawesome"
+    },
+    {
       "uid": "d870630ff8f81e6de3958ecaeac532f2",
       "css": "left-open",
       "code": 59229,
@@ -91,9 +97,9 @@
       "src": "fontawesome"
     },
     {
-      "uid": "9affc98d652b86628d650ee58dbf0357",
-      "css": "basket",
-      "code": 59197,
+      "uid": "4c1ef492f1d2c39a2250ae457cee2a6e",
+      "css": "instagram",
+      "code": 61805,
       "src": "fontawesome"
     }
   ]

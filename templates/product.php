@@ -92,6 +92,10 @@
                         <button class="btn shopping button-orange btn-cart bold ml-xs-none ml-sm-4">Ajouter au panier</button>
                     </div>
                 </div>
+                <div class="form-row m-0 mt-4 mb-4 bold">
+                    <div><img class="card-img-top d-block mx-auto" src="../assets/img/shipping-fast-black.png" alt="Card image cap" style="max-width:15px;margin-top:6px;"></div>
+                    <span class="ml-2 bold">Délais de livraison : 2 semaines</span>
+                </div>
                 <div class="d-flex mt-xs-5 mt-lg-4 justify-content-xs-between">
                     <div class="mr-xs-none mr-sm-4">
                         <div><img class="card-img-top d-block mx-auto" src="../assets/img/undo.png" alt="Card image cap" style="max-width:12px;"></div>
@@ -248,10 +252,7 @@
                             </div>
                             <!-- submit -->
                             <div class="form-submit mt-4">
-                                <!-- btn de demonstration -->
-                                <a href="http://localhost:8888/templates/account.php" class="btn button-orange btn-white-outlined black" id="button-modal-2">Envoyer</a> 
-                                <!-- btn definitif -->
-                                <!-- <button type="submit" class="btn button-orange btn-white-outlined black" id="button-modal" data-toggle="modal" data-target="#validate">Connexion</button> -->
+                                <button type="submit" class="btn button-orange btn-white-outlined black" id="button-modal" data-toggle="modal" data-target="#validate">Envoyer</button>
                             </div>
                         </form>
                     </div>

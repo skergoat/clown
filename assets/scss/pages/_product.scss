@@ -114,6 +114,27 @@ label.disabled {
     color:#9d9d9d!important;
 }
 
+// btn colors 
+.dropdown-color {
+    background: linear-gradient(to right, #FD9644, #FD6044)!important;
+    border-color: transparent!important;
+    color:white!important;
+}
+
+// color square 
+.color-square {
+    display:block;
+    height:20px;
+    width:20px;
+    border:0.02rem solid black;
+    &__orange {
+        background:orange;
+    }
+    &__pink {
+        background:pink;
+    }
+}
+
 @media (max-width:576px)
 {
     .shopping.quantity input {

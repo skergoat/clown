@@ -42,7 +42,7 @@
             </div>
         </div>
         <div class="mr-lg-none mr-lg-4">
-            <p class="black font-16">Commander</p>
+            <p class="black font-17">Commander</p>
             <p class="font-14 mb-4">Référence : <span class="black">550695</span></p>
             <form>
                 <div class="form-row m-0 mb-4 justify-content-between">
@@ -83,6 +83,29 @@
                     </div>
                 </div>
                 <div class="">
+                <p class="black font-16 pricing-title mt-3">Tarifs dégressifs</p>
+                    <table class="table pricing mt-2 mb-4">
+                        <thead>
+                            <tr>
+                                <th scope="col" class="p-2 font-15">Quantité</th>
+                                <th scope="col" class="p-2 font-15">Prix</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td class="p-2">1</td>
+                                <td class="p-2 bold font-16 strong-pink">6,95€</td>
+                            </tr>
+                            <tr>
+                                <td class="p-2">10</td>
+                                <td class="p-2 bold font-16 strong-pink">20 €</td>
+                            </tr>
+                            <tr>
+                                <td class="p-2">20</td>
+                                <td class="p-2 bold font-16 strong-pink">30 €</td>
+                            </tr>
+                        </tbody>
+                    </table>
                     <p class="strong-pink black font-18">6,95€ <span class="font-13" style="color:#212529;">(Location dès 10€ / jour)</span></p>
                     <div class="form-row align-items-center justify-content-xs-between">
                         <label class="font-13 pl-1 mb-0 mt-1">Quantité</label>
@@ -94,7 +117,7 @@
                 </div>
                 <div class="form-row m-0 mt-4 mb-4 bold">
                     <div><img class="card-img-top d-block mx-auto" src="../assets/img/shipping-fast-black.png" alt="Card image cap" style="max-width:15px;margin-top:6px;"></div>
-                    <span class="ml-2 bold">Délais de livraison : 2 semaines</span>
+                    <span class="ml-2 bold">Délais de livraison : <span class="strong-pink bold">2 semaines</span></span>
                 </div>
                 <div class="d-flex mt-xs-5 mt-lg-4 justify-content-xs-between">
                     <div class="mr-xs-none mr-sm-4">

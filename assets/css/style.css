@@ -12109,6 +12109,18 @@ label.disabled {
   font-size: 30px;
 }
 
+.pricing-title {
+  margin-bottom: 0px !important;
+}
+
+.table.pricing {
+  border: 1px solid #9d9d9d !important;
+  max-width: 250px;
+}
+.table.pricing td, .table.pricing th {
+  border-left: 1px solid #9d9d9d !important;
+}
+
 @media (max-width: 992px) {
   .primary-img-top {
     margin-top: 10px !important;

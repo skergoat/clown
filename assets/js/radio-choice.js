@@ -7,7 +7,7 @@ $('.option-relais').addClass('active');
 function showOptions(options)
 {
     // open options 
-    $('.option-'+options).toggleClass('active');
+    $('.option-'+options).addClass('active');
     $('.shipping-option').not($('.option-'+options)).removeClass('active');
     // scroll to 
     let offsetTop = $('#shipping-section').offset().top;

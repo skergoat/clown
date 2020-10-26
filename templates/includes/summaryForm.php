@@ -198,7 +198,7 @@
             </div>
             <!-- radio -->
             <div class="mt-2 d-flex justify-content-center">
-                <div class="form-check form-check-inline">
+                <div class="form-check form-check-inline fci-summary">
                     <input class="form-check-input shipping-selection" type="radio" name="shipping" id="colissimo" value="colissimo">
                     <span class="form-check-input form-check-input__pay checkmark"></span>
                 </div>
@@ -211,7 +211,7 @@
             </div>
             <!-- radio -->
             <div class="mt-2 d-flex justify-content-center">
-                <div class="form-check form-check-inline">
+                <div class="form-check form-check-inline fci-summary">
                     <input class="form-check-input shipping-selection" type="radio" name="shipping" id="chronopost" value="chronopost">
                     <span class="form-check-input form-check-input__pay checkmark"></span>
                 </div>
@@ -224,13 +224,26 @@
             </div>
             <!-- radio -->
             <div class="mt-2 d-flex justify-content-center">
-                <div class="form-check form-check-inline">
+                <div class="form-check form-check-inline fci-summary">
                     <input class="form-check-input shipping-selection" type="radio" name="shipping" id="relais" value="relais" checked="true">
                     <span class="form-check-input form-check-input__pay checkmark"></span>
                 </div>
             </div>
         </div>
-        <!-- paypal -->
+        <!-- UPS -->
+        <div class="col-lg-2 mb-xs-3 mb-sm-3 pl-0 pr-xs-0 pr-xs-none pr-sm-0 pr-lg-3">
+            <div id="shipping-ups" class="payment-choice shipping-choice pt-2 pb-2 pr-0 pl-0 pointer" data-url="relais">
+                <div><img src="../assets/img/ups.png" alt="logo relais" id="ups"></div>
+            </div>
+            <!-- radio -->
+            <div class="mt-2 d-flex justify-content-center">
+                <div class="form-check form-check-inline fci-summary">
+                    <input class="form-check-input shipping-selection" type="radio" name="shipping" id="relais" value="relais">
+                    <span class="form-check-input form-check-input__pay checkmark"></span>
+                </div>
+            </div>
+        </div>
+        <!-- retrait en magasin -->
         <div class="col-lg-2 mb-xs-3 mb-sm-3 pl-0 pr-xs-0 pr-xs-none pr-sm-0 pr-lg-3">
             <div id="shipping-retrait" class="payment-choice shipping-choice pointer d-flex align-items-center justify-content-center" data-url="retrait">
                 <span class="icon-shop" style="color:black!important;font-size:15px;"></span>
@@ -238,7 +251,7 @@
             </div>
             <!-- radio -->
             <div class="mt-2 d-flex justify-content-center">
-                <div class="form-check form-check-inline">
+                <div class="form-check form-check-inline fci-summary">
                     <input class="form-check-input shipping-selection" type="radio" name="shipping" id="retrait" value="retrait">
                     <span class="form-check-input form-check-input__pay checkmark"></span>
                 </div>

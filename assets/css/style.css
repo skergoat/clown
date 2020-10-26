@@ -11756,6 +11756,17 @@ input[type=number] {
   background: transparent !important;
 }
 
+.form-check-inline.fci-summary,
+.form-check-inline.fci-summary input {
+  margin-right: 0px !important;
+}
+
+#ups {
+  width: auto;
+  display: block;
+  margin: auto;
+}
+
 /* search zone */
 #big-logo-relais {
   width: 80px;

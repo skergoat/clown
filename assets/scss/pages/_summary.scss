@@ -30,6 +30,16 @@
         background:transparent!important;
     }
 }
+.form-check-inline.fci-summary,
+.form-check-inline.fci-summary input {
+    margin-right:0px!important;
+}
+#ups { 
+    width:auto;
+    // height:30px;
+    display:block;
+    margin:auto;
+}
 /* search zone */
 
 #big-logo-relais {

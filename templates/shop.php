@@ -13,6 +13,9 @@
     </head>
     <body>
         <div class="cookies font-13 p-2 pr-4 bgd-white">Ce site web utilise les cookies. En navigant sur notre site, vous acceptez notre <a href="#" class="link-black bold font-13">politique de confidentialité</a>.<i class="icon-cancel ml-1 pointer" id="close-cookie" style="color:black!important"></i></div>
+        <div id="search-responsive" class="bg-white d-xs-block d-lg-none">
+            <i class="icon-search text-grey d-block m-2 font-20"></i>
+        </div>
         <!-- header -->
        <header>
            <div class="mx-auto navs">
@@ -560,7 +563,7 @@
                                     <div class="form-row m-0" style="width:180px;">
                                         <!-- Filtres -->
                                         <label for="find-select" class="font-13 bold mb-2 mt-1">Trier par</label>
-                                        <div class="form-group custom-selects mb-2">
+                                        <div class="form-group custom-selects mb-2 ml-2">
                                             <select name="find" id="find-select" class="font-13 bold">
                                                 <option value="">Prix croissants</option>
                                                 <option value="cheap">Le moins cher</option>
@@ -601,7 +604,7 @@
                                         </div> 
                                     </div>
                                     <div class="card-box col-sm-12 col-md-6 col-lg-4 p-0 mb-xs-4 mb-sm-4 bgd-transparent" style="position:relative;">
-                                        <div class="card-hover br-10 bs-red pr-4 pb-4 pl-4 pt-3 mr-1 ml-1" data-url="2">
+                                        <div class="card-hover br-10 bs-red pr-4 pb-4 pl-4 pt-3 mr-1 ml-1" data-url="2" id="test-2">
                                             <img class="card-img-top" src="../assets/img/collant-blanc.png" alt="Card image cap">
                                             <p class="bold text-center mb-2">Collants sorcière enfant fluo</p>
                                             <p class="black text-center mb-3">Dès 6,95€</p>

@@ -33,4 +33,17 @@ $('.sub-menu li').on('click', function() {
     }
 });
 
+// responsive 
 
+$('#search-responsive').on('click', function() {
+    $('#aside-responsive').toggleClass('active');
+    if($('#aside-responsive').hasClass('active')) {
+        $('body').css('overflow', 'hidden');
+        $('#search-responsive .icon-search').toggleClass('icon-cancel').toggleClass('icon-search')
+        $('#search-responsive .icon-cancel').css('color', 'black!important');
+    }
+    else {
+        $('body').css('overflow', 'scroll');
+        $('#search-responsive .icon-cancel').toggleClass('icon-search').toggleClass('icon-cancel');
+    }
+});

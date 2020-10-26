@@ -2,7 +2,7 @@
 <?php $title = "récapitulatif" ?>
 <?php $mainTitle = "<h2 class='text-center black main-title-sm mb-3'>La commande n.675055 a bien été enregistrée</h2>" ?>
 <?php $subTitle = "<h5 class='text-center light sub-title-sm lh-xs-17 font-18 bold'>Vous allez recevoir un mail dès maintenant et un autre à la livraison</h5>" ?>
-<?php $previous = "<a class='black link-black' href='http://localhost:8888/templates/payment.php'><span class='mr-2 black chevron'><</span>paiement</a>" ?>
+<?php $previous = "<a class='black link-black' href='http://localhost:8888/templates/home.php'><span class='mr-2 black chevron'><</span>Accueil</a>" ?>
 
 <!-- primary content  -->
 <?php ob_start(); ?>

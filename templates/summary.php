@@ -5,6 +5,27 @@
 
 <!-- primary content  -->
 <?php ob_start(); ?>
+<div class="sticky-shipping bg-white p-xs-1 p-3">
+    <p class="black text-center mb-1 font-18" style="color:#FD6044">Montant Total</p>
+    <p class="font-13 text-center">(Commande + Livraison)</p>
+    <!-- address -->
+    <table class="table table-confirm mb-0">
+        <tbody>
+            <tr>
+                <td class="regular p-xs-2">Commande</td>
+                <td class="bold font-14 pt-2 p-xs-2">30,50€</td>
+            </tr>
+            <tr class="td-total">
+                <td class="regular p-xs-2">Livraison</td>
+                <td class="bold font-14 pt-2 p-xs-2">0,50€</td>
+            </tr>
+            <tr>
+                <td><span class="black p-xs-2"> TOTAL</span></td>
+                <td class="strong-pink black font-15 pt-2 p-xs-2">31€</td>
+            </tr>
+        </tbody>
+    </table>
+</div>
 <div class="content__product container-width mx-auto">
     <!-- contact form -->
     <form class="row border-radius-10 m-0 pt-5 pr-xs-3 pr-sm-4 pl-4 pb-5 signin">

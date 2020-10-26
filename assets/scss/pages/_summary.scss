@@ -142,6 +142,25 @@
     }
 }
 
+.sticky-shipping {
+    height:auto;
+    width:200px;
+    position:fixed;
+    z-index:10000;
+    right:0px;
+    top:30%;
+    box-shadow:0px 4px 12px 5px rgba(167, 28, 28, 0.21) !important;
+    border-top-left-radius:5px;
+    border-bottom-left-radius:5px;
+    border:2px solid #FD6044;
+    background:#FAFAFA;
+    border-right:0px;
+}
+
+.tr-total {
+    border-bottom:1px solid #9d9d9d;
+}
+
 @media (max-width:768px) {
     .option-colissimo button {
         margin:auto!important;
@@ -149,6 +168,18 @@
 }
 
 @media (max-width:478px) {
+    .sticky-shipping {
+        top:auto;
+        bottom:0px;
+        width:100%;
+        border-left:0px;
+        border-bottom:0px;
+        border-radius:0px;
+    }
+
+    .sticky-shipping p:nth-child(2) {
+        display:none;
+    }
     .option-colissimo button, #dropdown-colissimo {
         width:100%!important;
         margin-left:0px;

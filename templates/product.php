@@ -486,11 +486,14 @@
                     <div class="background">
                         <div id="parallax-image">
                             <img src="../assets/img/background.jpg" id="parallax-image__img" />        
+                            <img src="../assets/img/background.jpg" id="parallax-image__img" style="transform:rotate(180deg);"/>
+                            <img src="../assets/img/background.jpg" id="parallax-image__img" />
+                            <img src="../assets/img/background.jpg" id="parallax-image__img" style="transform:rotate(180deg);"/>
                         </div>
                         <!-- main section -->
                         <section class="main-content" id="main-content-id"> 
                             <!-- white separator -->       
-                            <div id="space-between" class="bgd-white"></div>
+                            <!-- <div id="space-between" class="bgd-white"></div>-->
                             <!-- link top --> 
                             <div class="previous pl-sm-3 pl-md-5 pt-4 ml-2 pb-3 mt-2 mb-2" id="main-title-1"><a class='black link-black' href='#'><a class='black link-black' href='http://localhost:8888/templates/shop.php'><span class='mr-2 black chevron'><</span>Boutique</a></a></div>
                             <!-- main title --> 
@@ -639,7 +642,7 @@
                         </section>
                     </div>
                     <!-- secondary section -->
-                    <section class="secondary-content bgd-white pb-5">
+                    <section class="secondary-content pb-5">
                         <div class="container-width mx-auto pb-xs-none pr-xs-none pl-xs-none pr-sm-3 pl-sm-3 pr-lg-5 pl-l-5">
                             <!-- title -->
                             <h5 class="black pb-2">Nous vous suggérons...</h5>
@@ -650,7 +653,7 @@
                                     <div class="col-md-12 col-lg-6">
                                         <div class="row mb-lg-0 mb-md-3">
                                             <div class="col-sm-12 col-md-6 p-0 mb-xs-4 mb-sm-4 mb-md-0 bgd-transparent">
-                                                <div class="br-10 bs-red pr-4 pb-4 pl-4 pt-3 mr-1 ml-1">
+                                                <div class="bg-white br-10 bs-red pr-4 pb-4 pl-4 pt-3 mr-1 ml-1">
                                                     <img class="card-badge" src="../assets/img/badge-nouveaute.png" alt="Card image cap">
                                                     <img class="card-img-top" src="../assets/img/witch.png" alt="Card image cap">
                                                     <p class="bold text-center mb-2">Collier halloween</p>
@@ -659,7 +662,7 @@
                                                 </div> 
                                             </div>
                                             <div class="col-sm-12 col-md-6 p-0 mb-xs-4 mb-sm-4 mb-md-0 bgd-transparent">
-                                                <div class="br-10 bs-red pr-4 pb-4 pl-4 pt-3 mr-1 ml-1">
+                                                <div class="bg-white br-10 bs-red pr-4 pb-4 pl-4 pt-3 mr-1 ml-1">
                                                     <img class="card-img-top" src="../assets/img/collant-blanc.png" alt="Card image cap">
                                                     <p class="bold text-center mb-2">Collants sorcière enfant fluo</p>
                                                     <p class="black text-center mb-3">Dès 6,95€</p>
@@ -671,7 +674,7 @@
                                     <div class="col-md-12 col-lg-6">
                                         <div class="row mb-lg-0 mb-md-3">
                                             <div class="col-sm-12 col-md-6 p-0 mb-xs-4 mb-sm-4 mb-md-0 bgd-transparent">
-                                                <div class="br-10 bs-red pr-4 pb-4 pl-4 pt-3 mr-1 ml-1">
+                                                <div class="bg-white br-10 bs-red pr-4 pb-4 pl-4 pt-3 mr-1 ml-1">
                                                     <img class="card-img-top" src="../assets/img/collant-rose.png" alt="Card image cap">
                                                     <p class="bold text-center mb-2">Collants sorcière enfant fluo</p>
                                                     <p class="black text-center mb-3">Dès 6,95€</p>
@@ -679,7 +682,7 @@
                                                 </div>
                                             </div>
                                             <div class="col-sm-12 col-md-6 p-0 mb-xs-4 mb-sm-4 mb-md-0 bgd-transparent">
-                                                <div class="br-10 bs-red pr-4 pb-4 pl-4 pt-3 mr-1 ml-1">
+                                                <div class="bg-white br-10 bs-red pr-4 pb-4 pl-4 pt-3 mr-1 ml-1">
                                                     <img class="card-img-top" src="../assets/img/collant-orange.png" alt="Card image cap">
                                                     <p class="bold text-center mb-2">Collants sorcière enfant fluo</p>
                                                     <p class="black text-center mb-3">Dès 6,95€</p>
@@ -695,7 +698,7 @@
                                     <div class="col-md-12 col-lg-6">
                                         <div class="row mb-lg-0 mb-md-3">
                                             <div class="col-sm-12 col-md-6 p-0 mb-xs-4 mb-sm-4 mb-md-0 bgd-transparent">
-                                                <div class="br-10 bs-red pr-4 pb-4 pl-4 pt-3 mr-1 ml-1">
+                                                <div class="bg-white br-10 bs-red pr-4 pb-4 pl-4 pt-3 mr-1 ml-1">
                                                     <img class="card-img-top" src="../assets/img/witch.png" alt="Card image cap">
                                                     <p class="bold text-center mb-2">Collier halloween</p>
                                                     <p class="black text-center mb-3">Dès 3,95€</p>
@@ -703,7 +706,7 @@
                                                 </div> 
                                             </div>
                                             <div class="col-sm-12 col-md-6 p-0 mb-xs-4 mb-sm-4 mb-md-0 bgd-transparent">
-                                                <div class="br-10 bs-red pr-4 pb-4 pl-4 pt-3 mr-1 ml-1">
+                                                <div class="bg-white br-10 bs-red pr-4 pb-4 pl-4 pt-3 mr-1 ml-1">
                                                     <img class="card-badge" src="../assets/img/badge-promo.png" alt="Card image cap">
                                                     <img class="card-img-top" src="../assets/img/collant-blanc.png" alt="Card image cap">
                                                     <p class="bold text-center mb-2">Collants sorcière enfant fluo</p>
@@ -716,7 +719,7 @@
                                     <div class="col-md-12 col-lg-6">
                                         <div class="row mb-lg-0 mb-md-0">
                                             <div class="col-sm-12 col-md-6 p-0 mb-xs-4 mb-sm-4 mb-md-0 bgd-transparent">
-                                                <div class="br-10 bs-red pr-4 pb-4 pl-4 pt-3 mr-1 ml-1">
+                                                <div class="bg-white br-10 bs-red pr-4 pb-4 pl-4 pt-3 mr-1 ml-1">
                                                     <img class="card-badge" src="../assets/img/badge-occasion.png" alt="Card image cap">
                                                     <img class="card-img-top" src="../assets/img/collant-rose.png" alt="Card image cap">
                                                     <p class="bold text-center mb-2">Collants sorcière enfant fluo</p>
@@ -725,7 +728,7 @@
                                                 </div>
                                             </div>
                                             <div class="col-sm-12 col-md-6 p-0 bgd-transparent">
-                                                <div class="br-10 bs-red pr-4 pb-4 pl-4 pt-3 mr-1 ml-1">
+                                                <div class="bg-white br-10 bs-red pr-4 pb-4 pl-4 pt-3 mr-1 ml-1">
                                                     <img class="card-img-top" src="../assets/img/collant-orange.png" alt="Card image cap">
                                                     <p class="bold text-center mb-2">Collants sorcière enfant fluo</p>
                                                     <p class="black text-center mb-3">Dès 6,95€</p>

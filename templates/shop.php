@@ -486,6 +486,9 @@
                     <div class="background">
                         <div id="parallax-image">
                             <img src="../assets/img/background.jpg" id="parallax-image__img" />        
+                            <img src="../assets/img/background.jpg" id="parallax-image__img" style="transform:rotate(180deg);"/>
+                            <img src="../assets/img/background.jpg" id="parallax-image__img" />
+                            <img src="../assets/img/background.jpg" id="parallax-image__img" style="transform:rotate(180deg);"/>
                         </div>
                         <!-- main section -->
                         <section class="main-content" id="main-content-id"> 
@@ -547,7 +550,7 @@
                         </section>
                     </div>
                     <!-- secondary section -->
-                    <section class="secondary-content bgd-white pb-5">
+                    <section class="secondary-content pb-5">
                         <div class="container-width mx-auto pb-xs-none pr-xs-none pl-xs-none pr-sm-3 pl-sm-3 pr-lg-5 pl-l-5">
                             <div class="col-12 pb-lg-3 pt-5">
                                 <!-- title -->

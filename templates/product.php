@@ -518,7 +518,7 @@
                                                 <div class="loupe-widget__loupe js-loupe-element"></div>
                                                 <img class="loupe-widget__image js-loupe-image primary-img-top d-block mb-xs-4 mx-auto ml-lg-5 mr-lg-5 mt-lg-5" src="../assets/img/collant-orange.png" alt="Card image cap" data-image-full="../assets/img/collant-orange.png">
                                             </div>
-                                            <div class="d-flex mt-4 thumbnail-box">
+                                            <div class="d-flex mt-5 thumbnail-box">
                                                 <img class="ml-1" src="../assets/img/collant-orange.png" alt="Card image cap" data-image-full="../assets/img/collant-orange.png">
                                                 <img class="ml-1" src="../assets/img/collant-orange.png" alt="Card image cap" data-image-full="../assets/img/collant-orange.png">
                                                 <img class="ml-1" src="../assets/img/collant-orange.png" alt="Card image cap" data-image-full="../assets/img/collant-orange.png">

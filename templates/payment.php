@@ -17,9 +17,9 @@
             <!-- form -->
             <form class="mt-5">
                 <!-- row 1 -->
-                <div class="row mr-0 ml-0 mb-3">
+                <div class="column align-items-center mb-3">
                     <!-- credit card -->
-                    <div class="col-lg-6 mb-xs-3 mb-sm-3 pl-0 pr-xs-0 pr-xs-none pr-sm-0 pr-lg-3">
+                    <div class="col-lg-6 mb-3 pl-0 pr-0 mx-auto">
                         <div id="payment-creditcard" class="payment-choice p-4 pointer choice-selected" data-url="creditcard">
                             <div><img src="../assets/img/credit-card-icon.png" class="icon-single d-block mx-auto mb-3 mt-1" alt="logo lydia"></div>
                             <p class="black font-16 text-center mb-1">Carte Bancaire (Lydia)</p>
@@ -38,7 +38,7 @@
                         </div>
                     </div>
                     <!-- paypal -->
-                    <div class="col-lg-6 pl-xs-none pl-sm-0 pl-lg-3 pr-0">
+                    <div class="col-lg-6 mb-3 pl-0 pr-0 mx-auto">
                         <div id="payment-paypal" class="payment-choice p-4 pointer" data-url="paypal">
                             <img src="../assets/img/paypal-icon.png" class="icon-single d-block mx-auto mb-3 mt-1" alt="logo paypal">
                             <p class="black font-16 text-center mb-1">Paypal</p>
@@ -60,7 +60,7 @@
                 <!-- row 2 -->
                 <div class="row mr-0 ml-0 mt-3">
                     <!-- check -->
-                    <div class="col-lg-6 pl-0 pr-xs-none pr-3">
+                    <div class="col-lg-6 mb-3 pl-0 pr-0 mx-auto">
                         <div id="payment-check" class="payment-choice p-4 pointer" data-url="check">
                             <img src="../assets/img/logo-check-icon.png" class="icon-single d-block mx-auto mb-3 mt-1" alt="logo check">
                             <p class="black font-16 text-center mb-1">Chèque</p>

@@ -111,6 +111,6 @@
     </div>
     <!-- submit -->
     <div class="form-submit">
-        <button type="submit" class="btn button-orange black mt-4">Envoyer</button>
+        <button type="submit" class="btn button-orange black d-block mx-xs-auto ml-sm-0 mt-4">Envoyer</button>
     </div>
 </form>

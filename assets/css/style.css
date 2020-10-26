@@ -12177,6 +12177,7 @@ label.disabled {
   bottom: -9px;
   color: #FD9644;
   font-size: 40px;
+  right: 0px;
 }
 
 .table.pricing {
@@ -12185,6 +12186,12 @@ label.disabled {
 }
 .table.pricing td, .table.pricing th {
   border-left: 1px solid #9d9d9d !important;
+}
+
+.thumbnail-box img {
+  width: 50px;
+  border: 1px solid lightgrey;
+  cursor: pointer;
 }
 
 @media (max-width: 992px) {

@@ -161,7 +161,7 @@ label.disabled {
     position:absolute;
     bottom:-9px;
     color:#FD9644;
-    font-size:30px;
+    font-size:40px;
 }
 
 .table.pricing {
@@ -180,8 +180,9 @@ label.disabled {
     }
     // question 
     .icon-question-circle-o {
-        top:-9px;
+        top:0px;
         right:0px;
+        font-size:30px;
     }
 }
 

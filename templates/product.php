@@ -510,9 +510,12 @@
                                             <li class="mr-2"><a href="#" class="link-black"><i class="icon-whatsapp share-wha"></i></a></li>
                                         </ul>
                                         <!-- loupe responsive -->
-                                        <div class="loupe-widget js-loupe d-xs-none d-sm-none d-lg-block">
-                                            <div class="loupe-widget__loupe js-loupe-element"></div>
-                                            <img class="loupe-widget__image js-loupe-image primary-img-top d-block mb-xs-4 mx-auto ml-lg-5 mr-lg-5 mt-lg-5" src="../assets/img/collant-orange.png" alt="Card image cap" data-image-full="../assets/img/collant-orange.png">
+                                        <div class="d-xs-none d-sm-none d-lg-block">
+                                            <div class="loupe-widget js-loupe d-xs-none d-sm-none d-lg-block">
+                                                <div class="loupe-widget__loupe js-loupe-element"></div>
+                                                <img class="loupe-widget__image js-loupe-image primary-img-top d-block mb-xs-4 mx-auto ml-lg-5 mr-lg-5 mt-lg-5" src="../assets/img/collant-orange.png" alt="Card image cap" data-image-full="../assets/img/collant-orange.png">
+                                            </div>
+                                            <span class="icon-question-circle-o pointer d-block" title="Question sur l'article" id="link-modal" data-toggle="modal" data-target="#ask-question"></span>
                                         </div>
                                         <img class="d-xs-block d-sm-block d-lg-none primary-img-top d-block mb-xs-4 mx-auto ml-lg-5 mr-lg-5 mt-lg-5" src="../assets/img/collant-orange.png" alt="Card image cap">
                                         <span class="icon-question-circle-o pointer d-block" title="Question sur l'article" id="link-modal" data-toggle="modal" data-target="#ask-question"></span>

@@ -59,8 +59,8 @@
     <div class="form-row">
         <!-- zip code -->
         <div class="form-group col-md-6">
-            <label for="currentpass" class="font-14 sbold">Code postal</label>
-            <input type="text" class="form-control form-large font-13" id="currentpass" value="75001">
+            <label for="currentPass" class="font-14 sbold">Code postal</label>
+            <input type="text" class="form-control form-large font-13" id="currentPass" value="75001">
             <div class="invalid-feedback">
                 Entrez un code postal valide svp
             </div>

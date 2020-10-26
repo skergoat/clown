@@ -1,5 +1,15 @@
 /* choose by radio */
 
+// auto select mondial relais
+$('.option-relais').addClass('active');
+
+// shipping options
+function showOptions(options)
+{
+    $('.option-'+options).toggleClass('active');
+    $('.shipping-option').not($('.option-'+options)).removeClass('active');
+}
+
 // select payment choice with radio 
 function selectChoiceRadio($element){
     // get radio id 
@@ -7,6 +17,8 @@ function selectChoiceRadio($element){
     // then add class to the box 
     $('.'+$val+'-choice:not(#'+$val+'-'+id+')').removeClass('choice-selected');
     $('#'+$val+'-'+id).addClass('choice-selected');
+    // options
+    showOptions(id);
 }
 
 // select payment choice with Box 
@@ -19,13 +31,8 @@ function selectChoiceBox($element){
     // then add check radio 
     $('.payment-selection:not(#'+data).prop('checked', false);
     $('#'+data).prop('checked', true);
-    // colissimo option 
-    if($('#colissimo').is(':checked')) { 
-        $('.dropdown.dropdown-reception').addClass('active');
-    }
-    else {
-        $('.dropdown.dropdown-reception').removeClass('active');
-    }
+    // options
+    showOptions(data);
 }
 
 // click 

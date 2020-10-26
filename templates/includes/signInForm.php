@@ -12,7 +12,7 @@
         </div>
         <!-- password -->
         <div class="form-group">
-            <input type="password" class="form-control form-control-1 mt-4 font-13" id="password" aria-describedby="password" value="Mot de passe" required>
+            <input type="password" class="form-control form-control-1 mt-4 font-13" id="pass" aria-describedby="password" value="Mot de passe" required>
             <div class="invalid-feedback">
                 Entrez un nom mot de passe valide svp
             </div>

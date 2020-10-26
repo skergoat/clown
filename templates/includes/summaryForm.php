@@ -55,8 +55,8 @@
     <span class="border-bottom-orange mb-4"></span>
     <!-- adress -->
     <div class="form-group">
-        <label for="address1" class="font-14 sbold">Adresse</label>
-        <input type="text" class="form-control form-large font-13 is-invalid" id="address1" value="20 rue de Paris">
+        <label for="address" class="font-14 sbold">Adresse</label>
+        <input type="text" class="form-control form-large font-13 is-invalid" id="address" value="20 rue de Paris">
         <div class="invalid-feedback">
             Entrez une adresse valide svp
         </div>
@@ -89,9 +89,9 @@
         </div>
     </div>
     <!-- country -->
-    <label for="country-select" class="font-13">Pays</label>
+    <label for="countrySelect" class="font-13">Pays</label>
     <div class="form-group custom-selects">
-        <select name="country" id="country-select" class="font-13 bold">
+        <select name="country" id="countrySelect" class="font-13 bold">
             <option value="">France</option>
             <option value="parrot">Belgique</option>
             <option value="hamster">Suisse</option>
@@ -127,8 +127,8 @@
         </div>
     </div>
     <div class="form-group">
-        <label for="addressBis" class="font-14 sbold">Complément d'adresse</label>
-        <input type="text" class="form-control form-large font-13" id="addressBis" value="Bâtiment B">
+        <label for="address2" class="font-14 sbold">Complément d'adresse</label>
+        <input type="text" class="form-control form-large font-13" id="address2" value="Bâtiment B">
         <div class="invalid-feedback">
             Entrez une adresse valide svp
         </div>
@@ -137,16 +137,16 @@
     <div class="form-row">
         <!-- zip code -->
         <div class="form-group col-md-6">
-            <label for="currentpass" class="font-14 sbold">Code postal</label>
-            <input type="text" class="form-control form-large font-13" id="currentpass" value="75001">
+            <label for="currentPass" class="font-14 sbold">Code postal</label>
+            <input type="text" class="form-control form-large font-13" id="currentPass" value="75001">
             <div class="invalid-feedback">
                 Entrez un code postal valide svp
             </div>
         </div>
         <!-- city -->
         <div class="form-group col-md-6">
-            <label for="city" class="font-14 sbold">Ville</label>
-            <input type="text" class="form-control form-large font-13" id="city" value="Paris">
+            <label for="ville" class="font-14 sbold">Ville</label>
+            <input type="text" class="form-control form-large font-13" id="ville" value="Paris">
             <!-- error message -->
             <div class="invalid-feedback">
                 Entrez un nom valide svp
@@ -204,7 +204,7 @@
                 </div>
             </div>
             <!-- reception options -->
-            <div class="dropdown dropdown-reception mt-3 mx-auto">
+            <div class="shipping-option option-colissimo dropdown dropdown-reception mt-3 mx-auto">
                 <button class="btn dropdown-color btn-sm dropdown-toggle regular d-block mx-auto mt-2" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                     Lieu de réception
                 </button>
@@ -256,7 +256,7 @@
             </div>
         </div>
     </div>
-    <div class="shipping-find mt-4">
+    <div class="shipping-option option-relais shipping-find mt-4">
         <div class="shipping-title row p-2 m-0 d-flex justify-content-center">
             <h5 class="black font-17 m-0">Sélectionnez votre Point Relais® Mondial Relay.</h5>
         </div>
@@ -268,8 +268,8 @@
                         <div class="d-xs-block d-sm-block d-md-flex col-auto p-0">
                             <div><img src="../assets/img/big-logo-point-relais.png" alt="logo point relais" class="d-block mx-xs-auto mr-sm-3" id="big-logo-relais"></div>
                             <div class="d-xs-block d-flex align-items-center mr-xs-0 mr-sm-3 mt-xs-4">
-                                <label for="cityname" class="bold font-13 pr-3 mb-0">Ville</label>
-                                <input type="text" class="search form-control w-100 mb-0 font-12" id="cityname" value="Paris">
+                                <label for="cityName" class="bold font-13 pr-3 mb-0">Ville</label>
+                                <input type="text" class="search form-control w-100 mb-0 font-12" id="cityName" value="Paris">
                             </div>
                             <div class="d-xs-block d-flex align-items-center mt-xs-4">
                                 <label for="zipcode" class="bold font-13 pr-3 mb-0">CP</label>

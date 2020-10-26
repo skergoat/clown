@@ -11842,6 +11842,13 @@ input[type=number] {
   }
 }
 
+.option-relais {
+  display: none;
+}
+.option-relais.active {
+  display: block;
+}
+
 .transports-info__metro {
   width: 170px;
 }

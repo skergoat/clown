@@ -6,8 +6,13 @@ $('.option-relais').addClass('active');
 // shipping options
 function showOptions(options)
 {
+    // open options 
     $('.option-'+options).toggleClass('active');
     $('.shipping-option').not($('.option-'+options)).removeClass('active');
+    // scroll to 
+    let offsetTop = $('#shipping-section').offset().top;
+    let gotTo = offsetTop - 100;
+    $(document).scrollTop(gotTo);
 }
 
 // select payment choice with radio 

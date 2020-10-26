@@ -62,7 +62,18 @@
     }
 }
 
-// reception options 
+// shipping options 
+.option-relais {
+    display:none;
+    &.active {
+        display:block;
+    }
+}
+
+#dropdown-colissimo {
+    min-width:205px!important;
+}
+
 .dropdown.dropdown-reception {
     display:none!important;
     &.active {
@@ -121,9 +132,16 @@
     }
 }
 
-.option-relais {
-    display:none;
-    &.active {
-        display:block;
+@media (max-width:768px) {
+    .option-colissimo button {
+        margin:auto!important;
+    }
+}
+
+@media (max-width:478px) {
+    .option-colissimo button, #dropdown-colissimo {
+        width:100%!important;
+        margin-left:0px;
+        margin-right:0px;
     }
 }

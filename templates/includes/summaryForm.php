@@ -185,7 +185,7 @@
 </div>
 
 <!-- shipping -->
-<div class="col-lg-12 mb-xs-4 mb-lg-0 mt-xs-4 mt-sm-4 mt-lg-3 p-xs-none pb-3 pt-2">
+<div id="shipping-section" class="col-lg-12 mb-xs-4 mb-lg-0 mt-xs-4 mt-sm-4 mt-lg-3 p-xs-none pb-3 pt-2">
     <!-- title -->
     <h5 class="black pb-2">Livraison</h5>
     <span class="border-bottom-orange mb-1"></span>
@@ -201,17 +201,6 @@
                 <div class="form-check form-check-inline">
                     <input class="form-check-input shipping-selection" type="radio" name="shipping" id="colissimo" value="colissimo">
                     <span class="form-check-input form-check-input__pay checkmark"></span>
-                </div>
-            </div>
-            <!-- reception options -->
-            <div class="shipping-option option-colissimo dropdown dropdown-reception mt-3 mx-auto">
-                <button class="btn dropdown-color btn-sm dropdown-toggle regular d-block mx-auto mt-2" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    Lieu de réception
-                </button>
-                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                    <a class="dropdown-item d-flex justify-content-between" href="#">Domicile</a>
-                    <a class="dropdown-item d-flex justify-content-between" href="#">Commerçant</a>
-                    <a class="dropdown-item d-flex justify-content-between" href="#">La Poste</a>
                 </div>
             </div>
         </div>
@@ -254,6 +243,17 @@
                     <span class="form-check-input form-check-input__pay checkmark"></span>
                 </div>
             </div>
+        </div>
+    </div>
+    <!-- reception options -->
+    <div class="shipping-option option-colissimo dropdown dropdown-reception mt-3 mx-auto">
+        <button class="btn dropdown-color btn-sm dropdown-toggle regular d-block mt-2" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Choisir un lieu de réception
+        </button>
+        <div id="dropdown-colissimo" class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+            <a class="dropdown-item d-flex justify-content-between" href="#">Domicile</a>
+            <a class="dropdown-item d-flex justify-content-between" href="#">Commerçant</a>
+            <a class="dropdown-item d-flex justify-content-between" href="#">La Poste</a>
         </div>
     </div>
     <div class="shipping-option option-relais shipping-find mt-4">

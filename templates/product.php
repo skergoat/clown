@@ -518,7 +518,7 @@
                                             <span class="icon-question-circle-o pointer d-block" title="Question sur l'article" id="link-modal" data-toggle="modal" data-target="#ask-question"></span>
                                         </div>
                                         <img class="d-xs-block d-sm-block d-lg-none primary-img-top d-block mb-xs-4 mx-auto ml-lg-5 mr-lg-5 mt-lg-5" src="../assets/img/collant-orange.png" alt="Card image cap">
-                                        <span class="icon-question-circle-o pointer d-block" title="Question sur l'article" id="link-modal" data-toggle="modal" data-target="#ask-question"></span>
+                                        <span class="d-xs-block d-sm-block d-lg-none icon-question-circle-o pointer d-block" title="Question sur l'article" id="link-modal" data-toggle="modal" data-target="#ask-question"></span>
                                     </div>
                                     <div class="col-xs-12 col-lg-6 pr-xs-0 pr-lg-5">
                                         <div class="mr-lg-none mr-lg-4 mb-4">

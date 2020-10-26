@@ -24,6 +24,11 @@
         // space-between position top
         $('#space-between').css('top', '72%');       
         $('.secondary-content').css('display', 'none'); 
+        // temporary cart button 
+        $('#to-cart').on('click', function(e) {
+            e.preventDefault();
+            window.location.href = "http://localhost:8888/templates/cart.php";
+        });
     </script>
     <script src="../assets/js/custom-select.js"></script>
 <?php $script = ob_get_clean(); ?>

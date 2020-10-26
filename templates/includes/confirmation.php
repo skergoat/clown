@@ -48,7 +48,7 @@
             <p class="search-text__content font-12">75001 - PARIS</p>
         </div>
     </div>
-    <div class="mt-4" id="maps"></div>
+    <div id="maps" class="mt-4"></div>
 </div>
 
 <!-- text area -->

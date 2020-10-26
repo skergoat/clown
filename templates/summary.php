@@ -22,8 +22,8 @@
         // active link 
         let activeId = '#active-cart';
         // radio 
-        $class="select-selected-large";
-        $class2="select-items-large";
+        // $class="select-selected-large";
+        // $class2="select-items-large";
         let $val = "shipping";
         // space-between position top
         $('#space-between').css('top', '29%');       

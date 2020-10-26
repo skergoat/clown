@@ -232,13 +232,13 @@
         </div>
         <!-- UPS -->
         <div class="col-lg-2 mb-xs-3 mb-sm-3 pl-0 pr-xs-0 pr-xs-none pr-sm-0 pr-lg-3">
-            <div id="shipping-ups" class="payment-choice shipping-choice pt-2 pb-2 pr-0 pl-0 pointer" data-url="relais">
-                <div><img src="../assets/img/ups.png" alt="logo relais" id="ups"></div>
+            <div id="shipping-ups" class="payment-choice shipping-choice pt-2 pb-2 pr-0 pl-0 pointer" data-url="ups">
+                <div><img src="../assets/img/ups.png" alt="logo relais" id="ups-img"></div>
             </div>
             <!-- radio -->
             <div class="mt-2 d-flex justify-content-center">
                 <div class="form-check form-check-inline fci-summary">
-                    <input class="form-check-input shipping-selection" type="radio" name="shipping" id="relais" value="relais">
+                    <input class="form-check-input shipping-selection" type="radio" name="shipping" id="ups" value="ups">
                     <span class="form-check-input form-check-input__pay checkmark"></span>
                 </div>
             </div>

@@ -1,12 +1,12 @@
 <!-- formulaire -->
 <div class="mx-auto col-lg-10 mb-xs-4 mb-lg-5 mt-xs-4 mt-sm-4 mt-lg-0 p-xs-none pl-xs-none pt-0 pr-4 pl-4 pb-0" style="border-radius:20px;box-shadow:0px 4px 12px 5px rgba(167, 28, 28, 0.21) !important;">
-    <div class="row">
-        <div class="col-6 p-2 d-flex justify-content-center align-items-center">
+    <div class="row p-xs-3 p-sm-5 p-lg-0">
+        <div class="col-lg-6 p-2 d-flex justify-content-center align-items-center">
             <div style="max-width:200px;">
                 <img src="../assets/img/avatar.png" alt="logo colissimo" style="width:100%;border-radius:200px;box-shadow:0px 4px 12px 5px rgba(167, 28, 28, 0.21) !important;">
             </div>
         </div>
-        <div class="col-6 pt-4">
+        <div class="col-lg-6 pt-4">
             <!-- title -->
             <h5 class="black pb-2">Coordonnées</h5>
             <span class="border-bottom-orange mb-4"></span>
@@ -185,7 +185,7 @@
         <h5 class="black pb-2 text-center">Historique des commandes</h5>
         <span class="border-bottom-orange mb-4 mx-auto"></span>
     </div>
-    <div class="col-8 mx-auto">
+    <div class="col-lg-8 mx-auto">
         <table id="table_commands" class="table">
             <thead>
                 <tr>

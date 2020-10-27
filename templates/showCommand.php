@@ -31,6 +31,7 @@
         $('.secondary-content').css('display', 'none'); 
     </script>
     <script src="../assets/js/custom-select.js"></script>
+    <script src="../assets/js/cart.js"></script>
      <!-- map -->
      <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
         <script>

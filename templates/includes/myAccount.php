@@ -249,7 +249,7 @@
                 </div>
             </div>
             <!-- body -->
-            <div class="modal-body p-0">
+            <div class="p-0">
                 <div class="row pr-0 pl-0 mr-0 ml-0">
                     <!-- left -->
                     <div class="col-12 pl-5 pr-5 modal-left">

@@ -4,14 +4,6 @@
     position:relative;
 }
 
-/** backgrounds **/
-
-// backgroubd:white
-// nav, footer, section, div {
-//     background:white;
-//     text-align:justify;
-// }
-
 // custom modal background 
 div.modal.fade.show, div.modal-dialog.modal-lg {
     background:transparent!important;
@@ -45,3 +37,7 @@ div.modal.fade.show, div.modal-dialog.modal-lg {
     background:white!important;
 }
 
+// custom select 
+.select-selected-large {
+    background:white!important;
+}

@@ -343,9 +343,8 @@
                 window.location.href = "http://localhost:8888/templates/cart.php";
             });
         </script>
-        <script src="../assets/js/cart.js"></script>
         <script src="../assets/js/cookie.js"></script>
         <script src="../assets/js/flag.js"></script>
-        <script src="../assets/js/summary.js"></script>
+        <!-- <script src="../assets/js/summary.js"></script> -->
     </body>
 </html>

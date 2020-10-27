@@ -30,6 +30,7 @@
             window.location.href = "http://localhost:8888/templates/cart.php";
         });
     </script>
+    <script src="../assets/js/cart.js"></script>
     <script src="../assets/js/custom-select.js"></script>
 <?php $script = ob_get_clean(); ?>
 <!-- include -->

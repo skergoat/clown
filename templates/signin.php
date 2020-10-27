@@ -28,6 +28,7 @@
         });
     </script>
     <script src="../assets/js/custom-select.js"></script>
+    <script src="../assets/js/cart.js"></script>
 <?php $script = ob_get_clean(); ?>
 <!-- include -->
 <?php require('layout/layoutSecond.php'); ?>

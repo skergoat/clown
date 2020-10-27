@@ -222,6 +222,7 @@
     // active link 
     let activeId = '#active-home'; 
 </script>
+<script src="../assets/js/cart.js"></script>
 <?php $script = ob_get_clean(); ?>
 
 <?php require('layout/layoutMain.php'); ?>

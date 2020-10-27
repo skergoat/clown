@@ -52,6 +52,7 @@
     $('#space-between').css('top', '68%');       
     $('.secondary-content').css('display', 'none'); 
 </script>
+<script src="../assets/js/cart.js"></script>
 <?php $script = ob_get_clean(); ?>
 
 <!-- include -->

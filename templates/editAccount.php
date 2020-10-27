@@ -1,14 +1,14 @@
 <!-- titles -->
 <?php $title = "home" ?>
-<?php $mainTitle = "<h2 class='text-center black main-title-sm mb-3'>Mon compte</h2>" ?>
-<?php $previous = "<a class='black link-black' href='http://localhost:8888/templates/home.php'><span class='mr-2 black chevron'><</span>Accueil</a>" ?>
+<?php $mainTitle = "<h2 class='text-center black main-title-sm mb-3'>Modifier mes infos</h2>" ?>
+<?php $previous = "<a class='black link-black' href='http://localhost:8888/templates/account.php'><span class='mr-2 black chevron'><</span>Mon Compte</a>" ?>
 
 <!-- primary content  -->
 <?php ob_start(); ?>
 <div class="content__product container-width mx-auto">
     <!-- contact form -->
     <form class="row border-radius-10 m-0 pt-5 pr-xs-3 pr-sm-5 pb-5 pl-3 signin">
-        <?php //include('includes/editAccountForm.php'); ?>
+        <?php include('includes/editAccountForm.php'); ?>
     </form>
 </div>
 <?php $primaryContent = ob_get_clean(); ?>

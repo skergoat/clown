@@ -105,9 +105,6 @@
             Ce champ est requis
         </div>
     </div>
-    <!-- <div class="d-flex">
-        <a href="#" class="bold d-block" id="shipping-address-link">Entrez une addresse de livraison différente</a><span class="arrow-down d-block mt-2 ml-3" id="address-arrow"></span>
-    </div> -->
 </div>
 
 <!-- shipping address -->

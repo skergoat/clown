@@ -11449,7 +11449,7 @@ ol > li.lasts-child {
   text-align: center;
   line-height: 3em;
   border-top: 1px solid black;
-  font-size: 20px;
+  font-size: 18px;
   min-height: 60px;
   width: 100% !important;
   margin-top: 30px;
@@ -11494,7 +11494,7 @@ ol > li.lasts-child a:hover {
 
 .lasts-child.active a {
   color: #FF0999;
-  font-size: 25px;
+  font-size: 20px;
 }
 .lasts-child.active a:hover {
   color: #FF0999 !important;

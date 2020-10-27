@@ -1,7 +1,11 @@
 <!-- titles -->
 <?php $title = "home" ?>
 <?php $mainTitle = "<h2 class='text-center black main-title-sm mb-3'>Mon compte</h2>" ?>
-<?php $previous = "<a class='black link-black' href='http://localhost:8888/templates/home.php'><span class='mr-2 black chevron'><</span>Accueil</a>" ?>
+<?php ob_start(); ?>
+    <div class="previous pl-sm-3 pl-md-5 pt-4 ml-2 pb-3 mt-2 mb-2 d-flex" id="main-title-1">
+        <a class='black link-black' href='http://localhost:8888/templates/home.php'><span class='mr-2 black chevron'><</span>Accueil</a>
+    </div>
+<?php $previous = ob_get_clean(); ?>
 
 <!-- primary content  -->
 <?php ob_start(); ?>

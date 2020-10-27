@@ -4,7 +4,7 @@
 <!-- primary content  -->
 <?php ob_start(); ?>
 <!-- link top --> 
-<ol class="p-0 mt-5">
+<ol class="p-0 mt-5 mb-5">
     <!-- breadcumb -->
     <li class="lasts-child" style="">
         <a>Panier</a>

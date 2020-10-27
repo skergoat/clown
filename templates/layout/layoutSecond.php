@@ -14,9 +14,7 @@
     <?= $breadcumb ?>
 
     <!-- link top --> 
-    <div class="previous pl-sm-3 pl-md-5 pt-4 ml-2 pb-3 mt-2 mb-2 d-flex" id="main-title-1">
-        <a class='black link-black d-block' href='#'><?= $previous ?></a>
-    </div>
+    <?= $previous ?>
 
     <!-- main section -->
     <section class="main-content" id="main-content-id"> 

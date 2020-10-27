@@ -7,7 +7,8 @@
         <!-- fonts -->
         <link rel="stylesheet" href="../assets/fonts/fontello/css/fontello.css">
         <!-- stylesheet -->
-        <link type="text/css" rel="stylesheet" href="../../vendor/lightslider/src/css/lightslider.css" />                  
+        <link type="text/css" rel="stylesheet" href="../../vendor/lightslider/src/css/lightslider.css" /> 
+        <link type="text/css" rel="stylesheet" href="https://cdn.datatables.net/1.10.22/css/dataTables.bootstrap4.min.css"/>                 
         <link rel="stylesheet" href="../assets/css/style.css">
         <!-- leaflet -->
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />        

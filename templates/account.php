@@ -7,8 +7,8 @@
 <?php ob_start(); ?>
 <div class="content__product container-width mx-auto">
     <!-- contact form -->
-    <form class="row border-radius-10 m-0 pt-5 pr-xs-3 pr-sm-5 pb-5 pl-3 signin">
-        <?php //include('includes/editAccountForm.php'); ?>
+    <form class="row border-radius-10 m-0 pt-5 pb-5 pl-3 pr-3 signin">
+        <?php include('includes/myAccount.php'); ?>
     </form>
 </div>
 <?php $primaryContent = ob_get_clean(); ?>
@@ -32,6 +32,10 @@
     </script>
     <script src="../assets/js/cart.js"></script>
     <script src="../assets/js/custom-select.js"></script>
+    <!-- tables -->
+    <script src="https://cdn.datatables.net/1.10.20/js/jquery.dataTables.min.js"></script>  
+    <script src="https://cdn.datatables.net/1.10.22/js/dataTables.bootstrap4.min.js"></script> 
+    <script src="../assets/js/tables.js"></script> 
 <?php $script = ob_get_clean(); ?>
 <!-- include -->
 <?php require('layout/layoutSecond.php'); ?>

@@ -40,12 +40,12 @@
 </div>
 
 <!-- formulaire -->
-<div class="mx-auto col-lg-12 mb-xs-4 mb-lg-5 mt-xs-4 mt-sm-4 mt-lg-0 p-xs-none pl-xs-none pl-lg-5 pb-3 pt-2">
+<div class="mx-auto col-lg-12 mb-xs-4 mb-lg-0 mt-xs-4 mt-sm-4 mt-lg-0 p-xs-none pl-xs-none pl-lg-4 pb-3 pt-2">
     <div class="col-12 mb-4">
         <h5 class="black pb-2 text-center">Adresses de livraison</h5>
         <span class="border-bottom-orange mb-4 mx-auto"></span>
     </div>
-    <div class="row">
+    <div class="row p-0 m-0">
         <!-- shipping address -->
         <div class="col-lg-6 pl-lg-0 mb-xs-none mb-sm-0 mb-lg-4 mb-lg-0 pl-xs-none pr-xs-none pr-sm-0 pr-lg-5 pt-2">
             <!-- title -->
@@ -119,7 +119,7 @@
             <!-- title -->
             <h5 class="black pb-2 font-17">Gérer mes adresses</h5>
             <!-- <span class="border-bottom-orange mb-4"></span> -->
-            <table id="table_id" class="table">
+            <table id="table_address" class="table">
                 <thead>
                     <tr>
                         <th>Titre</th>
@@ -129,132 +129,109 @@
                 </thead>
                 <tbody>
                     <tr>
-                        <td class="pt-3 pb-3"><a href="#" class="bold">Maison</a></td>
+                        <td class="pt-3 pb-3"><a href="#" class="bold" title="modifier">Maison</a></td>
                         <td class="pt-3 pb-3">20 rue de Paris...</td>
                         <td class="pt-3 pb-3"><i class="icon-trash font-17 strong-pink pointer width-100" title='supprimer'></i></td>
                     </tr>
                     <tr>
-                        <td class="pt-3 pb-3"><a href="#" class="bold">Amazon</a></td>
+                        <td class="pt-3 pb-3"><a href="#" class="bold"  title="modifier">Amazon</a></td>
                         <td class="pt-3 pb-3">20 rue de Paris...</td>
                         <td class="pt-3 pb-3"><i class="icon-trash font-17 strong-pink pointer width-100" title='supprimer'></i></td>
                     </tr>
                     <tr>
-                        <td class="pt-3 pb-3"><a href="#" class="bold">Chez Maman</a></td>
+                        <td class="pt-3 pb-3"><a href="#" class="bold"  title="modifier">Chez Maman</a></td>
                         <td class="pt-3 pb-3">20 rue de Paris...</td>
                         <td class="pt-3 pb-3"><i class="icon-trash font-17 strong-pink pointer width-100" title='supprimer'></i></td>
                     </tr>
                     <tr>
-                        <td class="pt-3 pb-3"><a href="#" class="bold">Deliveroo</a></td>
+                        <td class="pt-3 pb-3"><a href="#" class="bold"  title="modifier">Deliveroo</a></td>
                         <td class="pt-3 pb-3">20 rue de Paris...</td>
                         <td class="pt-3 pb-3"><i class="icon-trash font-17 strong-pink pointer width-100" title='supprimer'></i></td>
                     </tr>
                     <tr>
-                        <td class="pt-3 pb-3"><a href="#" class="bold">Maison</a></td>
+                        <td class="pt-3 pb-3"><a href="#" class="bold"  title="modifier">Maison</a></td>
+                        <td class="pt-3 pb-3">20 rue de Paris...</td>
+                        <td class="pt-3 pb-3"><i class="icon-trash font-17 strong-pink pointer width-100" title='supprimer'></i></td>
+                    </tr>
+                    <tr> 
+                        <td class="pt-3 pb-3"><a href="#" class="bold"  title="modifier">Amazon</a></td>
                         <td class="pt-3 pb-3">20 rue de Paris...</td>
                         <td class="pt-3 pb-3"><i class="icon-trash font-17 strong-pink pointer width-100" title='supprimer'></i></td>
                     </tr>
                     <tr>
-                        <td class="pt-3 pb-3"><a href="#" class="bold">Amazon</a></td>
+                        <td class="pt-3 pb-3"><a href="#" class="bold"  title="modifier">Chez Maman</a></td>
                         <td class="pt-3 pb-3">20 rue de Paris...</td>
                         <td class="pt-3 pb-3"><i class="icon-trash font-17 strong-pink pointer width-100" title='supprimer'></i></td>
                     </tr>
                     <tr>
-                        <td class="pt-3 pb-3"><a href="#" class="bold">Chez Maman</a></td>
-                        <td class="pt-3 pb-3">20 rue de Paris...</td>
-                        <td class="pt-3 pb-3"><i class="icon-trash font-17 strong-pink pointer width-100" title='supprimer'></i></td>
-                    </tr>
-                    <tr>
-                        <td class="pt-3 pb-3"><a href="#">Deliveroo</a></td>
+                        <td class="pt-3 pb-3"><a href="#"  class="bold" title="modifier">Deliveroo</a></td>
                         <td class="pt-3 pb-3">20 rue de Paris...</td>
                         <td class="pt-3 pb-3"><i class="icon-trash font-17 strong-pink pointer width-100" title='supprimer'></i></td>
                     </tr>
                 </tbody>
             </table>
-
-            
         </div>   
     </div>
 </div>
 
-
-
-<!-- shipping -->
-<div class="col-lg-12 mb-xs-4 mb-lg-0 mt-xs-4 mt-sm-4 mt-lg-4 p-xs-none pb-0 pt-0">
-    <!-- title -->
-    <h5 class="black pb-2">Récapitulatif</h5>
-    <span class="border-bottom-orange mb-1"></span>
-
-    <div class="border-radius-10 m-0 pb-sm-0 pt-4 pb-4">
-        <!-- table responsive -->
-        <div class="overflow-scroll">
-            <!-- table top -->
-            <table class="table table-cart-top table-cart-top__confirm mt-3">
-                <!-- head -->
-                <thead>
-                    <tr>
-                        <th scope="col">Référence</th>
-                        <th scope="col">Article</th>
-                        <th scope="col">Taille</th>
-                        <th scope="col">Couleur</th>
-                        <th scope="col">Quantité</th>
-                        <th scope="col">Prix TTC</th>
-                        <th scope="col width-100">Prix total TTC</th>
-                    </tr>
-                </thead>
-                <!-- body -->
-                <tbody>
-                    <tr>
-                        <td class="light-grey">78</td>
-                        <td class="bold td-produit"><img src="../assets/img/collant.png" class="mr-2"/>Collant sorcière enfant</td>
-                        <td class="bold">XL</td>
-                        <td>Rouge</td>
-                        <td>1</td>
-                        <td class="light-grey">8,50€</td>
-                        <td class="bold width-100">8,50€</td>
-                    </tr>
-                    <tr>
-                        <td class="light-grey">78</td>
-                        <td class="bold td-produit"><img src="../assets/img/noeud.png" class="mr-2"/>Nœud papillon France</td>
-                        <td class="bold">L</td>
-                        <td>Verte</td>
-                        <td>1</td>
-                        <td class="light-grey">3,95€</td>
-                        <td class="bold width-100">3,95€</td>
-                    </tr>
-                    <tr>
-                        <td class="light-grey">78</td>
-                        <td class="bold td-produit"><img src="../assets/img/ailes.png" class="mr-2"/>Ailes d’ange en plumes blanches</td>
-                        <td class="bold">XL</td>
-                        <td>Rouge</td>
-                        <td>1</td>
-                        <td class="light-grey">8,50€</td>
-                        <td class="bold width-100">8,50€</td>
-                    </tr>
-                </tbody>
-            </table>
-        </div>
-        <!-- table bottom -->
-        <div class="row justify-content-end mt-0 ml-0 mr-0">
-            <div class="col-lg-5 p-0">
-                <!-- totals -->
-                <table class="table table-cart-bottom">
-                    <tbody>
-                        <tr>
-                            <td class="black">Sous-total :</td>
-                            <td class="">20,95€</td>
-                        </tr>
-                        <tr>
-                            <td class="black">Transport (France métropolitaine) :</td>
-                            <td>7,94€</td>
-                        </tr>
-                        <tr>
-                            <td class="black">Total :</td>
-                            <td class="bold icon-pink">28,89€</td>
-                        </tr>
-                    </tbody>
-                </table>
-            </div>
-        </div>
+<!-- formulaire -->
+<div class="mx-auto col-lg-12 mb-xs-4 mb-lg-5 mt-xs-4 mt-sm-4 mt-lg-0 p-xs-none pl-xs-none pl-lg-5 pb-3">
+    <div class="col-12 mb-5">
+        <h5 class="black pb-2 text-center">Historique des commandes</h5>
+        <span class="border-bottom-orange mb-4 mx-auto"></span>
+    </div>
+    <div class="col-8 mx-auto">
+        <table id="table_commands" class="table">
+            <thead>
+                <tr>
+                    <th>Numéro</th>
+                    <th>Date</th>
+                    <th>Action</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td class="pt-3 pb-3"><a href="#" class="bold" title="modifier">905071</a></td>
+                    <td class="pt-3 pb-3">23/11/2020</td>
+                    <td class="pt-3 pb-3"><i class="icon-trash font-17 strong-pink pointer width-100" title='supprimer'></i></td>
+                </tr>
+                <tr>
+                    <td class="pt-3 pb-3"><a href="#" class="bold" title="modifier">905070</a></td>
+                    <td class="pt-3 pb-3">02/10/2020</td>
+                    <td class="pt-3 pb-3"><i class="icon-trash font-17 strong-pink pointer width-100" title='supprimer'></i></td>
+                </tr>
+                <tr>
+                    <td class="pt-3 pb-3"><a href="#" class="bold" title="modifier">905069</a></td>
+                    <td class="pt-3 pb-3">14/08/2020</td>
+                    <td class="pt-3 pb-3"><i class="icon-trash font-17 strong-pink pointer width-100" title='supprimer'></i></td>
+                </tr>
+                <tr>
+                    <td class="pt-3 pb-3"><a href="#" class="bold" title="modifier">905068</a></td>
+                    <td class="pt-3 pb-3">25/05/2020</td>
+                    <td class="pt-3 pb-3"><i class="icon-trash font-17 strong-pink pointer width-100" title='supprimer'></i></td>
+                </tr>
+                <tr>
+                    <td class="pt-3 pb-3"><a href="#" class="bold" title="modifier">905067</a></td>
+                    <td class="pt-3 pb-3">01/04/2020</td>
+                    <td class="pt-3 pb-3"><i class="icon-trash font-17 strong-pink pointer width-100" title='supprimer'></i></td>
+                </tr>
+                <tr>
+                    <td class="pt-3 pb-3"><a href="#" class="bold" title="modifier">905066</a></td>
+                    <td class="pt-3 pb-3">10/03/2020</td>
+                    <td class="pt-3 pb-3"><i class="icon-trash font-17 strong-pink pointer width-100" title='supprimer'></i></td>
+                </tr>
+                <tr>
+                    <td class="pt-3 pb-3"><a href="#" class="bold" title="modifier">905065</a></td>
+                    <td class="pt-3 pb-3">03/01/2020</td>
+                    <td class="pt-3 pb-3"><i class="icon-trash font-17 strong-pink pointer width-100" title='supprimer'></i></td>
+                </tr>
+                <tr>
+                    <td class="pt-3 pb-3"><a href="#" class="bold" title="modifier">905064</a></td>
+                    <td class="pt-3 pb-3">20/11/2019</td>
+                    <td class="pt-3 pb-3"><i class="icon-trash font-17 strong-pink pointer width-100" title='supprimer'></i></td>
+                </tr>
+            </tbody>
+        </table>
     </div>
 </div>
 

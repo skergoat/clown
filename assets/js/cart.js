@@ -1,4 +1,13 @@
 // open / close cart popup
-$('#cart-popup-btn').on('click', function() {
+function openCart(){
     $('#cart-popup-window').toggleClass('active');
+    console.log('hello');
+}
+// desktop 
+$('#active-cart').on('click', function() {
+    openCart();
+});
+// mobile 
+$('#active-carts').on('click', function() {
+    openCart();
 });

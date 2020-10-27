@@ -58,7 +58,7 @@
                         </ul>
                         <!-- Navigation links (hidden by default) -->
                         <div class="d-xs-flex d-sm-flex d-md-flex d-lg-none d-flex">
-                            <a href="#" id="active-cart" class="d-flex align-items-center font-weight-bold link-black hover-no-change pr-1" style="position:relative;"><span class="badge badge-danger bold">2</span><i id="cart-popup-btn" class="icon-basket pointer"></i></a>
+                            <a href="#" id="active-carts" class="d-flex align-items-center font-weight-bold link-black hover-no-change pr-1" style="position:relative;"><span class="badge badge-danger bold">2</span><i id="cart-popup-btn" class="icon-basket pointer"></i></a>
                             <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
                             <div class="hamburger">
                                 <div class="icon hamburger__link" id="open-menu">

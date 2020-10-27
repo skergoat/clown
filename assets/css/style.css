@@ -10417,10 +10417,10 @@ h3 {
   border-top: 1px solid rgba(0, 0, 0, 0.1);
 }
 
-#active-cart, #cart-popup {
+#active-cart, #active-carts, #cart-popup {
   position: relative;
 }
-#active-cart .badge-danger, #cart-popup .badge-danger {
+#active-cart .badge-danger, #active-carts .badge-danger, #cart-popup .badge-danger {
   background: #FF4B5F;
   border-radius: 20px;
   height: 13px;
@@ -10433,7 +10433,7 @@ h3 {
   top: 32px;
 }
 @media (max-width: 576px) {
-  #active-cart .badge-danger, #cart-popup .badge-danger {
+  #active-cart .badge-danger, #active-carts .badge-danger, #cart-popup .badge-danger {
     top: 25px;
   }
 }

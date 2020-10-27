@@ -54,7 +54,7 @@
             <!-- titre -->
             <div class="form-group">
                 <label for="address" class="font-14 sbold">Titre</label>
-                <input type="text" class="form-control form-large font-13" id="address" value="Maison">
+                <input type="text" class="form-control form-large font-13" id="address1" value="Maison">
                 <div class="invalid-feedback">
                     Entrez un titre valide svp
                 </div>
@@ -62,7 +62,7 @@
             <!-- adress -->
             <div class="form-group">
                 <label for="address" class="font-14 sbold">Adresse</label>
-                <input type="text" class="form-control form-large font-13" id="address" value="20 rue de Paris">
+                <input type="text" class="form-control form-large font-13" id="address2" value="20 rue de Paris">
                 <div class="invalid-feedback">
                     Entrez une adresse valide svp
                 </div>
@@ -129,42 +129,42 @@
                 </thead>
                 <tbody>
                     <tr>
-                        <td class="pt-3 pb-3"><a href="#" class="bold" title="modifier">Maison</a></td>
+                        <td class="pt-3 pb-3"><a href="#" class="bold action-link" title="modifier" id="link-modal" data-toggle="modal" data-target="#edit-address-modal">Maison</a></td>
                         <td class="pt-3 pb-3">20 rue de Paris...</td>
                         <td class="pt-3 pb-3"><i class="icon-trash font-17 strong-pink pointer width-100" title='supprimer'></i></td>
                     </tr>
                     <tr>
-                        <td class="pt-3 pb-3"><a href="#" class="bold"  title="modifier">Amazon</a></td>
+                        <td class="pt-3 pb-3"><a href="#" class="bold action-link"  title="modifier" data-toggle="modal" data-target="#edit-address-modal">Amazon</a></td>
                         <td class="pt-3 pb-3">20 rue de Paris...</td>
                         <td class="pt-3 pb-3"><i class="icon-trash font-17 strong-pink pointer width-100" title='supprimer'></i></td>
                     </tr>
                     <tr>
-                        <td class="pt-3 pb-3"><a href="#" class="bold"  title="modifier">Chez Maman</a></td>
+                        <td class="pt-3 pb-3"><a href="#" class="bold action-link"  title="modifier" data-toggle="modal" data-target="#edit-address-modal">Chez Maman</a></td>
                         <td class="pt-3 pb-3">20 rue de Paris...</td>
                         <td class="pt-3 pb-3"><i class="icon-trash font-17 strong-pink pointer width-100" title='supprimer'></i></td>
                     </tr>
                     <tr>
-                        <td class="pt-3 pb-3"><a href="#" class="bold"  title="modifier">Deliveroo</a></td>
+                        <td class="pt-3 pb-3"><a href="#" class="bold action-link"  title="modifier" data-toggle="modal" data-target="#edit-address-modal">Deliveroo</a></td>
                         <td class="pt-3 pb-3">20 rue de Paris...</td>
                         <td class="pt-3 pb-3"><i class="icon-trash font-17 strong-pink pointer width-100" title='supprimer'></i></td>
                     </tr>
                     <tr>
-                        <td class="pt-3 pb-3"><a href="#" class="bold"  title="modifier">Maison</a></td>
+                        <td class="pt-3 pb-3"><a href="#" class="bold action-link"  title="modifier" data-toggle="modal" data-target="#edit-address-modal">Maison</a></td>
                         <td class="pt-3 pb-3">20 rue de Paris...</td>
                         <td class="pt-3 pb-3"><i class="icon-trash font-17 strong-pink pointer width-100" title='supprimer'></i></td>
                     </tr>
                     <tr> 
-                        <td class="pt-3 pb-3"><a href="#" class="bold"  title="modifier">Amazon</a></td>
+                        <td class="pt-3 pb-3"><a href="#" class="bold action-link"  title="modifier" data-toggle="modal" data-target="#edit-address-modal">Amazon</a></td>
                         <td class="pt-3 pb-3">20 rue de Paris...</td>
                         <td class="pt-3 pb-3"><i class="icon-trash font-17 strong-pink pointer width-100" title='supprimer'></i></td>
                     </tr>
                     <tr>
-                        <td class="pt-3 pb-3"><a href="#" class="bold"  title="modifier">Chez Maman</a></td>
+                        <td class="pt-3 pb-3"><a href="#" class="bold action-link"  title="modifier" data-toggle="modal" data-target="#edit-address-modal">Chez Maman</a></td>
                         <td class="pt-3 pb-3">20 rue de Paris...</td>
                         <td class="pt-3 pb-3"><i class="icon-trash font-17 strong-pink pointer width-100" title='supprimer'></i></td>
                     </tr>
                     <tr>
-                        <td class="pt-3 pb-3"><a href="#"  class="bold" title="modifier">Deliveroo</a></td>
+                        <td class="pt-3 pb-3"><a href="#"  class="bold action-link" title="modifier" data-toggle="modal" data-target="#edit-address-modal">Deliveroo</a></td>
                         <td class="pt-3 pb-3">20 rue de Paris...</td>
                         <td class="pt-3 pb-3"><i class="icon-trash font-17 strong-pink pointer width-100" title='supprimer'></i></td>
                     </tr>
@@ -234,4 +234,95 @@
         </table>
     </div>
 </div>
-
+<!-- Bootstrap Modal -->
+<div class="modal fade" id="edit-address-modal" role="dialog">
+    <div class="modal-dialog modal-connect modal-lg">
+            <!-- content -->
+        <div class="modal-content">
+            <!-- header -->
+            <div class="modal-header p-0">
+                <div class="row mr-0 ml-0">
+                    <div class="col-6"></div>
+                    <div class="col-6">
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    </div>
+                </div>
+            </div>
+            <!-- body -->
+            <div class="modal-body p-0">
+                <div class="row pr-0 pl-0 mr-0 ml-0">
+                    <!-- left -->
+                    <div class="col-12 pl-5 pr-5 modal-left">
+                        <h5 class="font-18 bold mb-3 text-center">Modifier l'addresse de livraison</h5>
+                        <!-- shipping address -->
+                        <div class="col-lg-12">
+                            <!-- titre -->
+                            <div class="form-group">
+                                <label for="titre-modal" class="font-14 sbold">Titre</label>
+                                <input type="text" class="form-control form-large font-13" id="titre-modal" value="Maison">
+                                <div class="invalid-feedback">
+                                    Entrez un titre valide svp
+                                </div>
+                            </div>
+                            <!-- adress -->
+                            <div class="form-group">
+                                <label for="address-modal-1" class="font-14 sbold">Adresse</label>
+                                <input type="text" class="form-control form-large font-13" id="address-modal-1" value="20 rue de Paris">
+                                <div class="invalid-feedback">
+                                    Entrez une adresse valide svp
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="address-modal-2" class="font-14 sbold">Complément d'adresse</label>
+                                <input type="text" class="form-control form-large font-13" id="address-modal-2" value="Bâtiment B">
+                                <div class="invalid-feedback">
+                                    Entrez une adresse valide svp
+                                </div>
+                            </div>
+                            <!-- row 3 -->
+                            <div class="form-row">
+                                <!-- zip code -->
+                                <div class="form-group col-md-6">
+                                    <label for="zip-modal-code" class="font-14 sbold">Code postal</label>
+                                    <input type="text" class="form-control form-large font-13" id="zip-modal-code" value="75001">
+                                    <div class="invalid-feedback">
+                                        Entrez un code postal valide svp
+                                    </div>
+                                </div>
+                                <!-- city -->
+                                <div class="form-group col-md-6">
+                                    <label for="modal-city" class="font-14 sbold">Ville</label>
+                                    <input type="text" class="form-control form-large font-13" id="modal-city" value="Paris">
+                                    <!-- error message -->
+                                    <div class="invalid-feedback">
+                                        Entrez un nom valide svp
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- country -->
+                            <label for="country-modal" class="font-13">Pays</label>
+                            <div class="form-group custom-selects">
+                                <select name="country" id="country-modal" class="font-13 bold">
+                                    <option value="">France</option>
+                                    <option value="parrot">Belgique</option>
+                                    <option value="hamster">Suisse</option>
+                                    <option value="cat">Allemagne</option>
+                                    <option value="spider">Pays-Bas</option>
+                                    <option value="dog">Angleterre</option>
+                                    <option value="goldfish">Danemark</option>
+                                </select>
+                                <!-- error message -->
+                                <div class="invalid-feedback">
+                                    Ce champ est requis
+                                </div>
+                            </div>
+                            <div class="col-auto p-0 mt-4">
+                                <button type="submit" class="btn button-orange btn-summary black mt-2 mb-2 d-block mx-auto">Enregistrer</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>         
+            </div>
+        </div>
+    </div>
+</div>

@@ -32,6 +32,7 @@
     </script>
     <script src="../assets/js/cart.js"></script>
     <script src="../assets/js/custom-select.js"></script>
+    <script src="../assets/js/account.js"></script>
     <!-- tables -->
     <script src="https://cdn.datatables.net/1.10.20/js/jquery.dataTables.min.js"></script>  
     <script src="https://cdn.datatables.net/1.10.22/js/dataTables.bootstrap4.min.js"></script> 

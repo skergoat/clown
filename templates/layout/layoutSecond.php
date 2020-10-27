@@ -2,16 +2,24 @@
 <?php ob_start(); ?>
 
 <div class="background">
+    <!-- parallax image -->
     <div id="parallax-image">
         <img src="../assets/img/background.jpg" id="parallax-image__img" />        
         <img src="../assets/img/background.jpg" id="parallax-image__img" style="transform:rotate(180deg);"/>
+        <img src="../assets/img/background.jpg" id="parallax-image__img" />       
+        <img src="../assets/img/background.jpg" id="parallax-image__img" style="transform:rotate(180deg);"/>
     </div>
+
+    <!-- shoop breadcumb -->
+    <?= $breadcumb ?>
+
+    <!-- link top --> 
+    <div class="previous pl-sm-3 pl-md-5 pt-4 ml-2 pb-3 mt-2 mb-2 d-flex" id="main-title-1">
+        <a class='black link-black d-block' href='#'><?= $previous ?></a>
+    </div>
+
     <!-- main section -->
     <section class="main-content" id="main-content-id"> 
-        <!-- white separator -->       
-        <!--<div id="space-between" class="bgd-white"></div>-->
-        <!-- link top --> 
-        <div class="previous pl-sm-3 pl-md-5 pt-4 ml-2 pb-3 mt-2 mb-2" id="main-title-1"><a class='black link-black' href='#'> <?= $previous ?></a></div>
         <!-- main title --> 
         <div class="title pb-4 mt-4" id="main-title-2"><?= $mainTitle ?><?= $subTitle ?></div>
         <!-- primary content --> 

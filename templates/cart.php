@@ -1,7 +1,22 @@
 <!-- titles -->
 <?php $title = "home" ?>
 <?php $mainTitle = "<h2 class='text-center black main-title-sm'>Panier</h2>" ?>
-<?php $previous = "<a class='black link-black' href='http://localhost:8888/templates/home.php'><span class='mr-2 black chevron'><</span>Accueil</a>" ?>
+<!-- primary content  -->
+<?php ob_start(); ?>
+<!-- link top --> 
+<ol class="p-0 mt-5">
+    <!-- breadcumb -->
+    <li class="lasts-child active" style="">
+        <a>Panier</a>
+    </li>
+    <li class="lasts-child">
+        <a>Récapitulatif</a>
+    </li>
+    <li class="lasts-child">
+        <a>Paiement</a>
+    </li>
+</ol>
+<?php $breadcumb = ob_get_clean(); ?>
 
 <!-- primary content  -->
 <?php ob_start(); ?>
@@ -195,6 +210,7 @@
     $('#space-between').css('display', 'none');       
     $('.secondary-content').css('display', 'none'); 
 </script>
+<script src="../assets/js/cart.js"></script>
 <?php $script = ob_get_clean(); ?>
 
 <!-- include -->

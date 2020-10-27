@@ -11436,6 +11436,70 @@ input[type=number] {
   max-width: 50px !important;
 }
 
+ol {
+  display: flex;
+  padding: 30px 15px 15px;
+  margin-bottom: 20px;
+  list-style-type: none;
+  min-width: 100%;
+  margin: auto;
+}
+
+ol > li.lasts-child {
+  text-align: center;
+  line-height: 3em;
+  border-top: 1px solid black;
+  font-size: 20px;
+  min-height: 60px;
+  width: 100% !important;
+  margin-top: 30px;
+}
+
+ol > li.lasts-child a {
+  font-family: "nunito_sansblack" !important;
+}
+
+ol > li.lasts-child a:hover {
+  color: black !important;
+}
+
+.lasts-child::before {
+  font-size: 5px;
+  position: relative;
+  top: -1em;
+  float: left;
+  left: 50%;
+  line-height: 1em;
+  margin-left: -1em;
+  font-family: FontAwesome;
+  content: "";
+  color: #272727;
+  background-color: #272727;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  transform: translate(0, 0);
+  height: 2em;
+  width: 2em;
+  line-height: 1em;
+  border: 0.5em solid #272727;
+  border-radius: 2em;
+}
+
+.lasts-child.active::before {
+  color: #FF0999;
+  background-color: #FF0999;
+  border: 0.5em solid #FF0999;
+}
+
+.lasts-child.active a {
+  color: #FF0999;
+  font-size: 25px;
+}
+.lasts-child.active a:hover {
+  color: #FF0999 !important;
+}
+
 @media (min-width: 1100px) and (max-width: 1300px) {
   .cart-pop__arrow {
     position: relative !important;
@@ -11874,7 +11938,7 @@ input[type=number] {
   position: fixed;
   z-index: 10000;
   right: 0px;
-  top: 30%;
+  top: 40%;
   box-shadow: 0px 4px 12px 5px rgba(167, 28, 28, 0.21) !important;
   border-top-left-radius: 5px;
   border-bottom-left-radius: 5px;

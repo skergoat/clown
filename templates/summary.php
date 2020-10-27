@@ -1,7 +1,22 @@
 <!-- titles -->
 <?php $title = "récapitulatif" ?>
 <?php $mainTitle = "<h2 class='text-center black main-title-sm mb-3'>Récapitulatif de ma commande</h2>" ?>
-<?php $previous = "<a class='black link-black' href='http://localhost:8888/templates/cart.php'><span class='mr-2 black chevron'><</span>Panier</a>" ?>
+<!-- primary content  -->
+<?php ob_start(); ?>
+<!-- link top --> 
+<ol class="p-0 mt-5">
+    <!-- breadcumb -->
+    <li class="lasts-child" style="">
+        <a>Panier</a>
+    </li>
+    <li class="lasts-child active">
+        <a>Récapitulatif</a>
+    </li>
+    <li class="lasts-child">
+        <a>Paiement</a>
+    </li>
+</ol>
+<?php $breadcumb = ob_get_clean(); ?>
 
 <!-- primary content  -->
 <?php ob_start(); ?>
@@ -52,6 +67,7 @@
     </script>
     <script src="../assets/js/custom-select.js"></script>
     <script src="../assets/js/radio-choice.js"></script>
+    <script src="../assets/js/cart.js"></script>
      <!-- map -->
      <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
         <script>

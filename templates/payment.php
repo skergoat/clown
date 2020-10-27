@@ -1,7 +1,22 @@
 <!-- titles -->
 <?php $title = "home" ?>
 <?php $mainTitle = "<h2 class='text-center black main-title-sm mb-3'>Paiement</h2>" ?>
-<?php $previous = "<a class='black link-black' href='http://localhost:8888/templates/home.php'><span class='mr-2 black chevron'><</span>Accueil</a>" ?>
+<!-- primary content  -->
+<?php ob_start(); ?>
+<!-- link top --> 
+<ol class="p-0 mt-5">
+    <!-- breadcumb -->
+    <li class="lasts-child" style="">
+        <a>Panier</a>
+    </li>
+    <li class="lasts-child">
+        <a>Récapitulatif</a>
+    </li>
+    <li class="lasts-child active">
+        <a>Paiement</a>
+    </li>
+</ol>
+<?php $breadcumb = ob_get_clean(); ?>
 
 <!-- primary content  -->
 <?php ob_start(); ?>
@@ -100,15 +115,15 @@
 <!-- secondary content -->
 <?php ob_start(); ?>
 <script>
+    // title
+    $('#main-title-1').css('padding', '0px!important');
     // active link 
     let activeId = '#active-cart';
     // button
     let $val = "payment";
-    // space-between position top
-    $('#space-between').css('top', '90%');       
-    $('.secondary-content').css('display', 'none'); 
 </script>
 <script src="../assets/js/radio-choice.js"></script>
+<script src="../assets/js/cart.js"></script>
 <?php $script = ob_get_clean(); ?>
 
 <!-- include -->

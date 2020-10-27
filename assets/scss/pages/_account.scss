@@ -3,13 +3,29 @@
 #table_commands_paginate 
 {
     margin-top:20px!important;
+    color:$orange-link!important;
 }
 
 #table_address_paginate > ul.pagination > .page-item.disabled .page-link,
 #table_address_paginate > ul.pagination > .page-item:first-child .page-link,
+#table_address_paginate > ul.pagination > .page-item:last-child .page-link,
+#table_address_paginate > ul.pagination > .paginate_button.page-item a,
 #table_commands_paginate > ul.pagination > .page-item.disabled .page-link,
-#table_commands_paginate > ul.pagination > .page-item:first-child .page-link
+#table_commands_paginate > ul.pagination > .page-item:first-child .page-link,
+#table_commands_paginate > ul.pagination > .page-item:last-child .page-link,
+#table_commands_paginate > ul.pagination > .paginate_button.page-item a
 {
     font-size:16px!important;
+    color:$orange-link!important;
 }
 
+#table_commands_paginate > ul.pagination > .paginate_button.page-item.active a,
+#table_address_paginate > ul.pagination > .paginate_button.page-item.active a
+{
+    color:white!important;
+}
+
+.page-item.active .page-link {
+    background-color: $orange-link;
+    border-color: $orange-link;
+}

@@ -11,7 +11,7 @@ a {
     @include link-color($orange-link);
 }
 .link-orange:hover {
-    @include link-color($button-2s);
+    @include link-color($button-2);
 }
 // strong pink 
 .strong-pink {

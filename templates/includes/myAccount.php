@@ -196,43 +196,43 @@
             </thead>
             <tbody>
                 <tr>
-                    <td class="pt-3 pb-3"><a href="#" class="black link-orange" title="modifier">905071</a></td>
-                    <td class="pt-3 pb-3">23/11/2020</td>
+                    <td class="pt-3 pb-3"><a href="#" class="action-link black link-orange" title="modifier">905071</a></td>
+                    <td class="pt-3 pb-3 bold">23/11/2020</td>
                     <td class="pt-3 pb-3"><i class="icon-trash font-17 strong-pink pointer width-100" title='supprimer'></i></td>
                 </tr>
                 <tr>
-                    <td class="pt-3 pb-3"><a href="#" class="black link-orange" title="modifier">905070</a></td>
-                    <td class="pt-3 pb-3">02/10/2020</td>
+                    <td class="pt-3 pb-3"><a href="#" class="action-link black link-orange" title="modifier">905070</a></td>
+                    <td class="pt-3 pb-3 bold">02/10/2020</td>
                     <td class="pt-3 pb-3"><i class="icon-trash font-17 strong-pink pointer width-100" title='supprimer'></i></td>
                 </tr>
                 <tr>
-                    <td class="pt-3 pb-3"><a href="#" class="black link-orange" title="modifier">905069</a></td>
-                    <td class="pt-3 pb-3">14/08/2020</td>
+                    <td class="pt-3 pb-3"><a href="#" class="action-link black link-orange" title="modifier">905069</a></td>
+                    <td class="pt-3 pb-3 bold">14/08/2020</td>
                     <td class="pt-3 pb-3"><i class="icon-trash font-17 strong-pink pointer width-100" title='supprimer'></i></td>
                 </tr>
                 <tr>
-                    <td class="pt-3 pb-3"><a href="#" class="black link-orange" title="modifier">905068</a></td>
-                    <td class="pt-3 pb-3">25/05/2020</td>
+                    <td class="pt-3 pb-3"><a href="#" class="action-link black link-orange" title="modifier">905068</a></td>
+                    <td class="pt-3 pb-3 bold">25/05/2020</td>
                     <td class="pt-3 pb-3"><i class="icon-trash font-17 strong-pink pointer width-100" title='supprimer'></i></td>
                 </tr>
                 <tr>
-                    <td class="pt-3 pb-3"><a href="#" class="black link-orange" title="modifier">905067</a></td>
-                    <td class="pt-3 pb-3">01/04/2020</td>
+                    <td class="pt-3 pb-3"><a href="#" class="action-link black link-orange" title="modifier">905067</a></td>
+                    <td class="pt-3 pb-3 bold">01/04/2020</td>
                     <td class="pt-3 pb-3"><i class="icon-trash font-17 strong-pink pointer width-100" title='supprimer'></i></td>
                 </tr>
                 <tr>
-                    <td class="pt-3 pb-3"><a href="#" class="black link-orange" title="modifier">905066</a></td>
-                    <td class="pt-3 pb-3">10/03/2020</td>
+                    <td class="pt-3 pb-3"><a href="#" class="action-link black link-orange" title="modifier">905066</a></td>
+                    <td class="pt-3 pb-3 bold">10/03/2020</td>
                     <td class="pt-3 pb-3"><i class="icon-trash font-17 strong-pink pointer width-100" title='supprimer'></i></td>
                 </tr>
                 <tr>
-                    <td class="pt-3 pb-3"><a href="#" class="black link-orange" title="modifier">905065</a></td>
-                    <td class="pt-3 pb-3">03/01/2020</td>
+                    <td class="pt-3 pb-3"><a href="#" class="action-link black link-orange" title="modifier">905065</a></td>
+                    <td class="pt-3 pb-3 bold">03/01/2020</td>
                     <td class="pt-3 pb-3"><i class="icon-trash font-17 strong-pink pointer width-100" title='supprimer'></i></td>
                 </tr>
                 <tr>
-                    <td class="pt-3 pb-3"><a href="#" class="black link-orange" title="modifier">905064</a></td>
-                    <td class="pt-3 pb-3">20/11/2019</td>
+                    <td class="pt-3 pb-3"><a href="#" class="action-link black link-orange" title="modifier">905064</a></td>
+                    <td class="pt-3 pb-3 bold">20/11/2019</td>
                     <td class="pt-3 pb-3"><i class="icon-trash font-17 strong-pink pointer width-100" title='supprimer'></i></td>
                 </tr>
             </tbody>

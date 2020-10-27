@@ -196,42 +196,42 @@
             </thead>
             <tbody>
                 <tr>
-                    <td class="pt-3 pb-3"><a href="#" class="action-link black link-orange" title="modifier" data-toggle="modal" data-target="#show-command-modal">905071</a></td>
+                    <td class="pt-3 pb-3"><a href="http://localhost:8888/templates/showCommand.php" class="black link-orange" title="modifier">905071</a></td>
                     <td class="pt-3 pb-3 bold">23/11/2020</td>
                     <td class="pt-3 pb-3"><i class="icon-trash font-17 strong-pink pointer width-100" title='supprimer'></i></td>
                 </tr>
                 <tr>
-                    <td class="pt-3 pb-3"><a href="#" class="action-link black link-orange" title="modifier"  data-toggle="modal" data-target="#show-command-modal">905070</a></td>
+                    <td class="pt-3 pb-3"><a href="http://localhost:8888/templates/showCommand.php" class="black link-orange" title="modifier">905070</a></td>
                     <td class="pt-3 pb-3 bold">02/10/2020</td>
                     <td class="pt-3 pb-3"><i class="icon-trash font-17 strong-pink pointer width-100" title='supprimer'></i></td>
                 </tr>
                 <tr>
-                    <td class="pt-3 pb-3"><a href="#" class="action-link black link-orange" title="modifier"  data-toggle="modal" data-target="#show-command-modal">905069</a></td>
+                    <td class="pt-3 pb-3"><a href="http://localhost:8888/templates/showCommand.php" class="black link-orange" title="consulter">905069</a></td>
                     <td class="pt-3 pb-3 bold">14/08/2020</td>
                     <td class="pt-3 pb-3"><i class="icon-trash font-17 strong-pink pointer width-100" title='supprimer'></i></td>
                 </tr>
                 <tr>
-                    <td class="pt-3 pb-3"><a href="#" class="action-link black link-orange" title="modifier"  data-toggle="modal" data-target="#show-command-modal">905068</a></td>
+                    <td class="pt-3 pb-3"><a href="http://localhost:8888/templates/showCommand.php" class="black link-orange" title="consulter">905068</a></td>
                     <td class="pt-3 pb-3 bold">25/05/2020</td>
                     <td class="pt-3 pb-3"><i class="icon-trash font-17 strong-pink pointer width-100" title='supprimer'></i></td>
                 </tr>
                 <tr>
-                    <td class="pt-3 pb-3"><a href="#" class="action-link black link-orange" title="modifier"  data-toggle="modal" data-target="#show-command-modal">905067</a></td>
+                    <td class="pt-3 pb-3"><a href="http://localhost:8888/templates/showCommand.php" class="black link-orange" title="consulter">905067</a></td>
                     <td class="pt-3 pb-3 bold">01/04/2020</td>
                     <td class="pt-3 pb-3"><i class="icon-trash font-17 strong-pink pointer width-100" title='supprimer'></i></td>
                 </tr>
                 <tr>
-                    <td class="pt-3 pb-3"><a href="#" class="action-link black link-orange" title="modifier"  data-toggle="modal" data-target="#show-command-modal">905066</a></td>
+                    <td class="pt-3 pb-3"><a href="http://localhost:8888/templates/showCommand.php" class="black link-orange" title="consulter">905066</a></td>
                     <td class="pt-3 pb-3 bold">10/03/2020</td>
                     <td class="pt-3 pb-3"><i class="icon-trash font-17 strong-pink pointer width-100" title='supprimer'></i></td>
                 </tr>
                 <tr>
-                    <td class="pt-3 pb-3"><a href="#" class="action-link black link-orange" title="modifier"  data-toggle="modal" data-target="#show-command-modal">905065</a></td>
+                    <td class="pt-3 pb-3"><a href="http://localhost:8888/templates/showCommand.php" class="black link-orange" title="consulter">905065</a></td>
                     <td class="pt-3 pb-3 bold">03/01/2020</td>
                     <td class="pt-3 pb-3"><i class="icon-trash font-17 strong-pink pointer width-100" title='supprimer'></i></td>
                 </tr>
                 <tr>
-                    <td class="pt-3 pb-3"><a href="#" class="action-link black link-orange" title="modifier"  data-toggle="modal" data-target="#show-command-modal">905064</a></td>
+                    <td class="pt-3 pb-3"><a href="http://localhost:8888/templates/showCommand.php" class="black link-orange" title="consulter">905064</a></td>
                     <td class="pt-3 pb-3 bold">20/11/2019</td>
                     <td class="pt-3 pb-3"><i class="icon-trash font-17 strong-pink pointer width-100" title='supprimer'></i></td>
                 </tr>
@@ -241,98 +241,6 @@
 </div>
 <!-- Bootstrap Modal -->
 <div class="modal fade" id="edit-address-modal" role="dialog">
-    <div class="modal-dialog modal-connect modal-lg">
-            <!-- content -->
-        <div class="modal-content">
-            <!-- header -->
-            <div class="modal-header p-0">
-                <div class="row mr-0 ml-0">
-                    <div class="col-6"></div>
-                    <div class="col-6">
-                        <button type="button" class="close" data-dismiss="modal">&times;</button>
-                    </div>
-                </div>
-            </div>
-            <!-- body -->
-            <div class="p-0">
-                <div class="row pr-0 pl-0 mr-0 ml-0">
-                    <!-- left -->
-                    <div class="col-12 pl-5 pr-5 modal-left">
-                        <h5 class="font-18 bold mb-3 text-center">Modifier l'addresse de livraison</h5>
-                        <!-- shipping address -->
-                        <div class="col-lg-12">
-                            <!-- titre -->
-                            <div class="form-group">
-                                <label for="titre-modal" class="font-14 sbold">Titre</label>
-                                <input type="text" class="form-control form-large font-13" id="titre-modal" value="Maison">
-                                <div class="invalid-feedback">
-                                    Entrez un titre valide svp
-                                </div>
-                            </div>
-                            <!-- adress -->
-                            <div class="form-group">
-                                <label for="address-modal-1" class="font-14 sbold">Adresse</label>
-                                <input type="text" class="form-control form-large font-13" id="address-modal-1" value="20 rue de Paris">
-                                <div class="invalid-feedback">
-                                    Entrez une adresse valide svp
-                                </div>
-                            </div>
-                            <div class="form-group">
-                                <label for="address-modal-2" class="font-14 sbold">Complément d'adresse</label>
-                                <input type="text" class="form-control form-large font-13" id="address-modal-2" value="Bâtiment B">
-                                <div class="invalid-feedback">
-                                    Entrez une adresse valide svp
-                                </div>
-                            </div>
-                            <!-- row 3 -->
-                            <div class="form-row">
-                                <!-- zip code -->
-                                <div class="form-group col-md-6">
-                                    <label for="zip-modal-code" class="font-14 sbold">Code postal</label>
-                                    <input type="text" class="form-control form-large font-13" id="zip-modal-code" value="75001">
-                                    <div class="invalid-feedback">
-                                        Entrez un code postal valide svp
-                                    </div>
-                                </div>
-                                <!-- city -->
-                                <div class="form-group col-md-6">
-                                    <label for="modal-city" class="font-14 sbold">Ville</label>
-                                    <input type="text" class="form-control form-large font-13" id="modal-city" value="Paris">
-                                    <!-- error message -->
-                                    <div class="invalid-feedback">
-                                        Entrez un nom valide svp
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- country -->
-                            <label for="country-modal" class="font-13">Pays</label>
-                            <div class="form-group custom-selects">
-                                <select name="country" id="country-modal" class="font-13 bold">
-                                    <option value="">France</option>
-                                    <option value="parrot">Belgique</option>
-                                    <option value="hamster">Suisse</option>
-                                    <option value="cat">Allemagne</option>
-                                    <option value="spider">Pays-Bas</option>
-                                    <option value="dog">Angleterre</option>
-                                    <option value="goldfish">Danemark</option>
-                                </select>
-                                <!-- error message -->
-                                <div class="invalid-feedback">
-                                    Ce champ est requis
-                                </div>
-                            </div>
-                            <div class="col-auto p-0 mt-4">
-                                <button type="submit" class="btn button-orange btn-summary black mt-2 mb-2 d-block mx-auto">Enregistrer</button>
-                            </div>
-                        </div>
-                    </div>
-                </div>         
-            </div>
-        </div>
-    </div>
-</div>
-<!-- Bootstrap Modal -->
-<div class="modal fade" id="show-command-modal" role="dialog">
     <div class="modal-dialog modal-connect modal-lg">
             <!-- content -->
         <div class="modal-content">

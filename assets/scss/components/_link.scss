@@ -10,6 +10,9 @@ a {
 .link-orange {
     @include link-color($orange-link);
 }
+.link-orange:hover {
+    @include link-color($button-2s);
+}
 // strong pink 
 .strong-pink {
     font-weight:bold;

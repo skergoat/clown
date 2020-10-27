@@ -1,4 +1,6 @@
 // data tables paginate 
+
+// layout 
 #table_address_paginate,
 #table_commands_paginate 
 {
@@ -6,6 +8,7 @@
     color:$orange-link!important;
 }
 
+// paginate links 
 #table_address_paginate > ul.pagination > .page-item.disabled .page-link,
 #table_address_paginate > ul.pagination > .page-item:first-child .page-link,
 #table_address_paginate > ul.pagination > .page-item:last-child .page-link,
@@ -19,6 +22,7 @@
     color:$orange-link!important;
 }
 
+// focus, active 
 #table_commands_paginate > ul.pagination > .paginate_button.page-item a:active,
 #table_commands_paginate > ul.pagination > .paginate_button.page-item a:focus,
 #table_address_paginate > ul.pagination > .paginate_button.page-item a:active,
@@ -27,13 +31,17 @@
     box-shadow: rgba(255, 145, 39, 0.25) 0px 0px 0px 0.2rem !important;
 }
 
+// page link color
+.page-item.active .page-link {
+    background-color: $orange-link;
+    border-color: $orange-link;
+}
+
+// select button background 
 #table_commands_paginate > ul.pagination > .paginate_button.page-item.active a,
 #table_address_paginate > ul.pagination > .paginate_button.page-item.active a
 {
     color:white!important;
 }
 
-.page-item.active .page-link {
-    background-color: $orange-link;
-    border-color: $orange-link;
-}
+

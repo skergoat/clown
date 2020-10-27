@@ -89,71 +89,6 @@
         </div>
     </div>
     <!-- country -->
-    <label for="countrySelect" class="font-13">Pays</label>
-    <div class="form-group custom-selects">
-        <select name="country" id="countrySelect" class="font-13 bold">
-            <option value="">France</option>
-            <option value="parrot">Belgique</option>
-            <option value="hamster">Suisse</option>
-            <option value="cat">Allemagne</option>
-            <option value="spider">Pays-Bas</option>
-            <option value="dog">Angleterre</option>
-            <option value="goldfish">Danemark</option>
-        </select>
-        <!-- error message -->
-        <div class="invalid-feedback">
-            Ce champ est requis
-        </div>
-    </div>
-    <div class="d-flex">
-        <a href="#" class="bold d-block" id="shipping-address-link">Entrez une addresse de livraison différente</a><span class="arrow-down d-block mt-2 ml-3" id="address-arrow"></span>
-    </div>
-</div>
-
-<!-- formulaire -->
-<!-- left -->
-<div class="shipping-adress col-lg-6 pl-lg-4 mb-xs-none mb-sm-0 mb-lg-4 mb-lg-0 pl-xs-none pr-xs-none pr-sm-0 pr-lg-5 pt-2"></div>
-<!-- right -->
-<div class="shipping-adress col-lg-6 mb-xs-4 mb-lg-0 mt-xs-4 mt-sm-4 mt-lg-0 p-xs-none pl-xs-none pl-lg-5 pb-3 pt-2">
-    <!-- title -->
-    <h5 class="black pb-2">Adresse de livraison</h5>
-    <span class="border-bottom-orange mb-4"></span>
-    <!-- adress -->
-    <div class="form-group">
-        <label for="address1" class="font-14 sbold">Adresse</label>
-        <input type="text" class="form-control form-large font-13 is-invalid" id="address1" value="20 rue de Paris">
-        <div class="invalid-feedback">
-            Entrez une adresse valide svp
-        </div>
-    </div>
-    <div class="form-group">
-        <label for="address2" class="font-14 sbold">Complément d'adresse</label>
-        <input type="text" class="form-control form-large font-13" id="address2" value="Bâtiment B">
-        <div class="invalid-feedback">
-            Entrez une adresse valide svp
-        </div>
-    </div>
-    <!-- row 3 -->
-    <div class="form-row">
-        <!-- zip code -->
-        <div class="form-group col-md-6">
-            <label for="currentPass" class="font-14 sbold">Code postal</label>
-            <input type="text" class="form-control form-large font-13" id="currentPass" value="75001">
-            <div class="invalid-feedback">
-                Entrez un code postal valide svp
-            </div>
-        </div>
-        <!-- city -->
-        <div class="form-group col-md-6">
-            <label for="ville" class="font-14 sbold">Ville</label>
-            <input type="text" class="form-control form-large font-13" id="ville" value="Paris">
-            <!-- error message -->
-            <div class="invalid-feedback">
-                Entrez un nom valide svp
-            </div>
-        </div>
-    </div>
-    <!-- country -->
     <label for="country-select" class="font-13">Pays</label>
     <div class="form-group custom-selects">
         <select name="country" id="country-select" class="font-13 bold">
@@ -170,6 +105,21 @@
             Ce champ est requis
         </div>
     </div>
+    <!-- <div class="d-flex">
+        <a href="#" class="bold d-block" id="shipping-address-link">Entrez une addresse de livraison différente</a><span class="arrow-down d-block mt-2 ml-3" id="address-arrow"></span>
+    </div> -->
+</div>
+
+<!-- adresse de livraison differente -->
+<!-- left -->
+<div class="shipping-adress col-lg-6 pl-lg-4 mb-xs-none mb-sm-0 mb-lg-4 mb-lg-0 pl-xs-none pr-xs-none pr-sm-0 pr-lg-5 pt-2">
+
+
+</div>
+<!-- right -->
+<div class="shipping-adress col-lg-6 mb-xs-4 mb-lg-0 mt-xs-4 mt-sm-4 mt-lg-0 p-xs-none pl-xs-none pl-lg-5 pb-3 pt-2">
+    
+
 </div>
 
 <!-- text area -->

@@ -10455,14 +10455,13 @@ h3 {
   position: fixed;
   top: 0px;
   width: 100%;
-  height: 30px;
+  height: 40px;
   background: #FF3D97;
   z-index: 999999999;
   color: white;
 }
 #bandeau .icon-cancel {
   color: black !important;
-  margin-top: 20px !important;
   cursor: pointer;
 }
 

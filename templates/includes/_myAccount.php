@@ -1,8 +1,12 @@
 <!-- formulaire -->
-<div class="mx-auto col-lg-12 mb-xs-4 mb-lg-4 mt-xs-4 mt-sm-4 mt-lg-0 p-xs-none pl-xs-none pl-lg-4 pr-lg-4 pb-3 pt-2">
-    <div class="row p-0 m-0">
-        <!-- shipping address -->
-        <div class="col-lg-6 pl-lg-2 mb-xs-none mb-sm-0 mb-lg-4 mb-lg-0 pl-xs-none pr-xs-none pr-sm-0 pr-lg-5 pt-2">
+<div class="mx-auto col-lg-10 mb-xs-4 mb-lg-5 mt-xs-4 mt-sm-4 mt-lg-0 p-xs-none pl-xs-none pt-0 pr-4 pl-4 pb-0" style="border-radius:20px;box-shadow:0px 4px 12px 5px rgba(167, 28, 28, 0.21) !important;">
+    <div class="row p-xs-3 p-sm-5 p-lg-0">
+        <div class="col-lg-6 p-2 d-flex justify-content-center align-items-center">
+            <div style="max-width:200px;">
+                <img src="../assets/img/avatar.png" alt="logo colissimo" style="width:100%;border-radius:200px;box-shadow:0px 4px 12px 5px rgba(167, 28, 28, 0.21) !important;">
+            </div>
+        </div>
+        <div class="col-lg-6 pt-4">
             <!-- title -->
             <h5 class="black pb-2">Coordonnées</h5>
             <span class="border-bottom-orange mb-4"></span>
@@ -36,67 +40,12 @@
                     </tr>
                 </tbody>
             </table>
-        </div>
-        <div class="col-lg-6 mb-xs-4 mb-lg-0 mt-xs-4 mt-sm-4 mt-lg-0 p-xs-none pl-xs-none pl-lg-5 pb-3 pt-2">
-            <!-- title -->
-            <h5 class="black pb-2">Historique des commandes</h5>
-            <span class="border-bottom-orange mb-4"></span>
-            <table id="table_commands" class="table">
-                <thead>
-                    <tr>
-                        <th>Numéro</th>
-                        <th>Date</th>
-                        <th>Action</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td class="pt-3 pb-3"><a href="http://localhost:8888/templates/showCommand.php" class="black link-orange" title="modifier">905071</a></td>
-                        <td class="pt-3 pb-3 bold">23/11/2020</td>
-                        <td class="pt-3 pb-3"><i class="icon-trash font-17 strong-pink pointer width-100" title='supprimer'></i></td>
-                    </tr>
-                    <tr>
-                        <td class="pt-3 pb-3"><a href="http://localhost:8888/templates/showCommand.php" class="black link-orange" title="modifier">905070</a></td>
-                        <td class="pt-3 pb-3 bold">02/10/2020</td>
-                        <td class="pt-3 pb-3"><i class="icon-trash font-17 strong-pink pointer width-100" title='supprimer'></i></td>
-                    </tr>
-                    <tr>
-                        <td class="pt-3 pb-3"><a href="http://localhost:8888/templates/showCommand.php" class="black link-orange" title="consulter">905069</a></td>
-                        <td class="pt-3 pb-3 bold">14/08/2020</td>
-                        <td class="pt-3 pb-3"><i class="icon-trash font-17 strong-pink pointer width-100" title='supprimer'></i></td>
-                    </tr>
-                    <tr>
-                        <td class="pt-3 pb-3"><a href="http://localhost:8888/templates/showCommand.php" class="black link-orange" title="consulter">905068</a></td>
-                        <td class="pt-3 pb-3 bold">25/05/2020</td>
-                        <td class="pt-3 pb-3"><i class="icon-trash font-17 strong-pink pointer width-100" title='supprimer'></i></td>
-                    </tr>
-                    <tr>
-                        <td class="pt-3 pb-3"><a href="http://localhost:8888/templates/showCommand.php" class="black link-orange" title="consulter">905067</a></td>
-                        <td class="pt-3 pb-3 bold">01/04/2020</td>
-                        <td class="pt-3 pb-3"><i class="icon-trash font-17 strong-pink pointer width-100" title='supprimer'></i></td>
-                    </tr>
-                    <tr>
-                        <td class="pt-3 pb-3"><a href="http://localhost:8888/templates/showCommand.php" class="black link-orange" title="consulter">905066</a></td>
-                        <td class="pt-3 pb-3 bold">10/03/2020</td>
-                        <td class="pt-3 pb-3"><i class="icon-trash font-17 strong-pink pointer width-100" title='supprimer'></i></td>
-                    </tr>
-                    <tr>
-                        <td class="pt-3 pb-3"><a href="http://localhost:8888/templates/showCommand.php" class="black link-orange" title="consulter">905065</a></td>
-                        <td class="pt-3 pb-3 bold">03/01/2020</td>
-                        <td class="pt-3 pb-3"><i class="icon-trash font-17 strong-pink pointer width-100" title='supprimer'></i></td>
-                    </tr>
-                    <tr>
-                        <td class="pt-3 pb-3"><a href="http://localhost:8888/templates/showCommand.php" class="black link-orange" title="consulter">905064</a></td>
-                        <td class="pt-3 pb-3 bold">20/11/2019</td>
-                        <td class="pt-3 pb-3"><i class="icon-trash font-17 strong-pink pointer width-100" title='supprimer'></i></td>
-                    </tr>
-                </tbody>
-            </table>
-        </div>   
+        </div>    
     </div>
 </div>
+
 <!-- formulaire -->
-<div class="mx-auto col-lg-12 mb-xs-4 mb-lg-0 mt-xs-4 mt-sm-4 mt-lg-0 p-xs-none pl-xs-none pl-lg-4 pr-lg-4 pb-3 pt-2">
+<div class="mx-auto col-lg-12 mb-xs-4 mb-lg-4 mt-xs-4 mt-sm-4 mt-lg-5 p-xs-none pl-xs-none pl-lg-4 pr-lg-4 pb-3 pt-2">
     <div class="col-12 mb-5">
         <h5 class="black pb-2 text-center">Adresses de livraison</h5>
         <span class="border-bottom-orange mb-4 mx-auto"></span>
@@ -229,7 +178,67 @@
         </div>   
     </div>
 </div>
-
+<hr>
+<!-- formulaire -->
+<div class="mx-auto col-lg-12 mb-xs-4 mb-lg-5 mt-xs-4 mt-sm-4 mt-lg-0 p-xs-none pl-xs-none pl-lg-5 pb-3">
+    <div class="col-12 mb-5">
+        <h5 class="black pb-2 text-center">Historique des commandes</h5>
+        <span class="border-bottom-orange mb-4 mx-auto"></span>
+    </div>
+    <div class="col-lg-8 mx-auto">
+        <table id="table_commands" class="table">
+            <thead>
+                <tr>
+                    <th>Numéro</th>
+                    <th>Date</th>
+                    <th>Action</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td class="pt-3 pb-3"><a href="http://localhost:8888/templates/showCommand.php" class="black link-orange" title="modifier">905071</a></td>
+                    <td class="pt-3 pb-3 bold">23/11/2020</td>
+                    <td class="pt-3 pb-3"><i class="icon-trash font-17 strong-pink pointer width-100" title='supprimer'></i></td>
+                </tr>
+                <tr>
+                    <td class="pt-3 pb-3"><a href="http://localhost:8888/templates/showCommand.php" class="black link-orange" title="modifier">905070</a></td>
+                    <td class="pt-3 pb-3 bold">02/10/2020</td>
+                    <td class="pt-3 pb-3"><i class="icon-trash font-17 strong-pink pointer width-100" title='supprimer'></i></td>
+                </tr>
+                <tr>
+                    <td class="pt-3 pb-3"><a href="http://localhost:8888/templates/showCommand.php" class="black link-orange" title="consulter">905069</a></td>
+                    <td class="pt-3 pb-3 bold">14/08/2020</td>
+                    <td class="pt-3 pb-3"><i class="icon-trash font-17 strong-pink pointer width-100" title='supprimer'></i></td>
+                </tr>
+                <tr>
+                    <td class="pt-3 pb-3"><a href="http://localhost:8888/templates/showCommand.php" class="black link-orange" title="consulter">905068</a></td>
+                    <td class="pt-3 pb-3 bold">25/05/2020</td>
+                    <td class="pt-3 pb-3"><i class="icon-trash font-17 strong-pink pointer width-100" title='supprimer'></i></td>
+                </tr>
+                <tr>
+                    <td class="pt-3 pb-3"><a href="http://localhost:8888/templates/showCommand.php" class="black link-orange" title="consulter">905067</a></td>
+                    <td class="pt-3 pb-3 bold">01/04/2020</td>
+                    <td class="pt-3 pb-3"><i class="icon-trash font-17 strong-pink pointer width-100" title='supprimer'></i></td>
+                </tr>
+                <tr>
+                    <td class="pt-3 pb-3"><a href="http://localhost:8888/templates/showCommand.php" class="black link-orange" title="consulter">905066</a></td>
+                    <td class="pt-3 pb-3 bold">10/03/2020</td>
+                    <td class="pt-3 pb-3"><i class="icon-trash font-17 strong-pink pointer width-100" title='supprimer'></i></td>
+                </tr>
+                <tr>
+                    <td class="pt-3 pb-3"><a href="http://localhost:8888/templates/showCommand.php" class="black link-orange" title="consulter">905065</a></td>
+                    <td class="pt-3 pb-3 bold">03/01/2020</td>
+                    <td class="pt-3 pb-3"><i class="icon-trash font-17 strong-pink pointer width-100" title='supprimer'></i></td>
+                </tr>
+                <tr>
+                    <td class="pt-3 pb-3"><a href="http://localhost:8888/templates/showCommand.php" class="black link-orange" title="consulter">905064</a></td>
+                    <td class="pt-3 pb-3 bold">20/11/2019</td>
+                    <td class="pt-3 pb-3"><i class="icon-trash font-17 strong-pink pointer width-100" title='supprimer'></i></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</div>
 <!-- Bootstrap Modal -->
 <div class="modal fade" id="edit-address-modal" role="dialog">
     <div class="modal-dialog modal-connect modal-lg">

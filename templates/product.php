@@ -12,6 +12,7 @@
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
     </head>
     <body>
+        <div id="bandeau" class="bold text-center">Fermeture exceptionnelle le 24/12/2020. L'Equipe vous souhaite une bonne année<i class="ml-1 icon-cancel"></i></div>
         <div class="cookies font-13 p-2 pr-4 bgd-white">Ce site web utilise les cookies. En navigant sur notre site, vous acceptez notre <a href="#" class="link-black bold font-13">politique de confidentialité</a>.<i class="icon-cancel ml-1 pointer" id="close-cookie" style="color:black!important"></i></div>
         <div id="search-responsive" class="bg-white d-xs-block d-lg-none">
             <i class="icon-search text-grey d-block m-2 font-20"></i>

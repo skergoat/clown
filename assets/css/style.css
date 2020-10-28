@@ -10451,6 +10451,21 @@ h3 {
   }
 }
 
+#bandeau {
+  position: fixed;
+  top: 0px;
+  width: 100%;
+  height: 30px;
+  background: #FF3D97;
+  z-index: 999999999;
+  color: white;
+}
+#bandeau .icon-cancel {
+  color: black !important;
+  margin-top: 20px !important;
+  cursor: pointer;
+}
+
 .footer {
   height: 500px;
   box-shadow: 2px -5px 5px -3px rgba(220, 220, 220, 0.5);

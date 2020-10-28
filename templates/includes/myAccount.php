@@ -46,49 +46,49 @@
                     <tr>
                         <th>Numéro</th>
                         <th>Date</th>
-                        <th>Action</th>
+                        <th>Statut</th>
                     </tr>
                 </thead>
                 <tbody>
                     <tr>
                         <td class="pt-3 pb-3"><a href="http://localhost:8888/templates/showCommand.php" class="black link-orange" title="modifier">905071</a></td>
                         <td class="pt-3 pb-3 bold">23/11/2020</td>
-                        <td class="pt-3 pb-3"><i class="icon-trash font-17 strong-pink pointer width-100" title='supprimer'></i></td>
+                        <td class="pt-3 pb-3"><span class="badge badge-secondary bold">Payée</span></td>
                     </tr>
                     <tr>
                         <td class="pt-3 pb-3"><a href="http://localhost:8888/templates/showCommand.php" class="black link-orange" title="modifier">905070</a></td>
                         <td class="pt-3 pb-3 bold">02/10/2020</td>
-                        <td class="pt-3 pb-3"><i class="icon-trash font-17 strong-pink pointer width-100" title='supprimer'></i></td>
+                        <td class="pt-3 pb-3"><span class="badge badge-warning bold">En cours de livraison</span></td>
                     </tr>
                     <tr>
                         <td class="pt-3 pb-3"><a href="http://localhost:8888/templates/showCommand.php" class="black link-orange" title="consulter">905069</a></td>
                         <td class="pt-3 pb-3 bold">14/08/2020</td>
-                        <td class="pt-3 pb-3"><i class="icon-trash font-17 strong-pink pointer width-100" title='supprimer'></i></td>
+                        <td class="pt-3 pb-3"><span class="badge badge-success bold">Livrée</span></td>
                     </tr>
                     <tr>
                         <td class="pt-3 pb-3"><a href="http://localhost:8888/templates/showCommand.php" class="black link-orange" title="consulter">905068</a></td>
                         <td class="pt-3 pb-3 bold">25/05/2020</td>
-                        <td class="pt-3 pb-3"><i class="icon-trash font-17 strong-pink pointer width-100" title='supprimer'></i></td>
+                        <td class="pt-3 pb-3"><span class="badge badge-danger bold">Annulée</span></td>
                     </tr>
                     <tr>
                         <td class="pt-3 pb-3"><a href="http://localhost:8888/templates/showCommand.php" class="black link-orange" title="consulter">905067</a></td>
                         <td class="pt-3 pb-3 bold">01/04/2020</td>
-                        <td class="pt-3 pb-3"><i class="icon-trash font-17 strong-pink pointer width-100" title='supprimer'></i></td>
+                        <td class="pt-3 pb-3"><span class="badge badge-success bold">Livrée</span></td>
                     </tr>
                     <tr>
                         <td class="pt-3 pb-3"><a href="http://localhost:8888/templates/showCommand.php" class="black link-orange" title="consulter">905066</a></td>
                         <td class="pt-3 pb-3 bold">10/03/2020</td>
-                        <td class="pt-3 pb-3"><i class="icon-trash font-17 strong-pink pointer width-100" title='supprimer'></i></td>
+                        <td class="pt-3 pb-3"><span class="badge badge-success bold">Livrée</span></td>
                     </tr>
                     <tr>
                         <td class="pt-3 pb-3"><a href="http://localhost:8888/templates/showCommand.php" class="black link-orange" title="consulter">905065</a></td>
                         <td class="pt-3 pb-3 bold">03/01/2020</td>
-                        <td class="pt-3 pb-3"><i class="icon-trash font-17 strong-pink pointer width-100" title='supprimer'></i></td>
+                        <td class="pt-3 pb-3"><span class="badge badge-success bold">Livrée</span></td>
                     </tr>
                     <tr>
                         <td class="pt-3 pb-3"><a href="http://localhost:8888/templates/showCommand.php" class="black link-orange" title="consulter">905064</a></td>
                         <td class="pt-3 pb-3 bold">20/11/2019</td>
-                        <td class="pt-3 pb-3"><i class="icon-trash font-17 strong-pink pointer width-100" title='supprimer'></i></td>
+                        <td class="pt-3 pb-3"><span class="badge badge-success bold">Livrée</span></td>
                     </tr>
                 </tbody>
             </table>

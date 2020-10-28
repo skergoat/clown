@@ -12690,6 +12690,10 @@ footer {
   color: white !important;
 }
 
+table tr td .badge {
+  font-size: 12px;
+}
+
 @media (max-width: 576px) {
   #legal h3, #legal h4, #legal h5 {
     text-align: center !important;

@@ -13,7 +13,7 @@
 <div class="content__product container-width mx-auto">
     <!-- contact form -->
     <form class="row border-radius-10 m-0 pt-5 pr-xs-3 pr-sm-4 pl-4 pb-5 signin">
-        <?php include('includes/confirmation.php'); ?>
+        <?php include('includes/showCommand.php'); ?>
     </form>
 </div>
 <?php $primaryContent = ob_get_clean(); ?>

@@ -177,15 +177,17 @@
            <!-- menus -->
             <div class="bgd-white">
                 <div class="footer-top mx-auto footer-center-first flex-wrap d-flex pb-5 transition bgd-white">     
-                    <ul class="p-0 m-0 transition">
+                    <ul class="p-0 m-0 mt-sm-4 mt-md-4 transition">
                         <li class="font-weight-bold pb-2">Plan du site</li>
-                        <li><a href="" class="link-black">Accueil</a></li>
-                        <li><a href="" class="link-black">Boutique</a></li>
+                        <li><a href="http://localhost:8888/templates/home.php" class="link-black">Accueil</a></li>
+                        <li><a href="http://localhost:8888/templates/shop.php" class="link-black">Boutique</a></li>
                         <li><a href="" class="link-black">Location</a></li>
-                        <li><a href="" class="link-black">Infos Pratiques</a></li>
-                        <li><a href="" class="link-black">Contact</a></li>
+                        <li><a href="http://localhost:8888/templates/infos.php" class="link-black">Infos Pratiques</a></li>
+                        <li><a href="http://localhost:8888/templates/contact.php" class="link-black">Contact</a></li>
+                        <li><a href="http://localhost:8888/templates/legal.php" class="link-black">Mentions Légales</a></li>
+                        <li><a href="http://localhost:8888/templates/sell.php" class="link-black">conditions de vente</a></li>
                     </ul> 
-                    <ul class="p-0 m-0">
+                    <ul class="p-0 m-0 mt-sm-4 mt-md-4">
                         <li class="font-weight-bold pb-2">Categories</li>
                         <li><a href="" class="link-black">Accessoires & déguisements</a></li>
                         <li><a href="" class="link-black">Barbes & moustaches</a></li>

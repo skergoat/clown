@@ -575,428 +575,458 @@
                                 </div>
                                 <div class="row m-0"> 
                                     <div class="card-box col-sm-12 col-md-6 col-lg-4 p-0 mb-xs-4 mb-sm-4 bgd-transparent" style="position:relative;">
-                                        <div class="card-hover br-10 bs-red pr-4 pb-4 pl-4 pt-3 mr-1 ml-1" data-url="1">
-                                            <img class="card-badge" src="../assets/img/badge-nouveaute.png" alt="Card image cap">
-                                            <img class="card-img-top" src="../assets/img/witch.png" alt="Card image cap">
-                                            <p class="bold text-center mb-2">Collier halloween</p>
-                                            <p class="black text-center mb-3">Dès 3,95€</p>
-                                            <div class="info-plus" id="info-plus-1">
-                                                <div class="mb-1">
-                                                    <p class="black font-12 mb-0">Description</p>
-                                                    <p class="font-11 line-height">Une magicienne maléfique est née avec ces collants sorcière enfant 6/10 ans fuschias et noirs.</p>
-                                                </div>
-                                                <div class="">
-                                                    <p class="black font-12 mb-0">Disponibilité</p>
-                                                    <div class="d-flex">
-                                                        <ul class="p-0 pr-5" style="list-style-type:none;">
-                                                            <li class="font-11"><i class="icon-check"></i>Achat</li>
-                                                            <li class="font-11"><i class="icon-cancel"></i>Location</li>
-                                                        </ul>
-                                                        <ul style="list-style-type:none;">
-                                                            <li class="font-11"><i class="icon-check"></i>Boutique</li>
-                                                            <li class="font-11"><i class="icon-check"></i>En ligne</li>
-                                                        </ul>
+                                        <div class="div-over" id="div-over-1" data-url="1">
+                                            <div class="card-hover br-10 bs-red pr-4 pb-4 pl-4 pt-3 mr-1 ml-1">
+                                                <img class="card-badge" src="../assets/img/badge-nouveaute.png" alt="Card image cap">
+                                                <img class="card-img-top" src="../assets/img/witch.png" alt="Card image cap">
+                                                <p class="bold text-center mb-2">Collier halloween</p>
+                                                <p class="black text-center mb-3">Dès 3,95€</p>
+                                                <div class="info-plus" id="info-plus-1">
+                                                    <div class="mb-1">
+                                                        <p class="black font-12 mb-0">Description</p>
+                                                        <p class="font-11 line-height">Une magicienne maléfique est née avec ces collants sorcière enfant 6/10 ans fuschias et noirs.</p>
+                                                    </div>
+                                                    <div class="">
+                                                        <p class="black font-12 mb-0">Disponibilité</p>
+                                                        <div class="d-flex">
+                                                            <ul class="p-0 pr-5" style="list-style-type:none;">
+                                                                <li class="font-11"><i class="icon-check"></i>Achat</li>
+                                                                <li class="font-11"><i class="icon-cancel"></i>Location</li>
+                                                            </ul>
+                                                            <ul style="list-style-type:none;">
+                                                                <li class="font-11"><i class="icon-check"></i>Boutique</li>
+                                                                <li class="font-11"><i class="icon-check"></i>En ligne</li>
+                                                            </ul>
+                                                        </div>
                                                     </div>
                                                 </div>
-                                            </div>
-                                            <a href="http://localhost:8888/templates/product.php" class="btn button-orange button-orange-cards d-block mx-auto bold font-16" style="max-width:200px;">Voir le produit</a>
-                                            <!-- <button type="submit" class="btn button-orange button-orange-cards d-block mx-auto bold font-16">Voir le produit</button> -->
-                                        </div> 
+                                                <a href="http://localhost:8888/templates/product.php" class="btn button-orange button-orange-cards d-block mx-auto bold font-16" style="max-width:200px;">Voir le produit</a>
+                                                <!-- <button type="submit" class="btn button-orange button-orange-cards d-block mx-auto bold font-16">Voir le produit</button> -->
+                                            </div> 
+                                        </div>
                                     </div>
                                     <div class="card-box col-sm-12 col-md-6 col-lg-4 p-0 mb-xs-4 mb-sm-4 bgd-transparent" style="position:relative;">
-                                        <div class="card-hover br-10 bs-red pr-4 pb-4 pl-4 pt-3 mr-1 ml-1" data-url="2" id="test-2">
-                                            <img class="card-img-top" src="../assets/img/collant-blanc.png" alt="Card image cap">
-                                            <p class="bold text-center mb-2">Collants sorcière enfant fluo</p>
-                                            <p class="black text-center mb-3">Dès 6,95€</p>
-                                            <div class="info-plus" id="info-plus-2">
-                                                <div class="mb-1">
-                                                    <p class="black font-14 mb-0">Description</p>
-                                                    <p class="font-11 line-height">Une magicienne maléfique est née avec ces collants sorcière enfant 6/10 ans fuschias et noirs.</p>
-                                                </div>
-                                                <div class="">
-                                                    <p class="black font-14 mb-0">Disponibilité</p>
-                                                    <div class="d-flex">
-                                                        <ul class="p-0 pr-5" style="list-style-type:none;">
-                                                            <li class="font-11"><i class="icon-check"></i>Achat</li>
-                                                            <li class="font-11"><i class="icon-cancel"></i>Location</li>
-                                                        </ul>
-                                                        <ul style="list-style-type:none;">
-                                                            <li class="font-11"><i class="icon-check"></i>Boutique</li>
-                                                            <li class="font-11"><i class="icon-check"></i>En ligne</li>
-                                                        </ul>
+                                        <div class="div-over" id="div-over-2" data-url="2">
+                                            <div class="card-hover br-10 bs-red pr-4 pb-4 pl-4 pt-3 mr-1 ml-1" id="test-2">
+                                                <img class="card-img-top" src="../assets/img/collant-blanc.png" alt="Card image cap">
+                                                <p class="bold text-center mb-2">Collants sorcière enfant fluo</p>
+                                                <p class="black text-center mb-3">Dès 6,95€</p>
+                                                <div class="info-plus" id="info-plus-2">
+                                                    <div class="mb-1">
+                                                        <p class="black font-14 mb-0">Description</p>
+                                                        <p class="font-11 line-height">Une magicienne maléfique est née avec ces collants sorcière enfant 6/10 ans fuschias et noirs.</p>
+                                                    </div>
+                                                    <div class="">
+                                                        <p class="black font-14 mb-0">Disponibilité</p>
+                                                        <div class="d-flex">
+                                                            <ul class="p-0 pr-5" style="list-style-type:none;">
+                                                                <li class="font-11"><i class="icon-check"></i>Achat</li>
+                                                                <li class="font-11"><i class="icon-cancel"></i>Location</li>
+                                                            </ul>
+                                                            <ul style="list-style-type:none;">
+                                                                <li class="font-11"><i class="icon-check"></i>Boutique</li>
+                                                                <li class="font-11"><i class="icon-check"></i>En ligne</li>
+                                                            </ul>
+                                                        </div>
                                                     </div>
                                                 </div>
+                                                <a href="http://localhost:8888/templates/product.php" class="btn button-orange button-orange-cards d-block mx-auto bold font-16" style="max-width:200px;">Voir le produit</a>
+                                                <!-- <button type="submit" class="btn button-orange button-orange-cards d-block mx-auto bold font-16">Voir le produit</button> -->
                                             </div>
-                                            <a href="http://localhost:8888/templates/product.php" class="btn button-orange button-orange-cards d-block mx-auto bold font-16" style="max-width:200px;">Voir le produit</a>
-                                            <!-- <button type="submit" class="btn button-orange button-orange-cards d-block mx-auto bold font-16">Voir le produit</button> -->
                                         </div>
                                     </div>
                                     <div class="card-box col-sm-12 col-md-6 col-lg-4 p-0 mb-xs-4 mb-sm-4 bgd-transparent">
-                                        <div class="card-hover br-10 bs-red pr-4 pb-4 pl-4 pt-3 mr-1 ml-1" data-url="3">
-                                            <img class="card-badge" src="../assets/img/badge-promo.png" alt="Card image cap">
-                                            <img class="card-img-top" src="../assets/img/collant-rose.png" alt="Card image cap">
-                                            <p class="bold text-center mb-2">Collants sorcière enfant fluo</p>
-                                            <p class="bold text-center mb-2"><span class="text-line-through black">6,95€</span> <span class="black font-20 strong-pink">3,95€</span></p>
-                                            <div class="info-plus" id="info-plus-3">
-                                                <div class="mb-1">
-                                                    <p class="black font-14 mb-0">Description</p>
-                                                    <p class="font-11 line-height">Une magicienne maléfique est née avec ces collants sorcière enfant 6/10 ans fuschias et noirs.</p>
-                                                </div>
-                                                <div class="">
-                                                    <p class="black font-14 mb-0">Disponibilité</p>
-                                                    <div class="d-flex">
-                                                        <ul class="p-0 pr-5" style="list-style-type:none;">
-                                                            <li class="font-11"><i class="icon-check"></i>Achat</li>
-                                                            <li class="font-11"><i class="icon-cancel"></i>Location</li>
-                                                        </ul>
-                                                        <ul style="list-style-type:none;">
-                                                            <li class="font-11"><i class="icon-check"></i>Boutique</li>
-                                                            <li class="font-11"><i class="icon-check"></i>En ligne</li>
-                                                        </ul>
+                                        <div class="div-over" id="div-over-3" data-url="3">
+                                            <div class="card-hover br-10 bs-red pr-4 pb-4 pl-4 pt-3 mr-1 ml-1">
+                                                <img class="card-badge" src="../assets/img/badge-promo.png" alt="Card image cap">
+                                                <img class="card-img-top" src="../assets/img/collant-rose.png" alt="Card image cap">
+                                                <p class="bold text-center mb-2">Collants sorcière enfant fluo</p>
+                                                <p class="bold text-center mb-2"><span class="text-line-through black">6,95€</span> <span class="black font-20 strong-pink">3,95€</span></p>
+                                                <div class="info-plus" id="info-plus-3">
+                                                    <div class="mb-1">
+                                                        <p class="black font-14 mb-0">Description</p>
+                                                        <p class="font-11 line-height">Une magicienne maléfique est née avec ces collants sorcière enfant 6/10 ans fuschias et noirs.</p>
+                                                    </div>
+                                                    <div class="">
+                                                        <p class="black font-14 mb-0">Disponibilité</p>
+                                                        <div class="d-flex">
+                                                            <ul class="p-0 pr-5" style="list-style-type:none;">
+                                                                <li class="font-11"><i class="icon-check"></i>Achat</li>
+                                                                <li class="font-11"><i class="icon-cancel"></i>Location</li>
+                                                            </ul>
+                                                            <ul style="list-style-type:none;">
+                                                                <li class="font-11"><i class="icon-check"></i>Boutique</li>
+                                                                <li class="font-11"><i class="icon-check"></i>En ligne</li>
+                                                            </ul>
+                                                        </div>
                                                     </div>
                                                 </div>
+                                                <a href="http://localhost:8888/templates/product.php" class="btn button-orange button-orange-cards d-block mx-auto bold font-16" style="max-width:200px;">Voir le produit</a>
+                                                <!-- <button type="submit" class="btn button-orange button-orange-cards d-block mx-auto bold font-16">Voir le produit</button> -->
                                             </div>
-                                            <a href="http://localhost:8888/templates/product.php" class="btn button-orange button-orange-cards d-block mx-auto bold font-16" style="max-width:200px;">Voir le produit</a>
-                                            <!-- <button type="submit" class="btn button-orange button-orange-cards d-block mx-auto bold font-16">Voir le produit</button> -->
                                         </div>
                                     </div>
                                     <div class="card-box col-sm-12 col-md-6 col-lg-4 p-0 mb-xs-4 mb-sm-4 bgd-transparent">
-                                        <div class="card-hover br-10 bs-red pr-4 pb-4 pl-4 pt-3 mr-1 ml-1" data-url="4">
-                                            <img class="card-img-top" src="../assets/img/collant-orange.png" alt="Card image cap">
-                                            <p class="bold text-center mb-2">Collants sorcière enfant fluo</p>
-                                            <p class="black text-center mb-3">Dès 6,95€</p>
-                                            <div class="info-plus" id="info-plus-4">
-                                                <div class="mb-0">
-                                                    <p class="black font-14 mb-0">Description</p>
-                                                    <p class="font-11 line-height">Une magicienne maléfique est née avec ces collants sorcière enfant 6/10 ans fuschias et noirs.</p>
-                                                </div>
-                                                <div class="">
-                                                    <p class="black font-14 mb-0">Disponibilité</p>
-                                                    <div class="d-flex">
-                                                        <ul class="p-0 pr-5" style="list-style-type:none;">
-                                                            <li class="font-11"><i class="icon-check"></i>Achat</li>
-                                                            <li class="font-11"><i class="icon-cancel"></i>Location</li>
-                                                        </ul>
-                                                        <ul style="list-style-type:none;">
-                                                            <li class="font-11"><i class="icon-check"></i>Boutique</li>
-                                                            <li class="font-11"><i class="icon-check"></i>En ligne</li>
-                                                        </ul>
+                                        <div class="div-over" id="div-over-4" data-url="4">
+                                            <div class="card-hover br-10 bs-red pr-4 pb-4 pl-4 pt-3 mr-1 ml-1">
+                                                <img class="card-img-top" src="../assets/img/collant-orange.png" alt="Card image cap">
+                                                <p class="bold text-center mb-2">Collants sorcière enfant fluo</p>
+                                                <p class="black text-center mb-3">Dès 6,95€</p>
+                                                <div class="info-plus" id="info-plus-4">
+                                                    <div class="mb-0">
+                                                        <p class="black font-14 mb-0">Description</p>
+                                                        <p class="font-11 line-height">Une magicienne maléfique est née avec ces collants sorcière enfant 6/10 ans fuschias et noirs.</p>
+                                                    </div>
+                                                    <div class="">
+                                                        <p class="black font-14 mb-0">Disponibilité</p>
+                                                        <div class="d-flex">
+                                                            <ul class="p-0 pr-5" style="list-style-type:none;">
+                                                                <li class="font-11"><i class="icon-check"></i>Achat</li>
+                                                                <li class="font-11"><i class="icon-cancel"></i>Location</li>
+                                                            </ul>
+                                                            <ul style="list-style-type:none;">
+                                                                <li class="font-11"><i class="icon-check"></i>Boutique</li>
+                                                                <li class="font-11"><i class="icon-check"></i>En ligne</li>
+                                                            </ul>
+                                                        </div>
                                                     </div>
                                                 </div>
+                                                <a href="http://localhost:8888/templates/product.php" class="btn button-orange button-orange-cards d-block mx-auto bold font-16" style="max-width:200px;">Voir le produit</a>
+                                                <!-- <button type="submit" class="btn button-orange button-orange-cards d-block mx-auto bold font-16">Voir le produit</button> -->
                                             </div>
-                                            <a href="http://localhost:8888/templates/product.php" class="btn button-orange button-orange-cards d-block mx-auto bold font-16" style="max-width:200px;">Voir le produit</a>
-                                            <!-- <button type="submit" class="btn button-orange button-orange-cards d-block mx-auto bold font-16">Voir le produit</button> -->
                                         </div>
                                     </div>
                                     <div class="card-box col-sm-12 col-md-6 col-lg-4 p-0 mb-xs-4 mb-sm-4 bgd-transparent">
-                                        <div class="card-hover br-10 bs-red pr-4 pb-4 pl-4 pt-3 mr-1 ml-1" data-url="5">
-                                            <img class="card-img-top" src="../assets/img/noeud-pape.png" alt="Card image cap">
-                                            <p class="bold text-center mb-2">Noeud papillon France</p>
-                                            <p class="black text-center mb-3">Dès 6,95€</p>
-                                            <div class="info-plus" id="info-plus-5">
-                                                <div class="mb-0">
-                                                    <p class="black font-14 mb-0">Description</p>
-                                                    <p class="font-11 line-height">Une magicienne maléfique est née avec ces collants sorcière enfant 6/10 ans fuschias et noirs.</p>
-                                                </div>
-                                                <div class="">
-                                                    <p class="black font-14 mb-0">Disponibilité</p>
-                                                    <div class="d-flex">
-                                                        <ul class="p-0 pr-5" style="list-style-type:none;">
-                                                            <li class="font-11"><i class="icon-check"></i>Achat</li>
-                                                            <li class="font-11"><i class="icon-cancel"></i>Location</li>
-                                                        </ul>
-                                                        <ul style="list-style-type:none;">
-                                                            <li class="font-11"><i class="icon-check"></i>Boutique</li>
-                                                            <li class="font-11"><i class="icon-check"></i>En ligne</li>
-                                                        </ul>
+                                        <div class="div-over" id="div-over-5" data-url="5">
+                                            <div class="card-hover br-10 bs-red pr-4 pb-4 pl-4 pt-3 mr-1 ml-1">
+                                                <img class="card-img-top" src="../assets/img/noeud-pape.png" alt="Card image cap">
+                                                <p class="bold text-center mb-2">Noeud papillon France</p>
+                                                <p class="black text-center mb-3">Dès 6,95€</p>
+                                                <div class="info-plus" id="info-plus-5">
+                                                    <div class="mb-0">
+                                                        <p class="black font-14 mb-0">Description</p>
+                                                        <p class="font-11 line-height">Une magicienne maléfique est née avec ces collants sorcière enfant 6/10 ans fuschias et noirs.</p>
+                                                    </div>
+                                                    <div class="">
+                                                        <p class="black font-14 mb-0">Disponibilité</p>
+                                                        <div class="d-flex">
+                                                            <ul class="p-0 pr-5" style="list-style-type:none;">
+                                                                <li class="font-11"><i class="icon-check"></i>Achat</li>
+                                                                <li class="font-11"><i class="icon-cancel"></i>Location</li>
+                                                            </ul>
+                                                            <ul style="list-style-type:none;">
+                                                                <li class="font-11"><i class="icon-check"></i>Boutique</li>
+                                                                <li class="font-11"><i class="icon-check"></i>En ligne</li>
+                                                            </ul>
+                                                        </div>
                                                     </div>
                                                 </div>
+                                                <a href="http://localhost:8888/templates/product.php" class="btn button-orange button-orange-cards d-block mx-auto bold font-16" style="max-width:200px;">Voir le produit</a>
+                                                <!-- <button type="submit" class="btn button-orange button-orange-cards d-block mx-auto bold font-16">Voir le produit</button> -->
                                             </div>
-                                            <a href="http://localhost:8888/templates/product.php" class="btn button-orange button-orange-cards d-block mx-auto bold font-16" style="max-width:200px;">Voir le produit</a>
-                                            <!-- <button type="submit" class="btn button-orange button-orange-cards d-block mx-auto bold font-16">Voir le produit</button> -->
                                         </div>
                                     </div>
                                     <div class="card-box col-sm-12 col-md-6 col-lg-4 p-0 mb-xs-4 mb-sm-4 bgd-transparent">
-                                        <div class="card-hover br-10 bs-red pr-4 pb-4 pl-4 pt-3 mr-1 ml-1" data-url="6">
-                                            <img class="card-badge" src="../assets/img/badge-occasion.png" alt="Card image cap">
-                                            <img class="card-img-top" src="../assets/img/lunettes.png" alt="Card image cap">
-                                            <p class="bold text-center mb-2">Lunettes disco avec boule argent</p>
-                                            <p class="black text-center mb-3">Dès 6,95€</p>
-                                            <div class="info-plus" id="info-plus-6">
-                                                <div class="mb-0">
-                                                    <p class="black font-14 mb-0">Description</p>
-                                                    <p class="font-11 line-height">Une magicienne maléfique est née avec ces collants sorcière enfant 6/10 ans fuschias et noirs.</p>
-                                                </div>
-                                                <div class="">
-                                                    <p class="black font-14 mb-0">Disponibilité</p>
-                                                    <div class="d-flex">
-                                                        <ul class="p-0 pr-5" style="list-style-type:none;">
-                                                            <li class="font-11"><i class="icon-check"></i>Achat</li>
-                                                            <li class="font-11"><i class="icon-cancel"></i>Location</li>
-                                                        </ul>
-                                                        <ul style="list-style-type:none;">
-                                                            <li class="font-11"><i class="icon-check"></i>Boutique</li>
-                                                            <li class="font-11"><i class="icon-check"></i>En ligne</li>
-                                                        </ul>
+                                        <div class="div-over" id="div-over-6" data-url="6">
+                                            <div class="card-hover br-10 bs-red pr-4 pb-4 pl-4 pt-3 mr-1 ml-1">
+                                                <img class="card-badge" src="../assets/img/badge-occasion.png" alt="Card image cap">
+                                                <img class="card-img-top" src="../assets/img/lunettes.png" alt="Card image cap">
+                                                <p class="bold text-center mb-2">Lunettes disco avec boule argent</p>
+                                                <p class="black text-center mb-3">Dès 6,95€</p>
+                                                <div class="info-plus" id="info-plus-6">
+                                                    <div class="mb-0">
+                                                        <p class="black font-14 mb-0">Description</p>
+                                                        <p class="font-11 line-height">Une magicienne maléfique est née avec ces collants sorcière enfant 6/10 ans fuschias et noirs.</p>
+                                                    </div>
+                                                    <div class="">
+                                                        <p class="black font-14 mb-0">Disponibilité</p>
+                                                        <div class="d-flex">
+                                                            <ul class="p-0 pr-5" style="list-style-type:none;">
+                                                                <li class="font-11"><i class="icon-check"></i>Achat</li>
+                                                                <li class="font-11"><i class="icon-cancel"></i>Location</li>
+                                                            </ul>
+                                                            <ul style="list-style-type:none;">
+                                                                <li class="font-11"><i class="icon-check"></i>Boutique</li>
+                                                                <li class="font-11"><i class="icon-check"></i>En ligne</li>
+                                                            </ul>
+                                                        </div>
                                                     </div>
                                                 </div>
+                                                <a href="http://localhost:8888/templates/product.php" class="btn button-orange button-orange-cards d-block mx-auto bold font-16" style="max-width:200px;">Voir le produit</a>
+                                                <!-- <button type="submit" class="btn button-orange button-orange-cards d-block mx-auto bold font-16">Voir le produit</button> -->
                                             </div>
-                                            <a href="http://localhost:8888/templates/product.php" class="btn button-orange button-orange-cards d-block mx-auto bold font-16" style="max-width:200px;">Voir le produit</a>
-                                            <!-- <button type="submit" class="btn button-orange button-orange-cards d-block mx-auto bold font-16">Voir le produit</button> -->
                                         </div>
                                     </div>
                                     <div class="card-box col-sm-12 col-md-6 col-lg-4 p-0 mb-xs-4 mb-sm-4 bgd-transparent">
-                                        <div class="card-hover br-10 bs-red pr-4 pb-4 pl-4 pt-3 mr-1 ml-1" data-url="7">
-                                            <img class="card-badge" src="../assets/img/badge-nouveaute.png" alt="Card image cap">
-                                            <img class="card-img-top" src="../assets/img/img-ailes.png" alt="Card image cap">
-                                            <p class="bold text-center mb-2">Ailes d’ange en plumes blanches</p>
-                                            <p class="black text-center mb-3">Dès 3,95€</p>
-                                            <div class="info-plus" id="info-plus-7">
-                                                <div class="mb-0">
-                                                    <p class="black font-14 mb-0">Description</p>
-                                                    <p class="font-11 line-height">Une magicienne maléfique est née avec ces collants sorcière enfant 6/10 ans fuschias et noirs.</p>
-                                                </div>
-                                                <div class="">
-                                                    <p class="black font-14 mb-0">Disponibilité</p>
-                                                    <div class="d-flex">
-                                                        <ul class="p-0 pr-5" style="list-style-type:none;">
-                                                            <li class="font-11"><i class="icon-check"></i>Achat</li>
-                                                            <li class="font-11"><i class="icon-cancel"></i>Location</li>
-                                                        </ul>
-                                                        <ul style="list-style-type:none;">
-                                                            <li class="font-11"><i class="icon-check"></i>Boutique</li>
-                                                            <li class="font-11"><i class="icon-check"></i>En ligne</li>
-                                                        </ul>
+                                        <div class="div-over" id="div-over-7" data-url="7">
+                                            <div class="card-hover br-10 bs-red pr-4 pb-4 pl-4 pt-3 mr-1 ml-1">
+                                                <img class="card-badge" src="../assets/img/badge-nouveaute.png" alt="Card image cap">
+                                                <img class="card-img-top" src="../assets/img/img-ailes.png" alt="Card image cap">
+                                                <p class="bold text-center mb-2">Ailes d’ange en plumes blanches</p>
+                                                <p class="black text-center mb-3">Dès 3,95€</p>
+                                                <div class="info-plus" id="info-plus-7">
+                                                    <div class="mb-0">
+                                                        <p class="black font-14 mb-0">Description</p>
+                                                        <p class="font-11 line-height">Une magicienne maléfique est née avec ces collants sorcière enfant 6/10 ans fuschias et noirs.</p>
+                                                    </div>
+                                                    <div class="">
+                                                        <p class="black font-14 mb-0">Disponibilité</p>
+                                                        <div class="d-flex">
+                                                            <ul class="p-0 pr-5" style="list-style-type:none;">
+                                                                <li class="font-11"><i class="icon-check"></i>Achat</li>
+                                                                <li class="font-11"><i class="icon-cancel"></i>Location</li>
+                                                            </ul>
+                                                            <ul style="list-style-type:none;">
+                                                                <li class="font-11"><i class="icon-check"></i>Boutique</li>
+                                                                <li class="font-11"><i class="icon-check"></i>En ligne</li>
+                                                            </ul>
+                                                        </div>
                                                     </div>
                                                 </div>
-                                            </div>
-                                            <a href="http://localhost:8888/templates/product.php" class="btn button-orange button-orange-cards d-block mx-auto bold font-16" style="max-width:200px;">Voir le produit</a>
-                                            <!-- <button type="submit" class="btn button-orange button-orange-cards d-block mx-auto bold font-16">Voir le produit</button> -->
-                                        </div> 
-                                    </div>
-                                    <div class="card-box col-sm-12 col-md-6 col-lg-4 p-0 mb-xs-4 mb-sm-4 bgd-transparent">
-                                        <div class="card-hover br-10 bs-red pr-4 pb-4 pl-4 pt-3 mr-1 ml-1" data-url="8">
-                                            <img class="card-img-top" src="../assets/img/collier-or.png" alt="Card image cap">
-                                            <p class="bold text-center mb-2">Bracelet danseuse de ventre</p>
-                                            <p class="black text-center mb-3">Dès 6,95€</p>
-                                            <div class="info-plus" id="info-plus-8">
-                                                <div class="mb-0">
-                                                    <p class="black font-14 mb-0">Description</p>
-                                                    <p class="font-11 line-height">Une magicienne maléfique est née avec ces collants sorcière enfant 6/10 ans fuschias et noirs.</p>
-                                                </div>
-                                                <div class="">
-                                                    <p class="black font-14 mb-0">Disponibilité</p>
-                                                    <div class="d-flex">
-                                                        <ul class="p-0 pr-5" style="list-style-type:none;">
-                                                            <li class="font-11"><i class="icon-check"></i>Achat</li>
-                                                            <li class="font-11"><i class="icon-cancel"></i>Location</li>
-                                                        </ul>
-                                                        <ul style="list-style-type:none;">
-                                                            <li class="font-11"><i class="icon-check"></i>Boutique</li>
-                                                            <li class="font-11"><i class="icon-check"></i>En ligne</li>
-                                                        </ul>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <a href="http://localhost:8888/templates/product.php" class="btn button-orange button-orange-cards d-block mx-auto bold font-16" style="max-width:200px;">Voir le produit</a>
-                                            <!-- <button type="submit" class="btn button-orange button-orange-cards d-block mx-auto bold font-16">Voir le produit</button> -->
+                                                <a href="http://localhost:8888/templates/product.php" class="btn button-orange button-orange-cards d-block mx-auto bold font-16" style="max-width:200px;">Voir le produit</a>
+                                                <!-- <button type="submit" class="btn button-orange button-orange-cards d-block mx-auto bold font-16">Voir le produit</button> -->
+                                            </div> 
                                         </div>
                                     </div>
                                     <div class="card-box col-sm-12 col-md-6 col-lg-4 p-0 mb-xs-4 mb-sm-4 bgd-transparent">
-                                        <div class="card-hover br-10 bs-red pr-4 pb-4 pl-4 pt-3 mr-1 ml-1" data-url="9">
-                                            <img class="card-badge" src="../assets/img/badge-promo.png" alt="Card image cap">
-                                            <img class="card-img-top" src="../assets/img/crecelle.png" alt="Card image cap">
-                                            <p class="bold text-center mb-2">Crecelle en bois double</p>
-                                            <p class="black text-center mb-3">Dès 6,95€</p>
-                                            <div class="info-plus" id="info-plus-9">
-                                                <div class="mb-0">
-                                                    <p class="black font-14 mb-0">Description</p>
-                                                    <p class="font-11 line-height">Une magicienne maléfique est née avec ces collants sorcière enfant 6/10 ans fuschias et noirs.</p>
-                                                </div>
-                                                <div class="">
-                                                    <p class="black font-14 mb-0">Disponibilité</p>
-                                                    <div class="d-flex">
-                                                        <ul class="p-0 pr-5" style="list-style-type:none;">
-                                                            <li class="font-11"><i class="icon-check"></i>Achat</li>
-                                                            <li class="font-11"><i class="icon-cancel"></i>Location</li>
-                                                        </ul>
-                                                        <ul style="list-style-type:none;">
-                                                            <li class="font-11"><i class="icon-check"></i>Boutique</li>
-                                                            <li class="font-11"><i class="icon-check"></i>En ligne</li>
-                                                        </ul>
+                                        <div class="div-over" id="div-over-8" data-url="8">
+                                            <div class="card-hover br-10 bs-red pr-4 pb-4 pl-4 pt-3 mr-1 ml-1">
+                                                <img class="card-img-top" src="../assets/img/collier-or.png" alt="Card image cap">
+                                                <p class="bold text-center mb-2">Bracelet danseuse de ventre</p>
+                                                <p class="black text-center mb-3">Dès 6,95€</p>
+                                                <div class="info-plus" id="info-plus-8">
+                                                    <div class="mb-0">
+                                                        <p class="black font-14 mb-0">Description</p>
+                                                        <p class="font-11 line-height">Une magicienne maléfique est née avec ces collants sorcière enfant 6/10 ans fuschias et noirs.</p>
+                                                    </div>
+                                                    <div class="">
+                                                        <p class="black font-14 mb-0">Disponibilité</p>
+                                                        <div class="d-flex">
+                                                            <ul class="p-0 pr-5" style="list-style-type:none;">
+                                                                <li class="font-11"><i class="icon-check"></i>Achat</li>
+                                                                <li class="font-11"><i class="icon-cancel"></i>Location</li>
+                                                            </ul>
+                                                            <ul style="list-style-type:none;">
+                                                                <li class="font-11"><i class="icon-check"></i>Boutique</li>
+                                                                <li class="font-11"><i class="icon-check"></i>En ligne</li>
+                                                            </ul>
+                                                        </div>
                                                     </div>
                                                 </div>
+                                                <a href="http://localhost:8888/templates/product.php" class="btn button-orange button-orange-cards d-block mx-auto bold font-16" style="max-width:200px;">Voir le produit</a>
+                                                <!-- <button type="submit" class="btn button-orange button-orange-cards d-block mx-auto bold font-16">Voir le produit</button> -->
                                             </div>
-                                            <a href="http://localhost:8888/templates/product.php" class="btn button-orange button-orange-cards d-block mx-auto bold font-16" style="max-width:200px;">Voir le produit</a>
-                                            <!-- <button type="submit" class="btn button-orange button-orange-cards d-block mx-auto bold font-16">Voir le produit</button> -->
                                         </div>
                                     </div>
                                     <div class="card-box col-sm-12 col-md-6 col-lg-4 p-0 mb-xs-4 mb-sm-4 bgd-transparent">
-                                        <div class="card-hover br-10 bs-red pr-4 pb-4 pl-4 pt-3 mr-1 ml-1" data-url="10">
-                                            <img class="card-badge" src="../assets/img/badge-nouveaute.png" alt="Card image cap">
-                                            <img class="card-img-top" src="../assets/img/truc.png" alt="Card image cap">
-                                            <p class="bold text-center mb-2">Collier halloween</p>
-                                            <p class="black text-center mb-3">Dès 3,95€</p>
-                                            <div class="info-plus" id="info-plus-10">
-                                                <div class="mb-0">
-                                                    <p class="black font-14 mb-0">Description</p>
-                                                    <p class="font-11 line-height">Une magicienne maléfique est née avec ces collants sorcière enfant 6/10 ans fuschias et noirs.</p>
-                                                </div>
-                                                <div class="">
-                                                    <p class="black font-14 mb-0">Disponibilité</p>
-                                                    <div class="d-flex">
-                                                        <ul class="p-0 pr-5" style="list-style-type:none;">
-                                                            <li class="font-11"><i class="icon-check"></i>Achat</li>
-                                                            <li class="font-11"><i class="icon-cancel"></i>Location</li>
-                                                        </ul>
-                                                        <ul style="list-style-type:none;">
-                                                            <li class="font-11"><i class="icon-check"></i>Boutique</li>
-                                                            <li class="font-11"><i class="icon-check"></i>En ligne</li>
-                                                        </ul>
+                                        <div class="div-over" id="div-over-9" data-url="9">
+                                            <div class="card-hover br-10 bs-red pr-4 pb-4 pl-4 pt-3 mr-1 ml-1">
+                                                <img class="card-badge" src="../assets/img/badge-promo.png" alt="Card image cap">
+                                                <img class="card-img-top" src="../assets/img/crecelle.png" alt="Card image cap">
+                                                <p class="bold text-center mb-2">Crecelle en bois double</p>
+                                                <p class="black text-center mb-3">Dès 6,95€</p>
+                                                <div class="info-plus" id="info-plus-9">
+                                                    <div class="mb-0">
+                                                        <p class="black font-14 mb-0">Description</p>
+                                                        <p class="font-11 line-height">Une magicienne maléfique est née avec ces collants sorcière enfant 6/10 ans fuschias et noirs.</p>
+                                                    </div>
+                                                    <div class="">
+                                                        <p class="black font-14 mb-0">Disponibilité</p>
+                                                        <div class="d-flex">
+                                                            <ul class="p-0 pr-5" style="list-style-type:none;">
+                                                                <li class="font-11"><i class="icon-check"></i>Achat</li>
+                                                                <li class="font-11"><i class="icon-cancel"></i>Location</li>
+                                                            </ul>
+                                                            <ul style="list-style-type:none;">
+                                                                <li class="font-11"><i class="icon-check"></i>Boutique</li>
+                                                                <li class="font-11"><i class="icon-check"></i>En ligne</li>
+                                                            </ul>
+                                                        </div>
                                                     </div>
                                                 </div>
+                                                <a href="http://localhost:8888/templates/product.php" class="btn button-orange button-orange-cards d-block mx-auto bold font-16" style="max-width:200px;">Voir le produit</a>
+                                                <!-- <button type="submit" class="btn button-orange button-orange-cards d-block mx-auto bold font-16">Voir le produit</button> -->
                                             </div>
-                                            <a href="http://localhost:8888/templates/product.php" class="btn button-orange button-orange-cards d-block mx-auto bold font-16" style="max-width:200px;">Voir le produit</a>
-                                            <!-- <button type="submit" class="btn button-orange button-orange-cards d-block mx-auto bold font-16">Voir le produit</button> -->
-                                        </div> 
-                                    </div>
-                                    <div class="card-box col-sm-12 col-md-6 col-lg-4 p-0 mb-xs-4 mb-sm-4 bgd-transparent">
-                                        <div class="card-hover br-10 bs-red pr-4 pb-4 pl-4 pt-3 mr-1 ml-1" data-url="11">
-                                            <img class="card-img-top" src="../assets/img/vampire.png" alt="Card image cap">
-                                            <p class="bold text-center mb-2">Collants sorcière enfant fluo</p>
-                                            <p class="black text-center mb-3">Dès 6,95€</p>
-                                            <div class="info-plus" id="info-plus-11">
-                                                <div class="mb-0">
-                                                    <p class="black font-14 mb-0">Description</p>
-                                                    <p class="font-11 line-height">Une magicienne maléfique est née avec ces collants sorcière enfant 6/10 ans fuschias et noirs.</p>
-                                                </div>
-                                                <div class="">
-                                                    <p class="black font-14 mb-0">Disponibilité</p>
-                                                    <div class="d-flex">
-                                                        <ul class="p-0 pr-5" style="list-style-type:none;">
-                                                            <li class="font-11"><i class="icon-check"></i>Achat</li>
-                                                            <li class="font-11"><i class="icon-cancel"></i>Location</li>
-                                                        </ul>
-                                                        <ul style="list-style-type:none;">
-                                                            <li class="font-11"><i class="icon-check"></i>Boutique</li>
-                                                            <li class="font-11"><i class="icon-check"></i>En ligne</li>
-                                                        </ul>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <a href="http://localhost:8888/templates/product.php" class="btn button-orange button-orange-cards d-block mx-auto bold font-16" style="max-width:200px;">Voir le produit</a>
-                                            <!-- <button type="submit" class="btn button-orange button-orange-cards d-block mx-auto bold font-16">Voir le produit</button> -->
                                         </div>
                                     </div>
                                     <div class="card-box col-sm-12 col-md-6 col-lg-4 p-0 mb-xs-4 mb-sm-4 bgd-transparent">
-                                        <div class="card-hover br-10 bs-red pr-4 pb-4 pl-4 pt-3 mr-1 ml-1" data-url="12">
-                                            <img class="card-img-top" src="../assets/img/rose.png" alt="Card image cap">
-                                            <p class="bold text-center mb-2">Collants sorcière enfant fluo</p>
-                                            <p class="bold text-center mb-2"><span class="text-line-through black">6,95€</span> <span class="black font-20 strong-pink">3,95€</span></p>
-                                            <div class="info-plus" id="info-plus-12">
-                                                <div class="mb-0">
-                                                    <p class="black font-14 mb-0">Description</p>
-                                                    <p class="font-11 line-height">Une magicienne maléfique est née avec ces collants sorcière enfant 6/10 ans fuschias et noirs.</p>
-                                                </div>
-                                                <div class="">
-                                                    <p class="black font-14 mb-0">Disponibilité</p>
-                                                    <div class="d-flex">
-                                                        <ul class="p-0 pr-5" style="list-style-type:none;">
-                                                            <li class="font-11"><i class="icon-check"></i>Achat</li>
-                                                            <li class="font-11"><i class="icon-cancel"></i>Location</li>
-                                                        </ul>
-                                                        <ul style="list-style-type:none;">
-                                                            <li class="font-11"><i class="icon-check"></i>Boutique</li>
-                                                            <li class="font-11"><i class="icon-check"></i>En ligne</li>
-                                                        </ul>
+                                        <div class="div-over" id="div-over-10" data-url="10">
+                                            <div class="card-hover br-10 bs-red pr-4 pb-4 pl-4 pt-3 mr-1 ml-1">
+                                                <img class="card-badge" src="../assets/img/badge-nouveaute.png" alt="Card image cap">
+                                                <img class="card-img-top" src="../assets/img/truc.png" alt="Card image cap">
+                                                <p class="bold text-center mb-2">Collier halloween</p>
+                                                <p class="black text-center mb-3">Dès 3,95€</p>
+                                                <div class="info-plus" id="info-plus-10">
+                                                    <div class="mb-0">
+                                                        <p class="black font-14 mb-0">Description</p>
+                                                        <p class="font-11 line-height">Une magicienne maléfique est née avec ces collants sorcière enfant 6/10 ans fuschias et noirs.</p>
+                                                    </div>
+                                                    <div class="">
+                                                        <p class="black font-14 mb-0">Disponibilité</p>
+                                                        <div class="d-flex">
+                                                            <ul class="p-0 pr-5" style="list-style-type:none;">
+                                                                <li class="font-11"><i class="icon-check"></i>Achat</li>
+                                                                <li class="font-11"><i class="icon-cancel"></i>Location</li>
+                                                            </ul>
+                                                            <ul style="list-style-type:none;">
+                                                                <li class="font-11"><i class="icon-check"></i>Boutique</li>
+                                                                <li class="font-11"><i class="icon-check"></i>En ligne</li>
+                                                            </ul>
+                                                        </div>
                                                     </div>
                                                 </div>
-                                            </div>
-                                            <button type="submit" class="btn button-orange btn-cart bold mx-auto d-block mt-3 font-13" id="to-cart">Voir le panier</button> 
-                                            <!-- <button type="submit" class="btn button-orange button-orange-cards d-block mx-auto bold font-16">Voir le produit</button> -->
+                                                <a href="http://localhost:8888/templates/product.php" class="btn button-orange button-orange-cards d-block mx-auto bold font-16" style="max-width:200px;">Voir le produit</a>
+                                                <!-- <button type="submit" class="btn button-orange button-orange-cards d-block mx-auto bold font-16">Voir le produit</button> -->
+                                            </div> 
                                         </div>
                                     </div>
                                     <div class="card-box col-sm-12 col-md-6 col-lg-4 p-0 mb-xs-4 mb-sm-4 bgd-transparent">
-                                        <div class="card-hover br-10 bs-red pr-4 pb-4 pl-4 pt-3 mr-1 ml-1" data-url="13">
-                                            <img class="card-badge" src="../assets/img/badge-nouveaute.png" alt="Card image cap">
-                                            <img class="card-img-top" src="../assets/img/pirate.png" alt="Card image cap">
-                                            <p class="bold text-center mb-2">Collier halloween</p>
-                                            <p class="black text-center mb-3">Dès 3,95€</p>
-                                            <div class="info-plus" id="info-plus-13">
-                                                <div class="mb-0">
-                                                    <p class="black font-14 mb-0">Description</p>
-                                                    <p class="font-11 line-height">Une magicienne maléfique est née avec ces collants sorcière enfant 6/10 ans fuschias et noirs.</p>
-                                                </div>
-                                                <div class="">
-                                                    <p class="black font-14 mb-0">Disponibilité</p>
-                                                    <div class="d-flex">
-                                                        <ul class="p-0 pr-5" style="list-style-type:none;">
-                                                            <li class="font-11"><i class="icon-check"></i>Achat</li>
-                                                            <li class="font-11"><i class="icon-cancel"></i>Location</li>
-                                                        </ul>
-                                                        <ul style="list-style-type:none;">
-                                                            <li class="font-11"><i class="icon-check"></i>Boutique</li>
-                                                            <li class="font-11"><i class="icon-check"></i>En ligne</li>
-                                                        </ul>
+                                        <div class="div-over" id="div-over-11" data-url="11">
+                                            <div class="card-hover br-10 bs-red pr-4 pb-4 pl-4 pt-3 mr-1 ml-1" data-url="11">
+                                                <img class="card-img-top" src="../assets/img/vampire.png" alt="Card image cap">
+                                                <p class="bold text-center mb-2">Collants sorcière enfant fluo</p>
+                                                <p class="black text-center mb-3">Dès 6,95€</p>
+                                                <div class="info-plus" id="info-plus-11">
+                                                    <div class="mb-0">
+                                                        <p class="black font-14 mb-0">Description</p>
+                                                        <p class="font-11 line-height">Une magicienne maléfique est née avec ces collants sorcière enfant 6/10 ans fuschias et noirs.</p>
+                                                    </div>
+                                                    <div class="">
+                                                        <p class="black font-14 mb-0">Disponibilité</p>
+                                                        <div class="d-flex">
+                                                            <ul class="p-0 pr-5" style="list-style-type:none;">
+                                                                <li class="font-11"><i class="icon-check"></i>Achat</li>
+                                                                <li class="font-11"><i class="icon-cancel"></i>Location</li>
+                                                            </ul>
+                                                            <ul style="list-style-type:none;">
+                                                                <li class="font-11"><i class="icon-check"></i>Boutique</li>
+                                                                <li class="font-11"><i class="icon-check"></i>En ligne</li>
+                                                            </ul>
+                                                        </div>
                                                     </div>
                                                 </div>
+                                                <a href="http://localhost:8888/templates/product.php" class="btn button-orange button-orange-cards d-block mx-auto bold font-16" style="max-width:200px;">Voir le produit</a>
+                                                <!-- <button type="submit" class="btn button-orange button-orange-cards d-block mx-auto bold font-16">Voir le produit</button> -->
                                             </div>
-                                            <button class="btn button-orange button-orange-cards d-block mx-auto bold font-16">Voir le produit</button>
-                                        </div> 
-                                    </div>
-                                    <div class="card-box col-sm-12 col-md-6 col-lg-4 p-0 mb-xs-4 mb-sm-4 bgd-transparent">
-                                        <div class="card-hover br-10 bs-red pr-4 pb-4 pl-4 pt-3 mr-1 ml-1" data-url="14">
-                                            <img class="card-img-top" src="../assets/img/lilith.png" alt="Card image cap">
-                                            <p class="bold text-center mb-2">Collants sorcière enfant fluo</p>
-                                            <p class="black text-center mb-3">Dès 6,95€</p>
-                                            <div class="info-plus" id="info-plus-14">
-                                                <div class="mb-0">
-                                                    <p class="black font-14 mb-0">Description</p>
-                                                    <p class="font-11 line-height">Une magicienne maléfique est née avec ces collants sorcière enfant 6/10 ans fuschias et noirs.</p>
-                                                </div>
-                                                <div class="">
-                                                    <p class="black font-14 mb-0">Disponibilité</p>
-                                                    <div class="d-flex">
-                                                        <ul class="p-0 pr-5" style="list-style-type:none;">
-                                                            <li class="font-11"><i class="icon-check"></i>Achat</li>
-                                                            <li class="font-11"><i class="icon-cancel"></i>Location</li>
-                                                        </ul>
-                                                        <ul style="list-style-type:none;">
-                                                            <li class="font-11"><i class="icon-check"></i>Boutique</li>
-                                                            <li class="font-11"><i class="icon-check"></i>En ligne</li>
-                                                        </ul>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <button class="btn button-orange button-orange-cards d-block mx-auto bold font-16">Voir le produit</button>
                                         </div>
                                     </div>
                                     <div class="card-box col-sm-12 col-md-6 col-lg-4 p-0 mb-xs-4 mb-sm-4 bgd-transparent">
-                                        <div class="card-hover br-10 bs-red pr-4 pb-4 pl-4 pt-3 mr-1 ml-1" data-url="15">
-                                            <img class="card-badge" src="../assets/img/badge-occasion.png" alt="Card image cap">
-                                            <img class="card-img-top" src="../assets/img/leggin.png" alt="Card image cap">
-                                            <p class="bold text-center mb-2">Collants sorcière enfant fluo</p>
-                                            <p class="bold text-center mb-2"><span class="black text-line-through">6,95€</span> <span class="black font-20 strong-pink">3,95€</span></p>
-                                            <div class="info-plus" id="info-plus-15">
-                                                <div class="mb-0">
-                                                    <p class="black font-14 mb-0">Description</p>
-                                                    <p class="font-11 line-height">Une magicienne maléfique est née avec ces collants sorcière enfant 6/10 ans fuschias et noirs.</p>
-                                                </div>
-                                                <div class="">
-                                                    <p class="black font-14 mb-0">Disponibilité</p>
-                                                    <div class="d-flex">
-                                                        <ul class="p-0 pr-5" style="list-style-type:none;">
-                                                            <li class="font-11"><i class="icon-check"></i>Achat</li>
-                                                            <li class="font-11"><i class="icon-cancel"></i>Location</li>
-                                                        </ul>
-                                                        <ul style="list-style-type:none;">
-                                                            <li class="font-11"><i class="icon-check"></i>Boutique</li>
-                                                            <li class="font-11"><i class="icon-check"></i>En ligne</li>
-                                                        </ul>
+                                        <div class="div-over" id="div-over-12" data-url="12">
+                                            <div class="card-hover br-10 bs-red pr-4 pb-4 pl-4 pt-3 mr-1 ml-1" data-url="12">
+                                                <img class="card-img-top" src="../assets/img/rose.png" alt="Card image cap">
+                                                <p class="bold text-center mb-2">Collants sorcière enfant fluo</p>
+                                                <p class="bold text-center mb-2"><span class="text-line-through black">6,95€</span> <span class="black font-20 strong-pink">3,95€</span></p>
+                                                <div class="info-plus" id="info-plus-12">
+                                                    <div class="mb-0">
+                                                        <p class="black font-14 mb-0">Description</p>
+                                                        <p class="font-11 line-height">Une magicienne maléfique est née avec ces collants sorcière enfant 6/10 ans fuschias et noirs.</p>
+                                                    </div>
+                                                    <div class="">
+                                                        <p class="black font-14 mb-0">Disponibilité</p>
+                                                        <div class="d-flex">
+                                                            <ul class="p-0 pr-5" style="list-style-type:none;">
+                                                                <li class="font-11"><i class="icon-check"></i>Achat</li>
+                                                                <li class="font-11"><i class="icon-cancel"></i>Location</li>
+                                                            </ul>
+                                                            <ul style="list-style-type:none;">
+                                                                <li class="font-11"><i class="icon-check"></i>Boutique</li>
+                                                                <li class="font-11"><i class="icon-check"></i>En ligne</li>
+                                                            </ul>
+                                                        </div>
                                                     </div>
                                                 </div>
+                                                <button type="submit" class="btn button-orange btn-cart bold mx-auto d-block mt-3 font-13" id="to-cart">Voir le panier</button> 
+                                                <!-- <button type="submit" class="btn button-orange button-orange-cards d-block mx-auto bold font-16">Voir le produit</button> -->
                                             </div>
-                                            <button class="btn button-orange button-orange-cards d-block mx-auto bold font-16">Voir le produit</button>
+                                        </div>
+                                    </div>
+                                    <div class="card-box col-sm-12 col-md-6 col-lg-4 p-0 mb-xs-4 mb-sm-4 bgd-transparent">
+                                        <div class="div-over" id="div-over-13" data-url="13"> 
+                                            <div class="card-hover br-10 bs-red pr-4 pb-4 pl-4 pt-3 mr-1 ml-1">
+                                                <img class="card-badge" src="../assets/img/badge-nouveaute.png" alt="Card image cap">
+                                                <img class="card-img-top" src="../assets/img/pirate.png" alt="Card image cap">
+                                                <p class="bold text-center mb-2">Collier halloween</p>
+                                                <p class="black text-center mb-3">Dès 3,95€</p>
+                                                <div class="info-plus" id="info-plus-13">
+                                                    <div class="mb-0">
+                                                        <p class="black font-14 mb-0">Description</p>
+                                                        <p class="font-11 line-height">Une magicienne maléfique est née avec ces collants sorcière enfant 6/10 ans fuschias et noirs.</p>
+                                                    </div>
+                                                    <div class="">
+                                                        <p class="black font-14 mb-0">Disponibilité</p>
+                                                        <div class="d-flex">
+                                                            <ul class="p-0 pr-5" style="list-style-type:none;">
+                                                                <li class="font-11"><i class="icon-check"></i>Achat</li>
+                                                                <li class="font-11"><i class="icon-cancel"></i>Location</li>
+                                                            </ul>
+                                                            <ul style="list-style-type:none;">
+                                                                <li class="font-11"><i class="icon-check"></i>Boutique</li>
+                                                                <li class="font-11"><i class="icon-check"></i>En ligne</li>
+                                                            </ul>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <button class="btn button-orange button-orange-cards d-block mx-auto bold font-16">Voir le produit</button>
+                                            </div> 
+                                        </div>
+                                    </div>
+                                    <div class="card-box col-sm-12 col-md-6 col-lg-4 p-0 mb-xs-4 mb-sm-4 bgd-transparent">
+                                        <div class="div-over" id="div-over-14" data-url="14">
+                                            <div class="card-hover br-10 bs-red pr-4 pb-4 pl-4 pt-3 mr-1 ml-1">
+                                                <img class="card-img-top" src="../assets/img/lilith.png" alt="Card image cap">
+                                                <p class="bold text-center mb-2">Collants sorcière enfant fluo</p>
+                                                <p class="black text-center mb-3">Dès 6,95€</p>
+                                                <div class="info-plus" id="info-plus-14">
+                                                    <div class="mb-0">
+                                                        <p class="black font-14 mb-0">Description</p>
+                                                        <p class="font-11 line-height">Une magicienne maléfique est née avec ces collants sorcière enfant 6/10 ans fuschias et noirs.</p>
+                                                    </div>
+                                                    <div class="">
+                                                        <p class="black font-14 mb-0">Disponibilité</p>
+                                                        <div class="d-flex">
+                                                            <ul class="p-0 pr-5" style="list-style-type:none;">
+                                                                <li class="font-11"><i class="icon-check"></i>Achat</li>
+                                                                <li class="font-11"><i class="icon-cancel"></i>Location</li>
+                                                            </ul>
+                                                            <ul style="list-style-type:none;">
+                                                                <li class="font-11"><i class="icon-check"></i>Boutique</li>
+                                                                <li class="font-11"><i class="icon-check"></i>En ligne</li>
+                                                            </ul>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <button class="btn button-orange button-orange-cards d-block mx-auto bold font-16">Voir le produit</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="card-box col-sm-12 col-md-6 col-lg-4 p-0 mb-xs-4 mb-sm-4 bgd-transparent">
+                                        <div class="div-over" id="div-over-15" data-url="15">
+                                            <div class="card-hover br-10 bs-red pr-4 pb-4 pl-4 pt-3 mr-1 ml-1" data-url="15">
+                                                <img class="card-badge" src="../assets/img/badge-occasion.png" alt="Card image cap">
+                                                <img class="card-img-top" src="../assets/img/leggin.png" alt="Card image cap">
+                                                <p class="bold text-center mb-2">Collants sorcière enfant fluo</p>
+                                                <p class="bold text-center mb-2"><span class="black text-line-through">6,95€</span> <span class="black font-20 strong-pink">3,95€</span></p>
+                                                <div class="info-plus" id="info-plus-15">
+                                                    <div class="mb-0">
+                                                        <p class="black font-14 mb-0">Description</p>
+                                                        <p class="font-11 line-height">Une magicienne maléfique est née avec ces collants sorcière enfant 6/10 ans fuschias et noirs.</p>
+                                                    </div>
+                                                    <div class="">
+                                                        <p class="black font-14 mb-0">Disponibilité</p>
+                                                        <div class="d-flex">
+                                                            <ul class="p-0 pr-5" style="list-style-type:none;">
+                                                                <li class="font-11"><i class="icon-check"></i>Achat</li>
+                                                                <li class="font-11"><i class="icon-cancel"></i>Location</li>
+                                                            </ul>
+                                                            <ul style="list-style-type:none;">
+                                                                <li class="font-11"><i class="icon-check"></i>Boutique</li>
+                                                                <li class="font-11"><i class="icon-check"></i>En ligne</li>
+                                                            </ul>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <button class="btn button-orange button-orange-cards d-block mx-auto bold font-16">Voir le produit</button>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>

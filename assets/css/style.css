@@ -11363,9 +11363,11 @@ input[type=number] {
   overflow: hidden;
 }
 
-.info-plus.open {
-  height: auto;
-  overflow: visible;
+#div-over {
+  position: absolute;
+  width: 100%;
+  z-index: 999;
+  height: 100%;
 }
 
 @media (min-width: 992px) and (max-width: 1199px) {

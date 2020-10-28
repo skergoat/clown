@@ -55,11 +55,13 @@
     overflow:hidden;
 }
 
-.info-plus.open {
-    height:auto;
-    overflow:visible;
-}
-
+#div-over {
+    // border:2px solid red;
+    position:absolute;
+    width:100%;
+    z-index:999;
+    height:100%;
+}   
 
 @media (min-width:992px) and (max-width:1199px) {
     p, .button-orange.button-orange-cards {

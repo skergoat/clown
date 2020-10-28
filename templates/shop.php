@@ -1520,6 +1520,7 @@
             $class2="find-by-items";
             let $val = "shipping";
         </script>
+        <script src="../assets/js/bandeau.js"></script>
         <script src="../assets/js/custom-select.js"></script>
         <script src="../assets/js/cart.js"></script>
         <script src="../assets/js/themes.js"></script>

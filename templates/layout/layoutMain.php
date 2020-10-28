@@ -334,7 +334,6 @@
         <?= $script ?>
         <script src="../assets/js/parallax.js"></script>
         <script src="../assets/js/quantity-field.js"></script>
-        <script src="../assets/js/slideshow.js"></script>
         <script>
             // menu active link 
             $(activeId + ' .border-bottom-menu').addClass('activated-border-bottom');
@@ -348,6 +347,7 @@
                 window.location.href = "http://localhost:8888/templates/cart.php";
             });
         </script>
+        <script src="../assets/js/bandeau.js"></script>
         <script src="../assets/js/cookie.js"></script>
         <script src="../assets/js/flag.js"></script>
         <!-- <script src="../assets/js/summary.js"></script> -->

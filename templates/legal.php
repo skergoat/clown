@@ -9,7 +9,7 @@
 
 <!-- primary content  -->
 <?php ob_start(); ?>
-<div class="content__product container-width mx-auto mt-4 p-5 text-justify">
+<div id="legal" class="content__product container-width mx-auto mt-4 p-5 text-justify">
     <h3 class="black mb-4">Qui sommes-nous ?</h3>
     <p>L’adresse de notre site Web est : http://localhost:8888.</p>
 

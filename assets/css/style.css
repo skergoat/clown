@@ -12676,6 +12676,23 @@ footer {
   color: white !important;
 }
 
+@media (max-width: 576px) {
+  #legal h3, #legal h4, #legal h5 {
+    text-align: center !important;
+  }
+
+  #legal h3 {
+    font-size: 25px !important;
+  }
+
+  #legal h4 {
+    font-size: 20px !important;
+  }
+
+  #legal h5 {
+    font-size: 17px !important;
+  }
+}
 /** font family **/
 * {
   font-family: "nunito_sansextralight", sans-serif;

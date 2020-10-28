@@ -47,13 +47,13 @@
         <!-- cards -->
         <div class="bgd-yellow">
             <!-- title -->
-            <h5 class="black pb-2 bgd-yellow m-0 pb-4 mx-mille mx-auto">Découvrez nos produits</h5>
+            <h5 class="black pb-2 bgd-yellow m-0 pb-4 mx-mille mx-auto">Découvrez nos produits</h5> 
             <div class="row bgd-yellow pb-3">
                 <div class="bgd-transparent chevron chevron-left d-flex align-items-center font-23">
                     <i class="icon-left-open pointer"></i>
                 </div>
                 <div class="col-xs-10 col-sm-10 col-md-11 mx-mille mx-auto">
-                    <div class="row bgd-yellow justify-content-between">
+                    <div id="test" class="row bgd-yellow justify-content-between">
                         <div class="p-0 mr-xs-none mr-sm-2 bgd-yellow card-product">
                             <img src="../assets/img/promos-card.png" class="img-fluid bs-red card-first" alt="Responsive image">
                         </div>

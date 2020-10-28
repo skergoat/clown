@@ -331,6 +331,7 @@
         <?= $script ?>
         <script src="../assets/js/parallax.js"></script>
         <script src="../assets/js/quantity-field.js"></script>
+        <script src="../assets/js/slideshow.js"></script>
         <script>
             // menu active link 
             $(activeId + ' .border-bottom-menu').addClass('activated-border-bottom');

@@ -98,7 +98,7 @@
                 <!-- submit -->
                 <div class="form-submit mt-4 d-flex justify-content-center">
                     <!-- button provisoire -->
-                    <a href="http://localhost:8888/templates/confirm.php" type="submit" class="btn button-orange black font-14">Régler ma commande</a>
+                    <button href="https://www.skergoat.com/clown/templates/confirm.php" type="submit" class="d-block btn button-orange black font-14">Régler ma commande</button>
                     <!-- button definitif -->
                     <!-- <button type="submit" class="btn button-orange black font-14">Régler ma commande</button> -->
                 </div>
@@ -115,10 +115,16 @@
 <!-- secondary content -->
 <?php ob_start(); ?>
 <script>
+    // secondary
+    $('.secondary-content').css('display', 'none');
     // title
     $('#main-title-1').css('padding', '0px!important');
     // active link 
     let activeId = '#active-cart';
+    $('button').on('click', function(e) {
+        e.preventDefault();
+        window.location.href = "http://localhost:8888/templates/confirm.php";
+    });
     // button
     let $val = "payment";
 </script>

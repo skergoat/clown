@@ -523,10 +523,10 @@
                                                 <img class="loupe-widget__image js-loupe-image primary-img-top d-block mb-xs-4 mx-auto ml-lg-5 mr-lg-5 mt-lg-5" src="../assets/img/collant-orange.png" alt="Card image cap" data-image-full="../assets/img/collant-orange.png">
                                             </div>
                                             <div class="d-flex mt-5 thumbnail-box">
-                                                <img class="ml-1" src="../assets/img/collant-orange.png" alt="Card image cap" data-image-full="../assets/img/collant-orange.png">
-                                                <img class="ml-1" src="../assets/img/collant-orange.png" alt="Card image cap" data-image-full="../assets/img/collant-orange.png">
-                                                <img class="ml-1" src="../assets/img/collant-orange.png" alt="Card image cap" data-image-full="../assets/img/collant-orange.png">
-                                                <img class="ml-1" src="../assets/img/collant-orange.png" alt="Card image cap" data-image-full="../assets/img/collant-orange.png">
+                                                <div><img class="ml-1" src="../assets/img/collant-orange.png" alt="Card image cap" data-image-full="../assets/img/collant-orange.png"></div>
+                                                <div><img class="ml-1" src="../assets/img/collant-orange.png" alt="Card image cap" data-image-full="../assets/img/collant-orange.png"></div>
+                                                <div><img class="ml-1" src="../assets/img/collant-orange.png" alt="Card image cap" data-image-full="../assets/img/collant-orange.png"></div>
+                                                <div><img class="ml-1" src="../assets/img/collant-orange.png" alt="Card image cap" data-image-full="../assets/img/collant-orange.png"></div>
                                             </div>
                                             <span class="icon-question-circle-o pointer d-block" title="Question sur l'article" id="link-modal" data-toggle="modal" data-target="#ask-question"></span>
                                         </div>

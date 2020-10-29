@@ -2,7 +2,7 @@
     <!-- title -->
     <h5 class="black pb-2">Statut</h5>
     <span class="border-bottom-orange mb-1"></span>
-    <div class="mt-4"><span class='badge badge-warning bold' style='border:1px solid black;'>En cours de Livraison</span><a href="#" class="bold ml-5">Cliquez ici pour suivre le colis</a></div>
+    <div class="mt-4"><span class='badge badge-warning bold' style='border:1px solid black;'>En cours de Livraison</span><a href="#" class="bold ml-xs-none mt-xs-2 ml-sm-5 d-xs-block">Cliquez ici pour suivre le colis</a></div>
 </div>
 <!-- shipping -->
 <div class="col-lg-6 mb-xs-4 mb-lg-5 mt-xs-4 mt-sm-4 mt-lg-0 p-xs-none pl-xs-none pl-lg-5 pb-3 pt-2">

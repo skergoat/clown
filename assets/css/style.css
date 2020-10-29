@@ -10455,7 +10455,7 @@ h3 {
   position: fixed;
   top: 0px;
   width: 100%;
-  height: 40px;
+  height: auto;
   background: #FF3D97;
   z-index: 999999999;
   color: white;

@@ -14,4 +14,4 @@ This is only the website's design in HTML, CSS et JS. No backend.
         
 3. install yarn  
 
-        $ 
+        ...
